@@ -1,0 +1,59 @@
+aside.widget_login{
+	@include grid(13);
+	h3.widget-title{
+		font-family:"edmondsans regular";
+		font-size: 20px;
+		@include float-left;
+		color: $dark-grey;
+		line-height: 50px;
+		padding-top: 10px;
+	}
+	
+	a{
+		@include link-colors( $red, $dark-grey, $dark-grey, $red);
+	}
+	
+	ul{
+		@include horizontal-list-container;
+		@include float-left;
+		margin: 36px 20px 27px 20px;
+		li{
+			@include horizontal-list-item(10px, 'left');
+			border-right: 1px $red solid;
+			&:last-child{
+				border: none;
+			}
+			
+		}
+		
+	}
+	
+	p{
+		&.submit_form{
+			margin-top: 25px;
+		}
+		&.register_form{
+			margin-top: 15px;
+			margin-left: 5px;
+			border-left: 1px $red solid;
+			padding-left: 5px;
+			font-size: 15px;
+			font-weight: 700;
+		}
+		label{
+			font-family: edmondsans medium;
+			color: #66bae7;
+			font-size: 12px;
+			margin: 0;
+			padding: 0;
+		}
+		input{
+			margin-right: 5px;
+		}
+		@include float-left;
+	}
+	
+	form{
+		margin-top: 10px;
+	}
+}

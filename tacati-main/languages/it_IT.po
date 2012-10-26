@@ -1,0 +1,185 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Tacatì (Twenty Eleven Child) v0.1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2012-08-13 16:50:24+0000\n"
+"Last-Translator: piermaria-cosina <piermaria.cosina@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-Language: Italian\n"
+"X-Poedit-Country: ITALY\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: functions.php:45
+#@ tacati_textdomain
+msgctxt "post type general name"
+msgid "Producers"
+msgstr "Produttori"
+
+#: functions.php:46
+#@ tacati_textdomain
+msgctxt "post type singular name"
+msgid "Producers"
+msgstr "Produttori"
+
+#: functions.php:47
+#@ tacati_textdomain
+msgctxt "Gallery item"
+msgid "Add New Producer"
+msgstr "Aggiungi nuovo Produttore"
+
+#: functions.php:48
+#@ tacati_textdomain
+msgid "Add New Producers Item"
+msgstr "Aggiungi nuovo Produttore"
+
+#: functions.php:49
+#@ tacati_textdomain
+msgid "Edit Producers Item"
+msgstr "Modifica Produttore"
+
+#: functions.php:50
+#@ tacati_textdomain
+msgid "New Producers Item"
+msgstr "Nuovo Produttore"
+
+#: functions.php:51
+#@ tacati_textdomain
+msgid "View Producers Item"
+msgstr "Visualizza Produttore"
+
+#: functions.php:52
+#@ tacati_textdomain
+msgid "Search Producers"
+msgstr "Cerca Produttore"
+
+#: functions.php:53
+#: functions.php:90
+#: functions.php:127
+#@ tacati_textdomain
+msgid "Nothing found"
+msgstr ""
+
+#: functions.php:54
+#: functions.php:91
+#: functions.php:128
+#@ tacati_textdomain
+msgid "Nothing found in Trash"
+msgstr ""
+
+#: functions.php:82
+#@ tacati_textdomain
+msgctxt "post type general name"
+msgid "Noprofits"
+msgstr "Noprofits"
+
+#: functions.php:83
+#@ tacati_textdomain
+msgctxt "post type singular name"
+msgid "Noprofit"
+msgstr "Noprofit"
+
+#: functions.php:84
+#@ tacati_textdomain
+msgctxt "Gallery item"
+msgid "Add New Noprofit"
+msgstr "Aggiungi nuovo Noprofit"
+
+#: functions.php:85
+#@ tacati_textdomain
+msgid "Add New Noprofits Item"
+msgstr "Aggiungi nuovo Noprofit"
+
+#: functions.php:86
+#@ tacati_textdomain
+msgid "Edit Noprofits Item"
+msgstr "Modifica Noprofit"
+
+#: functions.php:87
+#@ tacati_textdomain
+msgid "New Noprofits Item"
+msgstr "Nuovo Noprofit"
+
+#: functions.php:88
+#@ tacati_textdomain
+msgid "View Noprofits Item"
+msgstr "Visualizza Noprofit"
+
+#: functions.php:89
+#@ tacati_textdomain
+msgid "Search Noprofits"
+msgstr "Cerca Noprofits"
+
+#: functions.php:119
+#@ tacati_textdomain
+msgctxt "post type general name"
+msgid "PDRs"
+msgstr "PDRs"
+
+#: functions.php:120
+#@ tacati_textdomain
+msgctxt "post type singular name"
+msgid "PDR"
+msgstr "PDR"
+
+#: functions.php:121
+#@ tacati_textdomain
+msgctxt "Gallery item"
+msgid "Add New PDR"
+msgstr "Aggiungi nuovo PDR"
+
+#: functions.php:122
+#@ tacati_textdomain
+msgid "Add New PDR Item"
+msgstr "Aggiungi nuovo PDR"
+
+#: functions.php:123
+#@ tacati_textdomain
+msgid "Edit PDR Item"
+msgstr "Modifica PDR"
+
+#: functions.php:124
+#@ tacati_textdomain
+msgid "New PDR Item"
+msgstr "Nuovo PDR"
+
+#: functions.php:125
+#@ tacati_textdomain
+msgid "View PDR Item"
+msgstr "Visualizza PDR"
+
+#: functions.php:126
+#@ tacati_textdomain
+msgid "Search PDRs"
+msgstr "Cerca PDRs"
+
+#: header.php:45
+#, php-format
+#@ twentyeleven
+msgid "Page %s"
+msgstr ""
+
+#: header.php:93
+#@ twentyeleven
+msgid "Main menu"
+msgstr ""
+
+#: header.php:95
+#@ twentyeleven
+msgid "Skip to primary content"
+msgstr ""
+
+#: header.php:96
+#@ twentyeleven
+msgid "Skip to secondary content"
+msgstr ""
+

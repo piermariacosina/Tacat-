@@ -1,0 +1,37 @@
+.navigation{
+ a{
+ font-family:edmondsans medium;
+ color:$black-link;
+ font-size:25px;
+ }
+ .nav-next{
+ 	@include float-right;
+ 	a{
+	 	background: image-url('freccia-d.png') no-repeat right top;
+	 	text-align: left;
+	 	display: inline-block;
+	 	height: image-height('freccia-d.png');
+	 	width: 75px;
+	 	line-height: 28px;
+ 	}
+ }
+.nav-previous{
+	a{
+		background: image-url('freccia-sx.png') no-repeat left top;
+		text-align: right;
+		display: inline-block;
+		height: image-height('freccia-sx.png');
+		width: 75px;
+		line-height: 28px;
+	}
+}
+}
+form.woocommerce_ordering{
+	@include grid-prefix(1);
+	.orderby{
+	font-family:edmondsans medium;
+	color:$black-link;
+	margin-top:20px;
+	
+	}
+}

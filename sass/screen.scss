@@ -1,0 +1,626 @@
+@import "partials/grid";
+@import "partials/text";
+@import "compass/typography";
+@import "compass/typography/lists/horizontal-list";
+@import "compass/css3/font-face";
+@import "compass/css3/opacity";
+@import "compass/typography/lists/horizontal-list";
+@import "compass/typography/links/link-colors";
+@import "compass/css3/border-radius";
+@import "compass/css3/background-clip";
+@import "compass/typography/text/replacement";
+@import "compass/layout/stretching";
+
+@import url(http://fonts.googleapis.com/css?family=Droid+Sans:400,700);
+
+@include establish-baseline;
+
+@include font-face(
+	"edmondsans bold",
+	font-files(
+		"edmondsans/edmondsans-bold-webfont.woff",
+		"edmondsans/edmondsans-bold-webfont.ttf",
+		"edmondsans/edmondsans-bold-webfont.otf", 
+		"edmondsans/edmondsans-bold-webfont.svg"), 
+		"edmondsans/edmondsans-medium-webfont-webfont.eot",
+		700, 
+		regular);
+
+@include font-face(
+	"edmondsans medium",
+	font-files(
+		"edmondsans/edmondsans-medium-webfont.woff",
+		"edmondsans/edmondsans-medium-webfont.ttf",
+		"edmondsans/edmondsans-medium-webfont.otf",
+		"edmondsans/edmondsans-medium-webfont.svg"),
+		"edmondsans/edmondsans-medium-webfont.eot",
+		500,
+		regular);
+
+@include font-face(
+	"edmondsans regular",
+	font-files(
+		"edmondsans/edmondsans-regular-webfont.woff",
+		"edmondsans/edmondsans-regular-webfont.ttf",
+		"edmondsans/edmondsans-regular-webfont.otf",
+		"edmondsans/edmondsans-regular-webfont.svg"),
+		"edmondsans/edmondsans-regular-webfont.eot",
+		400,
+		regular);
+
+@include font-face(
+	"mission script",
+	font-files(
+		"mission/mission-script-webfont.woff",
+		"mission/mission-script-webfont.ttf",
+		"mission/mission-script-webfont.otf",
+		"mission/mission-script-webfont.svg"),
+		"mission/mission-script-webfont.eot",
+		400,
+		regular);
+		
+
+$dark-grey: #3E3D40;
+$white: #FCFDFD;
+$light-blue: #5094B8;
+$brown: #732C03;
+$background-light-blue: #dbeaea;
+$white-background: #fcfdfd;
+$red: #f23c00;
+$red-border: #e7511e;
+$red-header: #e0673d;
+$brown: #732c03;
+$light-blue: #5094B8;
+$light-blue-border: #72bac7;
+$black-footer: #3e3d40;
+$border-footer: #f8f5e6;
+$white-title: #F6F6F6;
+$light-blue-login: #5094B8;
+$black-link: #512814;
+$light-blue-2: #5094B8;
+$light-blue-carrello: #5094B8;
+$blue: #5094B8;
+
+@import "partials/products-list";
+@import "partials/carrello_sidebar";
+@import "partials/main-slideshow";
+@import "partials/noprofit";
+@import "partials/article";
+@import "partials/produttori";
+@import "partials/widget_login";
+@import "partials/checkout";
+@import "partials/single_product";
+@import "partials/faq";
+@import "partials/navigation";
+		
+		h1,h2,h3,h4,h5,h6{
+			margin-bottom:0 !important;
+			font-weight: 400 !important;
+		}
+		
+		a{
+			text-decoration: none;
+		}
+		
+		body.textured{
+			background: image-url("texture.png") repeat left top;
+		}
+		
+		
+		#content{
+			@include grid(13);
+			
+			>small{
+				display: none;
+			}
+		}
+		
+		#main{
+			position: relative;
+			padding-bottom: 20px;
+			&.generic{
+				padding-bottom: 0px !important;
+				}
+			
+			
+		}
+		
+		#primary{
+			position: relative;
+			background-color: $white;
+			@include float-left;
+			#content{				
+						margin-top:20px;
+						margin-bottom:30px;
+						
+						&.privacy, &.terms{
+							p{
+								color: $brown !important;
+								font-weight: 400 !important;
+								
+							}
+						}
+			}
+		}
+		
+		div.shadow{
+			background: image-url("shadow_light.png") repeat-x left top;
+			height: 20px;
+			&.top{
+				@include grid(16);
+				position: relative;
+				top:0;
+				margin: 0;
+				width: 960px;
+				
+			}
+		}
+		
+		div.addthis_toolbox{
+			float: right;
+			overflow: hidden;
+			position: relative;
+			right: 60px;
+			width: 170px;
+			margin-top: 24px;
+			right: 0;
+		}
+		
+		header#dashboard{
+			height:98px;
+			background: image-url("header.png") repeat-x left top;
+			position: fixed;
+			width: 100%;
+			top:0;
+			z-index: 999;
+			div.container{
+				@include grid-container;
+			}
+		
+		}
+		
+		div#page{
+			@include grid-container;
+		}
+		
+		header#branding{
+			
+			nav#access{
+				background-color: $white;
+				padding-top: 37px;
+				margin-top: -20px;
+				.skip-link{
+					display: none;
+				}
+				.assistive-text{
+					display: none;
+				}
+				
+				ul{
+					@include horizontal-list-container;
+					@include grid-prefix(1);
+					li{
+						@include horizontal-list-item(20px,'left');
+						font-family:"edmondsans bold";
+						font-size: 23px;
+						
+						&.current-menu-item{
+							background-color: $red;
+							@include border-radius(10px);
+							a{
+								color: $white !important;
+								}
+						}
+						a{
+							@include link-colors( $red, $white, $white);
+							padding: 10px;
+							display: block;
+							&:hover{
+								background-color: $red;
+								@include border-radius(10px);
+								
+							}
+						}
+					}
+				}
+			}
+			
+			.featured{
+				
+				
+				img{
+					background-color: $white;
+					margin-top: -23px;
+					display: block;
+					@include float-left;
+				}
+				
+			}
+			#slider{
+				position: relative;
+				height: 363px;
+				
+			}
+			.flexslider{
+				
+				margin: -14px 0 0 0 ;
+				border:none; 
+				-webkit-border-radius: none;
+				-moz-border-radius: none; 
+				-o-border-radius: none; 
+				border-radius: none; 
+				box-shadow: none; 
+				-webkit-box-shadow: none;
+				 -moz-box-shadow: none; 
+				 -o-box-shadow: none; 
+				 zoom: 1;
+				 .flex-viewport{
+					 float:left;
+					 margin-top: -9px;
+				 }
+				 ul{
+					 li{
+						 margin: 0;
+					 }
+				 }
+				 
+				 div.sinistra,div.destra{
+				 	 max-width: 300px;
+				 	 max-height: 300px;
+				 	 position: absolute;
+				 	 top:20px;
+				 	 
+				 	 div.background{
+				 		background: image-url("yellow.png") repeat left top;
+				 		 @include opacity(.9);
+				 		 @include stretch;
+				 		 z-index: 1;
+				 		 @include border-radius(10px);
+				 	 }
+				 	 
+				 	 div.content{
+				 		 position: relative;
+				 		 z-index: 2;
+				 	 }
+				 	 
+				 	 padding: 20px 30px 20px 30px;
+				 	 
+				 	 @include grid(7);
+				 	 h1,h2{
+				 		font-family:"mission script";	
+				 		
+				 	 }
+				 	 
+				 	 h3,h4,h5{
+				 	 	font-family:"edmondsans regular"; 
+				 	 	padding-bottom: 20px;
+				 	 	
+				 	  }
+				 	 
+				 	 h1{
+				 		 font-size: 45px;
+				 		 color: $brown;
+				 		
+				 	 }
+				 	 h2{
+				 		 font-size: 38px;
+				 		 color: $brown;
+				 	 }
+				 	 h3{
+				 		 font-size: 32px;
+				 		 color: $red;
+				 	
+				 	 }
+				 	 h4{
+				 		 font-size: 28px;
+				 		 color: $red;
+				 	 }
+				 	 h5{
+				 		 font-size: 22px;
+				 		 color: $red;
+				 	 }
+				 	 h6{
+				 		 font-size: 18px;
+				 		 color: $red;
+				 	 }
+				 	 
+				 	 
+				 	 ul,ol{
+				 		 li{
+				 			 font-family:"edmondsans medium";
+				 			 
+				 			 color: $light-blue;
+				 		 }
+				 	 }
+				 	 
+				 	 p,div{
+				 		 
+				 		 font-family:"edmondsans medium";
+				 		 font-size: 15px;
+				 		 color: $light-blue;
+				 	 }
+				  }
+				  div.sinistra{
+				 	margin-left: 120px;
+				  }
+				  div.destra{
+				  	margin-left: 540px;	
+				  	
+				  }
+			}
+			
+			section{
+				margin-top: 110px;
+				background: image-url("header-center.png") repeat-x left top;
+				height: 136px;
+				position: relative;
+				z-index: 100;
+				a{
+					color: white;
+				}
+				
+				h1{
+					font-family: 'mission script';
+					font-size: 88px;
+					text-transform: lowercase;
+					line-height: normal;
+					padding-left: 10px;
+					@include float-left;
+					
+					
+				}
+				
+				.nav-tabs .open .dropdown-toggle, .nav-pills .open .dropdown-toggle, .nav > li.dropdown.open.active > a:hover{
+					 background-color: white;
+					 color: $red;
+				 }
+				
+				ul.nav{
+					position: absolute;
+					bottom: 0px;
+					right: 10px;
+					font-family: 'edmondsans regular';
+					font-size: 18px;
+					margin-bottom: 43px;
+					
+					 li{
+						 margin-left: 0;
+						 b.caret{
+							 border-top-color: #ffffff;
+							 border-bottom-color: #ffffff;
+						 }
+						 
+						 a:hover{
+							background-color: white;
+							
+							color: $red;
+							b.caret{
+								 border-top-color: $red;
+								 border-bottom-color: $red;
+							 }
+							}
+						
+						 ul {
+						 	background-color: white;
+						 	
+						 	li{
+							 
+							 	a{color: $red;
+							 	&:hover{
+							 	 
+							 	}
+							 	}
+							
+							 }
+						 }
+					 }
+					 	
+					}
+				
+				
+				div.header-left{
+					background: image-url("header-left.png") no-repeat left top;
+					height: 158px ;
+					width: 48px ;
+					position: absolute;
+					left: -48px;
+					@include float-left;
+				}
+				div.header-right{
+					background: image-url("header-right.png") no-repeat left top;
+					height: 158px ;
+					width: 48px ;
+					position: absolute;
+					@include float-right;
+					right: -48px;
+				}
+				
+				
+			}
+			
+			div.categories{
+				margin: 0;
+				background-color: $white;
+				background: image-url("yellow.png") repeat left top;
+				h3{
+					display: none;
+					}
+				ul{
+					@include horizontal-list-container;
+					@include grid-prefix(1);
+					padding-top: 20px;
+					padding-bottom: 20px;
+					li{
+						@include horizontal-list-item(0);
+						font-family:"edmondsans regular";
+						font-size: 16px;
+						@include grid(3);
+						overflow: hidden;
+
+						text-transform: lowercase;
+						height: 30px;
+						&:first-child{
+							margin-left: 10px;	
+						}
+						
+						a{
+							display: block;
+							
+							font-weight: bold;
+							color: $brown;
+							@include ellipsis;
+							&:hover{
+								text-decoration: underline;
+								color: $red;
+							}
+						}
+						}
+					}
+			}
+			
+			
+		}
+		
+		div#main{
+			background-color: $white;
+		}
+		
+		.clear{
+			clear: both;
+		}
+		
+		
+		.border{
+			height: 4px;
+			clear: both;
+			background-color: $white;
+					ul {
+					@include horizontal-list-container;
+					@include grid(14);
+					@include grid-prefix(1);
+					margin-top:0px;
+					li{
+										@include horizontal-list-item;
+										margin-right:12px;
+										@include grid(2);
+										background-color: $red;
+										height:4px;
+						}
+					  
+					li:last-child{
+										margin-right:0px;
+								  }
+					li:nth-of-type(even){
+										background-color: $light-blue-border;
+		
+									}   
+		
+		
+				}
+		}
+		
+		
+		
+		
+footer#colophon{
+		position: relative;
+		float: left;
+		@include clearfix;
+		width: 940px;
+		margin: 0 auto;
+		background: image-url("footer.png") repeat left top;
+		border-left: 10px #F8F6E5 solid;
+		border-right: 10px #F8F6E5 solid;
+		border-bottom: 10px #F8F6E5 solid;
+		@include background-clip('border-box');
+		
+	
+		
+		h1.logo-brand{
+				@include replace-text-with-dimensions("footer-logo.png");
+				width: 100%;
+				text-align: center;
+		}
+		ul.footer{
+					@include grid(11);            
+					@include horizontal-list-container;
+					width: 620px;
+				
+			
+				li{
+
+					margin-top:80px;
+					@include grid(4);
+					@include omega;
+					@include grid-prefix(1);
+
+					border-right: solid 1px $red;
+					
+					 h3{
+						font-family: 'mission script';
+						color:$light-blue;
+						font-size:35px;
+						}
+					p{
+						margin-top:20px;
+						font-family: 'edmondsans bold';
+						color:$dark-grey;
+						font-size:20px;
+						padding-right: 15px;
+						line-height: 30px;
+						
+						a{
+						@include link-colors( $dark-grey, $red, $red, $red);
+						}
+
+					}
+					
+				
+					
+					
+			   } 
+				 
+		}
+	
+				
+		#channels{
+			@include horizontal-list-container;
+			li{
+				margin-top: 10px;
+				@include horizontal-list-item;
+				width: auto;
+				border: none;
+				&.fb_icon{
+					@include replace-text-with-dimensions("fb.png");
+				}
+				&.tw_icon{
+					@include replace-text-with-dimensions("tw.png");
+				}
+				a{
+					width: 32px;
+					height: 36px;
+					display: block;
+					position: relative;
+				}
+			}
+		}
+		
+		ul.formal{
+			
+			clear:both;
+			@include horizontal-list-container;
+			
+			text-align: center;
+			margin-bottom: 10px;
+			margin-top: 30px;
+			li{
+				@include horizontal-list-item(10px,'false');
+				font-family: 'edmondsans bold';
+				font-size: 11px;
+				text-align: center;
+				a{
+					@include link-colors( $dark-grey, $red, $red, $red);
+				}
+			}
+		}
+   }

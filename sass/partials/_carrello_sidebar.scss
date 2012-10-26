@@ -1,0 +1,194 @@
+.corner_carrello{
+	width: 29px;
+	height: 240px;
+	background: url("../images/corner_carrello.png") no-repeat left top;
+	position: relative;
+	@include float-right;
+	
+	z-index: 10;
+	margin-right: -29px;
+	margin-top: -240px;
+}
+#secondary{
+	width: 210px;
+	@include clearfix;
+	z-index: 100;
+	position: relative;
+	background: url("../images/texture_light.png") repeat left top;
+	@include float-right;
+	margin-right: -30px;
+	-webkit-box-shadow: 0 1px 8px rgba(156, 182, 186, 1), 0 2px 2px rgba(156, 182, 186, 0);
+	   -moz-box-shadow: 0 1px 8px rgba(156, 182, 186, 1), 0 2px 2px rgba(156, 182, 186, 0);
+			box-shadow: 0 1px 8px rgba(156, 182, 186, 1), 0 2px 2px rgba(156, 182, 186, 0);
+	h1{
+		margin: 10px 0 0 10px;
+		font-family: edmondsans regular;
+		color: $red-border;
+		font-size: 25px;
+		line-height: 23px;
+		font-weight: normal;
+		position: relative;
+		@include float-left;
+		width: 88px;
+	}
+	.icon{
+		width: 42px;
+		height: 28px;
+		@include float-left;
+		position: relative;
+		margin: 10px 0 0 15px;
+	}
+	.carrello{
+		background: url("../images/carrello_icon_brown.png") no-repeat left top;
+	}
+	.visti_di_recente{
+		background: url("../images/visti_icon.png") no-repeat left top;
+	}
+	ul{
+		list-style: none;
+		margin-left: 10px;
+		@include clearfix;
+		clear: both;
+		li{
+			padding: 5px 0;
+			&.empty{
+				
+					
+					color: $brown;
+					font-family: edmondsans regular;
+					font-size: 15px;
+					line-height: 18px;
+					font-weight: normal;
+					padding: 10px 0;
+				
+			}
+			h5{
+				margin: 0;
+				a{
+				margin: 0;
+				font-family: edmondsans regular;
+				color: #732C03;
+				font-size: 15px;
+				line-height: 18px;
+				font-weight: normal;
+				width: 160px;
+				}
+			}
+			h6{
+				margin: 0;
+				color: $red-border;
+				font-family: edmondsans regular;
+				font-size: 15px;
+				line-height: 18px;
+				font-weight: normal;
+				width: 160px;
+
+			}
+		
+			hr{
+				margin: 5px 0;
+				width: 160px;
+				height: 1px;
+				background: #BFB28A;
+				border: none;
+
+			}
+		} // chiusura li
+		
+		
+		li:last-child{
+			hr{
+				display: none;
+			}
+		}
+	} // chiusura ul
+	a{
+		text-decoration: none;
+		display: block;
+		margin: 5px 0;
+		&.button{
+			width: 160px;
+			background: #F2EFDC;
+			border-radius: 13px;
+			margin: 0 10px 10px 10px;
+			-webkit-box-shadow: 0 1px 6px rgba(183, 169, 165, 0.75), 0 2px 2px rgba(183, 169, 165, 0);
+			   -moz-box-shadow: 0 1px 6px rgba(183, 169, 165, 0.75), 0 2px 2px rgba(183, 169, 165, 0);
+					box-shadow: 0 1px 6px rgba(183, 169, 165, 0.75), 0 2px 2px rgba(183, 169, 165, 0);
+			span{
+				font-family: mission script;
+				color: $red-border;
+				font-size: 21px;
+				font-weight: normal;
+				padding: 8px 0;
+				text-align: left;
+				display: block
+			}
+		}
+	}
+	a:hover{
+		.button{
+			background: #FFF6CA;
+			h3{
+				color: #72BAC7;
+			}
+		}
+	}
+	
+	.price{
+	
+		&.padded{
+			padding: 5px 10px;
+			width: 200px;
+			border-top: 2px #BFB28A solid;
+			.total{
+				
+				border-top: none
+			}
+		}
+		@include clearfix;
+		width: 118px;
+		p{
+			@include float-left;
+			margin: 0;
+			
+			width: 100px;
+			font-family: mission script;
+			color: $red-border;
+			font-size: 23px;
+			font-weight: normal;
+			span{
+				margin-left: 10px; 
+				margin-right: 10px; 
+				color: $light-blue;
+			}
+		}
+		a{
+			.carrello{
+				width: 30px;
+				height: 28px;
+				background: url("../images/carrello.png") no-repeat left top;
+				@include float-left;
+				margin: 7px 0 0 0;
+				padding: 0;
+			}
+		}
+		a:hover{
+			.carrello{
+				background: url("../images/carrello_hover.png") no-repeat left top;
+			}
+		}
+	}
+} // chiusura carrello_lato   
+
+	
+        
+.corner_carrello_bottom{
+	width: 29px;
+	height: 240px;
+	background: url("../images/corner_carrello_bottom.png") no-repeat left top;
+	position: relative;
+	@include float-right;
+	z-index: 10;
+	clear: both;
+	margin-right: -29px;
+}     

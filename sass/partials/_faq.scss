@@ -1,0 +1,53 @@
+.gform_wrapper{
+	clear: both;
+	@include grid(10);
+	@include grid-push(1);
+	margin-left: 10px !important;
+	margin-right: 10px !important;
+	
+	h3{
+			font-family: mission script;
+			color: $brown;
+			font-size: 30px !important;
+			padding-bottom:20px;
+			}
+	span,label{
+			font-family: edmondsans medium;
+			color:$blue;
+			}
+			
+	.button.gform_button{
+		width: 100%;
+	}
+}
+
+#odd-faq{
+	margin-top: 30px;
+	margin-bottom: 30px;
+	@include grid-push(1);
+	@include grid(9);
+	border: none;
+	.odd-faq-question{
+		margin-top: 3px;
+		margin-bottom: 3px;
+		@include grid(9);
+		@include omega;
+		@include alpha;
+		border: none;
+		background-color: $red;
+		@include border-radius(5px);
+		font-size: 16px;
+		color: $white;
+		font-family: 'edmondsans bold';
+		&:hover{
+			color: $blue;
+		}
+	}
+	.odd-faq-answer{
+		border: none;
+		font-family: 'edmondsans medium';
+		font-weight: 400;
+		color: $brown;
+		font-size: 13px;
+	}
+}

@@ -1,0 +1,128 @@
+#breadcrumb, .page-title{
+	@include grid-prefix(1);
+	padding-top: 5px ;
+}
+ 
+ ul.products{ 
+ 		@include horizontal-list-container;
+ 		
+ 		margin: 0;
+ 		padding-left: 30px;
+ 		@include grid(14);
+ 		@include clearfix;
+ 		overflow: visible;
+ 		float: left !important;
+ 		
+ 		li.prodotto{
+ 			@include horizontal-list-item; 
+ 			margin: 20px 25px 10px 0;
+ //	    	margin-left: 0;
+ 			width: 150px;
+ 			float: left;
+ 			position: relative;
+ 			display: block;
+ 		 	.image{
+ 		 		width: 173px;
+ 		 		height: 208px;
+ 		 		background: url("../images/box_prodotti_arancio.png") no-repeat left top;
+ 		 		position: absolute;
+ 		 		margin-left: -13px;
+ 			}
+ 			.onsale{
+ 			top:6px;
+ 			left:6px;
+ 			}
+ 			img{
+ 				height: 200px !important;
+ 				width: 150px !important;
+ 			}
+ 
+ 			.info{
+ 				height: auto;
+ 				width: 146px;
+ 				background-color: #F2EFDC;
+ 				@include clearfix;
+ 				margin-top: -20px;
+ 				@include border-radius(10px);
+ 				h3.product, h4.product{
+ 					font-family: edmondsans regular;
+ 					font-size: 15px;
+ 					line-height: 18px;
+ 					font-weight: 400;
+ 					position: relative;
+ 					z-index: 2;
+ 				}
+ 				h3{
+ 					margin: 16px 0 0 10px;
+ 					color: #935D39;
+ 					white-space: normal;
+ 				 }          
+ 				h4{
+ 					margin: 2px 0 0 10px;
+ 					a{
+ 						color: $red-border;
+ 						}
+ 				}                                                                      
+ 				.price{
+ 					padding: 0 0 8px 0;
+ 					@include clearfix;
+ 					position: relative;
+ 					h3{
+ 						@include float-left;
+ 						margin: 5px 0 0 10px;
+ 						width: 100px;
+ 						font-family: mission script;
+ 						font-weight: 400;
+ 						color: $red-border;
+ 						font-size: 23px;
+ 						line-height: 25px;
+ 						text-align: left;
+ 						
+ 						del{
+	 						font-size: 16px;
+ 						}
+ 						span{
+ 						
+ 							width: 100%;
+ 							text-align: center;
+ 							left: 0;
+ 						}
+ 					}
+ 					a{    
+ 					&.added::before{
+	 					right: 4px;
+ 					}
+ 					@include border-radius(0);
+ 					padding: 0;
+ 					margin: 0;
+ 					background-color: transparent;
+ 					text-shadow:none;
+ 					-webkit-box-shadow:none;
+ 					-moz-box-shadow:none;
+ 					box-shadow:none;    
+ 					border: none;
+ 					width: 30px;
+	 				 height: 28px;
+	 				 background: url("../images/carrello.png") no-repeat left top;
+	 				 float: left;
+	 				 display: inline-block;
+	 				 margin: 3px 0 0 0;
+	 				 padding: 0;                                                         
+ 						
+ 					}
+ 					a:hover{
+ 						
+ 							background: url("../images/carrello_hover.png") no-repeat left top;
+ 						
+ 					}
+ 				}
+ 			} //---> info
+ 		} //---> li
+ 		&.featured{
+ 			 		li{
+ 				 		.image{
+ 					 		background: url("../images/box_prodotti_azzurro.png") no-repeat left top;
+ 				 		}
+ 			 		}
+ 		 		}
+ 	} //---> ul

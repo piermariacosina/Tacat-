@@ -1,0 +1,168 @@
+       .prodotto{
+          @include clearfix;
+          @include float-left;
+          //margin: 20px 0 20px 10px;
+          .onsale{
+          z-index:2;
+          top: 20px;
+          left: 65px;
+          }
+          td.label{
+              display: none;
+          }
+          
+          
+          div.woocommerce_tabs{
+              @include grid(10);
+              @include grid-prefix(1);
+          }
+          div.related-producers{
+              @include grid(10);
+              margin-top: 10px;
+              margin-bottom: 10px;
+              h3{
+                
+                      font-family: mission script;
+                      color: $light-blue-border;
+                      font-size: 30px;
+                
+              }
+              
+              ul{
+                  list-style: none;
+                  @include horizontal-list-container;
+                  li{
+                      @include horizontal-list-item;
+                  }
+                     h4{
+                         a{
+                           font-family: mission script;
+                             
+                             font-size: 32px;
+                             font-weight: 400; 
+                             @include link-colors($brown,$red,$brown,$brown); 
+                         }
+                     }
+              }
+            }
+        div.related.products, div.upsells.products{
+            margin-top: 10px;
+            margin-bottom: 10px;
+            @include grid(10);
+           
+            h2{
+              
+                    font-family: mission script;
+                    color: $light-blue-border;
+                    font-size: 30px;
+              
+            }
+        }
+          .images{
+                @include grid-push(1);
+                width: 300px !important;
+                float: left;
+                img{
+                   height: 300px;
+                   width: 300px;
+                   @include border-radius(300px);
+                 }
+                 .attachment-shop_thumbnail{
+                     height: 70px !important;
+                     width: 70px !important;
+                                     
+                 }
+                 .zoom{
+
+                     width:70px !important;
+                    
+                 }
+                 .thumbnails{
+                        margin:0px !important;
+                        padding-top: 165px !important;
+                        margin-bottom:10px !important;
+                        margin-left: 5px !important;
+                 }
+                 .contorno{
+                   @include clearfix;
+                   background-color: $light-blue-2;
+                   margin-top: -150px;
+                   margin-bottom: 60px;
+                   border-radius: 10px;
+                }
+                }
+           .summary{
+                float: left;
+                display: inline;
+                padding-left: 85px !important;
+                h1{
+               margin-top: 20px !important; 
+               line-height: 35px !important;
+               font-family: mission script;
+               color: $black-link;
+               font-size: 32px;
+               font-weight: 400;
+               max-width: 250px;
+            }
+                hr{
+               border-top: 1px solid #a8948a;
+               border-bottom: 1px solid #a8948a;
+               margin-top: 5px;
+               margin-bottom: 5px;
+            }
+                p{
+                    font-family: edmondsans medium;
+                    color: $black-link;
+                    font-size: 20px;
+                    line-height: 28px;
+                    margin-top: 25px;
+                    font-weight: normal;
+                    width: 260px;
+
+
+                
+                    span{
+                        color:$red-border;
+                        font-size: 30px;
+                            }
+                     
+                     }
+               .stock{
+                            font-size:30px  !important;
+                            color:$light-blue !important;  
+                        }
+               ul{
+                  list-style:none;
+                  margin-left:0px;
+        
+                  li{
+                        color:$red-border;
+                        font-size: 30px;
+                        font-family: edmondsans medium;
+                        line-height: 28px;
+                        margin-left:0px;
+                  }
+               }      
+         } // --> chiusura info
+        #tab-description,#tab-attributes{
+         display:block !important;
+         
+         h2{
+            font-family: mission script;
+            color: $light-blue-border;
+            font-size: 30px;
+            line-height: 33px;
+            font-weight: normal;
+            margin-bottom: 10px;
+         }
+         p{
+            font-family: edmondsans regular;
+            font-size: 18px;
+            line-height: 21px;
+            color: #333;
+         }
+         
+       } 
+       
+
+} // --> chiusura prodotto

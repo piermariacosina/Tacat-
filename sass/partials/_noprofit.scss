@@ -1,0 +1,77 @@
+ul.associazioni, ul.pdr {
+			@include grid-container;
+			overflow: hidden;
+			margin-top: 30px;
+			&>li{
+				margin-top:20px;
+				margin-bottom:20px;
+				@include grid(13);
+			
+				
+				&:last-child{
+					.border{
+						display: none;
+					}
+				}
+				
+				img {
+								@include grid-prefix(1);
+								@include float-left;
+								@include alpha;
+								@include omega;
+								margin-bottom:20px;
+				}
+				h4{
+						
+						font-family: 'mission script';
+						color: $brown;
+						font-size:30px;
+						font-weight: 400;
+						padding-bottom: 20px;
+										}
+				h1,h2,h3,h4,h5,h6{
+					a{
+						@include link-colors( $brown, $red, $red, $red);
+					}
+				}
+				.descrizione{
+								@include grid(8);
+								@include grid-push(1);
+								
+								h4{
+										color:$red;
+								}
+								p{
+										color:$light-blue;
+
+								}
+
+							}
+				.border{ 
+					ul{
+						margin-left:0px;
+						}
+					}
+				}
+			  a.link{
+			  	
+					font-family: mission script;
+					color: $dark-grey;
+					font-size:27px;
+					font-weight: 400;      
+					
+					@include grid(3);
+					@include grid-suffix(1);
+					&.long{
+						width: 100% !important;
+						text-align: right;
+					}
+					@include float-right;
+					margin-bottom: 20px;
+					text-decoration: none;
+					
+					&:hover{
+						  color: $red;      
+						}
+					}
+}

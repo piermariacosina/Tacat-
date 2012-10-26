@@ -1,0 +1,21 @@
+.page-title{
+	font-family: mission script;
+	color: $brown;
+	font-size: 38px;
+	padding-bottom:20px;
+}
+
+#content article{
+	@include grid-push(1);
+	@include grid(10);
+	h1{
+			font-family: mission script;
+			color: $brown;
+			font-size: 38px;
+			padding-bottom:20px;
+			}
+	p{
+			font-family: edmondsans medium;
+			color:$blue;
+			}
+}

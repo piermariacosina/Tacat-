@@ -1,0 +1,76 @@
+ul.produttori{
+	  list-style-type: none;
+	  @include grid-container;
+	  margin-top: 30px;
+	  &>li{   
+		  @include grid(13);
+		  margin-top:20px;
+		  
+		img{
+			@include grid-push(1);
+			@include grid(3);
+			@include alpha;
+			@include omega;
+			height:160px;
+			@include border-radius(200px);
+		}
+		
+		.noimage{
+			@include grid-push(1);
+			@include grid(3);
+			@include alpha;
+			@include omega;
+			height:160px;
+			@include border-radius(200px);
+			background-color: $red;
+		}
+		
+		
+		.descrizione{
+			@include grid-prefix(2);
+			@include grid(7);
+		
+			h4{
+					
+					font-family: 'mission script';
+					color: $brown;
+					font-size:30px;
+					font-weight: 400;
+					padding-bottom: 30px;
+									}
+			h1,h2,h3,h4,h5,h6{
+				a{
+					@include link-colors( $brown, $red, $red, $red);
+				}
+			}
+			p{
+					margin-top:20px;
+					font-family: 'edmondsans medium';
+					color:$dark-grey;
+					font-size:13px;
+					a:last-child{
+						display: none;
+					}
+			}
+			
+			
+			}
+		
+		.border{
+				&>ul{
+				@include grid-prefix(2);
+
+				margin-top:60px;
+				@include grid(10);
+				@include alpha;
+				}
+			}
+		
+	}
+	&>li:last-child{
+				.border ul{
+					visibility: hidden;
+				} 
+						 margin-bottom :20px;
+				}
+}

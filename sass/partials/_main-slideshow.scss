@@ -1,0 +1,104 @@
+#branding .flexslider{
+	margin: -23px 0 0 0;
+	border:none; 
+	-webkit-border-radius: none;
+	-moz-border-radius: none; 
+	-o-border-radius: none; 
+	border-radius: none; 
+	box-shadow: none; 
+	-webkit-box-shadow: none;
+	 -moz-box-shadow: none; 
+	 -o-box-shadow: none; 
+	 zoom: 1;
+	 
+	 ul{
+		 li{
+			 margin: 0;
+		 }
+	 }
+	 
+	 div.sinistra,div.destra{
+		 max-width: 300px;
+		 max-height: 300px;
+		 position: absolute;
+		 top:20px;
+		 
+		 div.background{
+			background: white;
+			 @include opacity(.99);
+			 @include stretch;
+			 z-index: 1;
+			 @include border-radius(10px);
+		 }
+		 
+		 div.content{
+			 position: relative;
+			 z-index: 2;
+		 }
+		 
+		 padding: 20px 30px 20px 30px;
+		 
+		 @include grid(7);
+		 h1,h2{
+			font-family:"mission script";	
+			
+		 }
+		 
+		 h3,h4,h5{
+		 	font-family:"edmondsans regular"; 
+		 	padding-bottom: 20px;
+		 	margin-top: 6px;
+		 	
+		  }
+		 
+		 h1{
+			 font-size: 45px;
+			 color: $brown;
+			
+		 }
+		 h2{
+			 font-size: 38px;
+			 color: $brown;
+		 }
+		 h3{
+			 font-size: 32px;
+			 color: $red;
+		
+		 }
+		 h4{
+			 font-size: 28px;
+			 color: $red;
+		 }
+		 h5{
+			 font-size: 22px;
+			 color: $red;
+		 }
+		 h6{
+			 font-size: 18px;
+			 color: $red;
+		 }
+		 
+		 
+		 ul,ol{
+			 li{
+				 font-family:"edmondsans medium";
+				 
+				 color: $blue;
+			 }
+		 }
+		 
+		 p,div{
+			 
+			 font-family:"edmondsans medium";
+			 font-size: 15px;
+			 color: $blue;
+		 }
+	 }
+	 div.sinistra{
+		margin-left: 120px;
+	 }
+	 div.destra{
+	 	margin-left: 540px;	
+	 	
+	 }
+}
