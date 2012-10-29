@@ -30,7 +30,7 @@ if (!defined('ABSPATH')) exit; ?>
 	</tbody>
 	<tfoot>
 		<?php
-			if ( $totals = $order->get_order_item_totals() ) {
+			if ( $totals = get_order_item_totals_custom($order) ) {
 				$i = 0;
 				foreach ( $totals as $total ) {
 					$i++;

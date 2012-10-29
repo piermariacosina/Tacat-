@@ -39,7 +39,7 @@ foreach ($items as $item) :
 
 		?></td>
 		<td style="text-align:left; vertical-align:middle; border: 1px solid #eee;"><?php echo $item['qty'] ;?></td>
-		<td style="text-align:left; vertical-align:middle; border: 1px solid #eee;"><?php echo $order->get_formatted_line_subtotal( $item ); ?></td>
+		<td style="text-align:left; vertical-align:middle; border: 1px solid #eee;"><?php echo get_formatted_line_subtotal_custom( $order, $item ); ?></td>
 	</tr>
 
 	<?php if ($show_purchase_note && $purchase_note = get_post_meta( $_product->id, '_purchase_note', true)) : ?>

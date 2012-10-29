@@ -1077,3 +1077,96 @@ remove_action( 'woocommerce_product_tab_panels', 'woocommerce_product_reviews_pa
 //remove_action( 'woocommerce_product_tab_panels', 'woocommerce_product_attributes_panel', 20 );
 
 add_filter('loop_shop_per_page', create_function('$cols', 'return 24;'));
+
+function get_formatted_line_subtotal_custom($order,$item ) {
+	$subtotal = 0;
+	$subtotal = woocommerce_price( $order->get_line_subtotal( $item, true ) );
+	return apply_filters( 'woocommerce_order_formatted_line_subtotal', $subtotal, $item, $order );
+}
+
+function get_order_item_totals_custom($order) {
+	global $woocommerce;
+
+	$total_rows = array();
+
+	if ( $subtotal = get_subtotal_to_display_custom($order) )
+		$total_rows['cart_subtotal'] = array(
+			'label' => __( 'Cart Subtotal:', 'woocommerce' ),
+			'value'	=> $subtotal
+		);
+
+	if ( $order->get_cart_discount() > 0 )
+		$total_rows['cart_discount'] = array(
+			'label' => __( 'Cart Discount:', 'woocommerce' ),
+			'value'	=> '-' . $order>get_cart_discount_to_display()
+		);
+
+	if ( $order->get_shipping_method() )
+		$total_rows['shipping'] = array(
+			'label' => __( 'Shipping:', 'woocommerce' ),
+			'value'	=> $order->get_shipping_to_display()
+		);
+
+
+
+	if ( $order->get_order_discount() > 0 )
+		$total_rows['order_discount'] = array(
+			'label' => __( 'Order Discount:', 'woocommerce' ),
+			'value'	=> '-' . $order->get_order_discount_to_display()
+		);
+
+	$total_rows['order_total'] = array(
+		'label' => __( 'Order Total:', 'woocommerce' ),
+		'value'	=> $order->get_formatted_order_total()
+	);
+
+	return apply_filters( 'woocommerce_get_order_item_totals', $total_rows, $order );
+}
+
+function get_subtotal_to_display_custom( $order,$compound = false ) {
+		global $woocommerce;
+		$subtotal = 0;
+		foreach ($order->get_items() as $item) :
+			$subtotal += $order->get_line_subtotal( $item );
+			$subtotal += $item['line_subtotal_tax'];
+		endforeach;
+		$subtotal = woocommerce_price( $subtotal );
+		return apply_filters( 'woocommerce_order_subtotal_to_display', $subtotal, $compound, $order );
+	}
+	
+function woocommerce_pip_order_items_table_custom( $order, $show_price = FALSE ) {
+
+		$return = '';
+		
+		foreach($order->get_items() as $item) {
+			
+			$_product = $order->get_product_from_item( $item );
+			
+			$sku = $variation = '';
+			
+			$sku = $_product->get_sku();
+			
+			$item_meta = new WC_Order_Item_Meta( $item['item_meta'] );					
+			$variation = '<br/><small>' . $item_meta->display( TRUE, TRUE ) . '</small>';
+			
+			$return .= '<tr>
+			  <td style="text-align:left; padding: 3px;">' . $sku . '</td>
+				<td style="text-align:left; padding: 3px;">' . apply_filters('woocommerce_order_product_title', $item['name'], $_product) . $variation . '</td>
+				<td style="text-align:left; padding: 3px;">'.$item['qty'].'</td>';
+			if ($show_price) {	
+			$return .= '<td style="text-align:left; padding: 3px;">';				
+			$return .= woocommerce_price( $order->get_line_subtotal( $item,TRUE ));
+					
+			
+			$return .= '	
+				</td>';
+		  }
+			$return .= '</tr>';
+			
+		}	
+
+		$return = apply_filters( 'woocommerce_pip_order_items_table', $return );
+
+		return $return;	
+		
+	}

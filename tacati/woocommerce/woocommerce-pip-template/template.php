@@ -103,7 +103,7 @@
 					<tr>
 					  <th colspan="2" style="text-align:left; padding-top: 12px;">&nbsp;</th>
 						<th scope="row" style="text-align:right; padding-top: 12px;"><?php _e('Subtotal:', 'woocommerce-pip'); ?></th>
-						<td style="text-align:left; padding-top: 12px;"><?php echo $order->get_subtotal_to_display(); ?></td>
+						<td style="text-align:left; padding-top: 12px;"><?php echo get_subtotal_to_display_custom($order); ?></td>
 					</tr>
 					<tr>
 					  <th colspan="2" style="text-align:left; padding-top: 12px;">&nbsp;</th>
@@ -120,12 +120,7 @@
 						<th scope="row" style="text-align:right;"><?php _e('Order Discount:', 'woocommerce-pip'); ?></th>
 						<td style="text-align:left;"><?php echo woocommerce_price($order->order_discount); ?></td>
 					</tr><?php endif; ?>
-          <tr>
-            <th colspan="2" style="text-align:left; padding-top: 12px;">&nbsp;</th>
-						<th scope="row" style="text-align:right;"><?php _e('Tax:', 'woocommerce-pip'); ?></th>
-						<td style="text-align:left;"><?php echo woocommerce_price($order->get_total_tax()); ?></td>
-						
-					</tr>
+       
 					<tr>
 					  <th colspan="2" style="text-align:left; padding-top: 12px;">&nbsp;</th>
 						<th scope="row" style="text-align:right;"><?php _e('Total:', 'woocommerce-pip'); ?></th>
@@ -133,7 +128,7 @@
 					</tr>
 				</tfoot>
 				<tbody>
-					<?php echo woocommerce_pip_order_items_table($order, TRUE); ?>
+					<?php echo woocommerce_pip_order_items_table_custom($order, TRUE); ?>
 				</tbody>
 			</table>
 			<?php } 
@@ -147,7 +142,7 @@
 					</tr>
 				</thead>
 				<tbody>
-					<?php echo woocommerce_pip_order_items_table($order); ?>
+					<?php echo woocommerce_pip_order_items_table_custom($order, TRUE); ?>
 				</tbody>
 			</table>
 			<?php } ?>

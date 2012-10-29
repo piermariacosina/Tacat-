@@ -176,10 +176,11 @@
                 					</tr>
                 				</tfoot>
                 				<tbody>
-                					<?php echo woocommerce_pip_order_items_table($order, TRUE); ?>
+                					<?php echo woocommerce_pip_order_items_table_costum($order, TRUE); ?>
                 				</tbody>
                 			</table>
                 		</td>
+                               
                 	</tr>
                 	<div class="hours">
                 		<h2>orario ritiro <?php woocommerce_custom_hours($order); ?></h2>

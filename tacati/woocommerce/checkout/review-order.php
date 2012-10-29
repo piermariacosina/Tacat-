@@ -58,13 +58,16 @@ $available_methods = $woocommerce->shipping->get_available_shipping_methods();
 								// Append price to label using the correct tax settings
 								if ( $woocommerce->cart->display_totals_ex_tax || ! $woocommerce->cart->prices_include_tax ) {
 									$method->full_label .= woocommerce_price( $method->cost );
+							
 									if ( $method->get_shipping_tax() > 0 && $woocommerce->cart->prices_include_tax ) {
 										$method->full_label .= ' '.$woocommerce->countries->ex_tax_or_vat();
+										
 									}
 								} else {
 									$method->full_label .= woocommerce_price( $method->cost + $method->get_shipping_tax() );
 									if ( $method->get_shipping_tax() > 0 && ! $woocommerce->cart->prices_include_tax ) {
 										$method->full_label .= ' '.$woocommerce->countries->inc_tax_or_vat();
+										
 									}
 								}
 							}
@@ -73,16 +76,15 @@ $available_methods = $woocommerce->shipping->get_available_shipping_methods();
 						// Print a single available shipping method as plain text
 						if ( 1 === count( $available_methods ) ) {
 
+																
 							echo $method->full_label;
 							echo '<input type="hidden" name="shipping_method" id="shipping_method" value="'.esc_attr( $method->id ).'">';
 
 						// Show multiple shipping methods
 						} else {
 
-							if ( get_option('woocommerce_shipping_method_format') == 'select' ) {
-
+							if ( get_option('woocommerce_shipping_method_format') == 'select' ) {															
 								echo '<select name="shipping_method" id="shipping_method">';
-
 								foreach ( $available_methods as $method )
 									echo '<option value="' . esc_attr( $method->id ) . '" ' . selected( $method->id, $_SESSION['_chosen_shipping_method'], false ) . '>' . strip_tags( $method->full_label ) . '</option>';
 
@@ -194,7 +196,8 @@ $available_methods = $woocommerce->shipping->get_available_shipping_methods();
 
 			<tr class="discount">
 				<th colspan="2"><?php _e('Order Discount', 'woocommerce'); ?></th>
-				<td>-<?php echo $woocommerce->cart->get_discounts_after_tax(); ?></td>
+				<td>-<?php 
+				echo $woocommerce->cart->get_discounts_after_tax(); ?></td>
 			</tr>
 
 			<?php endif; ?>

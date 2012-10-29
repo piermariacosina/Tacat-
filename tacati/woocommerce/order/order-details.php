@@ -8,7 +8,6 @@
  */
 
 global $woocommerce;
-
 $order = new WC_Order( $order_id );
 ?>
 <h2><?php _e('Order Details', 'woocommerce'); ?></h2>
@@ -22,7 +21,7 @@ $order = new WC_Order( $order_id );
 	</thead>
 	<tfoot>
 	<?php
-		if ( $totals = $order->get_order_item_totals() ) foreach ( $totals as $total ) :
+		if ( $totals = get_order_item_totals_custom($order) ) foreach ( $totals as $total ) :
 			?>
 			<tr>
 				<th scope="row" colspan="2"><?php echo $total['label']; ?></th>
@@ -58,8 +57,7 @@ $order = new WC_Order( $order_id );
 					echo '<br/><small><a href="' . $order->get_downloadable_file_url( $item['id'], $item['variation_id'] ) . '">' . __('Download file &rarr;', 'woocommerce') . '</a></small>';
 
 				endif;
-
-				echo '</td><td class="product-quantity">'.$item['qty'].'</td><td class="product-total">' . $order->get_formatted_line_subtotal($item) . '</td></tr>';
+				echo '</td><td class="product-quantity">'.$item['qty'].'</td><td class="product-total">' . get_formatted_line_subtotal_custom($order,$item) . '</td></tr>';
 
 				// Show any purchase notes
 				if ($order->status=='completed' || $order->status=='processing') :
