@@ -47,6 +47,13 @@ $woocommerce_loop['loop']++;
 			do_action( 'woocommerce_before_shop_loop_item_title' );
 		?>
 		</a>
+		<?php
+			switch (get_field('tipo-prodotto')) {
+				case "dop":?>
+					<div class="dop"></div>					
+				<?php case "igp":?>
+					<div> <?php the_field('tipo-prodotto','product');?></div>
+			<?php }	?>
 		<div class="info">
 			<h3 class="product"><?php the_title(); ?></h3>
 			<h4 class="product"> 

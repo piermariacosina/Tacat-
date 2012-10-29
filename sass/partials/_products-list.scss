@@ -21,6 +21,13 @@
  			float: left;
  			position: relative;
  			display: block;
+			.dop{
+					background: image-url("badge_azzurro_dop.png") no-repeat;
+					height: 61px;
+					position: relative;
+					margin-top: -50px;
+					height: image-height("badge_azzurro_dop.png");
+				}
  		 	.image{
  		 		width: 173px;
  		 		height: 208px;
