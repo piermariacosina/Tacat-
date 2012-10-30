@@ -605,3 +605,4 @@ function add_registration(){
 
 add_action('woocommerce_login_widget_logged_out_after_form', 'add_registration' );
 
+add_filter('jpeg_quality', function($arg){return 75;});

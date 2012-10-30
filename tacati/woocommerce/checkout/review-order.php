@@ -237,7 +237,7 @@ $available_methods = $woocommerce->shipping->get_available_shipping_methods();
 
 	<div id="payment">
 		<?php if ($woocommerce->cart->needs_payment()) : ?>
-		<a href="http://www.credit-card-logos.com"><img alt="" title="" src="http://www.credit-card-logos.com/images/multiple_credit-card-logos-1/credit_card_logos_visa_mc_amex_discover_paypal_sm.gif" width="254" height="30" border="0" /></a>
+		<!-- PayPal Logo --><table border="0" cellpadding="10" cellspacing="0" align="center"><tr><td align="center"></td></tr><tr><td align="center"><a href="#" onclick="javascript:window.open('https://www.paypal.com/it/cgi-bin/webscr?cmd=xpt/Marketing/popup/OLCWhatIsPayPal-outside','olcwhatispaypal','toolbar=no, location=no, directories=no, status=no, menubar=no, scrollbars=yes, resizable=yes, width=400, height=350');"><img  src="https://www.paypalobjects.com/it_IT/IT/Marketing/i/bnr/bnr_horizontal_solutiongraphic_335x80.gif" border="0" alt="Che cos'&egrave; PayPal"></a></td></tr></table><!-- PayPal Logo -->
 		<ul class="payment_methods methods"  style="display: none;">
 			<?php
 				$available_gateways = $woocommerce->payment_gateways->get_available_payment_gateways();

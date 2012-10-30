@@ -1071,6 +1071,7 @@ remove_action( 'woocommerce_product_tab_panels', 'woocommerce_product_reviews_pa
 
 add_filter('loop_shop_per_page', create_function('$cols', 'return 24;'));
 
+<<<<<<< HEAD
 function get_formatted_line_subtotal_custom($order,$item ) {
 	$subtotal = 0;
 	$subtotal = woocommerce_price( $order->get_line_subtotal( $item, true ) );
@@ -1163,6 +1164,7 @@ function woocommerce_pip_order_items_table_custom( $order, $show_price = FALSE )
 		return $return;	
 		
 	}
+=======
 add_filter('jpeg_quality', function($arg){return 75;});
 
 function get_noprofit_array(){
@@ -1177,3 +1179,7 @@ function get_noprofit_array(){
 	
 	
 	$noprofit_posts_list = query_posts( $args );
+	wp_reset_query();
+}
+add_action( 'admin_init', 'get_noprofit_array' );
+>>>>>>> fix many fix

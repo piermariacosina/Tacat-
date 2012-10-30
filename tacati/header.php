@@ -124,7 +124,7 @@
 </ul> -->
 	<?php if(is_front_page()): ?>
 			
-				<?php do_action('print_customslideshow',false) ?>
+				<?php if ( !is_user_logged_in() ) {  do_action('print_customslideshow',false); } ?>
 				<div class="border">
 					 <ul>
 						<li></li>
@@ -139,8 +139,8 @@
 	<?php elseif(get_post_type()=='product'): ?>
 			
 	<?php else: ?>
-			
-			<?php do_action('print_slideshow','slideshow',false) ?>
+			<?php do_action('print_slideshow','slideshow',false); ?> 
+		
 			<div class="border">
 				 <ul>
 					<li></li>
