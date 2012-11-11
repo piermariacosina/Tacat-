@@ -1,5 +1,5 @@
 # Require any additional compass plugins here.
-require '/Library/Ruby/Gems/1.8/gems/compass-960-plugin-0.10.4/lib/ninesixty.rb'
+require 'ninesixty.rb'
 
 # Set this to the root of your project when deployed:
 http_path = "/"

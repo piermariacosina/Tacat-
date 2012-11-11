@@ -3,7 +3,7 @@
  * Learn more ~ http://960.gs/
  * *
  * Licensed under GPL and MIT. */
-/* line 17, C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 17, ../../../../../../../Users/eleonoragiammello/.rvm/gems/ruby-1.9.3-p286@rails3test/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -25,45 +25,45 @@ time, mark, audio, video {
   vertical-align: baseline;
 }
 
-/* line 22, C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 22, ../../../../../../../Users/eleonoragiammello/.rvm/gems/ruby-1.9.3-p286@rails3test/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 html {
   line-height: 1;
 }
 
-/* line 24, C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 24, ../../../../../../../Users/eleonoragiammello/.rvm/gems/ruby-1.9.3-p286@rails3test/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 ol, ul {
   list-style: none;
 }
 
-/* line 26, C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 26, ../../../../../../../Users/eleonoragiammello/.rvm/gems/ruby-1.9.3-p286@rails3test/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-/* line 28, C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 28, ../../../../../../../Users/eleonoragiammello/.rvm/gems/ruby-1.9.3-p286@rails3test/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 caption, th, td {
   text-align: left;
   font-weight: normal;
   vertical-align: middle;
 }
 
-/* line 30, C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 30, ../../../../../../../Users/eleonoragiammello/.rvm/gems/ruby-1.9.3-p286@rails3test/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 q, blockquote {
   quotes: none;
 }
-/* line 103, C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 103, ../../../../../../../Users/eleonoragiammello/.rvm/gems/ruby-1.9.3-p286@rails3test/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 q:before, q:after, blockquote:before, blockquote:after {
   content: "";
   content: none;
 }
 
-/* line 32, C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 32, ../../../../../../../Users/eleonoragiammello/.rvm/gems/ruby-1.9.3-p286@rails3test/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 a img {
   border: none;
 }
 
-/* line 116, C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 116, ../../../../../../../Users/eleonoragiammello/.rvm/gems/ruby-1.9.3-p286@rails3test/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
   display: block;
 }
@@ -72,17 +72,17 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
  * Learn more ~ http://960.gs/
  * *
  * Licensed under GPL and MIT. */
-/* line 4, C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-960-plugin-0.10.4/stylesheets/960/_text.sass */
+/* line 4, ../../../../../../../Users/eleonoragiammello/.rvm/gems/ruby-1.9.3-p286@rails3test/gems/compass-960-plugin-0.10.4/stylesheets/960/_text.sass */
 body {
   font: 13px/1.5 Helvetica, Arial, 'Liberation Sans', FreeSans, sans-serif;
 }
 
-/* line 6, C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-960-plugin-0.10.4/stylesheets/960/_text.sass */
+/* line 6, ../../../../../../../Users/eleonoragiammello/.rvm/gems/ruby-1.9.3-p286@rails3test/gems/compass-960-plugin-0.10.4/stylesheets/960/_text.sass */
 a:focus {
   outline: 1px dotted invert;
 }
 
-/* line 8, C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-960-plugin-0.10.4/stylesheets/960/_text.sass */
+/* line 8, ../../../../../../../Users/eleonoragiammello/.rvm/gems/ruby-1.9.3-p286@rails3test/gems/compass-960-plugin-0.10.4/stylesheets/960/_text.sass */
 hr {
   border-color: #cccccc;
   border-style: solid;
@@ -91,52 +91,52 @@ hr {
   height: 0;
 }
 
-/* line 14, C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-960-plugin-0.10.4/stylesheets/960/_text.sass */
+/* line 14, ../../../../../../../Users/eleonoragiammello/.rvm/gems/ruby-1.9.3-p286@rails3test/gems/compass-960-plugin-0.10.4/stylesheets/960/_text.sass */
 h1 {
   font-size: 25px;
 }
 
-/* line 16, C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-960-plugin-0.10.4/stylesheets/960/_text.sass */
+/* line 16, ../../../../../../../Users/eleonoragiammello/.rvm/gems/ruby-1.9.3-p286@rails3test/gems/compass-960-plugin-0.10.4/stylesheets/960/_text.sass */
 h2 {
   font-size: 23px;
 }
 
-/* line 18, C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-960-plugin-0.10.4/stylesheets/960/_text.sass */
+/* line 18, ../../../../../../../Users/eleonoragiammello/.rvm/gems/ruby-1.9.3-p286@rails3test/gems/compass-960-plugin-0.10.4/stylesheets/960/_text.sass */
 h3 {
   font-size: 21px;
 }
 
-/* line 20, C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-960-plugin-0.10.4/stylesheets/960/_text.sass */
+/* line 20, ../../../../../../../Users/eleonoragiammello/.rvm/gems/ruby-1.9.3-p286@rails3test/gems/compass-960-plugin-0.10.4/stylesheets/960/_text.sass */
 h4 {
   font-size: 19px;
 }
 
-/* line 22, C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-960-plugin-0.10.4/stylesheets/960/_text.sass */
+/* line 22, ../../../../../../../Users/eleonoragiammello/.rvm/gems/ruby-1.9.3-p286@rails3test/gems/compass-960-plugin-0.10.4/stylesheets/960/_text.sass */
 h5 {
   font-size: 17px;
 }
 
-/* line 24, C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-960-plugin-0.10.4/stylesheets/960/_text.sass */
+/* line 24, ../../../../../../../Users/eleonoragiammello/.rvm/gems/ruby-1.9.3-p286@rails3test/gems/compass-960-plugin-0.10.4/stylesheets/960/_text.sass */
 h6 {
   font-size: 15px;
 }
 
-/* line 26, C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-960-plugin-0.10.4/stylesheets/960/_text.sass */
+/* line 26, ../../../../../../../Users/eleonoragiammello/.rvm/gems/ruby-1.9.3-p286@rails3test/gems/compass-960-plugin-0.10.4/stylesheets/960/_text.sass */
 ol {
   list-style: decimal;
 }
 
-/* line 28, C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-960-plugin-0.10.4/stylesheets/960/_text.sass */
+/* line 28, ../../../../../../../Users/eleonoragiammello/.rvm/gems/ruby-1.9.3-p286@rails3test/gems/compass-960-plugin-0.10.4/stylesheets/960/_text.sass */
 ul {
   list-style: square;
 }
 
-/* line 30, C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-960-plugin-0.10.4/stylesheets/960/_text.sass */
+/* line 30, ../../../../../../../Users/eleonoragiammello/.rvm/gems/ruby-1.9.3-p286@rails3test/gems/compass-960-plugin-0.10.4/stylesheets/960/_text.sass */
 li {
   margin-left: 30px;
 }
 
-/* line 32, C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-960-plugin-0.10.4/stylesheets/960/_text.sass */
+/* line 32, ../../../../../../../Users/eleonoragiammello/.rvm/gems/ruby-1.9.3-p286@rails3test/gems/compass-960-plugin-0.10.4/stylesheets/960/_text.sass */
 p,
 dl,
 hr,
@@ -155,12 +155,12 @@ fieldset {
   margin-bottom: 20px;
 }
 
-/* line 61, C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/_vertical_rhythm.scss */
+/* line 61, ../../../../../../../Users/eleonoragiammello/.rvm/gems/ruby-1.9.3-p286@rails3test/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/_vertical_rhythm.scss */
 * html {
   font-size: 100%;
 }
 
-/* line 64, C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/_vertical_rhythm.scss */
+/* line 64, ../../../../../../../Users/eleonoragiammello/.rvm/gems/ruby-1.9.3-p286@rails3test/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/_vertical_rhythm.scss */
 html {
   font-size: 16px;
   line-height: 1.5em;
@@ -168,43 +168,43 @@ html {
 
 @font-face {
   font-family: "edmondsans bold";
-  src: url('/edmondsans/edmondsans-medium-webfont-webfont.eot');
-  src: url('/edmondsans/edmondsans-medium-webfont-webfont.eot?#iefix') format('eot'), url('../fonts/edmondsans/edmondsans-bold-webfont.woff') format('woff'), url('../fonts/edmondsans/edmondsans-bold-webfont.ttf') format('truetype'), url('../fonts/edmondsans/edmondsans-bold-webfont.otf') format('opentype'), url('../fonts/edmondsans/edmondsans-bold-webfont.svg') format('svg');
+  src: url('../fonts/edmondsans/edmondsans-medium-webfont-webfont.eot');
+  src: url('../fonts/edmondsans/edmondsans-medium-webfont-webfont.eot?#iefix') format('eot'), url('../fonts/edmondsans/edmondsans-bold-webfont.woff') format('woff'), url('../fonts/edmondsans/edmondsans-bold-webfont.ttf') format('truetype'), url('../fonts/edmondsans/edmondsans-bold-webfont.otf') format('opentype'), url('../fonts/edmondsans/edmondsans-bold-webfont.svg') format('svg');
   font-weight: 700;
   font-style: regular;
 }
 
 @font-face {
   font-family: "edmondsans medium";
-  src: url('/edmondsans/edmondsans-medium-webfont.eot');
-  src: url('/edmondsans/edmondsans-medium-webfont.eot?#iefix') format('eot'), url('../fonts/edmondsans/edmondsans-medium-webfont.woff') format('woff'), url('../fonts/edmondsans/edmondsans-medium-webfont.ttf') format('truetype'), url('../fonts/edmondsans/edmondsans-medium-webfont.otf') format('opentype'), url('../fonts/edmondsans/edmondsans-medium-webfont.svg') format('svg');
+  src: url('../fonts/edmondsans/edmondsans-medium-webfont.eot');
+  src: url('../fonts/edmondsans/edmondsans-medium-webfont.eot?#iefix') format('eot'), url('../fonts/edmondsans/edmondsans-medium-webfont.woff') format('woff'), url('../fonts/edmondsans/edmondsans-medium-webfont.ttf') format('truetype'), url('../fonts/edmondsans/edmondsans-medium-webfont.otf') format('opentype'), url('../fonts/edmondsans/edmondsans-medium-webfont.svg') format('svg');
   font-weight: 500;
   font-style: regular;
 }
 
 @font-face {
   font-family: "edmondsans regular";
-  src: url('/edmondsans/edmondsans-regular-webfont.eot');
-  src: url('/edmondsans/edmondsans-regular-webfont.eot?#iefix') format('eot'), url('../fonts/edmondsans/edmondsans-regular-webfont.woff') format('woff'), url('../fonts/edmondsans/edmondsans-regular-webfont.ttf') format('truetype'), url('../fonts/edmondsans/edmondsans-regular-webfont.otf') format('opentype'), url('../fonts/edmondsans/edmondsans-regular-webfont.svg') format('svg');
+  src: url('../fonts/edmondsans/edmondsans-regular-webfont.eot');
+  src: url('../fonts/edmondsans/edmondsans-regular-webfont.eot?#iefix') format('eot'), url('../fonts/edmondsans/edmondsans-regular-webfont.woff') format('woff'), url('../fonts/edmondsans/edmondsans-regular-webfont.ttf') format('truetype'), url('../fonts/edmondsans/edmondsans-regular-webfont.otf') format('opentype'), url('../fonts/edmondsans/edmondsans-regular-webfont.svg') format('svg');
   font-weight: 400;
   font-style: regular;
 }
 
 @font-face {
   font-family: "mission script";
-  src: url('/mission/mission-script-webfont.eot');
-  src: url('/mission/mission-script-webfont.eot?#iefix') format('eot'), url('../fonts/mission/mission-script-webfont.woff') format('woff'), url('../fonts/mission/mission-script-webfont.ttf') format('truetype'), url('../fonts/mission/mission-script-webfont.otf') format('opentype'), url('../fonts/mission/mission-script-webfont.svg') format('svg');
+  src: url('../fonts/mission/mission-script-webfont.eot');
+  src: url('../fonts/mission/mission-script-webfont.eot?#iefix') format('eot'), url('../fonts/mission/mission-script-webfont.woff') format('woff'), url('../fonts/mission/mission-script-webfont.ttf') format('truetype'), url('../fonts/mission/mission-script-webfont.otf') format('opentype'), url('../fonts/mission/mission-script-webfont.svg') format('svg');
   font-weight: 400;
   font-style: regular;
 }
 
-/* line 1, C:/xampp/htdocs/tacati/wp-content/themes/sass/partials/_products-list.scss */
+/* line 1, ../sass/partials/_products-list.scss */
 #breadcrumb, .page-title {
   padding-left: 60px;
   padding-top: 5px;
 }
 
-/* line 6, C:/xampp/htdocs/tacati/wp-content/themes/sass/partials/_products-list.scss */
+/* line 6, ../sass/partials/_products-list.scss */
 ul.products {
   margin: 0;
   padding: 0;
@@ -223,7 +223,7 @@ ul.products {
   overflow: visible;
   float: left !important;
 }
-/* line 16, C:/xampp/htdocs/tacati/wp-content/themes/sass/partials/_products-list.scss */
+/* line 16, ../sass/partials/_products-list.scss */
 ul.products li.prodotto {
   list-style-image: none;
   list-style-type: none;
@@ -239,27 +239,27 @@ ul.products li.prodotto {
   position: relative;
   display: block;
 }
-/* line 48, C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
+/* line 48, ../../../../../../../Users/eleonoragiammello/.rvm/gems/ruby-1.9.3-p286@rails3test/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
 ul.products li.prodotto:first-child, ul.products li.prodotto.first {
   padding-left: 0;
 }
-/* line 49, C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
+/* line 49, ../../../../../../../Users/eleonoragiammello/.rvm/gems/ruby-1.9.3-p286@rails3test/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
 ul.products li.prodotto:last-child {
   padding-right: 0;
 }
-/* line 50, C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
+/* line 50, ../../../../../../../Users/eleonoragiammello/.rvm/gems/ruby-1.9.3-p286@rails3test/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
 ul.products li.prodotto.last {
   padding-right: 0;
 }
-/* line 24, C:/xampp/htdocs/tacati/wp-content/themes/sass/partials/_products-list.scss */
+/* line 24, ../sass/partials/_products-list.scss */
 ul.products li.prodotto .dop {
-  background: url('badge_azzurro_dop.png?1351244616') no-repeat;
+  background: url('../images/badge_azzurro_dop.png?1351620088') no-repeat;
   height: 61px;
   position: relative;
   margin-top: -50px;
   height: 62px;
 }
-/* line 31, C:/xampp/htdocs/tacati/wp-content/themes/sass/partials/_products-list.scss */
+/* line 31, ../sass/partials/_products-list.scss */
 ul.products li.prodotto .image {
   width: 173px;
   height: 208px;
@@ -267,17 +267,17 @@ ul.products li.prodotto .image {
   position: absolute;
   margin-left: -13px;
 }
-/* line 38, C:/xampp/htdocs/tacati/wp-content/themes/sass/partials/_products-list.scss */
+/* line 38, ../sass/partials/_products-list.scss */
 ul.products li.prodotto .onsale {
   top: 6px;
   left: 6px;
 }
-/* line 42, C:/xampp/htdocs/tacati/wp-content/themes/sass/partials/_products-list.scss */
+/* line 42, ../sass/partials/_products-list.scss */
 ul.products li.prodotto img {
   height: 200px !important;
   width: 150px !important;
 }
-/* line 47, C:/xampp/htdocs/tacati/wp-content/themes/sass/partials/_products-list.scss */
+/* line 47, ../sass/partials/_products-list.scss */
 ul.products li.prodotto .info {
   height: auto;
   width: 146px;
@@ -291,7 +291,7 @@ ul.products li.prodotto .info {
   -o-border-radius: 10px;
   border-radius: 10px;
 }
-/* line 54, C:/xampp/htdocs/tacati/wp-content/themes/sass/partials/_products-list.scss */
+/* line 54, ../sass/partials/_products-list.scss */
 ul.products li.prodotto .info h3.product, ul.products li.prodotto .info h4.product {
   font-family: edmondsans regular;
   font-size: 15px;
@@ -300,28 +300,28 @@ ul.products li.prodotto .info h3.product, ul.products li.prodotto .info h4.produ
   position: relative;
   z-index: 2;
 }
-/* line 62, C:/xampp/htdocs/tacati/wp-content/themes/sass/partials/_products-list.scss */
+/* line 62, ../sass/partials/_products-list.scss */
 ul.products li.prodotto .info h3 {
   margin: 16px 0 0 10px;
   color: #935D39;
   white-space: normal;
 }
-/* line 67, C:/xampp/htdocs/tacati/wp-content/themes/sass/partials/_products-list.scss */
+/* line 67, ../sass/partials/_products-list.scss */
 ul.products li.prodotto .info h4 {
   margin: 2px 0 0 10px;
 }
-/* line 69, C:/xampp/htdocs/tacati/wp-content/themes/sass/partials/_products-list.scss */
+/* line 69, ../sass/partials/_products-list.scss */
 ul.products li.prodotto .info h4 a {
   color: #e7511e;
 }
-/* line 73, C:/xampp/htdocs/tacati/wp-content/themes/sass/partials/_products-list.scss */
+/* line 73, ../sass/partials/_products-list.scss */
 ul.products li.prodotto .info .price {
   padding: 0 0 8px 0;
   overflow: hidden;
   *zoom: 1;
   position: relative;
 }
-/* line 77, C:/xampp/htdocs/tacati/wp-content/themes/sass/partials/_products-list.scss */
+/* line 77, ../sass/partials/_products-list.scss */
 ul.products li.prodotto .info .price h3 {
   display: inline;
   float: left;
@@ -334,17 +334,17 @@ ul.products li.prodotto .info .price h3 {
   line-height: 25px;
   text-align: left;
 }
-/* line 88, C:/xampp/htdocs/tacati/wp-content/themes/sass/partials/_products-list.scss */
+/* line 88, ../sass/partials/_products-list.scss */
 ul.products li.prodotto .info .price h3 del {
   font-size: 16px;
 }
-/* line 91, C:/xampp/htdocs/tacati/wp-content/themes/sass/partials/_products-list.scss */
+/* line 91, ../sass/partials/_products-list.scss */
 ul.products li.prodotto .info .price h3 span {
   width: 100%;
   text-align: center;
   left: 0;
 }
-/* line 98, C:/xampp/htdocs/tacati/wp-content/themes/sass/partials/_products-list.scss */
+/* line 98, ../sass/partials/_products-list.scss */
 ul.products li.prodotto .info .price a {
   -webkit-border-radius: 0;
   -moz-border-radius: 0;
@@ -367,20 +367,20 @@ ul.products li.prodotto .info .price a {
   margin: 3px 0 0 0;
   padding: 0;
 }
-/* line 99, C:/xampp/htdocs/tacati/wp-content/themes/sass/partials/_products-list.scss */
+/* line 99, ../sass/partials/_products-list.scss */
 ul.products li.prodotto .info .price a.added::before {
   right: 4px;
 }
-/* line 120, C:/xampp/htdocs/tacati/wp-content/themes/sass/partials/_products-list.scss */
+/* line 120, ../sass/partials/_products-list.scss */
 ul.products li.prodotto .info .price a:hover {
   background: url("../images/carrello_hover.png") no-repeat left top;
 }
-/* line 130, C:/xampp/htdocs/tacati/wp-content/themes/sass/partials/_products-list.scss */
+/* line 130, ../sass/partials/_products-list.scss */
 ul.products.featured li .image {
   background: url("../images/box_prodotti_azzurro.png") no-repeat left top;
 }
 
-/* line 1, C:/xampp/htdocs/tacati/wp-content/themes/sass/partials/_carrello_sidebar.scss */
+/* line 1, ../sass/partials/_carrello_sidebar.scss */
 .corner_carrello {
   width: 29px;
   height: 240px;
@@ -393,7 +393,7 @@ ul.products.featured li .image {
   margin-top: -240px;
 }
 
-/* line 12, C:/xampp/htdocs/tacati/wp-content/themes/sass/partials/_carrello_sidebar.scss */
+/* line 12, ../sass/partials/_carrello_sidebar.scss */
 #secondary {
   width: 210px;
   overflow: hidden;
@@ -408,7 +408,7 @@ ul.products.featured li .image {
   -moz-box-shadow: 0 1px 8px #9cb6ba, 0 2px 2px rgba(156, 182, 186, 0);
   box-shadow: 0 1px 8px #9cb6ba, 0 2px 2px rgba(156, 182, 186, 0);
 }
-/* line 23, C:/xampp/htdocs/tacati/wp-content/themes/sass/partials/_carrello_sidebar.scss */
+/* line 23, ../sass/partials/_carrello_sidebar.scss */
 #secondary h1 {
   margin: 10px 0 0 10px;
   font-family: edmondsans regular;
@@ -421,7 +421,7 @@ ul.products.featured li .image {
   float: left;
   width: 88px;
 }
-/* line 34, C:/xampp/htdocs/tacati/wp-content/themes/sass/partials/_carrello_sidebar.scss */
+/* line 34, ../sass/partials/_carrello_sidebar.scss */
 #secondary .icon {
   width: 42px;
   height: 28px;
@@ -430,15 +430,15 @@ ul.products.featured li .image {
   position: relative;
   margin: 10px 0 0 15px;
 }
-/* line 41, C:/xampp/htdocs/tacati/wp-content/themes/sass/partials/_carrello_sidebar.scss */
+/* line 41, ../sass/partials/_carrello_sidebar.scss */
 #secondary .carrello {
   background: url("../images/carrello_icon_brown.png") no-repeat left top;
 }
-/* line 44, C:/xampp/htdocs/tacati/wp-content/themes/sass/partials/_carrello_sidebar.scss */
+/* line 44, ../sass/partials/_carrello_sidebar.scss */
 #secondary .visti_di_recente {
   background: url("../images/visti_icon.png") no-repeat left top;
 }
-/* line 47, C:/xampp/htdocs/tacati/wp-content/themes/sass/partials/_carrello_sidebar.scss */
+/* line 47, ../sass/partials/_carrello_sidebar.scss */
 #secondary ul {
   list-style: none;
   margin-left: 10px;
@@ -446,11 +446,11 @@ ul.products.featured li .image {
   *zoom: 1;
   clear: both;
 }
-/* line 52, C:/xampp/htdocs/tacati/wp-content/themes/sass/partials/_carrello_sidebar.scss */
+/* line 52, ../sass/partials/_carrello_sidebar.scss */
 #secondary ul li {
   padding: 5px 0;
 }
-/* line 54, C:/xampp/htdocs/tacati/wp-content/themes/sass/partials/_carrello_sidebar.scss */
+/* line 54, ../sass/partials/_carrello_sidebar.scss */
 #secondary ul li.empty {
   color: #732c03;
   font-family: edmondsans regular;
@@ -459,11 +459,11 @@ ul.products.featured li .image {
   font-weight: normal;
   padding: 10px 0;
 }
-/* line 65, C:/xampp/htdocs/tacati/wp-content/themes/sass/partials/_carrello_sidebar.scss */
+/* line 65, ../sass/partials/_carrello_sidebar.scss */
 #secondary ul li h5 {
   margin: 0;
 }
-/* line 67, C:/xampp/htdocs/tacati/wp-content/themes/sass/partials/_carrello_sidebar.scss */
+/* line 67, ../sass/partials/_carrello_sidebar.scss */
 #secondary ul li h5 a {
   margin: 0;
   font-family: edmondsans regular;
@@ -473,7 +473,7 @@ ul.products.featured li .image {
   font-weight: normal;
   width: 160px;
 }
-/* line 77, C:/xampp/htdocs/tacati/wp-content/themes/sass/partials/_carrello_sidebar.scss */
+/* line 77, ../sass/partials/_carrello_sidebar.scss */
 #secondary ul li h6 {
   margin: 0;
   color: #e7511e;
@@ -483,7 +483,7 @@ ul.products.featured li .image {
   font-weight: normal;
   width: 160px;
 }
-/* line 88, C:/xampp/htdocs/tacati/wp-content/themes/sass/partials/_carrello_sidebar.scss */
+/* line 88, ../sass/partials/_carrello_sidebar.scss */
 #secondary ul li hr {
   margin: 5px 0;
   width: 160px;
@@ -491,17 +491,17 @@ ul.products.featured li .image {
   background: #BFB28A;
   border: none;
 }
-/* line 100, C:/xampp/htdocs/tacati/wp-content/themes/sass/partials/_carrello_sidebar.scss */
+/* line 100, ../sass/partials/_carrello_sidebar.scss */
 #secondary ul li:last-child hr {
   display: none;
 }
-/* line 105, C:/xampp/htdocs/tacati/wp-content/themes/sass/partials/_carrello_sidebar.scss */
+/* line 105, ../sass/partials/_carrello_sidebar.scss */
 #secondary a {
   text-decoration: none;
   display: block;
   margin: 5px 0;
 }
-/* line 109, C:/xampp/htdocs/tacati/wp-content/themes/sass/partials/_carrello_sidebar.scss */
+/* line 109, ../sass/partials/_carrello_sidebar.scss */
 #secondary a.button {
   width: 160px;
   background: #F2EFDC;
@@ -511,7 +511,7 @@ ul.products.featured li .image {
   -moz-box-shadow: 0 1px 6px rgba(183, 169, 165, 0.75), 0 2px 2px rgba(183, 169, 165, 0);
   box-shadow: 0 1px 6px rgba(183, 169, 165, 0.75), 0 2px 2px rgba(183, 169, 165, 0);
 }
-/* line 117, C:/xampp/htdocs/tacati/wp-content/themes/sass/partials/_carrello_sidebar.scss */
+/* line 117, ../sass/partials/_carrello_sidebar.scss */
 #secondary a.button span {
   font-family: mission script;
   color: #e7511e;
@@ -521,31 +521,31 @@ ul.products.featured li .image {
   text-align: left;
   display: block;
 }
-/* line 129, C:/xampp/htdocs/tacati/wp-content/themes/sass/partials/_carrello_sidebar.scss */
+/* line 129, ../sass/partials/_carrello_sidebar.scss */
 #secondary a:hover .button {
   background: #FFF6CA;
 }
-/* line 131, C:/xampp/htdocs/tacati/wp-content/themes/sass/partials/_carrello_sidebar.scss */
+/* line 131, ../sass/partials/_carrello_sidebar.scss */
 #secondary a:hover .button h3 {
   color: #72BAC7;
 }
-/* line 137, C:/xampp/htdocs/tacati/wp-content/themes/sass/partials/_carrello_sidebar.scss */
+/* line 137, ../sass/partials/_carrello_sidebar.scss */
 #secondary .price {
   overflow: hidden;
   *zoom: 1;
   width: 118px;
 }
-/* line 139, C:/xampp/htdocs/tacati/wp-content/themes/sass/partials/_carrello_sidebar.scss */
+/* line 139, ../sass/partials/_carrello_sidebar.scss */
 #secondary .price.padded {
   padding: 5px 10px;
   width: 200px;
   border-top: 2px #BFB28A solid;
 }
-/* line 143, C:/xampp/htdocs/tacati/wp-content/themes/sass/partials/_carrello_sidebar.scss */
+/* line 143, ../sass/partials/_carrello_sidebar.scss */
 #secondary .price.padded .total {
   border-top: none;
 }
-/* line 150, C:/xampp/htdocs/tacati/wp-content/themes/sass/partials/_carrello_sidebar.scss */
+/* line 150, ../sass/partials/_carrello_sidebar.scss */
 #secondary .price p {
   display: inline;
   float: left;
@@ -556,13 +556,13 @@ ul.products.featured li .image {
   font-size: 23px;
   font-weight: normal;
 }
-/* line 159, C:/xampp/htdocs/tacati/wp-content/themes/sass/partials/_carrello_sidebar.scss */
+/* line 159, ../sass/partials/_carrello_sidebar.scss */
 #secondary .price p span {
   margin-left: 10px;
   margin-right: 10px;
   color: #5094b8;
 }
-/* line 166, C:/xampp/htdocs/tacati/wp-content/themes/sass/partials/_carrello_sidebar.scss */
+/* line 166, ../sass/partials/_carrello_sidebar.scss */
 #secondary .price a .carrello {
   width: 30px;
   height: 28px;
@@ -572,12 +572,12 @@ ul.products.featured li .image {
   margin: 7px 0 0 0;
   padding: 0;
 }
-/* line 176, C:/xampp/htdocs/tacati/wp-content/themes/sass/partials/_carrello_sidebar.scss */
+/* line 176, ../sass/partials/_carrello_sidebar.scss */
 #secondary .price a:hover .carrello {
   background: url("../images/carrello_hover.png") no-repeat left top;
 }
 
-/* line 185, C:/xampp/htdocs/tacati/wp-content/themes/sass/partials/_carrello_sidebar.scss */
+/* line 185, ../sass/partials/_carrello_sidebar.scss */
 .corner_carrello_bottom {
   width: 29px;
   height: 240px;
@@ -590,7 +590,7 @@ ul.products.featured li .image {
   margin-right: -29px;
 }
 
-/* line 1, C:/xampp/htdocs/tacati/wp-content/themes/sass/partials/_main-slideshow.scss */
+/* line 1, ../sass/partials/_main-slideshow.scss */
 #branding .flexslider {
   margin: -23px 0 0 0;
   border: none;
@@ -604,11 +604,11 @@ ul.products.featured li .image {
   -o-box-shadow: none;
   zoom: 1;
 }
-/* line 15, C:/xampp/htdocs/tacati/wp-content/themes/sass/partials/_main-slideshow.scss */
+/* line 15, ../sass/partials/_main-slideshow.scss */
 #branding .flexslider ul li {
   margin: 0;
 }
-/* line 20, C:/xampp/htdocs/tacati/wp-content/themes/sass/partials/_main-slideshow.scss */
+/* line 20, ../sass/partials/_main-slideshow.scss */
 #branding .flexslider div.sinistra, #branding .flexslider div.destra {
   max-width: 300px;
   max-height: 300px;
@@ -621,7 +621,7 @@ ul.products.featured li .image {
   margin-right: 10px;
   width: 400px;
 }
-/* line 26, C:/xampp/htdocs/tacati/wp-content/themes/sass/partials/_main-slideshow.scss */
+/* line 26, ../sass/partials/_main-slideshow.scss */
 #branding .flexslider div.sinistra div.background, #branding .flexslider div.destra div.background {
   background: white;
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=99);
@@ -638,72 +638,72 @@ ul.products.featured li .image {
   -o-border-radius: 10px;
   border-radius: 10px;
 }
-/* line 34, C:/xampp/htdocs/tacati/wp-content/themes/sass/partials/_main-slideshow.scss */
+/* line 34, ../sass/partials/_main-slideshow.scss */
 #branding .flexslider div.sinistra div.content, #branding .flexslider div.destra div.content {
   position: relative;
   z-index: 2;
 }
-/* line 42, C:/xampp/htdocs/tacati/wp-content/themes/sass/partials/_main-slideshow.scss */
+/* line 42, ../sass/partials/_main-slideshow.scss */
 #branding .flexslider div.sinistra h1, #branding .flexslider div.sinistra h2, #branding .flexslider div.destra h1, #branding .flexslider div.destra h2 {
   font-family: "mission script";
 }
-/* line 47, C:/xampp/htdocs/tacati/wp-content/themes/sass/partials/_main-slideshow.scss */
+/* line 47, ../sass/partials/_main-slideshow.scss */
 #branding .flexslider div.sinistra h3, #branding .flexslider div.sinistra h4, #branding .flexslider div.sinistra h5, #branding .flexslider div.destra h3, #branding .flexslider div.destra h4, #branding .flexslider div.destra h5 {
   font-family: "edmondsans regular";
   padding-bottom: 20px;
   margin-top: 6px;
 }
-/* line 54, C:/xampp/htdocs/tacati/wp-content/themes/sass/partials/_main-slideshow.scss */
+/* line 54, ../sass/partials/_main-slideshow.scss */
 #branding .flexslider div.sinistra h1, #branding .flexslider div.destra h1 {
   font-size: 45px;
   color: #732c03;
 }
-/* line 59, C:/xampp/htdocs/tacati/wp-content/themes/sass/partials/_main-slideshow.scss */
+/* line 59, ../sass/partials/_main-slideshow.scss */
 #branding .flexslider div.sinistra h2, #branding .flexslider div.destra h2 {
   font-size: 38px;
   color: #732c03;
 }
-/* line 63, C:/xampp/htdocs/tacati/wp-content/themes/sass/partials/_main-slideshow.scss */
+/* line 63, ../sass/partials/_main-slideshow.scss */
 #branding .flexslider div.sinistra h3, #branding .flexslider div.destra h3 {
   font-size: 32px;
   color: #f23c00;
 }
-/* line 68, C:/xampp/htdocs/tacati/wp-content/themes/sass/partials/_main-slideshow.scss */
+/* line 68, ../sass/partials/_main-slideshow.scss */
 #branding .flexslider div.sinistra h4, #branding .flexslider div.destra h4 {
   font-size: 28px;
   color: #f23c00;
 }
-/* line 72, C:/xampp/htdocs/tacati/wp-content/themes/sass/partials/_main-slideshow.scss */
+/* line 72, ../sass/partials/_main-slideshow.scss */
 #branding .flexslider div.sinistra h5, #branding .flexslider div.destra h5 {
   font-size: 22px;
   color: #f23c00;
 }
-/* line 76, C:/xampp/htdocs/tacati/wp-content/themes/sass/partials/_main-slideshow.scss */
+/* line 76, ../sass/partials/_main-slideshow.scss */
 #branding .flexslider div.sinistra h6, #branding .flexslider div.destra h6 {
   font-size: 18px;
   color: #f23c00;
 }
-/* line 83, C:/xampp/htdocs/tacati/wp-content/themes/sass/partials/_main-slideshow.scss */
+/* line 83, ../sass/partials/_main-slideshow.scss */
 #branding .flexslider div.sinistra ul li, #branding .flexslider div.sinistra ol li, #branding .flexslider div.destra ul li, #branding .flexslider div.destra ol li {
   font-family: "edmondsans medium";
   color: #5094b8;
 }
-/* line 90, C:/xampp/htdocs/tacati/wp-content/themes/sass/partials/_main-slideshow.scss */
+/* line 90, ../sass/partials/_main-slideshow.scss */
 #branding .flexslider div.sinistra p, #branding .flexslider div.sinistra div, #branding .flexslider div.destra p, #branding .flexslider div.destra div {
   font-family: "edmondsans medium";
   font-size: 15px;
   color: #5094b8;
 }
-/* line 97, C:/xampp/htdocs/tacati/wp-content/themes/sass/partials/_main-slideshow.scss */
+/* line 97, ../sass/partials/_main-slideshow.scss */
 #branding .flexslider div.sinistra {
   margin-left: 120px;
 }
-/* line 100, C:/xampp/htdocs/tacati/wp-content/themes/sass/partials/_main-slideshow.scss */
+/* line 100, ../sass/partials/_main-slideshow.scss */
 #branding .flexslider div.destra {
   margin-left: 540px;
 }
 
-/* line 1, C:/xampp/htdocs/tacati/wp-content/themes/sass/partials/_noprofit.scss */
+/* line 1, ../sass/partials/_noprofit.scss */
 ul.associazioni, ul.pdr {
   margin-left: auto;
   margin-right: auto;
@@ -711,7 +711,7 @@ ul.associazioni, ul.pdr {
   overflow: hidden;
   margin-top: 30px;
 }
-/* line 5, C:/xampp/htdocs/tacati/wp-content/themes/sass/partials/_noprofit.scss */
+/* line 5, ../sass/partials/_noprofit.scss */
 ul.associazioni > li, ul.pdr > li {
   margin-top: 20px;
   margin-bottom: 20px;
@@ -721,11 +721,11 @@ ul.associazioni > li, ul.pdr > li {
   margin-right: 10px;
   width: 760px;
 }
-/* line 12, C:/xampp/htdocs/tacati/wp-content/themes/sass/partials/_noprofit.scss */
+/* line 12, ../sass/partials/_noprofit.scss */
 ul.associazioni > li:last-child .border, ul.pdr > li:last-child .border {
   display: none;
 }
-/* line 17, C:/xampp/htdocs/tacati/wp-content/themes/sass/partials/_noprofit.scss */
+/* line 17, ../sass/partials/_noprofit.scss */
 ul.associazioni > li img, ul.pdr > li img {
   padding-left: 60px;
   display: inline;
@@ -734,7 +734,7 @@ ul.associazioni > li img, ul.pdr > li img {
   margin-right: 0;
   margin-bottom: 20px;
 }
-/* line 24, C:/xampp/htdocs/tacati/wp-content/themes/sass/partials/_noprofit.scss */
+/* line 24, ../sass/partials/_noprofit.scss */
 ul.associazioni > li h4, ul.pdr > li h4 {
   font-family: 'mission script';
   color: #732c03;
@@ -742,23 +742,23 @@ ul.associazioni > li h4, ul.pdr > li h4 {
   font-weight: 400;
   padding-bottom: 20px;
 }
-/* line 33, C:/xampp/htdocs/tacati/wp-content/themes/sass/partials/_noprofit.scss */
+/* line 33, ../sass/partials/_noprofit.scss */
 ul.associazioni > li h1 a, ul.associazioni > li h2 a, ul.associazioni > li h3 a, ul.associazioni > li h4 a, ul.associazioni > li h5 a, ul.associazioni > li h6 a, ul.pdr > li h1 a, ul.pdr > li h2 a, ul.pdr > li h3 a, ul.pdr > li h4 a, ul.pdr > li h5 a, ul.pdr > li h6 a {
   color: #732c03;
 }
-/* line 18, C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+/* line 18, ../../../../../../../Users/eleonoragiammello/.rvm/gems/ruby-1.9.3-p286@rails3test/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
 ul.associazioni > li h1 a:visited, ul.associazioni > li h2 a:visited, ul.associazioni > li h3 a:visited, ul.associazioni > li h4 a:visited, ul.associazioni > li h5 a:visited, ul.associazioni > li h6 a:visited, ul.pdr > li h1 a:visited, ul.pdr > li h2 a:visited, ul.pdr > li h3 a:visited, ul.pdr > li h4 a:visited, ul.pdr > li h5 a:visited, ul.pdr > li h6 a:visited {
   color: #f23c00;
 }
-/* line 24, C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+/* line 24, ../../../../../../../Users/eleonoragiammello/.rvm/gems/ruby-1.9.3-p286@rails3test/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
 ul.associazioni > li h1 a:hover, ul.associazioni > li h2 a:hover, ul.associazioni > li h3 a:hover, ul.associazioni > li h4 a:hover, ul.associazioni > li h5 a:hover, ul.associazioni > li h6 a:hover, ul.pdr > li h1 a:hover, ul.pdr > li h2 a:hover, ul.pdr > li h3 a:hover, ul.pdr > li h4 a:hover, ul.pdr > li h5 a:hover, ul.pdr > li h6 a:hover {
   color: #f23c00;
 }
-/* line 27, C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+/* line 27, ../../../../../../../Users/eleonoragiammello/.rvm/gems/ruby-1.9.3-p286@rails3test/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
 ul.associazioni > li h1 a:active, ul.associazioni > li h2 a:active, ul.associazioni > li h3 a:active, ul.associazioni > li h4 a:active, ul.associazioni > li h5 a:active, ul.associazioni > li h6 a:active, ul.pdr > li h1 a:active, ul.pdr > li h2 a:active, ul.pdr > li h3 a:active, ul.pdr > li h4 a:active, ul.pdr > li h5 a:active, ul.pdr > li h6 a:active {
   color: #f23c00;
 }
-/* line 37, C:/xampp/htdocs/tacati/wp-content/themes/sass/partials/_noprofit.scss */
+/* line 37, ../sass/partials/_noprofit.scss */
 ul.associazioni > li .descrizione, ul.pdr > li .descrizione {
   display: inline;
   float: left;
@@ -768,19 +768,19 @@ ul.associazioni > li .descrizione, ul.pdr > li .descrizione {
   position: relative;
   left: 60px;
 }
-/* line 41, C:/xampp/htdocs/tacati/wp-content/themes/sass/partials/_noprofit.scss */
+/* line 41, ../sass/partials/_noprofit.scss */
 ul.associazioni > li .descrizione h4, ul.pdr > li .descrizione h4 {
   color: #f23c00;
 }
-/* line 44, C:/xampp/htdocs/tacati/wp-content/themes/sass/partials/_noprofit.scss */
+/* line 44, ../sass/partials/_noprofit.scss */
 ul.associazioni > li .descrizione p, ul.pdr > li .descrizione p {
   color: #5094b8;
 }
-/* line 51, C:/xampp/htdocs/tacati/wp-content/themes/sass/partials/_noprofit.scss */
+/* line 51, ../sass/partials/_noprofit.scss */
 ul.associazioni > li .border ul, ul.pdr > li .border ul {
   margin-left: 0px;
 }
-/* line 56, C:/xampp/htdocs/tacati/wp-content/themes/sass/partials/_noprofit.scss */
+/* line 56, ../sass/partials/_noprofit.scss */
 ul.associazioni a.link, ul.pdr a.link {
   font-family: mission script;
   color: #3e3d40;
@@ -797,17 +797,17 @@ ul.associazioni a.link, ul.pdr a.link {
   margin-bottom: 20px;
   text-decoration: none;
 }
-/* line 65, C:/xampp/htdocs/tacati/wp-content/themes/sass/partials/_noprofit.scss */
+/* line 65, ../sass/partials/_noprofit.scss */
 ul.associazioni a.link.long, ul.pdr a.link.long {
   width: 100% !important;
   text-align: right;
 }
-/* line 73, C:/xampp/htdocs/tacati/wp-content/themes/sass/partials/_noprofit.scss */
+/* line 73, ../sass/partials/_noprofit.scss */
 ul.associazioni a.link:hover, ul.pdr a.link:hover {
   color: #f23c00;
 }
 
-/* line 1, C:/xampp/htdocs/tacati/wp-content/themes/sass/partials/_article.scss */
+/* line 1, ../sass/partials/_article.scss */
 .page-title {
   font-family: mission script;
   color: #732c03;
@@ -815,7 +815,7 @@ ul.associazioni a.link:hover, ul.pdr a.link:hover {
   padding-bottom: 20px;
 }
 
-/* line 8, C:/xampp/htdocs/tacati/wp-content/themes/sass/partials/_article.scss */
+/* line 8, ../sass/partials/_article.scss */
 #content article {
   position: relative;
   left: 60px;
@@ -825,20 +825,27 @@ ul.associazioni a.link:hover, ul.pdr a.link:hover {
   margin-right: 10px;
   width: 580px;
 }
-/* line 11, C:/xampp/htdocs/tacati/wp-content/themes/sass/partials/_article.scss */
+/* line 11, ../sass/partials/_article.scss */
 #content article h1 {
   font-family: mission script;
   color: #732c03;
   font-size: 38px;
   padding-bottom: 20px;
 }
-/* line 17, C:/xampp/htdocs/tacati/wp-content/themes/sass/partials/_article.scss */
+/* line 17, ../sass/partials/_article.scss */
 #content article p {
   font-family: edmondsans medium;
   color: #5094b8;
 }
 
-/* line 1, C:/xampp/htdocs/tacati/wp-content/themes/sass/partials/_produttori.scss */
+/* line 1, ../sass/partials/_produttori.scss */
+.producer-type {
+  font-family: 'edmondsans regular';
+  font-size: 18px;
+  color: #f23c00;
+}
+
+/* line 8, ../sass/partials/_produttori.scss */
 ul.produttori {
   list-style-type: none;
   margin-left: auto;
@@ -846,7 +853,7 @@ ul.produttori {
   width: 960px;
   margin-top: 30px;
 }
-/* line 5, C:/xampp/htdocs/tacati/wp-content/themes/sass/partials/_produttori.scss */
+/* line 12, ../sass/partials/_produttori.scss */
 ul.produttori > li {
   display: inline;
   float: left;
@@ -855,7 +862,7 @@ ul.produttori > li {
   width: 760px;
   margin-top: 20px;
 }
-/* line 9, C:/xampp/htdocs/tacati/wp-content/themes/sass/partials/_produttori.scss */
+/* line 16, ../sass/partials/_produttori.scss */
 ul.produttori > li img {
   position: relative;
   left: 60px;
@@ -873,7 +880,7 @@ ul.produttori > li img {
   -o-border-radius: 200px;
   border-radius: 200px;
 }
-/* line 18, C:/xampp/htdocs/tacati/wp-content/themes/sass/partials/_produttori.scss */
+/* line 25, ../sass/partials/_produttori.scss */
 ul.produttori > li .noimage {
   position: relative;
   left: 60px;
@@ -892,7 +899,7 @@ ul.produttori > li .noimage {
   border-radius: 200px;
   background-color: #f23c00;
 }
-/* line 29, C:/xampp/htdocs/tacati/wp-content/themes/sass/partials/_produttori.scss */
+/* line 36, ../sass/partials/_produttori.scss */
 ul.produttori > li .descrizione {
   padding-left: 120px;
   display: inline;
@@ -901,7 +908,7 @@ ul.produttori > li .descrizione {
   margin-right: 10px;
   width: 400px;
 }
-/* line 33, C:/xampp/htdocs/tacati/wp-content/themes/sass/partials/_produttori.scss */
+/* line 40, ../sass/partials/_produttori.scss */
 ul.produttori > li .descrizione h4 {
   font-family: 'mission script';
   color: #732c03;
@@ -909,34 +916,34 @@ ul.produttori > li .descrizione h4 {
   font-weight: 400;
   padding-bottom: 30px;
 }
-/* line 42, C:/xampp/htdocs/tacati/wp-content/themes/sass/partials/_produttori.scss */
+/* line 49, ../sass/partials/_produttori.scss */
 ul.produttori > li .descrizione h1 a, ul.produttori > li .descrizione h2 a, ul.produttori > li .descrizione h3 a, ul.produttori > li .descrizione h4 a, ul.produttori > li .descrizione h5 a, ul.produttori > li .descrizione h6 a {
   color: #732c03;
 }
-/* line 18, C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+/* line 18, ../../../../../../../Users/eleonoragiammello/.rvm/gems/ruby-1.9.3-p286@rails3test/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
 ul.produttori > li .descrizione h1 a:visited, ul.produttori > li .descrizione h2 a:visited, ul.produttori > li .descrizione h3 a:visited, ul.produttori > li .descrizione h4 a:visited, ul.produttori > li .descrizione h5 a:visited, ul.produttori > li .descrizione h6 a:visited {
   color: #f23c00;
 }
-/* line 24, C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+/* line 24, ../../../../../../../Users/eleonoragiammello/.rvm/gems/ruby-1.9.3-p286@rails3test/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
 ul.produttori > li .descrizione h1 a:hover, ul.produttori > li .descrizione h2 a:hover, ul.produttori > li .descrizione h3 a:hover, ul.produttori > li .descrizione h4 a:hover, ul.produttori > li .descrizione h5 a:hover, ul.produttori > li .descrizione h6 a:hover {
   color: #f23c00;
 }
-/* line 27, C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+/* line 27, ../../../../../../../Users/eleonoragiammello/.rvm/gems/ruby-1.9.3-p286@rails3test/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
 ul.produttori > li .descrizione h1 a:active, ul.produttori > li .descrizione h2 a:active, ul.produttori > li .descrizione h3 a:active, ul.produttori > li .descrizione h4 a:active, ul.produttori > li .descrizione h5 a:active, ul.produttori > li .descrizione h6 a:active {
   color: #f23c00;
 }
-/* line 46, C:/xampp/htdocs/tacati/wp-content/themes/sass/partials/_produttori.scss */
+/* line 53, ../sass/partials/_produttori.scss */
 ul.produttori > li .descrizione p {
   margin-top: 20px;
   font-family: 'edmondsans medium';
   color: #3e3d40;
   font-size: 13px;
 }
-/* line 51, C:/xampp/htdocs/tacati/wp-content/themes/sass/partials/_produttori.scss */
+/* line 58, ../sass/partials/_produttori.scss */
 ul.produttori > li .descrizione p a:last-child {
   display: none;
 }
-/* line 60, C:/xampp/htdocs/tacati/wp-content/themes/sass/partials/_produttori.scss */
+/* line 67, ../sass/partials/_produttori.scss */
 ul.produttori > li .border > ul {
   padding-left: 120px;
   margin-top: 60px;
@@ -947,16 +954,16 @@ ul.produttori > li .border > ul {
   width: 580px;
   margin-left: 0;
 }
-/* line 70, C:/xampp/htdocs/tacati/wp-content/themes/sass/partials/_produttori.scss */
+/* line 77, ../sass/partials/_produttori.scss */
 ul.produttori > li:last-child {
   margin-bottom: 20px;
 }
-/* line 71, C:/xampp/htdocs/tacati/wp-content/themes/sass/partials/_produttori.scss */
+/* line 78, ../sass/partials/_produttori.scss */
 ul.produttori > li:last-child .border ul {
   visibility: hidden;
 }
 
-/* line 1, C:/xampp/htdocs/tacati/wp-content/themes/sass/partials/_widget_login.scss */
+/* line 1, ../sass/partials/_widget_login.scss */
 aside.widget_login {
   display: inline;
   float: left;
@@ -964,7 +971,7 @@ aside.widget_login {
   margin-right: 10px;
   width: 760px;
 }
-/* line 3, C:/xampp/htdocs/tacati/wp-content/themes/sass/partials/_widget_login.scss */
+/* line 3, ../sass/partials/_widget_login.scss */
 aside.widget_login h3.widget-title {
   font-family: "edmondsans regular";
   font-size: 20px;
@@ -974,23 +981,23 @@ aside.widget_login h3.widget-title {
   line-height: 50px;
   padding-top: 10px;
 }
-/* line 12, C:/xampp/htdocs/tacati/wp-content/themes/sass/partials/_widget_login.scss */
+/* line 12, ../sass/partials/_widget_login.scss */
 aside.widget_login a {
   color: #f23c00;
 }
-/* line 18, C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+/* line 18, ../../../../../../../Users/eleonoragiammello/.rvm/gems/ruby-1.9.3-p286@rails3test/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
 aside.widget_login a:visited {
   color: #f23c00;
 }
-/* line 24, C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+/* line 24, ../../../../../../../Users/eleonoragiammello/.rvm/gems/ruby-1.9.3-p286@rails3test/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
 aside.widget_login a:hover {
   color: #3e3d40;
 }
-/* line 27, C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+/* line 27, ../../../../../../../Users/eleonoragiammello/.rvm/gems/ruby-1.9.3-p286@rails3test/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
 aside.widget_login a:active {
   color: #3e3d40;
 }
-/* line 16, C:/xampp/htdocs/tacati/wp-content/themes/sass/partials/_widget_login.scss */
+/* line 16, ../sass/partials/_widget_login.scss */
 aside.widget_login ul {
   margin: 0;
   padding: 0;
@@ -1001,7 +1008,7 @@ aside.widget_login ul {
   float: left;
   margin: 36px 20px 27px 20px;
 }
-/* line 20, C:/xampp/htdocs/tacati/wp-content/themes/sass/partials/_widget_login.scss */
+/* line 20, ../sass/partials/_widget_login.scss */
 aside.widget_login ul li {
   list-style-image: none;
   list-style-type: none;
@@ -1013,32 +1020,32 @@ aside.widget_login ul li {
   padding-right: 10px;
   border-right: 1px #f23c00 solid;
 }
-/* line 48, C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
+/* line 48, ../../../../../../../Users/eleonoragiammello/.rvm/gems/ruby-1.9.3-p286@rails3test/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
 aside.widget_login ul li:first-child, aside.widget_login ul li.first {
   padding-left: 0;
 }
-/* line 49, C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
+/* line 49, ../../../../../../../Users/eleonoragiammello/.rvm/gems/ruby-1.9.3-p286@rails3test/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
 aside.widget_login ul li:last-child {
   padding-right: 0;
 }
-/* line 50, C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
+/* line 50, ../../../../../../../Users/eleonoragiammello/.rvm/gems/ruby-1.9.3-p286@rails3test/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
 aside.widget_login ul li.last {
   padding-right: 0;
 }
-/* line 23, C:/xampp/htdocs/tacati/wp-content/themes/sass/partials/_widget_login.scss */
+/* line 23, ../sass/partials/_widget_login.scss */
 aside.widget_login ul li:last-child {
   border: none;
 }
-/* line 31, C:/xampp/htdocs/tacati/wp-content/themes/sass/partials/_widget_login.scss */
+/* line 31, ../sass/partials/_widget_login.scss */
 aside.widget_login p {
   display: inline;
   float: left;
 }
-/* line 32, C:/xampp/htdocs/tacati/wp-content/themes/sass/partials/_widget_login.scss */
+/* line 32, ../sass/partials/_widget_login.scss */
 aside.widget_login p.submit_form {
   margin-top: 25px;
 }
-/* line 35, C:/xampp/htdocs/tacati/wp-content/themes/sass/partials/_widget_login.scss */
+/* line 35, ../sass/partials/_widget_login.scss */
 aside.widget_login p.register_form {
   margin-top: 15px;
   margin-left: 5px;
@@ -1047,7 +1054,7 @@ aside.widget_login p.register_form {
   font-size: 15px;
   font-weight: 700;
 }
-/* line 43, C:/xampp/htdocs/tacati/wp-content/themes/sass/partials/_widget_login.scss */
+/* line 43, ../sass/partials/_widget_login.scss */
 aside.widget_login p label {
   font-family: edmondsans medium;
   color: #66bae7;
@@ -1055,16 +1062,16 @@ aside.widget_login p label {
   margin: 0;
   padding: 0;
 }
-/* line 50, C:/xampp/htdocs/tacati/wp-content/themes/sass/partials/_widget_login.scss */
+/* line 50, ../sass/partials/_widget_login.scss */
 aside.widget_login p input {
   margin-right: 5px;
 }
-/* line 56, C:/xampp/htdocs/tacati/wp-content/themes/sass/partials/_widget_login.scss */
+/* line 56, ../sass/partials/_widget_login.scss */
 aside.widget_login form {
   margin-top: 10px;
 }
 
-/* line 1, C:/xampp/htdocs/tacati/wp-content/themes/sass/partials/_checkout.scss */
+/* line 1, ../sass/partials/_checkout.scss */
 .checkout_custom {
   display: inline;
   float: left;
@@ -1075,41 +1082,41 @@ aside.widget_login form {
   margin-top: 30px;
   margin-bottom: 30px;
 }
-/* line 6, C:/xampp/htdocs/tacati/wp-content/themes/sass/partials/_checkout.scss */
+/* line 6, ../sass/partials/_checkout.scss */
 .checkout_custom .tax_label {
   display: none;
 }
 
-/* line 10, C:/xampp/htdocs/tacati/wp-content/themes/sass/partials/_checkout.scss */
+/* line 10, ../sass/partials/_checkout.scss */
 #noprofit_field {
   position: relative;
   clear: both;
 }
 
-/* line 16, C:/xampp/htdocs/tacati/wp-content/themes/sass/partials/_checkout.scss */
+/* line 16, ../sass/partials/_checkout.scss */
 .checkout_custom h3 {
   font-family: "mission script";
   color: #732c03;
 }
 
-/* line 1, C:/xampp/htdocs/tacati/wp-content/themes/sass/partials/_single_product.scss */
+/* line 1, ../sass/partials/_single_product.scss */
 .prodotto {
   overflow: hidden;
   *zoom: 1;
   display: inline;
   float: left;
 }
-/* line 5, C:/xampp/htdocs/tacati/wp-content/themes/sass/partials/_single_product.scss */
+/* line 5, ../sass/partials/_single_product.scss */
 .prodotto .onsale {
   z-index: 2;
   top: 20px;
   left: 65px;
 }
-/* line 10, C:/xampp/htdocs/tacati/wp-content/themes/sass/partials/_single_product.scss */
+/* line 10, ../sass/partials/_single_product.scss */
 .prodotto td.label {
   display: none;
 }
-/* line 15, C:/xampp/htdocs/tacati/wp-content/themes/sass/partials/_single_product.scss */
+/* line 15, ../sass/partials/_single_product.scss */
 .prodotto div.woocommerce_tabs {
   display: inline;
   float: left;
@@ -1118,7 +1125,7 @@ aside.widget_login form {
   width: 580px;
   padding-left: 60px;
 }
-/* line 19, C:/xampp/htdocs/tacati/wp-content/themes/sass/partials/_single_product.scss */
+/* line 19, ../sass/partials/_single_product.scss */
 .prodotto div.related-producers {
   display: inline;
   float: left;
@@ -1128,13 +1135,13 @@ aside.widget_login form {
   margin-top: 10px;
   margin-bottom: 10px;
 }
-/* line 23, C:/xampp/htdocs/tacati/wp-content/themes/sass/partials/_single_product.scss */
+/* line 23, ../sass/partials/_single_product.scss */
 .prodotto div.related-producers h3 {
   font-family: mission script;
   color: #72bac7;
   font-size: 30px;
 }
-/* line 31, C:/xampp/htdocs/tacati/wp-content/themes/sass/partials/_single_product.scss */
+/* line 31, ../sass/partials/_single_product.scss */
 .prodotto div.related-producers ul {
   list-style: none;
   margin: 0;
@@ -1143,7 +1150,7 @@ aside.widget_login form {
   overflow: hidden;
   *zoom: 1;
 }
-/* line 34, C:/xampp/htdocs/tacati/wp-content/themes/sass/partials/_single_product.scss */
+/* line 34, ../sass/partials/_single_product.scss */
 .prodotto div.related-producers ul li {
   list-style-image: none;
   list-style-type: none;
@@ -1154,38 +1161,38 @@ aside.widget_login form {
   padding-left: 4px;
   padding-right: 4px;
 }
-/* line 48, C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
+/* line 48, ../../../../../../../Users/eleonoragiammello/.rvm/gems/ruby-1.9.3-p286@rails3test/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
 .prodotto div.related-producers ul li:first-child, .prodotto div.related-producers ul li.first {
   padding-left: 0;
 }
-/* line 49, C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
+/* line 49, ../../../../../../../Users/eleonoragiammello/.rvm/gems/ruby-1.9.3-p286@rails3test/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
 .prodotto div.related-producers ul li:last-child {
   padding-right: 0;
 }
-/* line 50, C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
+/* line 50, ../../../../../../../Users/eleonoragiammello/.rvm/gems/ruby-1.9.3-p286@rails3test/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
 .prodotto div.related-producers ul li.last {
   padding-right: 0;
 }
-/* line 38, C:/xampp/htdocs/tacati/wp-content/themes/sass/partials/_single_product.scss */
+/* line 38, ../sass/partials/_single_product.scss */
 .prodotto div.related-producers ul h4 a {
   font-family: mission script;
   font-size: 32px;
   font-weight: 400;
   color: #732c03;
 }
-/* line 18, C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+/* line 18, ../../../../../../../Users/eleonoragiammello/.rvm/gems/ruby-1.9.3-p286@rails3test/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
 .prodotto div.related-producers ul h4 a:visited {
   color: #732c03;
 }
-/* line 24, C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+/* line 24, ../../../../../../../Users/eleonoragiammello/.rvm/gems/ruby-1.9.3-p286@rails3test/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
 .prodotto div.related-producers ul h4 a:hover {
   color: #f23c00;
 }
-/* line 27, C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+/* line 27, ../../../../../../../Users/eleonoragiammello/.rvm/gems/ruby-1.9.3-p286@rails3test/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
 .prodotto div.related-producers ul h4 a:active {
   color: #732c03;
 }
-/* line 48, C:/xampp/htdocs/tacati/wp-content/themes/sass/partials/_single_product.scss */
+/* line 48, ../sass/partials/_single_product.scss */
 .prodotto div.related.products, .prodotto div.upsells.products {
   margin-top: 10px;
   margin-bottom: 10px;
@@ -1195,20 +1202,20 @@ aside.widget_login form {
   margin-right: 10px;
   width: 580px;
 }
-/* line 53, C:/xampp/htdocs/tacati/wp-content/themes/sass/partials/_single_product.scss */
+/* line 53, ../sass/partials/_single_product.scss */
 .prodotto div.related.products h2, .prodotto div.upsells.products h2 {
   font-family: mission script;
   color: #72bac7;
   font-size: 30px;
 }
-/* line 61, C:/xampp/htdocs/tacati/wp-content/themes/sass/partials/_single_product.scss */
+/* line 61, ../sass/partials/_single_product.scss */
 .prodotto .images {
   position: relative;
   left: 60px;
   width: 300px !important;
   float: left;
 }
-/* line 65, C:/xampp/htdocs/tacati/wp-content/themes/sass/partials/_single_product.scss */
+/* line 65, ../sass/partials/_single_product.scss */
 .prodotto .images img {
   height: 300px;
   width: 300px;
@@ -1218,23 +1225,23 @@ aside.widget_login form {
   -o-border-radius: 300px;
   border-radius: 300px;
 }
-/* line 70, C:/xampp/htdocs/tacati/wp-content/themes/sass/partials/_single_product.scss */
+/* line 70, ../sass/partials/_single_product.scss */
 .prodotto .images .attachment-shop_thumbnail {
   height: 70px !important;
   width: 70px !important;
 }
-/* line 75, C:/xampp/htdocs/tacati/wp-content/themes/sass/partials/_single_product.scss */
+/* line 75, ../sass/partials/_single_product.scss */
 .prodotto .images .zoom {
   width: 70px !important;
 }
-/* line 80, C:/xampp/htdocs/tacati/wp-content/themes/sass/partials/_single_product.scss */
+/* line 80, ../sass/partials/_single_product.scss */
 .prodotto .images .thumbnails {
   margin: 0px !important;
   padding-top: 165px !important;
   margin-bottom: 10px !important;
   margin-left: 5px !important;
 }
-/* line 86, C:/xampp/htdocs/tacati/wp-content/themes/sass/partials/_single_product.scss */
+/* line 86, ../sass/partials/_single_product.scss */
 .prodotto .images .contorno {
   overflow: hidden;
   *zoom: 1;
@@ -1243,13 +1250,13 @@ aside.widget_login form {
   margin-bottom: 60px;
   border-radius: 10px;
 }
-/* line 94, C:/xampp/htdocs/tacati/wp-content/themes/sass/partials/_single_product.scss */
+/* line 94, ../sass/partials/_single_product.scss */
 .prodotto .summary {
   float: left;
   display: inline;
   padding-left: 85px !important;
 }
-/* line 98, C:/xampp/htdocs/tacati/wp-content/themes/sass/partials/_single_product.scss */
+/* line 98, ../sass/partials/_single_product.scss */
 .prodotto .summary h1 {
   margin-top: 20px !important;
   line-height: 35px !important;
@@ -1259,14 +1266,14 @@ aside.widget_login form {
   font-weight: 400;
   max-width: 250px;
 }
-/* line 107, C:/xampp/htdocs/tacati/wp-content/themes/sass/partials/_single_product.scss */
+/* line 107, ../sass/partials/_single_product.scss */
 .prodotto .summary hr {
   border-top: 1px solid #a8948a;
   border-bottom: 1px solid #a8948a;
   margin-top: 5px;
   margin-bottom: 5px;
 }
-/* line 113, C:/xampp/htdocs/tacati/wp-content/themes/sass/partials/_single_product.scss */
+/* line 113, ../sass/partials/_single_product.scss */
 .prodotto .summary p {
   font-family: edmondsans medium;
   color: #512814;
@@ -1276,22 +1283,22 @@ aside.widget_login form {
   font-weight: normal;
   width: 260px;
 }
-/* line 124, C:/xampp/htdocs/tacati/wp-content/themes/sass/partials/_single_product.scss */
+/* line 124, ../sass/partials/_single_product.scss */
 .prodotto .summary p span {
   color: #e7511e;
   font-size: 30px;
 }
-/* line 130, C:/xampp/htdocs/tacati/wp-content/themes/sass/partials/_single_product.scss */
+/* line 130, ../sass/partials/_single_product.scss */
 .prodotto .summary .stock {
   font-size: 30px  !important;
   color: #5094b8 !important;
 }
-/* line 134, C:/xampp/htdocs/tacati/wp-content/themes/sass/partials/_single_product.scss */
+/* line 134, ../sass/partials/_single_product.scss */
 .prodotto .summary ul {
   list-style: none;
   margin-left: 0px;
 }
-/* line 138, C:/xampp/htdocs/tacati/wp-content/themes/sass/partials/_single_product.scss */
+/* line 138, ../sass/partials/_single_product.scss */
 .prodotto .summary ul li {
   color: #e7511e;
   font-size: 30px;
@@ -1299,11 +1306,11 @@ aside.widget_login form {
   line-height: 28px;
   margin-left: 0px;
 }
-/* line 147, C:/xampp/htdocs/tacati/wp-content/themes/sass/partials/_single_product.scss */
+/* line 147, ../sass/partials/_single_product.scss */
 .prodotto #tab-description, .prodotto #tab-attributes {
   display: block !important;
 }
-/* line 150, C:/xampp/htdocs/tacati/wp-content/themes/sass/partials/_single_product.scss */
+/* line 150, ../sass/partials/_single_product.scss */
 .prodotto #tab-description h2, .prodotto #tab-attributes h2 {
   font-family: mission script;
   color: #72bac7;
@@ -1312,7 +1319,7 @@ aside.widget_login form {
   font-weight: normal;
   margin-bottom: 10px;
 }
-/* line 158, C:/xampp/htdocs/tacati/wp-content/themes/sass/partials/_single_product.scss */
+/* line 158, ../sass/partials/_single_product.scss */
 .prodotto #tab-description p, .prodotto #tab-attributes p {
   font-family: edmondsans regular;
   font-size: 18px;
@@ -1320,7 +1327,7 @@ aside.widget_login form {
   color: #333;
 }
 
-/* line 1, C:/xampp/htdocs/tacati/wp-content/themes/sass/partials/_faq.scss */
+/* line 1, ../sass/partials/_faq.scss */
 .gform_wrapper {
   clear: both;
   display: inline;
@@ -1333,24 +1340,24 @@ aside.widget_login form {
   margin-left: 10px !important;
   margin-right: 10px !important;
 }
-/* line 8, C:/xampp/htdocs/tacati/wp-content/themes/sass/partials/_faq.scss */
+/* line 8, ../sass/partials/_faq.scss */
 .gform_wrapper h3 {
   font-family: mission script;
   color: #732c03;
   font-size: 30px !important;
   padding-bottom: 20px;
 }
-/* line 14, C:/xampp/htdocs/tacati/wp-content/themes/sass/partials/_faq.scss */
+/* line 14, ../sass/partials/_faq.scss */
 .gform_wrapper span, .gform_wrapper label {
   font-family: edmondsans medium;
   color: #5094b8;
 }
-/* line 19, C:/xampp/htdocs/tacati/wp-content/themes/sass/partials/_faq.scss */
+/* line 19, ../sass/partials/_faq.scss */
 .gform_wrapper .button.gform_button {
   width: 100%;
 }
 
-/* line 24, C:/xampp/htdocs/tacati/wp-content/themes/sass/partials/_faq.scss */
+/* line 24, ../sass/partials/_faq.scss */
 #odd-faq {
   margin-top: 30px;
   margin-bottom: 30px;
@@ -1363,7 +1370,7 @@ aside.widget_login form {
   width: 520px;
   border: none;
 }
-/* line 30, C:/xampp/htdocs/tacati/wp-content/themes/sass/partials/_faq.scss */
+/* line 30, ../sass/partials/_faq.scss */
 #odd-faq .odd-faq-question {
   margin-top: 3px;
   margin-bottom: 3px;
@@ -1385,11 +1392,11 @@ aside.widget_login form {
   color: #fcfdfd;
   font-family: 'edmondsans bold';
 }
-/* line 42, C:/xampp/htdocs/tacati/wp-content/themes/sass/partials/_faq.scss */
+/* line 42, ../sass/partials/_faq.scss */
 #odd-faq .odd-faq-question:hover {
   color: #5094b8;
 }
-/* line 46, C:/xampp/htdocs/tacati/wp-content/themes/sass/partials/_faq.scss */
+/* line 46, ../sass/partials/_faq.scss */
 #odd-faq .odd-faq-answer {
   border: none;
   font-family: 'edmondsans medium';
@@ -1398,64 +1405,146 @@ aside.widget_login form {
   font-size: 13px;
 }
 
-/* line 2, C:/xampp/htdocs/tacati/wp-content/themes/sass/partials/_navigation.scss */
+/* line 1, ../sass/partials/_navigation.scss */
+.navigation {
+  padding-left: 30px;
+  display: inline;
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 700px;
+}
+/* line 4, ../sass/partials/_navigation.scss */
 .navigation a {
   font-family: edmondsans medium;
   color: #512814;
   font-size: 25px;
 }
-/* line 7, C:/xampp/htdocs/tacati/wp-content/themes/sass/partials/_navigation.scss */
+/* line 9, ../sass/partials/_navigation.scss */
 .navigation .nav-next {
   display: inline;
   float: right;
 }
-/* line 9, C:/xampp/htdocs/tacati/wp-content/themes/sass/partials/_navigation.scss */
+/* line 11, ../sass/partials/_navigation.scss */
 .navigation .nav-next a {
-  background: url('freccia-d.png?1349089428') no-repeat right top;
+  background: url('../images/freccia-d.png?1349089427') no-repeat right top;
   text-align: left;
   display: inline-block;
   height: 34px;
-  width: 75px;
+  width: 140px;
   line-height: 28px;
 }
-/* line 19, C:/xampp/htdocs/tacati/wp-content/themes/sass/partials/_navigation.scss */
+/* line 21, ../sass/partials/_navigation.scss */
 .navigation .nav-previous a {
-  background: url('freccia-sx.png?1349089428') no-repeat left top;
+  background: url('../images/freccia-sx.png?1349089427') no-repeat left top;
   text-align: right;
   display: inline-block;
   height: 34px;
-  width: 75px;
+  width: 140px;
   line-height: 28px;
 }
 
-/* line 29, C:/xampp/htdocs/tacati/wp-content/themes/sass/partials/_navigation.scss */
+/* line 31, ../sass/partials/_navigation.scss */
 form.woocommerce_ordering {
   padding-left: 60px;
 }
-/* line 31, C:/xampp/htdocs/tacati/wp-content/themes/sass/partials/_navigation.scss */
+/* line 33, ../sass/partials/_navigation.scss */
 form.woocommerce_ordering .orderby {
   font-family: edmondsans medium;
   color: #512814;
   margin-top: 20px;
 }
 
-/* line 96, C:/xampp/htdocs/tacati/wp-content/themes/sass/screen.scss */
+/* line 1, ../sass/partials/_general.scss */
+.main-access {
+  height: 50px !important;
+  text-align: center;
+}
+
+/* line 5, ../sass/partials/_general.scss */
+.bottone_rosso {
+  position: relative;
+  height: 34px;
+  width: auto;
+  display: inline;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border: 1px solid #C42000;
+  background-image: linear-gradient(bottom, #db2e00 46%, #f23c00 73%);
+  background-image: -o-linear-gradient(bottom, #db2e00 46%, #f23c00 73%);
+  background-image: -moz-linear-gradient(bottom, #db2e00 46%, #f23c00 73%);
+  background-image: -webkit-linear-gradient(bottom, #db2e00 46%, #f23c00 73%);
+  background-image: -ms-linear-gradient(bottom, #db2e00 46%, #f23c00 73%);
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  border-radius: 10px;
+  -webkit-box-shadow: 0 2px 2px rgba(119, 20, 0, 0.5);
+  -moz-box-shadow: 0 2px 2px rgba(119, 20, 0, 0.5);
+  box-shadow: 0 2px 2px rgba(119, 20, 0, 0.5);
+}
+/* line 23, ../sass/partials/_general.scss */
+.bottone_rosso a {
+  color: #F2EFDC;
+  font-family: edmondsans regular;
+  font-size: 23px;
+  position: relative;
+  top: 2px;
+  border-top: 1px solid #FF9685;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  border-radius: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-decoration: none;
+}
+/* line 35, ../sass/partials/_general.scss */
+.bottone_rosso a:hover {
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+  border-radius: 8px;
+  border-top: 1px solid #FFB1A4;
+  background-color: rgba(255, 208, 202, 0.3);
+}
+
+/* line 41, ../sass/partials/_general.scss */
+.bottone_rosso:active {
+  background-image: linear-gradient(bottom, #db2e00 46%, #c42000 73%);
+  background-image: -o-linear-gradient(bottom, #db2e00 46%, #c42000 73%);
+  background-image: -moz-linear-gradient(bottom, #db2e00 46%, #c42000 73%);
+  background-image: -webkit-linear-gradient(bottom, #db2e00 46%, #c42000 73%);
+  background-image: -ms-linear-gradient(bottom, #db2e00 46%, #c42000 73%);
+  box-shadow: none;
+  border: 1px solid #990E00;
+}
+/* line 49, ../sass/partials/_general.scss */
+.bottone_rosso:active a {
+  border-top: none;
+  background: none;
+}
+
+/* line 97, ../sass/screen.scss */
 h1, h2, h3, h4, h5, h6 {
   margin-bottom: 0 !important;
   font-weight: 400 !important;
 }
 
-/* line 101, C:/xampp/htdocs/tacati/wp-content/themes/sass/screen.scss */
+/* line 102, ../sass/screen.scss */
 a {
   text-decoration: none;
 }
 
-/* line 105, C:/xampp/htdocs/tacati/wp-content/themes/sass/screen.scss */
+/* line 106, ../sass/screen.scss */
 body.textured {
   background: url('../images/texture.png?1346761652') repeat left top;
 }
 
-/* line 110, C:/xampp/htdocs/tacati/wp-content/themes/sass/screen.scss */
+/* line 111, ../sass/screen.scss */
 #content {
   display: inline;
   float: left;
@@ -1463,45 +1552,50 @@ body.textured {
   margin-right: 10px;
   width: 760px;
 }
-/* line 113, C:/xampp/htdocs/tacati/wp-content/themes/sass/screen.scss */
+/* line 114, ../sass/screen.scss */
 #content > small {
   display: none;
 }
 
-/* line 118, C:/xampp/htdocs/tacati/wp-content/themes/sass/screen.scss */
+/* line 119, ../sass/screen.scss */
 #main {
   position: relative;
   padding-bottom: 20px;
 }
-/* line 121, C:/xampp/htdocs/tacati/wp-content/themes/sass/screen.scss */
+/* line 122, ../sass/screen.scss */
 #main.generic {
   padding-bottom: 0px !important;
 }
 
-/* line 128, C:/xampp/htdocs/tacati/wp-content/themes/sass/screen.scss */
+/* line 129, ../sass/screen.scss */
+#payment {
+  background-color: white !important;
+}
+
+/* line 133, ../sass/screen.scss */
 #primary {
   position: relative;
   background-color: #fcfdfd;
   display: inline;
   float: left;
 }
-/* line 132, C:/xampp/htdocs/tacati/wp-content/themes/sass/screen.scss */
+/* line 137, ../sass/screen.scss */
 #primary #content {
   margin-top: 20px;
   margin-bottom: 30px;
 }
-/* line 137, C:/xampp/htdocs/tacati/wp-content/themes/sass/screen.scss */
+/* line 142, ../sass/screen.scss */
 #primary #content.privacy p, #primary #content.terms p {
   color: #732c03 !important;
   font-weight: 400 !important;
 }
 
-/* line 146, C:/xampp/htdocs/tacati/wp-content/themes/sass/screen.scss */
+/* line 151, ../sass/screen.scss */
 div.shadow {
-  background: url('../images/shadow_light.png?1346879462') repeat-x left top;
+  background: url('../images/shadow_light.png?1346879461') repeat-x left top;
   height: 20px;
 }
-/* line 149, C:/xampp/htdocs/tacati/wp-content/themes/sass/screen.scss */
+/* line 154, ../sass/screen.scss */
 div.shadow.top {
   display: inline;
   float: left;
@@ -1514,7 +1608,7 @@ div.shadow.top {
   width: 960px;
 }
 
-/* line 159, C:/xampp/htdocs/tacati/wp-content/themes/sass/screen.scss */
+/* line 164, ../sass/screen.scss */
 div.addthis_toolbox {
   float: right;
   overflow: hidden;
@@ -1525,7 +1619,7 @@ div.addthis_toolbox {
   right: 0;
 }
 
-/* line 169, C:/xampp/htdocs/tacati/wp-content/themes/sass/screen.scss */
+/* line 174, ../sass/screen.scss */
 header#dashboard {
   height: 98px;
   background: url('../images/header.png?1346776244') repeat-x left top;
@@ -1534,35 +1628,35 @@ header#dashboard {
   top: 0;
   z-index: 999;
 }
-/* line 176, C:/xampp/htdocs/tacati/wp-content/themes/sass/screen.scss */
+/* line 181, ../sass/screen.scss */
 header#dashboard div.container {
   margin-left: auto;
   margin-right: auto;
   width: 960px;
 }
 
-/* line 182, C:/xampp/htdocs/tacati/wp-content/themes/sass/screen.scss */
+/* line 187, ../sass/screen.scss */
 div#page {
   margin-left: auto;
   margin-right: auto;
   width: 960px;
 }
 
-/* line 188, C:/xampp/htdocs/tacati/wp-content/themes/sass/screen.scss */
+/* line 193, ../sass/screen.scss */
 header#branding nav#access {
   background-color: #fcfdfd;
   padding-top: 37px;
   margin-top: -20px;
 }
-/* line 192, C:/xampp/htdocs/tacati/wp-content/themes/sass/screen.scss */
+/* line 197, ../sass/screen.scss */
 header#branding nav#access .skip-link {
   display: none;
 }
-/* line 195, C:/xampp/htdocs/tacati/wp-content/themes/sass/screen.scss */
+/* line 200, ../sass/screen.scss */
 header#branding nav#access .assistive-text {
   display: none;
 }
-/* line 199, C:/xampp/htdocs/tacati/wp-content/themes/sass/screen.scss */
+/* line 204, ../sass/screen.scss */
 header#branding nav#access ul {
   margin: 0;
   padding: 0;
@@ -1571,7 +1665,7 @@ header#branding nav#access ul {
   *zoom: 1;
   padding-left: 60px;
 }
-/* line 202, C:/xampp/htdocs/tacati/wp-content/themes/sass/screen.scss */
+/* line 207, ../sass/screen.scss */
 header#branding nav#access ul li {
   list-style-image: none;
   list-style-type: none;
@@ -1584,19 +1678,19 @@ header#branding nav#access ul li {
   font-family: "edmondsans bold";
   font-size: 23px;
 }
-/* line 48, C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
+/* line 48, ../../../../../../../Users/eleonoragiammello/.rvm/gems/ruby-1.9.3-p286@rails3test/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
 header#branding nav#access ul li:first-child, header#branding nav#access ul li.first {
   padding-left: 0;
 }
-/* line 49, C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
+/* line 49, ../../../../../../../Users/eleonoragiammello/.rvm/gems/ruby-1.9.3-p286@rails3test/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
 header#branding nav#access ul li:last-child {
   padding-right: 0;
 }
-/* line 50, C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
+/* line 50, ../../../../../../../Users/eleonoragiammello/.rvm/gems/ruby-1.9.3-p286@rails3test/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
 header#branding nav#access ul li.last {
   padding-right: 0;
 }
-/* line 207, C:/xampp/htdocs/tacati/wp-content/themes/sass/screen.scss */
+/* line 212, ../sass/screen.scss */
 header#branding nav#access ul li.current-menu-item {
   background-color: #f23c00;
   -webkit-border-radius: 10px;
@@ -1605,25 +1699,25 @@ header#branding nav#access ul li.current-menu-item {
   -o-border-radius: 10px;
   border-radius: 10px;
 }
-/* line 210, C:/xampp/htdocs/tacati/wp-content/themes/sass/screen.scss */
+/* line 215, ../sass/screen.scss */
 header#branding nav#access ul li.current-menu-item a {
   color: #fcfdfd !important;
 }
-/* line 214, C:/xampp/htdocs/tacati/wp-content/themes/sass/screen.scss */
+/* line 219, ../sass/screen.scss */
 header#branding nav#access ul li a {
   color: #f23c00;
   padding: 10px;
   display: block;
 }
-/* line 24, C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+/* line 24, ../../../../../../../Users/eleonoragiammello/.rvm/gems/ruby-1.9.3-p286@rails3test/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
 header#branding nav#access ul li a:hover {
   color: #fcfdfd;
 }
-/* line 27, C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+/* line 27, ../../../../../../../Users/eleonoragiammello/.rvm/gems/ruby-1.9.3-p286@rails3test/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
 header#branding nav#access ul li a:active {
   color: #fcfdfd;
 }
-/* line 218, C:/xampp/htdocs/tacati/wp-content/themes/sass/screen.scss */
+/* line 223, ../sass/screen.scss */
 header#branding nav#access ul li a:hover {
   background-color: #f23c00;
   -webkit-border-radius: 10px;
@@ -1632,7 +1726,7 @@ header#branding nav#access ul li a:hover {
   -o-border-radius: 10px;
   border-radius: 10px;
 }
-/* line 231, C:/xampp/htdocs/tacati/wp-content/themes/sass/screen.scss */
+/* line 236, ../sass/screen.scss */
 header#branding .featured img {
   background-color: #fcfdfd;
   margin-top: -23px;
@@ -1640,12 +1734,12 @@ header#branding .featured img {
   display: inline;
   float: left;
 }
-/* line 239, C:/xampp/htdocs/tacati/wp-content/themes/sass/screen.scss */
+/* line 244, ../sass/screen.scss */
 header#branding #slider {
   position: relative;
   height: 363px;
 }
-/* line 244, C:/xampp/htdocs/tacati/wp-content/themes/sass/screen.scss */
+/* line 249, ../sass/screen.scss */
 header#branding .flexslider {
   margin: -14px 0 0 0;
   border: none;
@@ -1659,16 +1753,16 @@ header#branding .flexslider {
   -o-box-shadow: none;
   zoom: 1;
 }
-/* line 257, C:/xampp/htdocs/tacati/wp-content/themes/sass/screen.scss */
+/* line 262, ../sass/screen.scss */
 header#branding .flexslider .flex-viewport {
   float: left;
   margin-top: -9px;
 }
-/* line 262, C:/xampp/htdocs/tacati/wp-content/themes/sass/screen.scss */
+/* line 267, ../sass/screen.scss */
 header#branding .flexslider ul li {
   margin: 0;
 }
-/* line 267, C:/xampp/htdocs/tacati/wp-content/themes/sass/screen.scss */
+/* line 272, ../sass/screen.scss */
 header#branding .flexslider div.sinistra, header#branding .flexslider div.destra {
   max-width: 300px;
   max-height: 300px;
@@ -1681,7 +1775,7 @@ header#branding .flexslider div.sinistra, header#branding .flexslider div.destra
   margin-right: 10px;
   width: 400px;
 }
-/* line 273, C:/xampp/htdocs/tacati/wp-content/themes/sass/screen.scss */
+/* line 278, ../sass/screen.scss */
 header#branding .flexslider div.sinistra div.background, header#branding .flexslider div.destra div.background {
   background: url('../images/yellow.png?1346781140') repeat left top;
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=90);
@@ -1698,70 +1792,70 @@ header#branding .flexslider div.sinistra div.background, header#branding .flexsl
   -o-border-radius: 10px;
   border-radius: 10px;
 }
-/* line 281, C:/xampp/htdocs/tacati/wp-content/themes/sass/screen.scss */
+/* line 286, ../sass/screen.scss */
 header#branding .flexslider div.sinistra div.content, header#branding .flexslider div.destra div.content {
   position: relative;
   z-index: 2;
 }
-/* line 289, C:/xampp/htdocs/tacati/wp-content/themes/sass/screen.scss */
+/* line 294, ../sass/screen.scss */
 header#branding .flexslider div.sinistra h1, header#branding .flexslider div.sinistra h2, header#branding .flexslider div.destra h1, header#branding .flexslider div.destra h2 {
   font-family: "mission script";
 }
-/* line 294, C:/xampp/htdocs/tacati/wp-content/themes/sass/screen.scss */
+/* line 299, ../sass/screen.scss */
 header#branding .flexslider div.sinistra h3, header#branding .flexslider div.sinistra h4, header#branding .flexslider div.sinistra h5, header#branding .flexslider div.destra h3, header#branding .flexslider div.destra h4, header#branding .flexslider div.destra h5 {
   font-family: "edmondsans regular";
   padding-bottom: 20px;
 }
-/* line 300, C:/xampp/htdocs/tacati/wp-content/themes/sass/screen.scss */
+/* line 305, ../sass/screen.scss */
 header#branding .flexslider div.sinistra h1, header#branding .flexslider div.destra h1 {
   font-size: 45px;
   color: #732c03;
 }
-/* line 305, C:/xampp/htdocs/tacati/wp-content/themes/sass/screen.scss */
+/* line 310, ../sass/screen.scss */
 header#branding .flexslider div.sinistra h2, header#branding .flexslider div.destra h2 {
   font-size: 38px;
   color: #732c03;
 }
-/* line 309, C:/xampp/htdocs/tacati/wp-content/themes/sass/screen.scss */
+/* line 314, ../sass/screen.scss */
 header#branding .flexslider div.sinistra h3, header#branding .flexslider div.destra h3 {
   font-size: 32px;
   color: #f23c00;
 }
-/* line 314, C:/xampp/htdocs/tacati/wp-content/themes/sass/screen.scss */
+/* line 319, ../sass/screen.scss */
 header#branding .flexslider div.sinistra h4, header#branding .flexslider div.destra h4 {
   font-size: 28px;
   color: #f23c00;
 }
-/* line 318, C:/xampp/htdocs/tacati/wp-content/themes/sass/screen.scss */
+/* line 323, ../sass/screen.scss */
 header#branding .flexslider div.sinistra h5, header#branding .flexslider div.destra h5 {
   font-size: 22px;
   color: #f23c00;
 }
-/* line 322, C:/xampp/htdocs/tacati/wp-content/themes/sass/screen.scss */
+/* line 327, ../sass/screen.scss */
 header#branding .flexslider div.sinistra h6, header#branding .flexslider div.destra h6 {
   font-size: 18px;
   color: #f23c00;
 }
-/* line 329, C:/xampp/htdocs/tacati/wp-content/themes/sass/screen.scss */
+/* line 334, ../sass/screen.scss */
 header#branding .flexslider div.sinistra ul li, header#branding .flexslider div.sinistra ol li, header#branding .flexslider div.destra ul li, header#branding .flexslider div.destra ol li {
   font-family: "edmondsans medium";
   color: #5094b8;
 }
-/* line 336, C:/xampp/htdocs/tacati/wp-content/themes/sass/screen.scss */
+/* line 341, ../sass/screen.scss */
 header#branding .flexslider div.sinistra p, header#branding .flexslider div.sinistra div, header#branding .flexslider div.destra p, header#branding .flexslider div.destra div {
   font-family: "edmondsans medium";
   font-size: 15px;
   color: #5094b8;
 }
-/* line 343, C:/xampp/htdocs/tacati/wp-content/themes/sass/screen.scss */
+/* line 348, ../sass/screen.scss */
 header#branding .flexslider div.sinistra {
   margin-left: 120px;
 }
-/* line 346, C:/xampp/htdocs/tacati/wp-content/themes/sass/screen.scss */
+/* line 351, ../sass/screen.scss */
 header#branding .flexslider div.destra {
   margin-left: 540px;
 }
-/* line 352, C:/xampp/htdocs/tacati/wp-content/themes/sass/screen.scss */
+/* line 357, ../sass/screen.scss */
 header#branding section {
   margin-top: 110px;
   background: url('../images/header-center.png?1346866306') repeat-x left top;
@@ -1769,11 +1863,11 @@ header#branding section {
   position: relative;
   z-index: 100;
 }
-/* line 358, C:/xampp/htdocs/tacati/wp-content/themes/sass/screen.scss */
+/* line 363, ../sass/screen.scss */
 header#branding section a {
   color: white;
 }
-/* line 362, C:/xampp/htdocs/tacati/wp-content/themes/sass/screen.scss */
+/* line 367, ../sass/screen.scss */
 header#branding section h1 {
   font-family: 'mission script';
   font-size: 88px;
@@ -1783,12 +1877,12 @@ header#branding section h1 {
   display: inline;
   float: left;
 }
-/* line 373, C:/xampp/htdocs/tacati/wp-content/themes/sass/screen.scss */
+/* line 378, ../sass/screen.scss */
 header#branding section .nav-tabs .open .dropdown-toggle, header#branding section .nav-pills .open .dropdown-toggle, header#branding section .nav > li.dropdown.open.active > a:hover {
   background-color: white;
   color: #f23c00;
 }
-/* line 378, C:/xampp/htdocs/tacati/wp-content/themes/sass/screen.scss */
+/* line 383, ../sass/screen.scss */
 header#branding section ul.nav {
   position: absolute;
   bottom: 0px;
@@ -1797,34 +1891,34 @@ header#branding section ul.nav {
   font-size: 18px;
   margin-bottom: 43px;
 }
-/* line 386, C:/xampp/htdocs/tacati/wp-content/themes/sass/screen.scss */
+/* line 391, ../sass/screen.scss */
 header#branding section ul.nav li {
   margin-left: 0;
 }
-/* line 388, C:/xampp/htdocs/tacati/wp-content/themes/sass/screen.scss */
+/* line 393, ../sass/screen.scss */
 header#branding section ul.nav li b.caret {
   border-top-color: #ffffff;
   border-bottom-color: #ffffff;
 }
-/* line 393, C:/xampp/htdocs/tacati/wp-content/themes/sass/screen.scss */
+/* line 398, ../sass/screen.scss */
 header#branding section ul.nav li a:hover {
   background-color: white;
   color: #f23c00;
 }
-/* line 397, C:/xampp/htdocs/tacati/wp-content/themes/sass/screen.scss */
+/* line 402, ../sass/screen.scss */
 header#branding section ul.nav li a:hover b.caret {
   border-top-color: #f23c00;
   border-bottom-color: #f23c00;
 }
-/* line 403, C:/xampp/htdocs/tacati/wp-content/themes/sass/screen.scss */
+/* line 408, ../sass/screen.scss */
 header#branding section ul.nav li ul {
   background-color: white;
 }
-/* line 408, C:/xampp/htdocs/tacati/wp-content/themes/sass/screen.scss */
+/* line 413, ../sass/screen.scss */
 header#branding section ul.nav li ul li a {
   color: #f23c00;
 }
-/* line 421, C:/xampp/htdocs/tacati/wp-content/themes/sass/screen.scss */
+/* line 426, ../sass/screen.scss */
 header#branding section div.header-left {
   background: url('../images/header-left.png?1346866306') no-repeat left top;
   height: 158px;
@@ -1834,7 +1928,7 @@ header#branding section div.header-left {
   display: inline;
   float: left;
 }
-/* line 429, C:/xampp/htdocs/tacati/wp-content/themes/sass/screen.scss */
+/* line 434, ../sass/screen.scss */
 header#branding section div.header-right {
   background: url('../images/header-right.png?1346866306') no-repeat left top;
   height: 158px;
@@ -1844,17 +1938,17 @@ header#branding section div.header-right {
   float: right;
   right: -48px;
 }
-/* line 441, C:/xampp/htdocs/tacati/wp-content/themes/sass/screen.scss */
+/* line 446, ../sass/screen.scss */
 header#branding div.categories {
   margin: 0;
   background-color: #fcfdfd;
   background: url('../images/yellow.png?1346781140') repeat left top;
 }
-/* line 445, C:/xampp/htdocs/tacati/wp-content/themes/sass/screen.scss */
+/* line 450, ../sass/screen.scss */
 header#branding div.categories h3 {
   display: none;
 }
-/* line 448, C:/xampp/htdocs/tacati/wp-content/themes/sass/screen.scss */
+/* line 453, ../sass/screen.scss */
 header#branding div.categories ul {
   margin: 0;
   padding: 0;
@@ -1865,7 +1959,7 @@ header#branding div.categories ul {
   padding-top: 20px;
   padding-bottom: 20px;
 }
-/* line 453, C:/xampp/htdocs/tacati/wp-content/themes/sass/screen.scss */
+/* line 458, ../sass/screen.scss */
 header#branding div.categories ul li {
   list-style-image: none;
   list-style-type: none;
@@ -1886,23 +1980,23 @@ header#branding div.categories ul li {
   text-transform: lowercase;
   height: 30px;
 }
-/* line 48, C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
+/* line 48, ../../../../../../../Users/eleonoragiammello/.rvm/gems/ruby-1.9.3-p286@rails3test/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
 header#branding div.categories ul li:first-child, header#branding div.categories ul li.first {
   padding-left: 0;
 }
-/* line 49, C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
+/* line 49, ../../../../../../../Users/eleonoragiammello/.rvm/gems/ruby-1.9.3-p286@rails3test/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
 header#branding div.categories ul li:last-child {
   padding-right: 0;
 }
-/* line 50, C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
+/* line 50, ../../../../../../../Users/eleonoragiammello/.rvm/gems/ruby-1.9.3-p286@rails3test/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
 header#branding div.categories ul li.last {
   padding-right: 0;
 }
-/* line 462, C:/xampp/htdocs/tacati/wp-content/themes/sass/screen.scss */
+/* line 467, ../sass/screen.scss */
 header#branding div.categories ul li:first-child {
   margin-left: 10px;
 }
-/* line 466, C:/xampp/htdocs/tacati/wp-content/themes/sass/screen.scss */
+/* line 471, ../sass/screen.scss */
 header#branding div.categories ul li a {
   display: block;
   font-weight: bold;
@@ -1913,29 +2007,29 @@ header#branding div.categories ul li a {
   -o-text-overflow: ellipsis;
   text-overflow: ellipsis;
 }
-/* line 472, C:/xampp/htdocs/tacati/wp-content/themes/sass/screen.scss */
+/* line 477, ../sass/screen.scss */
 header#branding div.categories ul li a:hover {
   text-decoration: underline;
   color: #f23c00;
 }
 
-/* line 484, C:/xampp/htdocs/tacati/wp-content/themes/sass/screen.scss */
+/* line 489, ../sass/screen.scss */
 div#main {
   background-color: #fcfdfd;
 }
 
-/* line 488, C:/xampp/htdocs/tacati/wp-content/themes/sass/screen.scss */
+/* line 493, ../sass/screen.scss */
 .clear {
   clear: both;
 }
 
-/* line 493, C:/xampp/htdocs/tacati/wp-content/themes/sass/screen.scss */
+/* line 498, ../sass/screen.scss */
 .border {
   height: 4px;
   clear: both;
   background-color: #fcfdfd;
 }
-/* line 497, C:/xampp/htdocs/tacati/wp-content/themes/sass/screen.scss */
+/* line 502, ../sass/screen.scss */
 .border ul {
   margin: 0;
   padding: 0;
@@ -1950,7 +2044,7 @@ div#main {
   padding-left: 60px;
   margin-top: 0px;
 }
-/* line 502, C:/xampp/htdocs/tacati/wp-content/themes/sass/screen.scss */
+/* line 507, ../sass/screen.scss */
 .border ul li {
   list-style-image: none;
   list-style-type: none;
@@ -1969,28 +2063,28 @@ div#main {
   background-color: #f23c00;
   height: 4px;
 }
-/* line 48, C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
+/* line 48, ../../../../../../../Users/eleonoragiammello/.rvm/gems/ruby-1.9.3-p286@rails3test/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
 .border ul li:first-child, .border ul li.first {
   padding-left: 0;
 }
-/* line 49, C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
+/* line 49, ../../../../../../../Users/eleonoragiammello/.rvm/gems/ruby-1.9.3-p286@rails3test/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
 .border ul li:last-child {
   padding-right: 0;
 }
-/* line 50, C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
+/* line 50, ../../../../../../../Users/eleonoragiammello/.rvm/gems/ruby-1.9.3-p286@rails3test/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
 .border ul li.last {
   padding-right: 0;
 }
-/* line 510, C:/xampp/htdocs/tacati/wp-content/themes/sass/screen.scss */
+/* line 515, ../sass/screen.scss */
 .border ul li:last-child {
   margin-right: 0px;
 }
-/* line 513, C:/xampp/htdocs/tacati/wp-content/themes/sass/screen.scss */
+/* line 518, ../sass/screen.scss */
 .border ul li:nth-of-type(even) {
   background-color: #72bac7;
 }
 
-/* line 525, C:/xampp/htdocs/tacati/wp-content/themes/sass/screen.scss */
+/* line 530, ../sass/screen.scss */
 footer#colophon {
   position: relative;
   float: left;
@@ -2006,12 +2100,12 @@ footer#colophon {
   -moz-background-clip: border;
   background-clip: border-box;
 }
-/* line 539, C:/xampp/htdocs/tacati/wp-content/themes/sass/screen.scss */
+/* line 544, ../sass/screen.scss */
 footer#colophon h1.logo-brand {
   text-indent: -119988px;
   overflow: hidden;
   text-align: left;
-  background-image: url('footer-logo.png?1346876034');
+  background-image: url('../images/footer-logo.png?1346876034');
   background-repeat: no-repeat;
   background-position: 50% 50%;
   width: 531px;
@@ -2019,7 +2113,29 @@ footer#colophon h1.logo-brand {
   width: 100%;
   text-align: center;
 }
-/* line 544, C:/xampp/htdocs/tacati/wp-content/themes/sass/screen.scss */
+/* line 549, ../sass/screen.scss */
+footer#colophon h3 {
+  padding-right: 20px;
+  font-size: 28px !important;
+}
+/* line 553, ../sass/screen.scss */
+footer#colophon ul.press {
+  list-style: none;
+  margin-top: 20px;
+  font-family: 'edmondsans bold';
+  font-size: 18px;
+  padding-right: 15px;
+  line-height: 30px;
+  text-align: left;
+  padding-left: 0;
+  margin-left: 0;
+}
+/* line 563, ../sass/screen.scss */
+footer#colophon ul.press li {
+  padding-left: 0;
+  margin-left: 0;
+}
+/* line 569, ../sass/screen.scss */
 footer#colophon ul.footer {
   display: inline;
   float: left;
@@ -2032,10 +2148,11 @@ footer#colophon ul.footer {
   overflow: hidden;
   *zoom: 1;
   width: 620px;
+  margin-bottom: 30px;
 }
-/* line 550, C:/xampp/htdocs/tacati/wp-content/themes/sass/screen.scss */
-footer#colophon ul.footer li {
-  margin-top: 80px;
+/* line 575, ../sass/screen.scss */
+footer#colophon ul.footer li.footer {
+  margin-top: 20px;
   display: inline;
   float: left;
   margin-left: 10px;
@@ -2045,38 +2162,38 @@ footer#colophon ul.footer li {
   padding-left: 60px;
   border-right: solid 1px #f23c00;
 }
-/* line 559, C:/xampp/htdocs/tacati/wp-content/themes/sass/screen.scss */
-footer#colophon ul.footer li h3 {
+/* line 584, ../sass/screen.scss */
+footer#colophon ul.footer li.footer h3 {
   font-family: 'mission script';
   color: #5094b8;
   font-size: 35px;
 }
-/* line 564, C:/xampp/htdocs/tacati/wp-content/themes/sass/screen.scss */
-footer#colophon ul.footer li p {
+/* line 589, ../sass/screen.scss */
+footer#colophon ul.footer li.footer p {
   margin-top: 20px;
   font-family: 'edmondsans bold';
   color: #3e3d40;
-  font-size: 20px;
+  font-size: 18px;
   padding-right: 15px;
   line-height: 30px;
 }
-/* line 572, C:/xampp/htdocs/tacati/wp-content/themes/sass/screen.scss */
-footer#colophon ul.footer li p a {
+/* line 597, ../sass/screen.scss */
+footer#colophon ul.footer li.footer p a {
   color: #3e3d40;
 }
-/* line 18, C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
-footer#colophon ul.footer li p a:visited {
+/* line 18, ../../../../../../../Users/eleonoragiammello/.rvm/gems/ruby-1.9.3-p286@rails3test/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+footer#colophon ul.footer li.footer p a:visited {
   color: #f23c00;
 }
-/* line 24, C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
-footer#colophon ul.footer li p a:hover {
+/* line 24, ../../../../../../../Users/eleonoragiammello/.rvm/gems/ruby-1.9.3-p286@rails3test/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+footer#colophon ul.footer li.footer p a:hover {
   color: #f23c00;
 }
-/* line 27, C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
-footer#colophon ul.footer li p a:active {
+/* line 27, ../../../../../../../Users/eleonoragiammello/.rvm/gems/ruby-1.9.3-p286@rails3test/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+footer#colophon ul.footer li.footer p a:active {
   color: #f23c00;
 }
-/* line 586, C:/xampp/htdocs/tacati/wp-content/themes/sass/screen.scss */
+/* line 611, ../sass/screen.scss */
 footer#colophon #channels {
   margin: 0;
   padding: 0;
@@ -2084,7 +2201,7 @@ footer#colophon #channels {
   overflow: hidden;
   *zoom: 1;
 }
-/* line 588, C:/xampp/htdocs/tacati/wp-content/themes/sass/screen.scss */
+/* line 613, ../sass/screen.scss */
 footer#colophon #channels li {
   margin-top: 10px;
   list-style-image: none;
@@ -2098,48 +2215,48 @@ footer#colophon #channels li {
   width: auto;
   border: none;
 }
-/* line 48, C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
+/* line 48, ../../../../../../../Users/eleonoragiammello/.rvm/gems/ruby-1.9.3-p286@rails3test/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
 footer#colophon #channels li:first-child, footer#colophon #channels li.first {
   padding-left: 0;
 }
-/* line 49, C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
+/* line 49, ../../../../../../../Users/eleonoragiammello/.rvm/gems/ruby-1.9.3-p286@rails3test/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
 footer#colophon #channels li:last-child {
   padding-right: 0;
 }
-/* line 50, C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
+/* line 50, ../../../../../../../Users/eleonoragiammello/.rvm/gems/ruby-1.9.3-p286@rails3test/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
 footer#colophon #channels li.last {
   padding-right: 0;
 }
-/* line 593, C:/xampp/htdocs/tacati/wp-content/themes/sass/screen.scss */
+/* line 618, ../sass/screen.scss */
 footer#colophon #channels li.fb_icon {
   text-indent: -119988px;
   overflow: hidden;
   text-align: left;
-  background-image: url('fb.png?1347357772');
+  background-image: url('../images/fb.png?1347357771');
   background-repeat: no-repeat;
   background-position: 50% 50%;
   width: 32px;
   height: 32px;
 }
-/* line 596, C:/xampp/htdocs/tacati/wp-content/themes/sass/screen.scss */
+/* line 621, ../sass/screen.scss */
 footer#colophon #channels li.tw_icon {
   text-indent: -119988px;
   overflow: hidden;
   text-align: left;
-  background-image: url('tw.png?1347357770');
+  background-image: url('../images/tw.png?1347357770');
   background-repeat: no-repeat;
   background-position: 50% 50%;
   width: 32px;
   height: 32px;
 }
-/* line 599, C:/xampp/htdocs/tacati/wp-content/themes/sass/screen.scss */
+/* line 624, ../sass/screen.scss */
 footer#colophon #channels li a {
   width: 32px;
   height: 36px;
   display: block;
   position: relative;
 }
-/* line 608, C:/xampp/htdocs/tacati/wp-content/themes/sass/screen.scss */
+/* line 633, ../sass/screen.scss */
 footer#colophon ul.formal {
   clear: both;
   margin: 0;
@@ -2151,7 +2268,7 @@ footer#colophon ul.formal {
   margin-bottom: 10px;
   margin-top: 30px;
 }
-/* line 616, C:/xampp/htdocs/tacati/wp-content/themes/sass/screen.scss */
+/* line 641, ../sass/screen.scss */
 footer#colophon ul.formal li {
   list-style-image: none;
   list-style-type: none;
@@ -2165,31 +2282,31 @@ footer#colophon ul.formal li {
   font-size: 11px;
   text-align: center;
 }
-/* line 48, C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
+/* line 48, ../../../../../../../Users/eleonoragiammello/.rvm/gems/ruby-1.9.3-p286@rails3test/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
 footer#colophon ul.formal li:first-child, footer#colophon ul.formal li.first {
   padding-false: 0;
 }
-/* line 49, C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
+/* line 49, ../../../../../../../Users/eleonoragiammello/.rvm/gems/ruby-1.9.3-p286@rails3test/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
 footer#colophon ul.formal li:last-child {
   padding-false: 0;
 }
-/* line 50, C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
+/* line 50, ../../../../../../../Users/eleonoragiammello/.rvm/gems/ruby-1.9.3-p286@rails3test/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
 footer#colophon ul.formal li.last {
   padding-false: 0;
 }
-/* line 621, C:/xampp/htdocs/tacati/wp-content/themes/sass/screen.scss */
+/* line 646, ../sass/screen.scss */
 footer#colophon ul.formal li a {
   color: #3e3d40;
 }
-/* line 18, C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+/* line 18, ../../../../../../../Users/eleonoragiammello/.rvm/gems/ruby-1.9.3-p286@rails3test/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
 footer#colophon ul.formal li a:visited {
   color: #f23c00;
 }
-/* line 24, C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+/* line 24, ../../../../../../../Users/eleonoragiammello/.rvm/gems/ruby-1.9.3-p286@rails3test/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
 footer#colophon ul.formal li a:hover {
   color: #f23c00;
 }
-/* line 27, C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+/* line 27, ../../../../../../../Users/eleonoragiammello/.rvm/gems/ruby-1.9.3-p286@rails3test/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
 footer#colophon ul.formal li a:active {
   color: #f23c00;
 }

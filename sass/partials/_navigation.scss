@@ -1,9 +1,11 @@
 .navigation{
- a{
- font-family:edmondsans medium;
- color:$black-link;
- font-size:25px;
- }
+	padding-left: 30px;
+	@include grid(12);
+	 a{
+	 font-family:edmondsans medium;
+	 color:$black-link;
+	 font-size:25px;
+	 }
  .nav-next{
  	@include float-right;
  	a{
@@ -11,7 +13,7 @@
 	 	text-align: left;
 	 	display: inline-block;
 	 	height: image-height('freccia-d.png');
-	 	width: 75px;
+	 	width: 140px;
 	 	line-height: 28px;
  	}
  }
@@ -21,7 +23,7 @@
 		text-align: right;
 		display: inline-block;
 		height: image-height('freccia-sx.png');
-		width: 75px;
+		width: 140px;
 		line-height: 28px;
 	}
 }

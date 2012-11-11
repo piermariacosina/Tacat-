@@ -1,3 +1,10 @@
+.producer-type{
+	font-family: 'edmondsans regular';
+	font-size: 18px;
+	color: $red;
+	
+}
+
 ul.produttori{
 	  list-style-type: none;
 	  @include grid-container;

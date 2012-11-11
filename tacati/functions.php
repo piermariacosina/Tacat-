@@ -1,6 +1,6 @@
 <?php
 
-global $noprofit_posts_list;
+global $noprofit_ar;
 
 add_image_size( 'slideshow', '960', '288', true );
 
@@ -302,7 +302,7 @@ function get_producers_list(){
 							<h5 class="entry-title"><?php the_field('type'); ?></h5>
 <?php endif; ?>
 							<?php the_excerpt()?>
-							<a href="<?php the_permalink(); ?>">dettaglio</a>
+							<a href="<?php the_permalink(); ?>"><?php __('dettaglio', TACATI_TD); ?></a>
 						</div>
 						
 						<div class="border">
@@ -429,7 +429,7 @@ if( !function_exists( 'get_related_producers' ) ):
 		$producers = get_field('producer');		
 		if( $producers ): ?>
 			<div class="related-producers">
-				<h3>Prodotto da</h3>
+				<h3><?php __('Prodotto da', TACATI_TD); ?></h3>
 				<ul>
 				<?php foreach( $producers as $producer): ?>
 					<li>
@@ -550,9 +550,9 @@ if ( !function_exists( 'register_new_sidebars' ) ) :
 function register_new_sidebars() {
 
 	register_sidebar( array(
-		'name' => __( 'Header Area', 'twentyeleven' ),
+		'name' => __( 'Header Area', TACATI_TD ),
 		'id' => 'sidebar-6',
-		'description' => __( 'An optional widget area for your site header', 'twentyeleven' ),
+		'description' => __( 'An optional widget area for your site header', TACATI_TD ),
 		'before_widget' => '<aside id="%1$s" class="widget %2$s">',
 		'after_widget' => "</aside>",
 		'before_title' => '<h3 class="widget-title">',
@@ -560,9 +560,9 @@ function register_new_sidebars() {
 	) );
 	
 	register_sidebar( array(
-		'name' => __( 'Header top', 'twentyeleven' ),
+		'name' => __( 'Header top', TACATI_TD ),
 		'id' => 'sidebar-7',
-		'description' => __( 'An optional widget area for your site header', 'twentyeleven' ),
+		'description' => __( 'An optional widget area for your site header', TACATI_TD ),
 		'before_widget' => '<aside id="%1$s" class="widget %2$s">',
 		'after_widget' => "</aside>",
 		'before_title' => '<h3 class="widget-title">',
@@ -587,18 +587,18 @@ function woocommerce_edit_order_columns2($columns){
 	$columns = array();
 
 	$columns["cb"] = "<input type=\"checkbox\" />";
-	$columns["order_status"] = __("Status", 'woocommerce');
-	$columns["order_title"] = __("Order", 'woocommerce');
-	$columns["billing_address"] = __("Billing", 'woocommerce');
-	$columns["shipping_address"] = __("Shipping", 'woocommerce');
-	$columns["total_cost"] = __("Order Total", 'woocommerce');
-	$columns["giorno_consegna"] = __("Days of delivery", 'woocommerce');
-	$columns["orario"] = __("Hour", 'woocommerce');
-	$columns["noprofit"] = __("Noprofit", 'woocommerce');
-	$columns["order_comments"] = '<img alt="' . esc_attr__( 'Order Notes', 'woocommerce' ) . '" src="' . $woocommerce->plugin_url() . '/assets/images/order-notes_head.png" class="tips" data-tip="' . __("Order Notes", 'woocommerce') . '" width="12" height="12" />';
-	$columns["note"] = '<img src="' . $woocommerce->plugin_url() . '/assets/images/note_head.png" alt="' . __("Customer Notes", 'woocommerce') . '" class="tips" data-tip="' . __("Customer Notes", 'woocommerce') . '" width="12" height="12" />';
-	$columns["order_date"] = __("Date", 'woocommerce');
-	$columns["order_actions"] = __("Actions", 'woocommerce');
+	$columns["order_status"] = __("Status", TACATI_TD);
+	$columns["order_title"] = __("Order", TACATI_TD);
+	$columns["billing_address"] = __("Billing", TACATI_TD);
+	$columns["shipping_address"] = __("Shipping", TACATI_TD);
+	$columns["total_cost"] = __("Order Total", TACATI_TD);
+	$columns["giorno_consegna"] = __("Days of delivery", TACATI_TD);
+	$columns["orario"] = __("Hour", TACATI_TD);
+	$columns["noprofit"] = __("Noprofit", TACATI_TD);
+	$columns["order_comments"] = '<img alt="' . esc_attr__( 'Order Notes', TACATI_TD ) . '" src="' . $woocommerce->plugin_url() . '/assets/images/order-notes_head.png" class="tips" data-tip="' . __("Order Notes", TACATI_TD) . '" width="12" height="12" />';
+	$columns["note"] = '<img src="' . $woocommerce->plugin_url() . '/assets/images/note_head.png" alt="' . __("Customer Notes", TACATI_TD) . '" class="tips" data-tip="' . __("Customer Notes", TACATI_TD) . '" width="12" height="12" />';
+	$columns["order_date"] = __("Date", TACATI_TD);
+	$columns["order_actions"] = __("Actions", TACATI_TD);
 
 	return $columns;
 }
@@ -619,7 +619,7 @@ function woocommerce_custom_order_columns2( $column ) {
 	switch ($column) {
 		case "order_status" :
 
-			printf( '<mark class="%s">%s</mark>', sanitize_title($order->status), __($order->status, 'woocommerce') );
+			printf( '<mark class="%s">%s</mark>', sanitize_title($order->status), __($order->status, TACATI_TD) );
 
 		break;
 		case "order_title" :
@@ -636,16 +636,16 @@ function woocommerce_custom_order_columns2( $column ) {
 				$user .= '</a>';
 
 		   	else :
-		   		$user = __('Guest', 'woocommerce');
+		   		$user = __('Guest', TACATI_TD);
 		   	endif;
 
-		   	echo '<a href="'.admin_url('post.php?post='.$post->ID.'&action=edit').'"><strong>'.sprintf( __('Order %s', 'woocommerce'), $order->get_order_number() ).'</strong></a> ' . __('made by', 'woocommerce') . ' ' . $user;
+		   	echo '<a href="'.admin_url('post.php?post='.$post->ID.'&action=edit').'"><strong>'.sprintf( __('Order %s', TACATI_TD), $order->get_order_number() ).'</strong></a> ' . __('made by', TACATI_TD) . ' ' . $user;
 
 		   	if ($order->billing_email) :
-				echo '<small class="meta">'.__('Email:', 'woocommerce') . ' ' . '<a href="' . esc_url( 'mailto:'.$order->billing_email ).'">'.esc_html( $order->billing_email ).'</a></small>';
+				echo '<small class="meta">'.__('Email:', TACATI_TD) . ' ' . '<a href="' . esc_url( 'mailto:'.$order->billing_email ).'">'.esc_html( $order->billing_email ).'</a></small>';
 			endif;
 			if ($order->billing_phone) :
-				echo '<small class="meta">'.__('Tel:', 'woocommerce') . ' ' . esc_html( $order->billing_phone ) . '</small>';
+				echo '<small class="meta">'.__('Tel:', TACATI_TD) . ' ' . esc_html( $order->billing_phone ) . '</small>';
 			endif;
 
 		break;
@@ -658,7 +658,7 @@ function woocommerce_custom_order_columns2( $column ) {
 			endif;
 
 			if ($order->payment_method_title) :
-				echo '<small class="meta">' . __('Via', 'woocommerce') . ' ' . esc_html( $order->payment_method_title ) . '</small>';
+				echo '<small class="meta">' . __('Via', TACATI_TD) . ' ' . esc_html( $order->payment_method_title ) . '</small>';
 			endif;
 
 		break;
@@ -676,7 +676,7 @@ function woocommerce_custom_order_columns2( $column ) {
 				endif;
 				
 				if ($order->shipping_method_title) :
-					echo '<small class="meta">' . __('Via', 'woocommerce') . ' ' . esc_html( $order->shipping_method_title ) . '</small>';
+					echo '<small class="meta">' . __('Via', TACATI_TD) . ' ' . esc_html( $order->shipping_method_title ) . '</small>';
 				endif;
 			break;
 			default:	
@@ -690,17 +690,17 @@ function woocommerce_custom_order_columns2( $column ) {
 		case "order_date" :
 
 			if ( '0000-00-00 00:00:00' == $post->post_date ) :
-				$t_time = $h_time = __( 'Unpublished', 'woocommerce' );
+				$t_time = $h_time = __( 'Unpublished', TACATI_TD );
 			else :
-				$t_time = get_the_time( __( 'Y/m/d g:i:s A', 'woocommerce' ), $post );
+				$t_time = get_the_time( __( 'Y/m/d g:i:s A', TACATI_TD ), $post );
 
 				$gmt_time = strtotime($post->post_date_gmt);
 				$time_diff = current_time('timestamp', 1) - $gmt_time;
 
 				if ( $time_diff > 0 && $time_diff < 24*60*60 )
-					$h_time = sprintf( __( '%s ago', 'woocommerce' ), human_time_diff( $gmt_time, current_time('timestamp', 1) ) );
+					$h_time = sprintf( __( '%s ago', TACATI_TD ), human_time_diff( $gmt_time, current_time('timestamp', 1) ) );
 				else
-					$h_time = get_the_time( __( 'Y/m/d', 'woocommerce' ), $post );
+					$h_time = get_the_time( __( 'Y/m/d', TACATI_TD ), $post );
 			endif;
 
 			echo '<abbr title="' . $t_time . '">' . apply_filters( 'post_date_column_time', $h_time, $post ) . '</abbr>';
@@ -717,20 +717,20 @@ function woocommerce_custom_order_columns2( $column ) {
 					if ( in_array( $order->status, array( 'pending', 'on-hold' ) ) )
 						$actions[] = array(
 							'url' 		=> wp_nonce_url( admin_url( 'admin-ajax.php?action=woocommerce-mark-order-processing&order_id=' . $post->ID ), 'woocommerce-mark-order-processing' ),
-							'name' 		=> __( 'Processing', 'woocommerce' ),
+							'name' 		=> __( 'Processing', TACATI_TD ),
 							'action' 	=> "processing"
 						);
 
 					if ( in_array( $order->status, array( 'pending', 'on-hold', 'processing' ) ) )
 						$actions[] = array(
 							'url' 		=> wp_nonce_url( admin_url( 'admin-ajax.php?action=woocommerce-mark-order-complete&order_id=' . $post->ID ), 'woocommerce-mark-order-complete' ),
-							'name' 		=> __( 'Complete', 'woocommerce' ),
+							'name' 		=> __( 'Complete', TACATI_TD ),
 							'action' 	=> "complete"
 						);
 
 					$actions[] = array(
 							'url' 		=> admin_url( 'post.php?post=' . $post->ID . '&action=edit' ),
-							'name' 		=> __( 'View', 'woocommerce' ),
+							'name' 		=> __( 'View', TACATI_TD ),
 							'action' 	=> "view"
 						);
 
@@ -747,9 +747,9 @@ function woocommerce_custom_order_columns2( $column ) {
 		case "note" :
 
 			if ($order->customer_note)
-				echo '<img src="'.$woocommerce->plugin_url().'/assets/images/note.png" alt="yes" class="tips" data-tip="'. __('Yes', 'woocommerce') .'" width="14" height="14" />';
+				echo '<img src="'.$woocommerce->plugin_url().'/assets/images/note.png" alt="yes" class="tips" data-tip="'. __('Yes', TACATI_TD) .'" width="14" height="14" />';
 			else
-				echo '<img src="'.$woocommerce->plugin_url().'/assets/images/note-off.png" alt="no" class="tips" data-tip="'. __('No', 'woocommerce') .'" width="14" height="14" />';
+				echo '<img src="'.$woocommerce->plugin_url().'/assets/images/note-off.png" alt="no" class="tips" data-tip="'. __('No', TACATI_TD) .'" width="14" height="14" />';
 
 		break;
 		case "order_comments" :
@@ -780,57 +780,46 @@ remove_action( 'manage_shop_order_posts_custom_column','woocommerce_custom_order
  **/
 add_action('woocommerce_after_order_notes', 'noprofit_field');
 
-function woocommerce_custom_hours($order){
-$ar_orari=explode(',',get_field("orari_ritiro","options"));
-	$singolo_orario = get_post_meta($order->id, "orari");
-	echo $ar_orari[$singolo_orario[0]];
+function woocommerce_custom_hours($order){	
+	echo get_woocommerce_custom_hours($order);
 }
 function woocommerce_custom_days($order){
-	$ar_giorni=explode(',',get_field("giorno_consegna","options"));
-	$singolo_giorno = get_post_meta($order->id, "giorno");
-	echo $ar_giorni[$singolo_giorno[0]];
+	echo get_woocommerce_custom_days($order);
 }
 function woocommerce_custom_noprofit($order){
-	global $noprofit_posts_list;
-	$norpofit_ar = array("lascio scegliere a tacati");
-	foreach ($noprofit_posts_list as $noprofit){
-	 $norpofit_ar[] = $noprofit->post_title;
-	}
-	$singolo_noprofit = get_post_meta($order->id, "noprofit");
-	echo  $norpofit_ar[$singolo_noprofit[0]];
+	echo get_woocommerce_custom_noprofit($order);	
+}
+
+function get_woocommerce_custom_hours($order){
 	
+	$hours_ar = get_post_meta($order->id, "orari");
+	return $hours_ar[0];
+}
+function get_woocommerce_custom_days($order){
+	$days_ar = get_post_meta($order->id, "giorno");
+	return $days_ar[0];
+}
+function get_woocommerce_custom_noprofit($order){
+	$noprofit_ar = get_post_meta($order->id, "noprofit");
+	return  $noprofit_ar[0];
+
 }
 
 function noprofit_field( $checkout ) {
+	global $noprofit_ar;
+	get_noprofit_array();
+	echo '<div id="noprofit_field"><h3>'.__('noprofit', TACATI_TD).'</h3>';
 
-	echo '<div id="noprofit_field"><h3>'.__('noprofit').'</h3>';
 
-
-	$args = array( 
-			'posts_per_page' => -1,
-			'post_type'=>'noprofit' ,
-			'post_status'=>'publish',
-			'order'=>'ASC',
-			'orderby'=>'title'
-			);
 	
-	
-		$noprofit_posts_list = query_posts( $args );
-		$norpofit_ar = array("scegli una noprofit","lascio scegliere a tacati");
-		foreach ($noprofit_posts_list as $noprofit){
-		 $norpofit_ar[] = $noprofit->post_title;
-		}
-		
-		// Reset Query
-		wp_reset_query();
 
 	
 	woocommerce_form_field( 'noprofit', array(
 		'type'          => 'select',
 		'class'         => array('onlus_field form-row-wide'),
 		
-		'placeholder'       => __('Enter something'),
-		'options' => $norpofit_ar
+		'placeholder'       => __('Enter something', TACATI_TD),
+		'options' => $noprofit_ar
 		), $checkout->get_value( 'noprofit' ));
 
 	echo '</div>';
@@ -843,13 +832,13 @@ add_action('woocommerce_after_order_notes', 'orari_field');
 
 function orari_field( $checkout ) {
 	$orari_ar = explode(',',get_field("orari_ritiro","options"));
-	echo '<div id="orari_field"><h3>'.__('orari').'</h3>';
+	echo '<div id="orari_field"><h3>'.__('orari', TACATI_TD).'</h3>';
 
 	woocommerce_form_field( 'orari', array(
 		'type'          => 'select',
 		'class'         => array('orari_field form-row-wide'),
 		
-		'placeholder'       => __('Enter something'),
+		'placeholder'       => __('Enter something', TACATI_TD),
 		'options' => $orari_ar
 		), $checkout->get_value( 'orari' ));
 
@@ -864,13 +853,13 @@ add_action('woocommerce_after_order_notes', 'giornate_field');
 
 function giornate_field( $checkout ) {
 	$giorni_ar = explode(',',get_field("giorno_consegna","options"));
-	echo '<div id="giornate_field"><h3>'.__('giornate').'</h3>';
+	echo '<div id="giornate_field"><h3>'.__('giornate', TACATI_TD).'</h3>';
 
 	woocommerce_form_field( 'giorno', array(
 		'type'          => 'select',
 		'class'         => array('giorno_field form-row-wide'),
 		
-		'placeholder'       => __('Enter something'),
+		'placeholder'       => __('Enter something', TACATI_TD),
 		'options' => $giorni_ar
 		), $checkout->get_value( 'giorno' ));
 
@@ -889,13 +878,13 @@ function my_custom_checkout_field_process() {
 
 	// Check if set, if its not set add an error.
 	if (!$_POST['noprofit']){
-		 $woocommerce->add_error( __('Please enter something into the noprofit shiny field.') );
+		 $woocommerce->add_error( __('Please enter something into the noprofit shiny field.', TACATI_TD) );
 	 }
 	if (!$_POST['orari']){
-		 $woocommerce->add_error( __('Please enter something into the delivery hours shiny field.') );
+		 $woocommerce->add_error( __('Please enter something into the delivery hours shiny field.', TACATI_TD) );
 	 }
 	if (!$_POST['giorno']){
-		 $woocommerce->add_error( __('Please enter something into the days of delivery shiny field.') );
+		 $woocommerce->add_error( __('Please enter something into the days of delivery shiny field.', TACATI_TD) );
 	 }
 }
 
@@ -904,20 +893,33 @@ function my_custom_checkout_field_process() {
  **/
 add_action('woocommerce_checkout_update_order_meta', 'my_custom_checkout_field_update_order_meta');
 
-function my_custom_checkout_field_update_order_meta( $order_id ) {
+function my_custom_checkout_field_update_order_meta( $order_id , $posted ) {
+	global $noprofit_ar;
 	if ($_POST['noprofit']) {
-		update_post_meta( $order_id, 'noprofit', esc_attr($_POST['noprofit']));
+			
+			$singolo_noprofit = $noprofit_ar[$_POST['noprofit']];
+			
+		update_post_meta( $order_id, 'noprofit', esc_attr($singolo_noprofit));
 	}
-	if ($_POST['orari']) {
-		update_post_meta( $order_id, 'orari', esc_attr($_POST['orari']));
-	}
+	
+	
+		if ($_POST['orari']) {
+			$ar_orari=explode(',',get_field("orari_ritiro","options"));
+			$singolo_orario = $ar_orari[$_POST['orari']];
+			
+			update_post_meta( $order_id, 'orari', esc_attr($singolo_orario));
+		}
+	
 	if ($_POST['giorno']) {
-		update_post_meta( $order_id, 'giorno', esc_attr($_POST['giorno']));
+		$ar_giorni=explode(',',get_field("giorno_consegna","options"));
+		$singolo_giorno = $ar_giorni[$_POST['giorno']];
+		
+		update_post_meta( $order_id, 'giorno', esc_attr($singolo_giorno));
 	}
 }
 
 function add_registration(){
-	echo '<p class="register_form"><a href="'.site_url().'/mio-account">Registrati</a></p>'; 
+	echo '<p class="register_form"><a href="'.site_url().'/mio-profilo">Registrati</a></p>'; 
 }
 
 add_action('woocommerce_login_widget_logged_out_after_form', 'add_registration' );
@@ -1009,11 +1011,11 @@ function custom_woocommerce_featured_products( $per_page, $order_by, $order, $co
 
 	if ( $products->have_posts() ) : ?>
 		
-		<h5	class="page-title">Prodotti consigliati in <?php if ( is_search() ) : ?>
+		<h5	class="page-title"><?php __('Prodotti consigliati in', TACATI_TD)?>  <?php if ( is_search() ) : ?>
 			<?php
-				printf( __( 'Search Results: &ldquo;%s&rdquo;', 'woocommerce' ), get_search_query() );
+				printf( __( 'Search Results: &ldquo;%s&rdquo;', TACATI_TD ), get_search_query() );
 				if ( get_query_var( 'paged' ) )
-					printf( __( '&nbsp;&ndash; Page %s', 'woocommerce' ), get_query_var( 'paged' ) );
+					printf( __( '&nbsp;&ndash; Page %s', TACATI_TD ), get_query_var( 'paged' ) );
 			?>
 		<?php elseif ( is_tax() ) : ?>
 			<?php echo single_term_title( "", false ); ?>
@@ -1084,19 +1086,19 @@ function get_order_item_totals_custom($order) {
 
 	if ( $subtotal = get_subtotal_to_display_custom($order) )
 		$total_rows['cart_subtotal'] = array(
-			'label' => __( 'Cart Subtotal:', 'woocommerce' ),
+			'label' => __( 'Cart Subtotal:', TACATI_TD ),
 			'value'	=> $subtotal
 		);
 
 	if ( $order->get_cart_discount() > 0 )
 		$total_rows['cart_discount'] = array(
-			'label' => __( 'Cart Discount:', 'woocommerce' ),
+			'label' => __( 'Cart Discount:', TACATI_TD ),
 			'value'	=> '-' . $order>get_cart_discount_to_display()
 		);
 
 	if ( $order->get_shipping_method() )
 		$total_rows['shipping'] = array(
-			'label' => __( 'Shipping:', 'woocommerce' ),
+			'label' => __( 'Shipping:', TACATI_TD ),
 			'value'	=> $order->get_shipping_to_display()
 		);
 
@@ -1104,12 +1106,12 @@ function get_order_item_totals_custom($order) {
 
 	if ( $order->get_order_discount() > 0 )
 		$total_rows['order_discount'] = array(
-			'label' => __( 'Order Discount:', 'woocommerce' ),
+			'label' => __( 'Order Discount:', TACATI_TD ),
 			'value'	=> '-' . $order->get_order_discount_to_display()
 		);
 
 	$total_rows['order_total'] = array(
-		'label' => __( 'Order Total:', 'woocommerce' ),
+		'label' => __( 'Order Total:', TACATI_TD ),
 		'value'	=> $order->get_formatted_order_total()
 	);
 
@@ -1166,7 +1168,8 @@ function woocommerce_pip_order_items_table_custom( $order, $show_price = FALSE )
 add_filter('jpeg_quality', function($arg){return 75;});
 
 function get_noprofit_array(){
-	global $noprofit_posts_list;
+	global $noprofit_ar;
+	
 	$args = array( 
 		'posts_per_page' => -1,
 		'post_type'=>'noprofit' ,
@@ -1174,6 +1177,29 @@ function get_noprofit_array(){
 		'order'=>'ASC',
 		'orderby'=>'title'
 		);
-	
-	
+
+
 	$noprofit_posts_list = query_posts( $args );
+	$noprofit_ar = array("lascio scegliere a tacati");
+	foreach ($noprofit_posts_list as $noprofit){
+	 $noprofit_ar[] = $noprofit->post_title;
+	}
+	wp_reset_query();
+	
+}
+add_action( 'wp_loaded', 'get_noprofit_array' );
+
+function get_press(){
+	 if(get_field('press', 'option'))
+	{
+		echo '<ul class="press">';
+
+		while(has_sub_field('press','option'))
+		{
+			echo '<li><a target="_blank" href="'.get_sub_field('title-press').'">'.get_sub_field('url-press').'</a></li>';
+		}
+
+		echo '</ul>';
+	} 
+
+}

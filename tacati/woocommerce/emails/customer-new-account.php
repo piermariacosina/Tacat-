@@ -11,9 +11,9 @@ if (!defined('ABSPATH')) exit; ?>
 
 <?php do_action('woocommerce_email_header', $email_heading); ?>
 
-<p><?php printf(__("Thanks for creating an account on %s. Your username is <strong>%s</strong>.", 'woocommerce'), $blogname, $user_login); ?></p>
+<p><?php printf(__("Thanks for creating an account on %s. Your username is <strong>%s</strong>.", TACATI_TD), $blogname, $user_login); ?></p>
 
-<p><?php printf(__("You can access your account area here: %s.", 'woocommerce'), get_permalink(woocommerce_get_page_id('myaccount'))); ?></p>
+<p><?php printf(__("You can access your account area here: %s.", TACATI_TD), get_permalink(woocommerce_get_page_id('myaccount'))); ?></p>
 
 <div style="clear:both;"></div>
 

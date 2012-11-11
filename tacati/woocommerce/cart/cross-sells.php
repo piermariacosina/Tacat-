@@ -30,7 +30,7 @@ if ( $products->have_posts() ) : ?>
 
 	<div class="cross-sells">
 
-		<h2><?php _e('You may be interested in&hellip;', 'woocommerce') ?></h2>
+		<h2><?php _e('You may be interested in&hellip;', TACATI_TD) ?></h2>
 
 		<ul class="prodotti">
 

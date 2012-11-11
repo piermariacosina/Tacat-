@@ -51,7 +51,7 @@ global $woocommerce;
 
 	<?php else : ?>
 
-		<li class="empty"><?php _e('No products in the cart.', 'woocommerce'); ?></li>
+		<li class="empty"><?php _e('No products in the cart.', TACATI_TD); ?></li>
 
 	<?php endif; ?>
 
@@ -59,14 +59,14 @@ global $woocommerce;
 
 <?php if ( sizeof( $woocommerce->cart->get_cart() ) > 0 ) : ?>
 
-	<div class="price padded"><p class="total"><?php _e('Subtotal', 'woocommerce'); ?>:<span><?php echo $woocommerce->cart->get_cart_subtotal(); ?></span></p></div>
+	<div class="price padded"><p class="total"><?php _e('Subtotal', TACATI_TD); ?>:<span><?php echo $woocommerce->cart->get_cart_subtotal(); ?></span></p></div>
 
 	<?php do_action( 'woocommerce_widget_shopping_cart_before_buttons' ); ?>
 
 	
 		
-		<a href="<?php echo $woocommerce->cart->get_cart_url(); ?>" class="button"><span><?php _e('View Cart &rarr;', 'woocommerce'); ?></span></a>
-		<a href="<?php echo $woocommerce->cart->get_checkout_url(); ?>" class="button checkout"><span><?php _e('Checkout &rarr;', 'woocommerce'); ?></span></a>
+		<a href="<?php echo $woocommerce->cart->get_cart_url(); ?>" class="button"><span><?php _e('View Cart &rarr;', TACATI_TD); ?></span></a>
+		<a href="<?php echo $woocommerce->cart->get_checkout_url(); ?>" class="button checkout"><span><?php _e('Checkout &rarr;', TACATI_TD); ?></span></a>
 	
 
 <?php endif; ?>

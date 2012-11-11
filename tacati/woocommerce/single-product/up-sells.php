@@ -28,7 +28,7 @@ if ( $products->have_posts() ) : ?>
 
 	<div class="upsells products">
 
-		<h2><?php _e('You may also like&hellip;', 'woocommerce') ?></h2>
+		<h2><?php _e('You may also like&hellip;', TACATI_TD) ?></h2>
 
 		<ul class="products">
 

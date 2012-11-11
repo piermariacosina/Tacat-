@@ -30,7 +30,7 @@ if ( $products->have_posts() ) : ?>
 
 	<div class="related products">
 
-		<h2><?php _e('Related Products', 'woocommerce'); ?></h2>
+		<h2><?php _e('Related Products', TACATI_TD); ?></h2>
 
 		<ul class="products">
 

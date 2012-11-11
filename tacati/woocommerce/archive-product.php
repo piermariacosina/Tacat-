@@ -28,9 +28,9 @@ get_header('shop'); ?>
 			<h1 class="page-title">
 			<?php if ( is_search() ) : ?>
 				<?php
-					printf( __( 'Search Results: &ldquo;%s&rdquo;', 'woocommerce' ), get_search_query() );
+					printf( __( 'Search Results: &ldquo;%s&rdquo;', TACATI_TD ), get_search_query() );
 					if ( get_query_var( 'paged' ) )
-						printf( __( '&nbsp;&ndash; Page %s', 'woocommerce' ), get_query_var( 'paged' ) );
+						printf( __( '&nbsp;&ndash; Page %s', TACATI_TD ), get_query_var( 'paged' ) );
 				?>
 			<?php elseif ( is_tax() ) : ?>
 				<?php echo single_term_title( "", false ); ?>
@@ -74,7 +74,7 @@ get_header('shop'); ?>
 		<?php else : ?>
 
 			<?php if ( ! woocommerce_product_subcategories( array( 'before' => '<ul class="products">', 'after' => '</ul>' ) ) ) : ?>
-				<p><?php _e( 'No products found which match your selection.', 'woocommerce' ); ?></p>
+				<p><?php _e( 'No products found which match your selection.', TACATI_TD ); ?></p>
 
 			<?php endif; ?>
 

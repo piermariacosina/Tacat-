@@ -13,7 +13,7 @@
 
 		<td valign="top" width="50%">
 
-			<h3><?php _e('Billing address', 'woocommerce'); ?></h3>
+			<h3><?php _e('Billing address', TACATI_TD); ?></h3>
 
 			<p><?php echo $order->get_formatted_billing_address(); ?></p>
 
@@ -23,7 +23,7 @@
 
 		<td valign="top" width="50%">
 
-			<h3><?php _e('Shipping address', 'woocommerce'); ?></h3>
+			<h3><?php _e('Shipping address', TACATI_TD); ?></h3>
 
 			<p><?php 
 				$shipping_location = $order->get_shipping_method();

@@ -10,13 +10,13 @@
 global $woocommerce;
 $order = new WC_Order( $order_id );
 ?>
-<h2><?php _e('Order Details', 'woocommerce'); ?></h2>
+<h2><?php _e('Order Details', TACATI_TD); ?></h2>
 <table class="shop_table order_details">
 	<thead>
 		<tr>
-			<th class="product-name"><?php _e('Product', 'woocommerce'); ?></th>
-			<th class="product-quantity"><?php _e('Qty', 'woocommerce'); ?></th>
-			<th class="product-total"><?php _e('Totals', 'woocommerce'); ?></th>
+			<th class="product-name"><?php _e('Product', TACATI_TD); ?></th>
+			<th class="product-quantity"><?php _e('Qty', TACATI_TD); ?></th>
+			<th class="product-total"><?php _e('Totals', TACATI_TD); ?></th>
 		</tr>
 	</thead>
 	<tfoot>
@@ -54,7 +54,7 @@ $order = new WC_Order( $order_id );
 
 				if ( $_product->exists() && $_product->is_downloadable() && $_product->has_file() && ( $order->status=='completed' || ( get_option( 'woocommerce_downloads_grant_access_after_payment' ) == 'yes' && $order->status == 'processing' ) ) ) :
 
-					echo '<br/><small><a href="' . $order->get_downloadable_file_url( $item['id'], $item['variation_id'] ) . '">' . __('Download file &rarr;', 'woocommerce') . '</a></small>';
+					echo '<br/><small><a href="' . $order->get_downloadable_file_url( $item['id'], $item['variation_id'] ) . '">' . __('Download file &rarr;', TACATI_TD) . '</a></small>';
 
 				endif;
 				echo '</td><td class="product-quantity">'.$item['qty'].'</td><td class="product-total">' . get_formatted_line_subtotal_custom($order,$item) . '</td></tr>';
@@ -76,19 +76,19 @@ $order = new WC_Order( $order_id );
 
 <?php if ( get_option('woocommerce_allow_customers_to_reorder') == 'yes' && $order->status=='completed' ) : ?>
 	<p class="order-again">
-		<a href="<?php echo esc_url( $woocommerce->nonce_url( 'order_again', add_query_arg( 'order_again', $order->id, add_query_arg( 'order', $order->id, get_permalink( woocommerce_get_page_id( 'view_order' ) ) ) ) ) ); ?>" class="button"><?php _e('Order Again', 'woocommerce'); ?></a>
+		<a href="<?php echo esc_url( $woocommerce->nonce_url( 'order_again', add_query_arg( 'order_again', $order->id, add_query_arg( 'order', $order->id, get_permalink( woocommerce_get_page_id( 'view_order' ) ) ) ) ) ); ?>" class="button"><?php _e('Order Again', TACATI_TD); ?></a>
 	</p>
 <?php endif; ?>
 
 <?php do_action( 'woocommerce_order_details_after_order_table', $order ); ?>
 
 <header>
-	<h2><?php _e('Customer details', 'woocommerce'); ?></h2>
+	<h2><?php _e('Customer details', TACATI_TD); ?></h2>
 </header>
 <dl class="customer_details">
 <?php
-	if ($order->billing_email) echo '<dt>'.__('Email:', 'woocommerce').'</dt><dd>'.$order->billing_email.'</dd>';
-	if ($order->billing_phone) echo '<dt>'.__('Telephone:', 'woocommerce').'</dt><dd>'.$order->billing_phone.'</dd>';
+	if ($order->billing_email) echo '<dt>'.__('Email:', TACATI_TD).'</dt><dd>'.$order->billing_email.'</dd>';
+	if ($order->billing_phone) echo '<dt>'.__('Telephone:', TACATI_TD).'</dt><dd>'.$order->billing_phone.'</dd>';
 ?>
 </dl>
 
@@ -101,12 +101,12 @@ $order = new WC_Order( $order_id );
 <?php endif; ?>
 
 		<header class="title">
-			<h3><?php _e('Billing Address', 'woocommerce'); ?></h3>
+			<h3><?php _e('Billing Address', TACATI_TD); ?></h3>
 		</header>
 		<address><p>
 			
 			<?php
-				if (!$order->get_formatted_billing_address()) _e('N/A', 'woocommerce'); else echo $order->get_formatted_billing_address();
+				if (!$order->get_formatted_billing_address()) _e('N/A', TACATI_TD); else echo $order->get_formatted_billing_address();
 			?>
 		</p></address>
 
@@ -117,7 +117,7 @@ $order = new WC_Order( $order_id );
 	<div class="col-2">
 
 		<header class="title">
-			<h3><?php _e('Shipping Address', 'woocommerce'); ?></h3>
+			<h3><?php _e('Shipping Address', TACATI_TD); ?></h3>
 		</header>
 		<address><p>
 			<?php 

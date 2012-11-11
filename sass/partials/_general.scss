@@ -1,0 +1,53 @@
+.main-access{
+	height: 50px !important;
+	text-align: center;
+}
+.bottone_rosso{
+	position: relative;
+	height: 34px;
+	width: auto;
+	display: inline;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	border: 1px solid #C42000;
+	background-image: linear-gradient(bottom, rgb(219,46,0) 46%, rgb(242,60,0) 73%);
+	background-image: -o-linear-gradient(bottom, rgb(219,46,0) 46%, rgb(242,60,0) 73%);
+	background-image: -moz-linear-gradient(bottom, rgb(219,46,0) 46%, rgb(242,60,0) 73%);
+	background-image: -webkit-linear-gradient(bottom, rgb(219,46,0) 46%, rgb(242,60,0) 73%);
+	background-image: -ms-linear-gradient(bottom, rgb(219,46,0) 46%, rgb(242,60,0) 73%);
+	
+	@include border-radius(10px);
+	-webkit-box-shadow: 0 2px 2px rgba(119,20,0,0.5);
+	   -moz-box-shadow: 0 2px 2px rgba(119,20,0,0.5);
+			box-shadow: 0 2px 2px rgba(119,20,0,0.5);
+	a{
+		color: #F2EFDC;
+		font-family: edmondsans regular;
+		font-size: 23px;
+		position: relative;
+		top: 2px;
+		border-top: 1px solid #FF9685;
+		@include border-radius(10px);
+		padding-left: 10px;
+		padding-right: 10px;
+		text-decoration: none;
+	}
+	a:hover{
+		@include border-radius(8px);
+		border-top: 1px solid #FFB1A4;
+		background-color: rgba(255,208,202,0.3);
+	}
+}
+.bottone_rosso:active{
+	background-image: linear-gradient(bottom, rgb(219,46,0) 46%, rgb(196,32,0) 73%);
+	background-image: -o-linear-gradient(bottom, rgb(219,46,0) 46%, rgb(196,32,0) 73%);
+	background-image: -moz-linear-gradient(bottom, rgb(219,46,0) 46%, rgb(196,32,0) 73%);
+	background-image: -webkit-linear-gradient(bottom, rgb(219,46,0) 46%, rgb(196,32,0) 73%);
+	background-image: -ms-linear-gradient(bottom, rgb(219,46,0) 46%, rgb(196,32,0) 73%);
+	box-shadow: none;
+	border: 1px solid #990E00;
+	a{
+		border-top: none;
+		background: none;
+	}
+}

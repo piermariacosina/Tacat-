@@ -19,20 +19,20 @@ global $post;
 		<div class="comment-text">
 
 			<div itemprop="reviewRating" itemscope itemtype="http://schema.org/Rating" class="star-rating" title="<?php echo esc_attr( get_comment_meta( $GLOBALS['comment']->comment_ID, 'rating', true ) ); ?>">
-				<span style="width:<?php echo get_comment_meta( $GLOBALS['comment']->comment_ID, 'rating', true )*16; ?>px"><span itemprop="ratingValue"><?php echo get_comment_meta( $GLOBALS['comment']->comment_ID, 'rating', true ); ?></span> <?php _e('out of 5', 'woocommerce'); ?></span>
+				<span style="width:<?php echo get_comment_meta( $GLOBALS['comment']->comment_ID, 'rating', true )*16; ?>px"><span itemprop="ratingValue"><?php echo get_comment_meta( $GLOBALS['comment']->comment_ID, 'rating', true ); ?></span> <?php _e('out of 5', TACATI_TD); ?></span>
 			</div>
 
 			<?php if ($GLOBALS['comment']->comment_approved == '0') : ?>
-				<p class="meta"><em><?php _e('Your comment is awaiting approval', 'woocommerce'); ?></em></p>
+				<p class="meta"><em><?php _e('Your comment is awaiting approval', TACATI_TD); ?></em></p>
 			<?php else : ?>
 				<p class="meta">
 					<strong itemprop="author"><?php comment_author(); ?></strong> <?php
 
 						if ( get_option('woocommerce_review_rating_verification_label') == 'yes' )
 							if ( woocommerce_customer_bought_product( $GLOBALS['comment']->comment_author_email, $GLOBALS['comment']->user_id, $post->ID ) )
-								echo '(' . __('verified owner', 'woocommerce') . ') ';
+								echo '(' . __('verified owner', TACATI_TD) . ') ';
 
-					?>&ndash; <time itemprop="datePublished" time datetime="<?php echo get_comment_date('c'); ?>"><?php echo get_comment_date(__('M jS Y', 'woocommerce')); ?></time>:
+					?>&ndash; <time itemprop="datePublished" time datetime="<?php echo get_comment_date('c'); ?>"><?php echo get_comment_date(__('M jS Y', TACATI_TD)); ?></time>:
 				</p>
 			<?php endif; ?>
 

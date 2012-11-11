@@ -17,19 +17,19 @@ $available_methods = $woocommerce->shipping->get_available_shipping_methods();
 
 	<?php if ( ! $woocommerce->shipping->enabled || $available_methods || ! $woocommerce->customer->get_shipping_country() || ! $woocommerce->customer->has_calculated_shipping() ) : ?>
 
-		<h2><?php _e('Cart Totals', 'woocommerce'); ?></h2>
+		<h2><?php _e('Cart Totals', TACATI_TD); ?></h2>
 		<table cellspacing="0" cellpadding="0">
 			<tbody>
 
 				<tr class="cart-subtotal">
-					<th><strong><?php _e('Cart Subtotal', 'woocommerce'); ?></strong></th>
+					<th><strong><?php _e('Cart Subtotal', TACATI_TD); ?></strong></th>
 					<td><strong><?php echo $woocommerce->cart->get_cart_subtotal(); ?></strong></td>
 				</tr>
 
 				<?php if ($woocommerce->cart->get_discounts_before_tax()) : ?>
 
 				<tr class="discount">
-					<th><?php _e('Cart Discount', 'woocommerce'); ?> <a href="<?php echo add_query_arg('remove_discounts', '1', $woocommerce->cart->get_cart_url()) ?>"><?php _e('[Remove]', 'woocommerce'); ?></a></th>
+					<th><?php _e('Cart Discount', TACATI_TD); ?> <a href="<?php echo add_query_arg('remove_discounts', '1', $woocommerce->cart->get_cart_url()) ?>"><?php _e('[Remove]', TACATI_TD); ?></a></th>
 					<td>-<?php echo $woocommerce->cart->get_discounts_before_tax(); ?></td>
 				</tr>
 
@@ -38,7 +38,7 @@ $available_methods = $woocommerce->shipping->get_available_shipping_methods();
 				<?php if ( $woocommerce->cart->needs_shipping() && $woocommerce->cart->show_shipping() && ( $available_methods || get_option( 'woocommerce_enable_shipping_calc' ) == 'yes' ) ) { ?>
 
 				<tr class="shipping">
-					<th><?php _e('Shipping', 'woocommerce'); ?></th>
+					<th><?php _e('Shipping', TACATI_TD); ?></th>
 					<td>
 					<?php
 						// If at least one shipping method is available
@@ -101,9 +101,9 @@ $available_methods = $woocommerce->shipping->get_available_shipping_methods();
 						} else {
 
 							if ( ! $woocommerce->customer->get_shipping_country() || ! $woocommerce->customer->get_shipping_state() || ! $woocommerce->customer->get_shipping_postcode() ) {
-								echo '<p>'.__('Please fill in your details to see available shipping methods.', 'woocommerce').'</p>';
+								echo '<p>'.__('Please fill in your details to see available shipping methods.', TACATI_TD).'</p>';
 							} else {
-								echo '<p>'.__('Sorry, it seems that there are no available shipping methods for your state. Please contact us if you require assistance or wish to make alternate arrangements.', 'woocommerce').'</p>';
+								echo '<p>'.__('Sorry, it seems that there are no available shipping methods for your state. Please contact us if you require assistance or wish to make alternate arrangements.', TACATI_TD).'</p>';
 							}
 
 						}
@@ -129,7 +129,7 @@ $available_methods = $woocommerce->shipping->get_available_shipping_methods();
 									<th>
 										<?php
 										if ( get_option( 'woocommerce_display_totals_excluding_tax' ) == 'no' && get_option( 'woocommerce_prices_include_tax' ) == 'yes' ) {
-											_e( 'incl.&nbsp;', 'woocommerce' );
+											_e( 'incl.&nbsp;', TACATI_TD );
 										}
 										echo $woocommerce->cart->tax->get_rate_label( $key );
 										?>
@@ -143,7 +143,7 @@ $available_methods = $woocommerce->shipping->get_available_shipping_methods();
 							if ($has_compound_tax && !$woocommerce->cart->prices_include_tax) :
 								?>
 								<tr class="order-subtotal">
-									<th><strong><?php _e('Subtotal', 'woocommerce'); ?></strong></th>
+									<th><strong><?php _e('Subtotal', TACATI_TD); ?></strong></th>
 									<td><strong><?php echo $woocommerce->cart->get_cart_subtotal( true ); ?></strong></td>
 								</tr>
 								<?php
@@ -156,7 +156,7 @@ $available_methods = $woocommerce->shipping->get_available_shipping_methods();
 									<th>
 										<?php
 										if ( get_option( 'woocommerce_display_totals_excluding_tax' ) == 'no' && get_option( 'woocommerce_prices_include_tax' ) == 'yes' ) {
-											_e( 'incl.&nbsp;', 'woocommerce' );
+											_e( 'incl.&nbsp;', TACATI_TD );
 										}
 										echo $woocommerce->cart->tax->get_rate_label( $key );
 										?>
@@ -171,7 +171,7 @@ $available_methods = $woocommerce->shipping->get_available_shipping_methods();
 
 							?>
 							<tr class="tax">
-								<th><?php _e('Tax', 'woocommerce'); ?></th>
+								<th><?php _e('Tax', TACATI_TD); ?></th>
 								<td><?php echo $woocommerce->cart->get_cart_tax(); ?></td>
 							</tr>
 							<?php
@@ -181,8 +181,8 @@ $available_methods = $woocommerce->shipping->get_available_shipping_methods();
 
 						?>
 						<tr class="tax">
-							<th><?php _e('Tax', 'woocommerce'); ?></th>
-							<td><?php _ex( 'N/A', 'Relating to tax', 'woocommerce' ); ?></td>
+							<th><?php _e('Tax', TACATI_TD); ?></th>
+							<td><?php _ex( 'N/A', 'Relating to tax', TACATI_TD ); ?></td>
 						</tr>
 						<?php
 
@@ -192,14 +192,14 @@ $available_methods = $woocommerce->shipping->get_available_shipping_methods();
 				<?php if ($woocommerce->cart->get_discounts_after_tax()) : ?>
 
 				<tr class="discount">
-					<th><?php _e('Order Discount', 'woocommerce'); ?> <a href="<?php echo add_query_arg('remove_discounts', '2', $woocommerce->cart->get_cart_url()) ?>"><?php _e('[Remove]', 'woocommerce'); ?></a></th>
+					<th><?php _e('Order Discount', TACATI_TD); ?> <a href="<?php echo add_query_arg('remove_discounts', '2', $woocommerce->cart->get_cart_url()) ?>"><?php _e('[Remove]', TACATI_TD); ?></a></th>
 					<td>-<?php echo $woocommerce->cart->get_discounts_after_tax(); ?></td>
 				</tr>
 
 				<?php endif; ?>
 
 				<tr class="total">
-					<th><strong><?php _e('Order Total', 'woocommerce'); ?></strong></th>
+					<th><strong><?php _e('Order Total', TACATI_TD); ?></strong></th>
 					<td><strong><?php
 
 						if (get_option('woocommerce_display_cart_taxes')=='no' && !$woocommerce->cart->prices_include_tax) :
@@ -217,9 +217,9 @@ $available_methods = $woocommerce->shipping->get_available_shipping_methods();
 		<?php if ( get_option('woocommerce_display_cart_taxes') == 'yes' && $woocommerce->cart->get_cart_tax() ) : ?>
 			<p><small><?php
 
-				$estimated_text = ( $woocommerce->customer->is_customer_outside_base() && ! $woocommerce->customer->has_calculated_shipping() ) ? sprintf( ' ' . __('(taxes estimated for %s)', 'woocommerce'), $woocommerce->countries->estimated_for_prefix() . __($woocommerce->countries->countries[ $woocommerce->countries->get_base_country() ], 'woocommerce') ) : '';
+				$estimated_text = ( $woocommerce->customer->is_customer_outside_base() && ! $woocommerce->customer->has_calculated_shipping() ) ? sprintf( ' ' . __('(taxes estimated for %s)', TACATI_TD), $woocommerce->countries->estimated_for_prefix() . __($woocommerce->countries->countries[ $woocommerce->countries->get_base_country() ], TACATI_TD) ) : '';
 
-				printf(__('Note: Shipping and taxes are estimated%s and will be updated during checkout based on your billing and shipping information.', 'woocommerce'), $estimated_text );
+				printf(__('Note: Shipping and taxes are estimated%s and will be updated during checkout based on your billing and shipping information.', TACATI_TD), $estimated_text );
 
 			?></small></p>
 		<?php endif; ?>
@@ -229,16 +229,16 @@ $available_methods = $woocommerce->shipping->get_available_shipping_methods();
 		<?php if ( ! $woocommerce->customer->get_shipping_state() || ! $woocommerce->customer->get_shipping_postcode() ) : ?>
 
 			<div class="woocommerce_info">
-				<p><?php _e('No shipping methods were found; please recalculate your shipping and enter your state/county and zip/postcode to ensure their are no other available methods for your location.', 'woocommerce'); ?></p>
+				<p><?php _e('No shipping methods were found; please recalculate your shipping and enter your state/county and zip/postcode to ensure their are no other available methods for your location.', TACATI_TD); ?></p>
 			</div>
 
 		<?php else : ?>
 
 			<div class="woocommerce_error">
 
-				<p><?php printf(__('Sorry, it seems that there are no available shipping methods for your location (%s).', 'woocommerce'), $woocommerce->countries->countries[ $woocommerce->customer->get_shipping_country() ]); ?></p>
+				<p><?php printf(__('Sorry, it seems that there are no available shipping methods for your location (%s).', TACATI_TD), $woocommerce->countries->countries[ $woocommerce->customer->get_shipping_country() ]); ?></p>
 
-				<p><?php _e('If you require assistance or wish to make alternate arrangements please contact us.', 'woocommerce'); ?></p>
+				<p><?php _e('If you require assistance or wish to make alternate arrangements please contact us.', TACATI_TD); ?></p>
 
 			</div>
 

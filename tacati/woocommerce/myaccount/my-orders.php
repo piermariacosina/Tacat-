@@ -28,10 +28,10 @@ if ($customer_orders) :
 
 		<thead>
 			<tr>
-				<th class="order-number"><span class="nobr"><?php _e('Order', 'woocommerce'); ?></span></th>
-				<th class="order-shipto"><span class="nobr"><?php _e('Ship to', 'woocommerce'); ?></span></th>
-				<th class="order-total"><span class="nobr"><?php _e('Total', 'woocommerce'); ?></span></th>
-				<th class="order-status" colspan="2"><span class="nobr"><?php _e('Status', 'woocommerce'); ?></span></th>
+				<th class="order-number"><span class="nobr"><?php _e('Order', TACATI_TD); ?></span></th>
+				<th class="order-shipto"><span class="nobr"><?php _e('Ship to', TACATI_TD); ?></span></th>
+				<th class="order-total"><span class="nobr"><?php _e('Total', TACATI_TD); ?></span></th>
+				<th class="order-status" colspan="2"><span class="nobr"><?php _e('Status', TACATI_TD); ?></span></th>
 			</tr>
 		</thead>
 
@@ -50,18 +50,18 @@ if ($customer_orders) :
 					<td class="order-shipto"><address><?php if ($order->get_formatted_shipping_address()) echo $order->get_formatted_shipping_address(); else echo '&ndash;'; ?></address></td>
 					<td class="order-total" width="1%"><?php echo $order->get_formatted_order_total(); ?></td>
 					<td class="order-status" style="text-align:left; white-space:nowrap;">
-						<?php echo ucfirst( __( $status->name, 'woocommerce' ) ); ?>
+						<?php echo ucfirst( __( $status->name, TACATI_TD ) ); ?>
 						<?php if (in_array($order->status, array('pending', 'failed'))) : ?>
-							<a href="<?php echo esc_url( $order->get_cancel_order_url() ); ?>" class="cancel" title="<?php _e('Click to cancel this order', 'woocommerce'); ?>">(<?php _e('Cancel', 'woocommerce'); ?>)</a>
+							<a href="<?php echo esc_url( $order->get_cancel_order_url() ); ?>" class="cancel" title="<?php _e('Click to cancel this order', TACATI_TD); ?>">(<?php _e('Cancel', TACATI_TD); ?>)</a>
 						<?php endif; ?>
 					</td>
 					<td class="order-actions" style="text-align:right; white-space:nowrap;">
 
 						<?php if (in_array($order->status, array('pending', 'failed'))) : ?>
-							<a href="<?php echo esc_url( $order->get_checkout_payment_url() ); ?>" class="button pay"><?php _e('Pay', 'woocommerce'); ?></a>
+							<a href="<?php echo esc_url( $order->get_checkout_payment_url() ); ?>" class="button pay"><?php _e('Pay', TACATI_TD); ?></a>
 						<?php endif; ?>
 
-						<a href="<?php echo esc_url( add_query_arg('order', $order->id, get_permalink(woocommerce_get_page_id('view_order'))) ); ?>" class="button"><?php _e('View', 'woocommerce'); ?></a>
+						<a href="<?php echo esc_url( add_query_arg('order', $order->id, get_permalink(woocommerce_get_page_id('view_order'))) ); ?>" class="button"><?php _e('View', TACATI_TD); ?></a>
 
 
 					</td>
@@ -73,7 +73,7 @@ if ($customer_orders) :
 <?php
 else :
 ?>
-	<p><?php _e('You have no recent orders.', 'woocommerce'); ?></p>
+	<p><?php _e('You have no recent orders.', TACATI_TD); ?></p>
 <?php
 endif;
 ?>

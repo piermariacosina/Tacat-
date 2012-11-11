@@ -27,12 +27,12 @@ global $woocommerce;
 
 	<p class="form-row" id="shiptobilling">
 		<input id="shiptobilling-checkbox" class="input-checkbox" <?php checked($shiptobilling, 1); ?> type="checkbox" name="shiptobilling" value="1" />
-		<label for="shiptobilling-checkbox" class="checkbox"><?php _e('Ship to billing address?', 'woocommerce'); ?></label>
+		<label for="shiptobilling-checkbox" class="checkbox"><?php _e('Ship to billing address?', TACATI_TD); ?></label>
 	</p>
 
 	
 	<div class="shipping_address">
-		<h3><?php _e('Shipping Address', 'woocommerce'); ?></h3>
+		<h3><?php _e('Shipping Address', TACATI_TD); ?></h3>
 		<?php do_action('woocommerce_before_checkout_shipping_form', $checkout); ?>
 
 		<?php foreach ($checkout->checkout_fields['shipping'] as $key => $field) : ?>
@@ -53,7 +53,7 @@ global $woocommerce;
 
 	<?php if ($woocommerce->cart->ship_to_billing_address_only()) : ?>
 
-		<h3><?php _e('Additional Information', 'woocommerce'); ?></h3>
+		<h3><?php _e('Additional Information', TACATI_TD); ?></h3>
 
 	<?php endif; ?>
 

@@ -44,7 +44,7 @@ foreach ( $product->get_children() as $child_id ) {
 
 						<?php elseif ( ! $quantites_required ) : ?>
 
-							<button type="submit" name="quantity[<?php echo $child_product['product']->id; ?>]" value="1" class="single_add_to_cart_button button alt"><?php _e('Add to cart', 'woocommerce'); ?></button>
+							<button type="submit" name="quantity[<?php echo $child_product['product']->id; ?>]" value="1" class="single_add_to_cart_button button alt"><?php _e('Add to cart', TACATI_TD); ?></button>
 
 						<?php else : ?>
 
@@ -74,7 +74,7 @@ foreach ( $product->get_children() as $child_id ) {
 
 		<?php do_action('woocommerce_before_add_to_cart_button'); ?>
 
-		<button type="submit" class="single_add_to_cart_button button alt"><?php echo apply_filters('single_add_to_cart_text', __('Add to cart', 'woocommerce'), $product->product_type); ?></button>
+		<button type="submit" class="single_add_to_cart_button button alt"><?php echo apply_filters('single_add_to_cart_text', __('Add to cart', TACATI_TD), $product->product_type); ?></button>
 
 		<?php do_action('woocommerce_after_add_to_cart_button'); ?>
 

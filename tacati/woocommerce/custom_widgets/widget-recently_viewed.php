@@ -25,9 +25,9 @@ class WooCommerce_Widget_Recently_Viewed_CUSTOM extends WP_Widget {
 
 		/* Widget variable settings. */
 		$this->woo_widget_cssclass = 'widget_recently_viewed_products';
-		$this->woo_widget_description = __( 'Display a list of recently viewed products.', 'woocommerce' );
+		$this->woo_widget_description = __( 'Display a list of recently viewed products.', TACATI_TD );
 		$this->woo_widget_idbase = 'woocommerce_recently_viewed_products';
-		$this->woo_widget_name = __('Custom WooCommerce Recently Viewed Products', 'woocommerce' );
+		$this->woo_widget_name = __('Custom WooCommerce Recently Viewed Products', TACATI_TD );
 
 		/* Widget settings. */
 		$widget_ops = array( 'classname' => $this->woo_widget_cssclass, 'description' => $this->woo_widget_description );
@@ -66,7 +66,7 @@ class WooCommerce_Widget_Recently_Viewed_CUSTOM extends WP_Widget {
 		ob_start();
 		extract($args);
 
-		$title = apply_filters('widget_title', empty($instance['title']) ? __('Recently viewed', 'woocommerce') : $instance['title'], $instance, $this->id_base);
+		$title = apply_filters('widget_title', empty($instance['title']) ? __('Recently viewed', TACATI_TD) : $instance['title'], $instance, $this->id_base);
 		if ( !$number = (int) $instance['number'] )
 			$number = 10;
 		else if ( $number < 1 )
@@ -164,10 +164,10 @@ class WooCommerce_Widget_Recently_Viewed_CUSTOM extends WP_Widget {
 
 		$show_variations = isset( $instance['show_variations'] ) ? (bool) $instance['show_variations'] : false;
 ?>
-		<p><label for="<?php echo $this->get_field_id('title'); ?>"><?php _e('Title:', 'woocommerce'); ?></label>
+		<p><label for="<?php echo $this->get_field_id('title'); ?>"><?php _e('Title:', TACATI_TD); ?></label>
 		<input class="widefat" id="<?php echo esc_attr( $this->get_field_id('title') ); ?>" name="<?php echo esc_attr( $this->get_field_name('title') ); ?>" type="text" value="<?php echo esc_attr( $title ); ?>" /></p>
 
-		<p><label for="<?php echo $this->get_field_id('number'); ?>"><?php _e('Number of products to show:', 'woocommerce'); ?></label>
+		<p><label for="<?php echo $this->get_field_id('number'); ?>"><?php _e('Number of products to show:', TACATI_TD); ?></label>
 		<input id="<?php echo esc_attr( $this->get_field_id('number') ); ?>" name="<?php echo esc_attr( $this->get_field_name('number') ); ?>" type="text" value="<?php echo esc_attr( $number ); ?>" size="3" /></p>
 
 <?php

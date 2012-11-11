@@ -354,9 +354,9 @@ if ( !function_exists( 'register_new_sidebars' ) ) :
 function register_new_sidebars() {
 
 	register_sidebar( array(
-		'name' => __( 'Header Area', 'twentyeleven' ),
+		'name' => __( 'Header Area', TACATI_TD ),
 		'id' => 'sidebar-6',
-		'description' => __( 'An optional widget area for your site header', 'twentyeleven' ),
+		'description' => __( 'An optional widget area for your site header', TACATI_TD ),
 		'before_widget' => '<aside id="%1$s" class="widget %2$s">',
 		'after_widget' => "</aside>",
 		'before_title' => '<h3 class="widget-title">',
@@ -364,9 +364,9 @@ function register_new_sidebars() {
 	) );
 	
 	register_sidebar( array(
-		'name' => __( 'Header top', 'twentyeleven' ),
+		'name' => __( 'Header top', TACATI_TD ),
 		'id' => 'sidebar-7',
-		'description' => __( 'An optional widget area for your site header', 'twentyeleven' ),
+		'description' => __( 'An optional widget area for your site header', TACATI_TD ),
 		'before_widget' => '<aside id="%1$s" class="widget %2$s">',
 		'after_widget' => "</aside>",
 		'before_title' => '<h3 class="widget-title">',
@@ -391,7 +391,7 @@ function woocommerce_custom_order_columns2( $column ) {
 	switch ($column) {
 		case "order_status" :
 
-			printf( '<mark class="%s">%s</mark>', sanitize_title($order->status), __($order->status, 'woocommerce') );
+			printf( '<mark class="%s">%s</mark>', sanitize_title($order->status), __($order->status, TACATI_TD) );
 
 		break;
 		case "order_title" :
@@ -408,16 +408,16 @@ function woocommerce_custom_order_columns2( $column ) {
 				$user .= '</a>';
 
 		   	else :
-		   		$user = __('Guest', 'woocommerce');
+		   		$user = __('Guest', TACATI_TD);
 		   	endif;
 
-		   	echo '<a href="'.admin_url('post.php?post='.$post->ID.'&action=edit').'"><strong>'.sprintf( __('Order %s', 'woocommerce'), $order->get_order_number() ).'</strong></a> ' . __('made by', 'woocommerce') . ' ' . $user;
+		   	echo '<a href="'.admin_url('post.php?post='.$post->ID.'&action=edit').'"><strong>'.sprintf( __('Order %s', TACATI_TD), $order->get_order_number() ).'</strong></a> ' . __('made by', TACATI_TD) . ' ' . $user;
 
 		   	if ($order->billing_email) :
-				echo '<small class="meta">'.__('Email:', 'woocommerce') . ' ' . '<a href="' . esc_url( 'mailto:'.$order->billing_email ).'">'.esc_html( $order->billing_email ).'</a></small>';
+				echo '<small class="meta">'.__('Email:', TACATI_TD) . ' ' . '<a href="' . esc_url( 'mailto:'.$order->billing_email ).'">'.esc_html( $order->billing_email ).'</a></small>';
 			endif;
 			if ($order->billing_phone) :
-				echo '<small class="meta">'.__('Tel:', 'woocommerce') . ' ' . esc_html( $order->billing_phone ) . '</small>';
+				echo '<small class="meta">'.__('Tel:', TACATI_TD) . ' ' . esc_html( $order->billing_phone ) . '</small>';
 			endif;
 
 		break;
@@ -430,7 +430,7 @@ function woocommerce_custom_order_columns2( $column ) {
 			endif;
 
 			if ($order->payment_method_title) :
-				echo '<small class="meta">' . __('Via', 'woocommerce') . ' ' . esc_html( $order->payment_method_title ) . '</small>';
+				echo '<small class="meta">' . __('Via', TACATI_TD) . ' ' . esc_html( $order->payment_method_title ) . '</small>';
 			endif;
 
 		break;
@@ -448,7 +448,7 @@ function woocommerce_custom_order_columns2( $column ) {
 				endif;
 				
 				if ($order->shipping_method_title) :
-					echo '<small class="meta">' . __('Via', 'woocommerce') . ' ' . esc_html( $order->shipping_method_title ) . '</small>';
+					echo '<small class="meta">' . __('Via', TACATI_TD) . ' ' . esc_html( $order->shipping_method_title ) . '</small>';
 				endif;
 			break;
 			default:	
@@ -462,17 +462,17 @@ function woocommerce_custom_order_columns2( $column ) {
 		case "order_date" :
 
 			if ( '0000-00-00 00:00:00' == $post->post_date ) :
-				$t_time = $h_time = __( 'Unpublished', 'woocommerce' );
+				$t_time = $h_time = __( 'Unpublished', TACATI_TD );
 			else :
-				$t_time = get_the_time( __( 'Y/m/d g:i:s A', 'woocommerce' ), $post );
+				$t_time = get_the_time( __( 'Y/m/d g:i:s A', TACATI_TD ), $post );
 
 				$gmt_time = strtotime($post->post_date_gmt);
 				$time_diff = current_time('timestamp', 1) - $gmt_time;
 
 				if ( $time_diff > 0 && $time_diff < 24*60*60 )
-					$h_time = sprintf( __( '%s ago', 'woocommerce' ), human_time_diff( $gmt_time, current_time('timestamp', 1) ) );
+					$h_time = sprintf( __( '%s ago', TACATI_TD ), human_time_diff( $gmt_time, current_time('timestamp', 1) ) );
 				else
-					$h_time = get_the_time( __( 'Y/m/d', 'woocommerce' ), $post );
+					$h_time = get_the_time( __( 'Y/m/d', TACATI_TD ), $post );
 			endif;
 
 			echo '<abbr title="' . $t_time . '">' . apply_filters( 'post_date_column_time', $h_time, $post ) . '</abbr>';
@@ -489,20 +489,20 @@ function woocommerce_custom_order_columns2( $column ) {
 					if ( in_array( $order->status, array( 'pending', 'on-hold' ) ) )
 						$actions[] = array(
 							'url' 		=> wp_nonce_url( admin_url( 'admin-ajax.php?action=woocommerce-mark-order-processing&order_id=' . $post->ID ), 'woocommerce-mark-order-processing' ),
-							'name' 		=> __( 'Processing', 'woocommerce' ),
+							'name' 		=> __( 'Processing', TACATI_TD ),
 							'action' 	=> "processing"
 						);
 
 					if ( in_array( $order->status, array( 'pending', 'on-hold', 'processing' ) ) )
 						$actions[] = array(
 							'url' 		=> wp_nonce_url( admin_url( 'admin-ajax.php?action=woocommerce-mark-order-complete&order_id=' . $post->ID ), 'woocommerce-mark-order-complete' ),
-							'name' 		=> __( 'Complete', 'woocommerce' ),
+							'name' 		=> __( 'Complete', TACATI_TD ),
 							'action' 	=> "complete"
 						);
 
 					$actions[] = array(
 							'url' 		=> admin_url( 'post.php?post=' . $post->ID . '&action=edit' ),
-							'name' 		=> __( 'View', 'woocommerce' ),
+							'name' 		=> __( 'View', TACATI_TD ),
 							'action' 	=> "view"
 						);
 
@@ -519,9 +519,9 @@ function woocommerce_custom_order_columns2( $column ) {
 		case "note" :
 
 			if ($order->customer_note)
-				echo '<img src="'.$woocommerce->plugin_url().'/assets/images/note.png" alt="yes" class="tips" data-tip="'. __('Yes', 'woocommerce') .'" width="14" height="14" />';
+				echo '<img src="'.$woocommerce->plugin_url().'/assets/images/note.png" alt="yes" class="tips" data-tip="'. __('Yes', TACATI_TD) .'" width="14" height="14" />';
 			else
-				echo '<img src="'.$woocommerce->plugin_url().'/assets/images/note-off.png" alt="no" class="tips" data-tip="'. __('No', 'woocommerce') .'" width="14" height="14" />';
+				echo '<img src="'.$woocommerce->plugin_url().'/assets/images/note-off.png" alt="no" class="tips" data-tip="'. __('No', TACATI_TD) .'" width="14" height="14" />';
 
 		break;
 		case "order_comments" :
@@ -545,7 +545,7 @@ add_action('woocommerce_after_order_notes', 'noprofit_field');
 
 function noprofit_field( $checkout ) {
 
-	echo '<div id="noprofit_field"><h3>'.__('noprofit').'</h3>';
+	echo '<div id="noprofit_field"><h3>'.__('noprofit', TACATI_TD).'</h3>';
 
 
 	$args = array( 
@@ -567,8 +567,8 @@ function noprofit_field( $checkout ) {
 	woocommerce_form_field( 'noprofit', array(
 		'type'          => 'select',
 		'class'         => array('onlus_field form-row-wide'),
-		'label'         => __('Choose a NoProfit'),
-		'placeholder'       => __('Enter something'),
+		'label'         => __('Choose a NoProfit', TACATI_TD),
+		'placeholder'       => __('Enter something', TACATI_TD),
 		'options' => $noprofit_posts_list->post_title
 		), $checkout->get_value( 'noprofit' ));
 
@@ -584,7 +584,7 @@ function my_custom_checkout_field_process() {
 
 	// Check if set, if its not set add an error.
 	if (!$_POST['noprofit']){
-		 $woocommerce->add_error( __('Please enter something into this new shiny field.') );
+		 $woocommerce->add_error( __('Please enter something into this new shiny field.', TACATI_TD) );
 	 }
 }
 
@@ -600,9 +600,24 @@ function my_custom_checkout_field_update_order_meta( $order_id ) {
 }
 
 function add_registration(){
-	echo '<a href="/mio-account">Registrati</a>'; 
+	echo '<a href="/mio-profilo">Registrati</a>'; 
 }
 
 add_action('woocommerce_login_widget_logged_out_after_form', 'add_registration' );
 
 add_filter('jpeg_quality', function($arg){return 75;});
+
+function get_press(){
+	 if(get_field('press', 'option'))
+	{
+		echo '<ul class="press">';
+
+		while(has_sub_field('press','option'))
+		{
+			echo '<li><a target="_blank" href="'.get_sub_field('title-press').'">'.get_sub_field('url-press').'</a></li>';
+		}
+
+		echo '</ul>';
+	} 
+
+}

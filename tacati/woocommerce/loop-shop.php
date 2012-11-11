@@ -35,7 +35,7 @@ _deprecated_file( basename(__FILE__), '1.6' );
 
 	<?php if ( ! woocommerce_product_subcategories( array( 'before' => '<ul class="products">', 'after' => '</ul>' ) ) ) : ?>
 
-		<p><?php _e( 'No products found which match your selection.', 'woocommerce' ); ?></p>
+		<p><?php _e( 'No products found which match your selection.', TACATI_TD ); ?></p>
 
 	<?php endif; ?>
 

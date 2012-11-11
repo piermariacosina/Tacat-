@@ -67,7 +67,7 @@
             	  <table border="0" cellpadding="0" cellspacing="0" width="600" style="-webkit-border-top-left-radius:6px; -webkit-border-top-right-radius:6px; color:#ffffff; font-family:Arial; font-weight:bold; line-height:100%; vertical-align:middle; background-color:#557da1; -webkit-box-shadow:0 0 0 3px rgba(0,0,0,0.025);">
             	    <tr>
             	      <td style="padding:24px;">
-            		      <h1 class="h1" style="color: #fff !important; margin:0; text-shadow:0 1px 0 #7797b4;"><?php _e('Invoice', 'woocommerce-pip'); ?> (<?php echo woocommerce_pip_invoice_number($order_id); ?>)</h1>
+            		      <h1 class="h1" style="color: #fff !important; margin:0; text-shadow:0 1px 0 #7797b4;"><?php _e('Invoice', TACATI_TD); ?> (<?php echo woocommerce_pip_invoice_number($order_id); ?>)</h1>
             	      </td>
             	    </tr>
             	  </table>
@@ -75,8 +75,8 @@
             	    <tr>
             	      <td valign="top" style="padding:24px;">
             	        <?php echo woocommerce_pip_print_logo(); ?>
-            		      <?php _e('Invoice', 'woocommerce-pip'); ?> (<?php echo woocommerce_pip_invoice_number($order_id); ?>)<br />
-            		      <?php _e('Order', 'woocommerce-pip'); ?> <?php echo $order->get_order_number(); ?> &mdash; <time datetime="<?php echo date("Y/m/d", strtotime($order->order_date)); ?>"><?php echo date("Y/m/d", strtotime($order->order_date)); ?></time>
+            		      <?php _e('Invoice', TACATI_TD); ?> (<?php echo woocommerce_pip_invoice_number($order_id); ?>)<br />
+            		      <?php _e('Order', TACATI_TD); ?> <?php echo $order->get_order_number(); ?> &mdash; <time datetime="<?php echo date("Y/m/d", strtotime($order->order_date)); ?>"><?php echo date("Y/m/d", strtotime($order->order_date)); ?></time>
             	      </td>
             	      <td valign="top" align="right" style="padding:24px;">
             	        <?php echo woocommerce_pip_print_company_name(); ?>
@@ -87,23 +87,23 @@
             	  <table border="0" cellpadding="0" cellspacing="0" width="600" style="background-color: #fff;">
             	    <tr>
             	      <td valign="top" style="padding:24px;">
-            	        <h3><?php _e('Billing address', 'woocommerce-pip'); ?></h3>
+            	        <h3><?php _e('Billing address', TACATI_TD); ?></h3>
 
               				<p>
               					<?php echo $order->get_formatted_billing_address(); ?>
               				</p>
               				<?php if (get_post_meta($order->id, 'VAT Number', TRUE)) : ?>
-                				<p><strong><?php _e('VAT:', 'woocommerce-pip'); ?></strong> <?php echo get_post_meta($order->id, 'VAT Number', TRUE); ?></p>
+                				<p><strong><?php _e('VAT:', TACATI_TD); ?></strong> <?php echo get_post_meta($order->id, 'VAT Number', TRUE); ?></p>
                 			<?php endif; ?>
               				<?php if ($order->billing_email) : ?>
-                				<p><strong><?php _e('Email:', 'woocommerce-pip'); ?></strong> <?php echo $order->billing_email; ?></p>
+                				<p><strong><?php _e('Email:', TACATI_TD); ?></strong> <?php echo $order->billing_email; ?></p>
                 			<?php endif; ?>
                 			<?php if ($order->billing_phone) : ?>
-                				<p><strong><?php _e('Tel:', 'woocommerce-pip'); ?></strong> <?php echo $order->billing_phone; ?></p>
+                				<p><strong><?php _e('Tel:', TACATI_TD); ?></strong> <?php echo $order->billing_phone; ?></p>
                 			<?php endif; ?>
             	      </td>
             	      <td valign="top" style="padding:24px;">
-            	        <h3><?php _e('Shipping address', 'woocommerce-pip'); ?></h3>
+            	        <h3><?php _e('Shipping address', TACATI_TD); ?></h3>
 
               				<p>
               					<?php 
@@ -127,7 +127,7 @@
 	                <?php if ($order->customer_note) { ?>
 			            <tr>
 			              <td style="padding:24px;">
-      	                <h3><?php _e('Order notes', 'woocommerce-pip'); ?></h3>
+      	                <h3><?php _e('Order notes', TACATI_TD); ?></h3>
       	                <?php echo $order->customer_note; ?>
 			              </td>
 			            </tr>
@@ -137,41 +137,41 @@
                       <table border="0" cellpadding="0" cellspacing="0" width="552">
                 				<thead>
                 					<tr>
-                					  <th scope="col" style="color: #fff; border: 1px solid #FFFFFF; text-align:left; width: 15%; background-color:#557da1; padding: 3px;"><?php _e('SKU', 'woocommerce-pip'); ?></th>
-                						<th scope="col" style="color: #fff; border: 1px solid #FFFFFF; text-align:left; width: 40%; background-color:#557da1; padding: 3px;"><?php _e('Product', 'woocommerce-pip'); ?></th>
-                						<th scope="col" style="color: #fff; border: 1px solid #FFFFFF; text-align:left; width: 25%; background-color:#557da1; padding: 3px;"><?php _e('Quantity', 'woocommerce-pip'); ?></th>
-                						<th scope="col" style="color: #fff; border: 1px solid #FFFFFF; text-align:left; width: 20%; background-color:#557da1; padding: 3px;"><?php _e('Price', 'woocommerce-pip'); ?></th>
+                					  <th scope="col" style="color: #fff; border: 1px solid #FFFFFF; text-align:left; width: 15%; background-color:#557da1; padding: 3px;"><?php _e('SKU', TACATI_TD); ?></th>
+                						<th scope="col" style="color: #fff; border: 1px solid #FFFFFF; text-align:left; width: 40%; background-color:#557da1; padding: 3px;"><?php _e('Product', TACATI_TD); ?></th>
+                						<th scope="col" style="color: #fff; border: 1px solid #FFFFFF; text-align:left; width: 25%; background-color:#557da1; padding: 3px;"><?php _e('Quantity', TACATI_TD); ?></th>
+                						<th scope="col" style="color: #fff; border: 1px solid #FFFFFF; text-align:left; width: 20%; background-color:#557da1; padding: 3px;"><?php _e('Price', TACATI_TD); ?></th>
                 					</tr>
                 				</thead>
                 				<tfoot>
                 					<tr>
                 					  <th colspan="2" style="text-align:left; padding-top: 12px;">&nbsp;</th>
-                						<th scope="row" style="text-align:right; padding-top: 12px; padding-right: 10px;"><?php _e('Subtotal:', 'woocommerce-pip'); ?></th>
+                						<th scope="row" style="text-align:right; padding-top: 12px; padding-right: 10px;"><?php _e('Subtotal:', TACATI_TD); ?></th>
                 						<td style="text-align:left; padding-top: 12px;"><?php echo $order->get_subtotal_to_display(); ?></td>
                 					</tr>
                 					<tr>
                 					  <th colspan="2" style="text-align:left; padding-top: 12px;">&nbsp;</th>
-                						<th scope="row" style="text-align:right; padding-right: 10px;"><?php _e('Shipping:', 'woocommerce-pip'); ?></th>
+                						<th scope="row" style="text-align:right; padding-right: 10px;"><?php _e('Shipping:', TACATI_TD); ?></th>
                 						<td style="text-align:left;"><?php echo $order->get_shipping_to_display(); ?></td>
                 					</tr>
                 					<?php if ($order->cart_discount > 0) : ?><tr>
                 					  <th colspan="2" style="text-align:left; padding-top: 12px;">&nbsp;</th>
-                						<th scope="row" style="text-align:right;"><?php _e('Cart Discount:', 'woocommerce-pip'); ?></th>
+                						<th scope="row" style="text-align:right;"><?php _e('Cart Discount:', TACATI_TD); ?></th>
                 						<td style="text-align:left;"><?php echo woocommerce_price($order->cart_discount); ?></td>
                 					</tr><?php endif; ?>
                 					<?php if ($order->order_discount > 0) : ?><tr>
                 					  <th colspan="2" style="text-align:left; padding-top: 12px;">&nbsp;</th>
-                						<th scope="row" style="text-align:right;"><?php _e('Order Discount:', 'woocommerce-pip'); ?></th>
+                						<th scope="row" style="text-align:right;"><?php _e('Order Discount:', TACATI_TD); ?></th>
                 						<td style="text-align:left;"><?php echo woocommerce_price($order->order_discount); ?></td>
                 					</tr><?php endif; ?>
                           <tr>
                             <th colspan="2" style="text-align:left; padding-top: 12px;">&nbsp;</th>
-                						<th scope="row" style="text-align:right; padding-right: 10px;"><?php _e('Tax:', 'woocommerce-pip'); ?></th>
+                						<th scope="row" style="text-align:right; padding-right: 10px;"><?php _e('Tax:', TACATI_TD); ?></th>
                 						<td style="text-align:left;"><?php echo woocommerce_price($order->get_total_tax()); ?></td>
                 					</tr>
                 					<tr>
                 					  <th colspan="2" style="text-align:left; padding-top: 12px;">&nbsp;</th>
-                						<th scope="row" style="text-align:right; padding-right: 10px;"><?php _e('Total:', 'woocommerce-pip'); ?></th>
+                						<th scope="row" style="text-align:right; padding-right: 10px;"><?php _e('Total:', TACATI_TD); ?></th>
                 						<td style="text-align:left;"><?php echo woocommerce_price($order->order_total); ?></td>
                 					</tr>
                 				</tfoot>

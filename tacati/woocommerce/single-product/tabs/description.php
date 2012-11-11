@@ -12,7 +12,7 @@ global $woocommerce, $post;
 if ( $post->post_content ) : ?>
 	<div class="panel entry-content" id="tab-description">
 
-		<?php $heading = apply_filters('woocommerce_product_description_heading', __('Product Description', 'woocommerce')); ?>
+		<?php $heading = apply_filters('woocommerce_product_description_heading', __('Product Description', TACATI_TD)); ?>
 
 		<h2><?php echo $heading; ?></h2>
 

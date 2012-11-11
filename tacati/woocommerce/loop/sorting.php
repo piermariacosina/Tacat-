@@ -12,10 +12,10 @@
 	<select name="sort" class="orderby">
 		<?php
 			$catalog_orderby = apply_filters('woocommerce_catalog_orderby', array(
-				'menu_order' 	=> __('Default sorting', 'woocommerce'),
-				'title' 		=> __('Sort alphabetically', 'woocommerce'),
-				'date' 			=> __('Sort by most recent', 'woocommerce'),
-				'price' 		=> __('Sort by price', 'woocommerce')
+				'menu_order' 	=> __('Default sorting', TACATI_TD),
+				'title' 		=> __('Sort alphabetically', TACATI_TD),
+				'date' 			=> __('Sort by most recent', TACATI_TD),
+				'price' 		=> __('Sort by price', TACATI_TD)
 			));
 
 			foreach ( $catalog_orderby as $id => $name )

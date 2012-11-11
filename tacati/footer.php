@@ -24,14 +24,14 @@
 
 	<footer id="colophon" role="contentinfo">
 			
-			<h1 class="logo-brand">tacati</h1>
+			<a href="<?php bloginfo('url') ?>"><h1 class="logo-brand">tacati</h1></a>
 			<ul class="footer">
-				<li>
-					<h3>Tacati</h3>
-					<p><?php the_field("what","option");?></p>
+				<li class="footer">
+					<h3><?php the_field("press_title","option"); ?></h3>
+					<?php get_press() ?>
 				</li>
-				<li>
-					<h3>Contattaci</h3>
+				<li class="footer">
+					<h3><?php the_field("where_title","option"); ?></h3>
 					<p><?php the_field("where","option");?></p>
 					<ul id="channels">
 						<li class="fb_icon"><a href="http://www.facebook.com/tacati">Facebook</a></li>

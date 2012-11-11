@@ -24,9 +24,6 @@
 <head>
 <meta charset="<?php bloginfo( 'charset' ); ?>" />
 <meta name="viewport" content="width=device-width" />
-<meta property="og:title" content="<?php bloginfo('name'); ?>" /> 
-<meta property="og:description" content="<?php bloginfo('description'); ?>" />  
-<meta property="og:image" content="http://tacati.it/wp-content/themes/images/footer-logo.png" />
 <title><?php
 	/*
 	 * Print the <title> tag based on what is being viewed.
@@ -45,7 +42,7 @@
 
 	// Add a page number if necessary:
 	if ( $paged >= 2 || $page >= 2 )
-		echo ' | ' . sprintf( __( 'Page %s', 'twentyeleven' ), max( $paged, $page ) );
+		echo ' | ' . sprintf( __( 'Page %s', TACATI_TD ), max( $paged, $page ) );
 
 	?></title>
 <link rel="profile" href="http://gmpg.org/xfn/11" />
@@ -154,10 +151,10 @@
 	<?php endif;?>
 				
 			<nav id="access" role="navigation">
-				<h3 class="assistive-text"><?php _e( 'Main menu', 'twentyeleven' ); ?></h3>
+				<h3 class="assistive-text"><?php _e( 'Main menu', TACATI_TD ); ?></h3>
 				<?php /* Allow screen readers / text browsers to skip the navigation menu and get right to the good stuff. */ ?>
-				<div class="skip-link"><a class="assistive-text" href="#content" title="<?php esc_attr_e( 'Skip to primary content', 'twentyeleven' ); ?>"><?php _e( 'Skip to primary content', 'twentyeleven' ); ?></a></div>
-				<div class="skip-link"><a class="assistive-text" href="#secondary" title="<?php esc_attr_e( 'Skip to secondary content', 'twentyeleven' ); ?>"><?php _e( 'Skip to secondary content', 'twentyeleven' ); ?></a></div>
+				<div class="skip-link"><a class="assistive-text" href="#content" title="<?php esc_attr_e( 'Skip to primary content', TACATI_TD ); ?>"><?php _e( 'Skip to primary content', TACATI_TD ); ?></a></div>
+				<div class="skip-link"><a class="assistive-text" href="#secondary" title="<?php esc_attr_e( 'Skip to secondary content', TACATI_TD ); ?>"><?php _e( 'Skip to secondary content', TACATI_TD ); ?></a></div>
 				<?php /* Our navigation menu. If one isn't filled out, wp_nav_menu falls back to wp_page_menu. The menu assigned to the primary location is the one used. If one isn't assigned, the menu with the lowest ID is used. */ ?>
 				<?php wp_nav_menu( array( 'theme_location' => 'primary' ) ); ?>
 			</nav><!-- #access -->

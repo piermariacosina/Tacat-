@@ -92,6 +92,7 @@ $blue: #5094B8;
 @import "partials/single_product";
 @import "partials/faq";
 @import "partials/navigation";
+@import "partials/general";
 		
 		h1,h2,h3,h4,h5,h6{
 			margin-bottom:0 !important;
@@ -545,15 +546,35 @@ footer#colophon{
 				width: 100%;
 				text-align: center;
 		}
+		h3{
+			padding-right: 20px;
+			font-size: 28px !important;
+		}
+		ul.press{
+			list-style: none;
+			margin-top:20px;
+			font-family: 'edmondsans bold';
+			font-size:18px;
+			padding-right: 15px;
+			line-height: 30px;
+			text-align: left;
+			padding-left: 0;
+			margin-left: 0;
+			li{
+				padding-left: 0;
+				margin-left: 0;
+			}
+		}
+		
 		ul.footer{
 					@include grid(11);            
 					@include horizontal-list-container;
 					width: 620px;
-				
+					margin-bottom: 30px;
 			
-				li{
+				li.footer{
 
-					margin-top:80px;
+					margin-top:20px;
 					@include grid(4);
 					@include omega;
 					@include grid-prefix(1);
@@ -569,7 +590,7 @@ footer#colophon{
 						margin-top:20px;
 						font-family: 'edmondsans bold';
 						color:$dark-grey;
-						font-size:20px;
+						font-size:18px;
 						padding-right: 15px;
 						line-height: 30px;
 						
