@@ -42,9 +42,8 @@ $customer_id = get_current_user_id();
 					if (!$formatted_address) _e('You have not set up a billing address yet.', TACATI_TD); else echo $formatted_address;
 				?>
 			</address>
-			<div class="bottone_rosso">
-				<a href="<?php echo esc_url( add_query_arg('address', 'billing', get_permalink(woocommerce_get_page_id('edit_address'))) ); ?>" class="edit"><?php _e('Edit', TACATI_TD); ?></a>
-			</div>				
+			<a href="<?php echo esc_url( add_query_arg('address', 'billing', get_permalink(woocommerce_get_page_id('edit_address'))) ); ?>" class="button"><?php _e('Edit', TACATI_TD); ?></a>
+
 
 
 <?php if (get_option('woocommerce_ship_to_billing_address_only')=='no') : ?>
@@ -76,9 +75,8 @@ $customer_id = get_current_user_id();
 					if (!$formatted_address) _e('You have not set up a shipping address yet.', TACATI_TD); else echo $formatted_address;
 				?>
 			</address>
-			<div class="bottone_rosso">
-				<a href="<?php echo esc_url( add_query_arg('address', 'shipping', get_permalink(woocommerce_get_page_id('edit_address'))) ); ?>" class="edit"><?php _e('Edit', TACATI_TD); ?></a>
-			</div>				
+			<a href="<?php echo esc_url( add_query_arg('address', 'shipping', get_permalink(woocommerce_get_page_id('edit_address'))) ); ?>" class="button"><?php _e('Edit', TACATI_TD); ?></a>
+						
 
 		</div><!-- /.col-2 -->
 

@@ -1,0 +1,32 @@
+.checkout_custom{
+	.button{
+		margin-bottom: 10px !important;
+	}
+	.coupon{
+		.button{
+			float: right;
+		}
+	}
+	.cart_totals, .checkout{
+		width:100%;
+		ul{
+			li{
+				label{
+					font-size:17px !important;
+					font-weight:400 !important;
+				}
+			}
+		}
+		.amount{
+			font-size: 17px !important;
+			line-height: 20px;
+			float:right;
+
+			
+		}
+	}
+	#order_review{
+		width: 700px;
+	}
+	
+}

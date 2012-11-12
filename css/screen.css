@@ -502,50 +502,51 @@ ul.products.featured li .image {
   margin: 5px 0;
 }
 /* line 109, C:/xampp/htdocs/tacati/wp-content/themes/sass/partials/_carrello_sidebar.scss */
-#secondary a.button {
+#secondary a.bottone {
   width: 160px;
   background: #F2EFDC;
   border-radius: 13px;
-  margin: 0 10px 10px 10px;
+  padding-left: 10px;
+  margin: 0px 10px 10px 10px;
   -webkit-box-shadow: 0 1px 6px rgba(183, 169, 165, 0.75), 0 2px 2px rgba(183, 169, 165, 0);
   -moz-box-shadow: 0 1px 6px rgba(183, 169, 165, 0.75), 0 2px 2px rgba(183, 169, 165, 0);
   box-shadow: 0 1px 6px rgba(183, 169, 165, 0.75), 0 2px 2px rgba(183, 169, 165, 0);
 }
-/* line 117, C:/xampp/htdocs/tacati/wp-content/themes/sass/partials/_carrello_sidebar.scss */
-#secondary a.button span {
+/* line 118, C:/xampp/htdocs/tacati/wp-content/themes/sass/partials/_carrello_sidebar.scss */
+#secondary a.bottone span {
   font-family: mission script;
   color: #e7511e;
   font-size: 21px;
   font-weight: normal;
-  padding: 8px 0;
+  padding: 6px 0;
   text-align: left;
   display: block;
 }
-/* line 129, C:/xampp/htdocs/tacati/wp-content/themes/sass/partials/_carrello_sidebar.scss */
+/* line 130, C:/xampp/htdocs/tacati/wp-content/themes/sass/partials/_carrello_sidebar.scss */
 #secondary a:hover .button {
   background: #FFF6CA;
 }
-/* line 131, C:/xampp/htdocs/tacati/wp-content/themes/sass/partials/_carrello_sidebar.scss */
+/* line 132, C:/xampp/htdocs/tacati/wp-content/themes/sass/partials/_carrello_sidebar.scss */
 #secondary a:hover .button h3 {
   color: #72BAC7;
 }
-/* line 137, C:/xampp/htdocs/tacati/wp-content/themes/sass/partials/_carrello_sidebar.scss */
+/* line 138, C:/xampp/htdocs/tacati/wp-content/themes/sass/partials/_carrello_sidebar.scss */
 #secondary .price {
   overflow: hidden;
   *zoom: 1;
   width: 118px;
 }
-/* line 139, C:/xampp/htdocs/tacati/wp-content/themes/sass/partials/_carrello_sidebar.scss */
+/* line 140, C:/xampp/htdocs/tacati/wp-content/themes/sass/partials/_carrello_sidebar.scss */
 #secondary .price.padded {
   padding: 5px 10px;
   width: 200px;
   border-top: 2px #BFB28A solid;
 }
-/* line 143, C:/xampp/htdocs/tacati/wp-content/themes/sass/partials/_carrello_sidebar.scss */
+/* line 144, C:/xampp/htdocs/tacati/wp-content/themes/sass/partials/_carrello_sidebar.scss */
 #secondary .price.padded .total {
   border-top: none;
 }
-/* line 150, C:/xampp/htdocs/tacati/wp-content/themes/sass/partials/_carrello_sidebar.scss */
+/* line 151, C:/xampp/htdocs/tacati/wp-content/themes/sass/partials/_carrello_sidebar.scss */
 #secondary .price p {
   display: inline;
   float: left;
@@ -556,13 +557,13 @@ ul.products.featured li .image {
   font-size: 23px;
   font-weight: normal;
 }
-/* line 159, C:/xampp/htdocs/tacati/wp-content/themes/sass/partials/_carrello_sidebar.scss */
+/* line 160, C:/xampp/htdocs/tacati/wp-content/themes/sass/partials/_carrello_sidebar.scss */
 #secondary .price p span {
   margin-left: 10px;
   margin-right: 10px;
   color: #5094b8;
 }
-/* line 166, C:/xampp/htdocs/tacati/wp-content/themes/sass/partials/_carrello_sidebar.scss */
+/* line 167, C:/xampp/htdocs/tacati/wp-content/themes/sass/partials/_carrello_sidebar.scss */
 #secondary .price a .carrello {
   width: 30px;
   height: 28px;
@@ -572,12 +573,12 @@ ul.products.featured li .image {
   margin: 7px 0 0 0;
   padding: 0;
 }
-/* line 176, C:/xampp/htdocs/tacati/wp-content/themes/sass/partials/_carrello_sidebar.scss */
+/* line 177, C:/xampp/htdocs/tacati/wp-content/themes/sass/partials/_carrello_sidebar.scss */
 #secondary .price a:hover .carrello {
   background: url("../images/carrello_hover.png") no-repeat left top;
 }
 
-/* line 185, C:/xampp/htdocs/tacati/wp-content/themes/sass/partials/_carrello_sidebar.scss */
+/* line 186, C:/xampp/htdocs/tacati/wp-content/themes/sass/partials/_carrello_sidebar.scss */
 .corner_carrello_bottom {
   width: 29px;
   height: 240px;
@@ -1461,74 +1462,48 @@ form.woocommerce_ordering .orderby {
   text-align: center;
 }
 
-/* line 5, C:/xampp/htdocs/tacati/wp-content/themes/sass/partials/_general.scss */
-.bottone_rosso {
-  position: relative;
-  height: 34px;
-  width: auto;
-  display: inline;
-  padding-top: 8px;
-  padding-bottom: 8px;
-  border: 1px solid #C42000;
-  background-image: linear-gradient(bottom, #db2e00 46%, #f23c00 73%);
-  background-image: -o-linear-gradient(bottom, #db2e00 46%, #f23c00 73%);
-  background-image: -moz-linear-gradient(bottom, #db2e00 46%, #f23c00 73%);
-  background-image: -webkit-linear-gradient(bottom, #db2e00 46%, #f23c00 73%);
-  background-image: -ms-linear-gradient(bottom, #db2e00 46%, #f23c00 73%);
-  -webkit-border-radius: 10px;
-  -moz-border-radius: 10px;
-  -ms-border-radius: 10px;
-  -o-border-radius: 10px;
-  border-radius: 10px;
-  -webkit-box-shadow: 0 2px 2px rgba(119, 20, 0, 0.5);
-  -moz-box-shadow: 0 2px 2px rgba(119, 20, 0, 0.5);
-  box-shadow: 0 2px 2px rgba(119, 20, 0, 0.5);
-}
-/* line 23, C:/xampp/htdocs/tacati/wp-content/themes/sass/partials/_general.scss */
-.bottone_rosso a {
-  color: #F2EFDC;
-  font-family: edmondsans regular;
+/* line 7, C:/xampp/htdocs/tacati/wp-content/themes/sass/partials/_general.scss */
+a.button, button.button, input.button, #respond input#submit, #content input.button, .nsu-submit, .submitbutton {
   font-size: 23px;
+  margin: 0;
+  line-height: 1em;
+  cursor: pointer;
   position: relative;
-  top: 2px;
-  border-top: 1px solid #FF9685;
+  font-family: edmondsans regular;
+  overflow: visible;
+  padding: 4px 10px;
+  text-decoration: none;
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
-  -ms-border-radius: 10px;
-  -o-border-radius: 10px;
   border-radius: 10px;
-  padding-left: 10px;
-  padding-right: 10px;
-  text-decoration: none;
-  background: none;
-  line-height: 0;
-  border: none;
+  left: auto;
+  color: #F2EFDC;
+  border: 1px solid #C42000;
+  background: #F23C00;
+  background: -webkit-gradient(linear, left top, left bottom, from(#f23c00), to(#db2e00));
+  background: -webkit-linear-gradient(#f23c00, #db2e00);
+  background: -moz-linear-gradient(center top, #f23c00 0, #db2e00 100%);
+  background: -moz-gradient(center top, #f23c00 0, #db2e00 100%);
+  -webkit-box-shadow: inset 0 1px 0 #ff9685, 0 2px 2px rgba(119, 20, 0, 0.5);
+  -moz-box-shadow: inset 0 1px 0 #ff9685, 0 2px 2px rgba(119, 20, 0, 0.5);
+  box-shadow: inset 0 1px 0 #ff9685, 0 2px 2px rgba(119, 20, 0, 0.5);
 }
-/* line 39, C:/xampp/htdocs/tacati/wp-content/themes/sass/partials/_general.scss */
-.bottone_rosso a:hover {
-  -webkit-border-radius: 8px;
-  -moz-border-radius: 8px;
-  -ms-border-radius: 8px;
-  -o-border-radius: 8px;
-  border-radius: 8px;
-  border-top: 1px solid #FFB1A4;
-  background-color: rgba(255, 208, 202, 0.3);
+/* line 31, C:/xampp/htdocs/tacati/wp-content/themes/sass/partials/_general.scss */
+a.button:hover, button.button:hover, input.button:hover, #respond input#submit:hover, #content input.button:hover, .nsu-submit:hover, .submitbutton:hover {
+  -webkit-box-shadow: inset 0 1px 0 #ffb1a4, inset 0 50px 0 rgba(255, 208, 202, 0.3), 0 2px 2px rgba(119, 20, 0, 0.5);
+  -moz-box-shadow: inset 0 1px 0 #ffb1a4, inset 0 50px 0 rgba(255, 208, 202, 0.3), 0 2px 2px rgba(119, 20, 0, 0.5) !important;
+  box-shadow: inset 0 1px 0 #ffb1a4, inset 0 50px 0 rgba(255, 208, 202, 0.3), 0 2px 2px rgba(119, 20, 0, 0.5);
+  background: #F23C00;
 }
-
-/* line 45, C:/xampp/htdocs/tacati/wp-content/themes/sass/partials/_general.scss */
-.bottone_rosso:active {
-  background-image: linear-gradient(bottom, #db2e00 46%, #c42000 73%);
-  background-image: -o-linear-gradient(bottom, #db2e00 46%, #c42000 73%);
-  background-image: -moz-linear-gradient(bottom, #db2e00 46%, #c42000 73%);
-  background-image: -webkit-linear-gradient(bottom, #db2e00 46%, #c42000 73%);
-  background-image: -ms-linear-gradient(bottom, #db2e00 46%, #c42000 73%);
+/* line 37, C:/xampp/htdocs/tacati/wp-content/themes/sass/partials/_general.scss */
+a.button:active, button.button:active, input.button:active, #respond input#submit:active, #content input.button:active, .nsu-submit:active, .submitbutton:active {
   box-shadow: none;
   border: 1px solid #990E00;
-}
-/* line 53, C:/xampp/htdocs/tacati/wp-content/themes/sass/partials/_general.scss */
-.bottone_rosso:active a {
-  border-top: none;
-  background: none;
+  background: #C42000;
+  background: -webkit-gradient(linear, left top, left bottom, from(#c42000), to(#db2e00));
+  background: -webkit-linear-gradient(#c42000, #db2e00);
+  background: -moz-linear-gradient(center top, #c42000 0, #db2e00 100%);
+  background: -moz-gradient(center top, #c42000 0, #db2e00 100%);
 }
 
 /* line 2, C:/xampp/htdocs/tacati/wp-content/themes/sass/partials/_mio-profilo.scss */
@@ -1549,37 +1524,41 @@ form.woocommerce_ordering .orderby {
 /* line 16, C:/xampp/htdocs/tacati/wp-content/themes/sass/partials/_mio-profilo.scss */
 .checkout_custom .shop_table {
   border: none;
-  width: 670px;
 }
 /* line 19, C:/xampp/htdocs/tacati/wp-content/themes/sass/partials/_mio-profilo.scss */
-.checkout_custom .shop_table th {
+.checkout_custom .shop_table.my_account_orders {
+  border: none;
+  width: 670px;
+}
+/* line 22, C:/xampp/htdocs/tacati/wp-content/themes/sass/partials/_mio-profilo.scss */
+.checkout_custom .shop_table.my_account_orders th {
   color: #5094b8;
   font-family: edmondsans regular;
   font-size: 23px;
   width: 150px;
 }
-/* line 25, C:/xampp/htdocs/tacati/wp-content/themes/sass/partials/_mio-profilo.scss */
-.checkout_custom .shop_table td {
+/* line 28, C:/xampp/htdocs/tacati/wp-content/themes/sass/partials/_mio-profilo.scss */
+.checkout_custom .shop_table.my_account_orders td {
   color: #732c03;
   font-family: edmondsans regular;
   border: none;
   font-size: 17px;
   width: 150px;
 }
-/* line 34, C:/xampp/htdocs/tacati/wp-content/themes/sass/partials/_mio-profilo.scss */
+/* line 37, C:/xampp/htdocs/tacati/wp-content/themes/sass/partials/_mio-profilo.scss */
 .checkout_custom h3 {
   color: #5094b8 !important;
   font-family: edmondsans medium !important;
   font-size: 23px;
 }
-/* line 39, C:/xampp/htdocs/tacati/wp-content/themes/sass/partials/_mio-profilo.scss */
+/* line 42, C:/xampp/htdocs/tacati/wp-content/themes/sass/partials/_mio-profilo.scss */
 .checkout_custom address {
   color: #732c03;
   font-family: edmondsans regular;
   border: none;
   font-size: 17px;
 }
-/* line 45, C:/xampp/htdocs/tacati/wp-content/themes/sass/partials/_mio-profilo.scss */
+/* line 48, C:/xampp/htdocs/tacati/wp-content/themes/sass/partials/_mio-profilo.scss */
 .checkout_custom .myaccount_address {
   color: #f23c00;
 }
@@ -1588,11 +1567,45 @@ form.woocommerce_ordering .orderby {
 label {
   color: #5094b8;
   font-family: edmondsans medium;
+}
+
+/* line 5, C:/xampp/htdocs/tacati/wp-content/themes/sass/partials/_form.scss */
+.nsu-field {
+  height: 30px !important;
+  margin-bottom: 5px !important;
+  background-color: #F7F6F7 !important;
+}
+
+/* line 11, C:/xampp/htdocs/tacati/wp-content/themes/sass/partials/_form.scss */
+.login {
+  border: none !important;
+  padding: 0px !important;
+}
+/* line 14, C:/xampp/htdocs/tacati/wp-content/themes/sass/partials/_form.scss */
+.login p {
+  width: 100%;
+  float: left !important;
+  padding: 0px;
+}
+/* line 19, C:/xampp/htdocs/tacati/wp-content/themes/sass/partials/_form.scss */
+.login .input-text {
+  height: 30px !important;
+  margin-bottom: 5px !important;
+  background-color: #F7F6F7 !important;
+}
+/* line 25, C:/xampp/htdocs/tacati/wp-content/themes/sass/partials/_form.scss */
+.login a {
+  font-size: 15px;
+}
+/* line 28, C:/xampp/htdocs/tacati/wp-content/themes/sass/partials/_form.scss */
+.login label {
+  color: #5094b8;
+  font-family: edmondsans medium;
   font-size: 20px !important;
   padding-bottom: 5px;
 }
-/* line 6, C:/xampp/htdocs/tacati/wp-content/themes/sass/partials/_form.scss */
-label span {
+/* line 33, C:/xampp/htdocs/tacati/wp-content/themes/sass/partials/_form.scss */
+.login label span {
   font-size: 55px !important;
   line-height: 55px;
   display: inline-block;
@@ -1600,58 +1613,154 @@ label span {
   font-weight: 400 !important;
 }
 
-/* line 15, C:/xampp/htdocs/tacati/wp-content/themes/sass/partials/_form.scss */
-.input-text {
-  height: 30px !important;
-  margin-bottom: 5px !important;
-  background-color: #F7F6F7 !important;
-}
-
-/* line 21, C:/xampp/htdocs/tacati/wp-content/themes/sass/partials/_form.scss */
-.login {
-  border: none !important;
-  padding: 0px !important;
-}
-/* line 24, C:/xampp/htdocs/tacati/wp-content/themes/sass/partials/_form.scss */
-.login p {
-  width: 100%;
-  float: left !important;
-  padding: 0px;
-}
-/* line 30, C:/xampp/htdocs/tacati/wp-content/themes/sass/partials/_form.scss */
-.login a {
-  font-size: 15px;
-}
-
-/* line 35, C:/xampp/htdocs/tacati/wp-content/themes/sass/partials/_form.scss */
+/* line 44, C:/xampp/htdocs/tacati/wp-content/themes/sass/partials/_form.scss */
 .register {
   border: none !important;
   padding: 0px !important;
 }
-/* line 38, C:/xampp/htdocs/tacati/wp-content/themes/sass/partials/_form.scss */
+/* line 47, C:/xampp/htdocs/tacati/wp-content/themes/sass/partials/_form.scss */
 .register p {
   width: 100%;
   float: left !important;
   padding: 0;
 }
+/* line 52, C:/xampp/htdocs/tacati/wp-content/themes/sass/partials/_form.scss */
+.register .input-text {
+  height: 30px !important;
+  margin-bottom: 5px !important;
+  background-color: #F7F6F7 !important;
+}
+/* line 57, C:/xampp/htdocs/tacati/wp-content/themes/sass/partials/_form.scss */
+.register label {
+  color: #5094b8;
+  font-family: edmondsans medium;
+  font-size: 20px !important;
+  padding-bottom: 5px;
+}
+/* line 62, C:/xampp/htdocs/tacati/wp-content/themes/sass/partials/_form.scss */
+.register label span {
+  font-size: 55px !important;
+  line-height: 55px;
+  display: inline-block;
+  height: 25px;
+  font-weight: 400 !important;
+}
 
-/* line 99, C:/xampp/htdocs/tacati/wp-content/themes/sass/screen.scss */
+/* line 73, C:/xampp/htdocs/tacati/wp-content/themes/sass/partials/_form.scss */
+.nsu-form {
+  padding-left: 30px;
+}
+
+/* line 78, C:/xampp/htdocs/tacati/wp-content/themes/sass/partials/_form.scss */
+.checkout_custom p a {
+  color: white !important;
+}
+/* line 82, C:/xampp/htdocs/tacati/wp-content/themes/sass/partials/_form.scss */
+.checkout_custom address p {
+  color: #732c03 !important;
+  font-family: edmondsans regular;
+  border: none;
+  font-size: 17px;
+}
+
+/* line 90, C:/xampp/htdocs/tacati/wp-content/themes/sass/partials/_form.scss */
+.customer_details {
+  color: #732c03;
+  font-family: edmondsans regular;
+  border: none;
+  font-size: 17px;
+}
+
+/* line 96, C:/xampp/htdocs/tacati/wp-content/themes/sass/partials/_form.scss */
+.recaptcha_only_if_image.recaptcha_only_if_no_incorrect_sol {
+  font-size: 15px !important;
+  line-height: 15px !important;
+  color: black;
+  padding-bottom: 1px;
+}
+
+/* line 103, C:/xampp/htdocs/tacati/wp-content/themes/sass/partials/_form.scss */
+.password .input-text {
+  height: 30px !important;
+  margin-bottom: 5px !important;
+  background-color: #F7F6F7 !important;
+}
+/* line 108, C:/xampp/htdocs/tacati/wp-content/themes/sass/partials/_form.scss */
+.password label {
+  color: #5094b8;
+  font-family: edmondsans medium;
+  font-size: 20px !important;
+  padding-bottom: 5px;
+}
+/* line 113, C:/xampp/htdocs/tacati/wp-content/themes/sass/partials/_form.scss */
+.password label span {
+  font-size: 55px !important;
+  line-height: 55px;
+  display: inline-block;
+  height: 25px;
+  font-weight: 400 !important;
+}
+
+/* line 2, C:/xampp/htdocs/tacati/wp-content/themes/sass/partials/_sidebar.scss */
+header label {
+  font-size: 15px;
+}
+/* line 5, C:/xampp/htdocs/tacati/wp-content/themes/sass/partials/_sidebar.scss */
+header .input-text {
+  height: 20px !important;
+  margin-bottom: 5px !important;
+  background-color: #F7F6F7 !important;
+}
+/* line 11, C:/xampp/htdocs/tacati/wp-content/themes/sass/partials/_sidebar.scss */
+header .submitbutton {
+  margin-top: -7px;
+}
+
+/* line 2, C:/xampp/htdocs/tacati/wp-content/themes/sass/partials/_carrello.scss */
+.checkout_custom .button {
+  margin-bottom: 10px !important;
+}
+/* line 6, C:/xampp/htdocs/tacati/wp-content/themes/sass/partials/_carrello.scss */
+.checkout_custom .coupon .button {
+  float: right;
+}
+/* line 10, C:/xampp/htdocs/tacati/wp-content/themes/sass/partials/_carrello.scss */
+.checkout_custom .cart_totals, .checkout_custom .checkout {
+  width: 100%;
+}
+/* line 14, C:/xampp/htdocs/tacati/wp-content/themes/sass/partials/_carrello.scss */
+.checkout_custom .cart_totals ul li label, .checkout_custom .checkout ul li label {
+  font-size: 17px !important;
+  font-weight: 400 !important;
+}
+/* line 20, C:/xampp/htdocs/tacati/wp-content/themes/sass/partials/_carrello.scss */
+.checkout_custom .cart_totals .amount, .checkout_custom .checkout .amount {
+  font-size: 17px !important;
+  line-height: 20px;
+  float: right;
+}
+/* line 28, C:/xampp/htdocs/tacati/wp-content/themes/sass/partials/_carrello.scss */
+.checkout_custom #order_review {
+  width: 700px;
+}
+
+/* line 100, C:/xampp/htdocs/tacati/wp-content/themes/sass/screen.scss */
 h1, h2, h3, h4, h5, h6 {
   margin-bottom: 0 !important;
   font-weight: 400 !important;
 }
 
-/* line 104, C:/xampp/htdocs/tacati/wp-content/themes/sass/screen.scss */
+/* line 105, C:/xampp/htdocs/tacati/wp-content/themes/sass/screen.scss */
 a {
   text-decoration: none;
 }
 
-/* line 108, C:/xampp/htdocs/tacati/wp-content/themes/sass/screen.scss */
+/* line 109, C:/xampp/htdocs/tacati/wp-content/themes/sass/screen.scss */
 body.textured {
   background: url('../images/texture.png?1346765252') repeat left top;
 }
 
-/* line 113, C:/xampp/htdocs/tacati/wp-content/themes/sass/screen.scss */
+/* line 114, C:/xampp/htdocs/tacati/wp-content/themes/sass/screen.scss */
 #content {
   display: inline;
   float: left;
@@ -1659,50 +1768,50 @@ body.textured {
   margin-right: 10px;
   width: 760px;
 }
-/* line 116, C:/xampp/htdocs/tacati/wp-content/themes/sass/screen.scss */
+/* line 117, C:/xampp/htdocs/tacati/wp-content/themes/sass/screen.scss */
 #content > small {
   display: none;
 }
 
-/* line 121, C:/xampp/htdocs/tacati/wp-content/themes/sass/screen.scss */
+/* line 122, C:/xampp/htdocs/tacati/wp-content/themes/sass/screen.scss */
 #main {
   position: relative;
   padding-bottom: 20px;
 }
-/* line 124, C:/xampp/htdocs/tacati/wp-content/themes/sass/screen.scss */
+/* line 125, C:/xampp/htdocs/tacati/wp-content/themes/sass/screen.scss */
 #main.generic {
   padding-bottom: 0px !important;
 }
 
-/* line 131, C:/xampp/htdocs/tacati/wp-content/themes/sass/screen.scss */
+/* line 132, C:/xampp/htdocs/tacati/wp-content/themes/sass/screen.scss */
 #payment {
   background-color: white !important;
 }
 
-/* line 135, C:/xampp/htdocs/tacati/wp-content/themes/sass/screen.scss */
+/* line 136, C:/xampp/htdocs/tacati/wp-content/themes/sass/screen.scss */
 #primary {
   position: relative;
   background-color: #fcfdfd;
   display: inline;
   float: left;
 }
-/* line 139, C:/xampp/htdocs/tacati/wp-content/themes/sass/screen.scss */
+/* line 140, C:/xampp/htdocs/tacati/wp-content/themes/sass/screen.scss */
 #primary #content {
   margin-top: 20px;
   margin-bottom: 30px;
 }
-/* line 144, C:/xampp/htdocs/tacati/wp-content/themes/sass/screen.scss */
+/* line 145, C:/xampp/htdocs/tacati/wp-content/themes/sass/screen.scss */
 #primary #content.privacy p, #primary #content.terms p {
   color: #732c03 !important;
   font-weight: 400 !important;
 }
 
-/* line 153, C:/xampp/htdocs/tacati/wp-content/themes/sass/screen.scss */
+/* line 154, C:/xampp/htdocs/tacati/wp-content/themes/sass/screen.scss */
 div.shadow {
   background: url('../images/shadow_light.png?1346883062') repeat-x left top;
   height: 20px;
 }
-/* line 156, C:/xampp/htdocs/tacati/wp-content/themes/sass/screen.scss */
+/* line 157, C:/xampp/htdocs/tacati/wp-content/themes/sass/screen.scss */
 div.shadow.top {
   display: inline;
   float: left;
@@ -1715,7 +1824,7 @@ div.shadow.top {
   width: 960px;
 }
 
-/* line 166, C:/xampp/htdocs/tacati/wp-content/themes/sass/screen.scss */
+/* line 167, C:/xampp/htdocs/tacati/wp-content/themes/sass/screen.scss */
 div.addthis_toolbox {
   float: right;
   overflow: hidden;
@@ -1726,7 +1835,7 @@ div.addthis_toolbox {
   right: 0;
 }
 
-/* line 176, C:/xampp/htdocs/tacati/wp-content/themes/sass/screen.scss */
+/* line 177, C:/xampp/htdocs/tacati/wp-content/themes/sass/screen.scss */
 header#dashboard {
   height: 98px;
   background: url('../images/header.png?1346779844') repeat-x left top;
@@ -1735,35 +1844,35 @@ header#dashboard {
   top: 0;
   z-index: 999;
 }
-/* line 183, C:/xampp/htdocs/tacati/wp-content/themes/sass/screen.scss */
+/* line 184, C:/xampp/htdocs/tacati/wp-content/themes/sass/screen.scss */
 header#dashboard div.container {
   margin-left: auto;
   margin-right: auto;
   width: 960px;
 }
 
-/* line 189, C:/xampp/htdocs/tacati/wp-content/themes/sass/screen.scss */
+/* line 190, C:/xampp/htdocs/tacati/wp-content/themes/sass/screen.scss */
 div#page {
   margin-left: auto;
   margin-right: auto;
   width: 960px;
 }
 
-/* line 195, C:/xampp/htdocs/tacati/wp-content/themes/sass/screen.scss */
+/* line 196, C:/xampp/htdocs/tacati/wp-content/themes/sass/screen.scss */
 header#branding nav#access {
   background-color: #fcfdfd;
   padding-top: 37px;
   margin-top: -20px;
 }
-/* line 199, C:/xampp/htdocs/tacati/wp-content/themes/sass/screen.scss */
+/* line 200, C:/xampp/htdocs/tacati/wp-content/themes/sass/screen.scss */
 header#branding nav#access .skip-link {
   display: none;
 }
-/* line 202, C:/xampp/htdocs/tacati/wp-content/themes/sass/screen.scss */
+/* line 203, C:/xampp/htdocs/tacati/wp-content/themes/sass/screen.scss */
 header#branding nav#access .assistive-text {
   display: none;
 }
-/* line 206, C:/xampp/htdocs/tacati/wp-content/themes/sass/screen.scss */
+/* line 207, C:/xampp/htdocs/tacati/wp-content/themes/sass/screen.scss */
 header#branding nav#access ul {
   margin: 0;
   padding: 0;
@@ -1772,7 +1881,7 @@ header#branding nav#access ul {
   *zoom: 1;
   padding-left: 60px;
 }
-/* line 209, C:/xampp/htdocs/tacati/wp-content/themes/sass/screen.scss */
+/* line 210, C:/xampp/htdocs/tacati/wp-content/themes/sass/screen.scss */
 header#branding nav#access ul li {
   list-style-image: none;
   list-style-type: none;
@@ -1797,7 +1906,7 @@ header#branding nav#access ul li:last-child {
 header#branding nav#access ul li.last {
   padding-right: 0;
 }
-/* line 214, C:/xampp/htdocs/tacati/wp-content/themes/sass/screen.scss */
+/* line 215, C:/xampp/htdocs/tacati/wp-content/themes/sass/screen.scss */
 header#branding nav#access ul li.current-menu-item {
   background-color: #f23c00;
   -webkit-border-radius: 10px;
@@ -1806,11 +1915,11 @@ header#branding nav#access ul li.current-menu-item {
   -o-border-radius: 10px;
   border-radius: 10px;
 }
-/* line 217, C:/xampp/htdocs/tacati/wp-content/themes/sass/screen.scss */
+/* line 218, C:/xampp/htdocs/tacati/wp-content/themes/sass/screen.scss */
 header#branding nav#access ul li.current-menu-item a {
   color: #fcfdfd !important;
 }
-/* line 221, C:/xampp/htdocs/tacati/wp-content/themes/sass/screen.scss */
+/* line 222, C:/xampp/htdocs/tacati/wp-content/themes/sass/screen.scss */
 header#branding nav#access ul li a {
   color: #f23c00;
   padding: 10px;
@@ -1824,7 +1933,7 @@ header#branding nav#access ul li a:hover {
 header#branding nav#access ul li a:active {
   color: #fcfdfd;
 }
-/* line 225, C:/xampp/htdocs/tacati/wp-content/themes/sass/screen.scss */
+/* line 226, C:/xampp/htdocs/tacati/wp-content/themes/sass/screen.scss */
 header#branding nav#access ul li a:hover {
   background-color: #f23c00;
   -webkit-border-radius: 10px;
@@ -1833,7 +1942,7 @@ header#branding nav#access ul li a:hover {
   -o-border-radius: 10px;
   border-radius: 10px;
 }
-/* line 238, C:/xampp/htdocs/tacati/wp-content/themes/sass/screen.scss */
+/* line 239, C:/xampp/htdocs/tacati/wp-content/themes/sass/screen.scss */
 header#branding .featured img {
   background-color: #fcfdfd;
   margin-top: -23px;
@@ -1841,12 +1950,12 @@ header#branding .featured img {
   display: inline;
   float: left;
 }
-/* line 246, C:/xampp/htdocs/tacati/wp-content/themes/sass/screen.scss */
+/* line 247, C:/xampp/htdocs/tacati/wp-content/themes/sass/screen.scss */
 header#branding #slider {
   position: relative;
   height: 363px;
 }
-/* line 251, C:/xampp/htdocs/tacati/wp-content/themes/sass/screen.scss */
+/* line 252, C:/xampp/htdocs/tacati/wp-content/themes/sass/screen.scss */
 header#branding .flexslider {
   margin: -14px 0 0 0;
   border: none;
@@ -1860,16 +1969,16 @@ header#branding .flexslider {
   -o-box-shadow: none;
   zoom: 1;
 }
-/* line 264, C:/xampp/htdocs/tacati/wp-content/themes/sass/screen.scss */
+/* line 265, C:/xampp/htdocs/tacati/wp-content/themes/sass/screen.scss */
 header#branding .flexslider .flex-viewport {
   float: left;
   margin-top: -9px;
 }
-/* line 269, C:/xampp/htdocs/tacati/wp-content/themes/sass/screen.scss */
+/* line 270, C:/xampp/htdocs/tacati/wp-content/themes/sass/screen.scss */
 header#branding .flexslider ul li {
   margin: 0;
 }
-/* line 274, C:/xampp/htdocs/tacati/wp-content/themes/sass/screen.scss */
+/* line 275, C:/xampp/htdocs/tacati/wp-content/themes/sass/screen.scss */
 header#branding .flexslider div.sinistra, header#branding .flexslider div.destra {
   max-width: 300px;
   max-height: 300px;
@@ -1882,7 +1991,7 @@ header#branding .flexslider div.sinistra, header#branding .flexslider div.destra
   margin-right: 10px;
   width: 400px;
 }
-/* line 280, C:/xampp/htdocs/tacati/wp-content/themes/sass/screen.scss */
+/* line 281, C:/xampp/htdocs/tacati/wp-content/themes/sass/screen.scss */
 header#branding .flexslider div.sinistra div.background, header#branding .flexslider div.destra div.background {
   background: url('../images/yellow.png?1346784740') repeat left top;
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=90);
@@ -1899,70 +2008,70 @@ header#branding .flexslider div.sinistra div.background, header#branding .flexsl
   -o-border-radius: 10px;
   border-radius: 10px;
 }
-/* line 288, C:/xampp/htdocs/tacati/wp-content/themes/sass/screen.scss */
+/* line 289, C:/xampp/htdocs/tacati/wp-content/themes/sass/screen.scss */
 header#branding .flexslider div.sinistra div.content, header#branding .flexslider div.destra div.content {
   position: relative;
   z-index: 2;
 }
-/* line 296, C:/xampp/htdocs/tacati/wp-content/themes/sass/screen.scss */
+/* line 297, C:/xampp/htdocs/tacati/wp-content/themes/sass/screen.scss */
 header#branding .flexslider div.sinistra h1, header#branding .flexslider div.sinistra h2, header#branding .flexslider div.destra h1, header#branding .flexslider div.destra h2 {
   font-family: "mission script";
 }
-/* line 301, C:/xampp/htdocs/tacati/wp-content/themes/sass/screen.scss */
+/* line 302, C:/xampp/htdocs/tacati/wp-content/themes/sass/screen.scss */
 header#branding .flexslider div.sinistra h3, header#branding .flexslider div.sinistra h4, header#branding .flexslider div.sinistra h5, header#branding .flexslider div.destra h3, header#branding .flexslider div.destra h4, header#branding .flexslider div.destra h5 {
   font-family: "edmondsans regular";
   padding-bottom: 20px;
 }
-/* line 307, C:/xampp/htdocs/tacati/wp-content/themes/sass/screen.scss */
+/* line 308, C:/xampp/htdocs/tacati/wp-content/themes/sass/screen.scss */
 header#branding .flexslider div.sinistra h1, header#branding .flexslider div.destra h1 {
   font-size: 45px;
   color: #732c03;
 }
-/* line 312, C:/xampp/htdocs/tacati/wp-content/themes/sass/screen.scss */
+/* line 313, C:/xampp/htdocs/tacati/wp-content/themes/sass/screen.scss */
 header#branding .flexslider div.sinistra h2, header#branding .flexslider div.destra h2 {
   font-size: 38px;
   color: #732c03;
 }
-/* line 316, C:/xampp/htdocs/tacati/wp-content/themes/sass/screen.scss */
+/* line 317, C:/xampp/htdocs/tacati/wp-content/themes/sass/screen.scss */
 header#branding .flexslider div.sinistra h3, header#branding .flexslider div.destra h3 {
   font-size: 32px;
   color: #f23c00;
 }
-/* line 321, C:/xampp/htdocs/tacati/wp-content/themes/sass/screen.scss */
+/* line 322, C:/xampp/htdocs/tacati/wp-content/themes/sass/screen.scss */
 header#branding .flexslider div.sinistra h4, header#branding .flexslider div.destra h4 {
   font-size: 28px;
   color: #f23c00;
 }
-/* line 325, C:/xampp/htdocs/tacati/wp-content/themes/sass/screen.scss */
+/* line 326, C:/xampp/htdocs/tacati/wp-content/themes/sass/screen.scss */
 header#branding .flexslider div.sinistra h5, header#branding .flexslider div.destra h5 {
   font-size: 22px;
   color: #f23c00;
 }
-/* line 329, C:/xampp/htdocs/tacati/wp-content/themes/sass/screen.scss */
+/* line 330, C:/xampp/htdocs/tacati/wp-content/themes/sass/screen.scss */
 header#branding .flexslider div.sinistra h6, header#branding .flexslider div.destra h6 {
   font-size: 18px;
   color: #f23c00;
 }
-/* line 336, C:/xampp/htdocs/tacati/wp-content/themes/sass/screen.scss */
+/* line 337, C:/xampp/htdocs/tacati/wp-content/themes/sass/screen.scss */
 header#branding .flexslider div.sinistra ul li, header#branding .flexslider div.sinistra ol li, header#branding .flexslider div.destra ul li, header#branding .flexslider div.destra ol li {
   font-family: "edmondsans medium";
   color: #5094b8;
 }
-/* line 343, C:/xampp/htdocs/tacati/wp-content/themes/sass/screen.scss */
+/* line 344, C:/xampp/htdocs/tacati/wp-content/themes/sass/screen.scss */
 header#branding .flexslider div.sinistra p, header#branding .flexslider div.sinistra div, header#branding .flexslider div.destra p, header#branding .flexslider div.destra div {
   font-family: "edmondsans medium";
   font-size: 15px;
   color: #5094b8;
 }
-/* line 350, C:/xampp/htdocs/tacati/wp-content/themes/sass/screen.scss */
+/* line 351, C:/xampp/htdocs/tacati/wp-content/themes/sass/screen.scss */
 header#branding .flexslider div.sinistra {
   margin-left: 120px;
 }
-/* line 353, C:/xampp/htdocs/tacati/wp-content/themes/sass/screen.scss */
+/* line 354, C:/xampp/htdocs/tacati/wp-content/themes/sass/screen.scss */
 header#branding .flexslider div.destra {
   margin-left: 540px;
 }
-/* line 359, C:/xampp/htdocs/tacati/wp-content/themes/sass/screen.scss */
+/* line 360, C:/xampp/htdocs/tacati/wp-content/themes/sass/screen.scss */
 header#branding section {
   margin-top: 110px;
   background: url('../images/header-center.png?1346869906') repeat-x left top;
@@ -1970,11 +2079,11 @@ header#branding section {
   position: relative;
   z-index: 100;
 }
-/* line 365, C:/xampp/htdocs/tacati/wp-content/themes/sass/screen.scss */
+/* line 366, C:/xampp/htdocs/tacati/wp-content/themes/sass/screen.scss */
 header#branding section a {
   color: white;
 }
-/* line 369, C:/xampp/htdocs/tacati/wp-content/themes/sass/screen.scss */
+/* line 370, C:/xampp/htdocs/tacati/wp-content/themes/sass/screen.scss */
 header#branding section h1 {
   font-family: 'mission script';
   font-size: 88px;
@@ -1984,12 +2093,12 @@ header#branding section h1 {
   display: inline;
   float: left;
 }
-/* line 380, C:/xampp/htdocs/tacati/wp-content/themes/sass/screen.scss */
+/* line 381, C:/xampp/htdocs/tacati/wp-content/themes/sass/screen.scss */
 header#branding section .nav-tabs .open .dropdown-toggle, header#branding section .nav-pills .open .dropdown-toggle, header#branding section .nav > li.dropdown.open.active > a:hover {
   background-color: white;
   color: #f23c00;
 }
-/* line 385, C:/xampp/htdocs/tacati/wp-content/themes/sass/screen.scss */
+/* line 386, C:/xampp/htdocs/tacati/wp-content/themes/sass/screen.scss */
 header#branding section ul.nav {
   position: absolute;
   bottom: 0px;
@@ -1998,34 +2107,34 @@ header#branding section ul.nav {
   font-size: 18px;
   margin-bottom: 43px;
 }
-/* line 393, C:/xampp/htdocs/tacati/wp-content/themes/sass/screen.scss */
+/* line 394, C:/xampp/htdocs/tacati/wp-content/themes/sass/screen.scss */
 header#branding section ul.nav li {
   margin-left: 0;
 }
-/* line 395, C:/xampp/htdocs/tacati/wp-content/themes/sass/screen.scss */
+/* line 396, C:/xampp/htdocs/tacati/wp-content/themes/sass/screen.scss */
 header#branding section ul.nav li b.caret {
   border-top-color: #ffffff;
   border-bottom-color: #ffffff;
 }
-/* line 400, C:/xampp/htdocs/tacati/wp-content/themes/sass/screen.scss */
+/* line 401, C:/xampp/htdocs/tacati/wp-content/themes/sass/screen.scss */
 header#branding section ul.nav li a:hover {
   background-color: white;
   color: #f23c00;
 }
-/* line 404, C:/xampp/htdocs/tacati/wp-content/themes/sass/screen.scss */
+/* line 405, C:/xampp/htdocs/tacati/wp-content/themes/sass/screen.scss */
 header#branding section ul.nav li a:hover b.caret {
   border-top-color: #f23c00;
   border-bottom-color: #f23c00;
 }
-/* line 410, C:/xampp/htdocs/tacati/wp-content/themes/sass/screen.scss */
+/* line 411, C:/xampp/htdocs/tacati/wp-content/themes/sass/screen.scss */
 header#branding section ul.nav li ul {
   background-color: white;
 }
-/* line 415, C:/xampp/htdocs/tacati/wp-content/themes/sass/screen.scss */
+/* line 416, C:/xampp/htdocs/tacati/wp-content/themes/sass/screen.scss */
 header#branding section ul.nav li ul li a {
   color: #f23c00;
 }
-/* line 428, C:/xampp/htdocs/tacati/wp-content/themes/sass/screen.scss */
+/* line 429, C:/xampp/htdocs/tacati/wp-content/themes/sass/screen.scss */
 header#branding section div.header-left {
   background: url('../images/header-left.png?1346869906') no-repeat left top;
   height: 158px;
@@ -2035,7 +2144,7 @@ header#branding section div.header-left {
   display: inline;
   float: left;
 }
-/* line 436, C:/xampp/htdocs/tacati/wp-content/themes/sass/screen.scss */
+/* line 437, C:/xampp/htdocs/tacati/wp-content/themes/sass/screen.scss */
 header#branding section div.header-right {
   background: url('../images/header-right.png?1346869906') no-repeat left top;
   height: 158px;
@@ -2045,17 +2154,17 @@ header#branding section div.header-right {
   float: right;
   right: -48px;
 }
-/* line 448, C:/xampp/htdocs/tacati/wp-content/themes/sass/screen.scss */
+/* line 449, C:/xampp/htdocs/tacati/wp-content/themes/sass/screen.scss */
 header#branding div.categories {
   margin: 0;
   background-color: #fcfdfd;
   background: url('../images/yellow.png?1346784740') repeat left top;
 }
-/* line 452, C:/xampp/htdocs/tacati/wp-content/themes/sass/screen.scss */
+/* line 453, C:/xampp/htdocs/tacati/wp-content/themes/sass/screen.scss */
 header#branding div.categories h3 {
   display: none;
 }
-/* line 455, C:/xampp/htdocs/tacati/wp-content/themes/sass/screen.scss */
+/* line 456, C:/xampp/htdocs/tacati/wp-content/themes/sass/screen.scss */
 header#branding div.categories ul {
   margin: 0;
   padding: 0;
@@ -2066,7 +2175,7 @@ header#branding div.categories ul {
   padding-top: 20px;
   padding-bottom: 20px;
 }
-/* line 460, C:/xampp/htdocs/tacati/wp-content/themes/sass/screen.scss */
+/* line 461, C:/xampp/htdocs/tacati/wp-content/themes/sass/screen.scss */
 header#branding div.categories ul li {
   list-style-image: none;
   list-style-type: none;
@@ -2099,11 +2208,11 @@ header#branding div.categories ul li:last-child {
 header#branding div.categories ul li.last {
   padding-right: 0;
 }
-/* line 469, C:/xampp/htdocs/tacati/wp-content/themes/sass/screen.scss */
+/* line 470, C:/xampp/htdocs/tacati/wp-content/themes/sass/screen.scss */
 header#branding div.categories ul li:first-child {
   margin-left: 10px;
 }
-/* line 473, C:/xampp/htdocs/tacati/wp-content/themes/sass/screen.scss */
+/* line 474, C:/xampp/htdocs/tacati/wp-content/themes/sass/screen.scss */
 header#branding div.categories ul li a {
   display: block;
   font-weight: bold;
@@ -2114,29 +2223,29 @@ header#branding div.categories ul li a {
   -o-text-overflow: ellipsis;
   text-overflow: ellipsis;
 }
-/* line 479, C:/xampp/htdocs/tacati/wp-content/themes/sass/screen.scss */
+/* line 480, C:/xampp/htdocs/tacati/wp-content/themes/sass/screen.scss */
 header#branding div.categories ul li a:hover {
   text-decoration: underline;
   color: #f23c00;
 }
 
-/* line 491, C:/xampp/htdocs/tacati/wp-content/themes/sass/screen.scss */
+/* line 492, C:/xampp/htdocs/tacati/wp-content/themes/sass/screen.scss */
 div#main {
   background-color: #fcfdfd;
 }
 
-/* line 495, C:/xampp/htdocs/tacati/wp-content/themes/sass/screen.scss */
+/* line 496, C:/xampp/htdocs/tacati/wp-content/themes/sass/screen.scss */
 .clear {
   clear: both;
 }
 
-/* line 500, C:/xampp/htdocs/tacati/wp-content/themes/sass/screen.scss */
+/* line 501, C:/xampp/htdocs/tacati/wp-content/themes/sass/screen.scss */
 .border {
   height: 4px;
   clear: both;
   background-color: #fcfdfd;
 }
-/* line 504, C:/xampp/htdocs/tacati/wp-content/themes/sass/screen.scss */
+/* line 505, C:/xampp/htdocs/tacati/wp-content/themes/sass/screen.scss */
 .border ul {
   margin: 0;
   padding: 0;
@@ -2151,7 +2260,7 @@ div#main {
   padding-left: 60px;
   margin-top: 0px;
 }
-/* line 509, C:/xampp/htdocs/tacati/wp-content/themes/sass/screen.scss */
+/* line 510, C:/xampp/htdocs/tacati/wp-content/themes/sass/screen.scss */
 .border ul li {
   list-style-image: none;
   list-style-type: none;
@@ -2182,16 +2291,16 @@ div#main {
 .border ul li.last {
   padding-right: 0;
 }
-/* line 517, C:/xampp/htdocs/tacati/wp-content/themes/sass/screen.scss */
+/* line 518, C:/xampp/htdocs/tacati/wp-content/themes/sass/screen.scss */
 .border ul li:last-child {
   margin-right: 0px;
 }
-/* line 520, C:/xampp/htdocs/tacati/wp-content/themes/sass/screen.scss */
+/* line 521, C:/xampp/htdocs/tacati/wp-content/themes/sass/screen.scss */
 .border ul li:nth-of-type(even) {
   background-color: #72bac7;
 }
 
-/* line 532, C:/xampp/htdocs/tacati/wp-content/themes/sass/screen.scss */
+/* line 533, C:/xampp/htdocs/tacati/wp-content/themes/sass/screen.scss */
 footer#colophon {
   position: relative;
   float: left;
@@ -2207,7 +2316,7 @@ footer#colophon {
   -moz-background-clip: border;
   background-clip: border-box;
 }
-/* line 546, C:/xampp/htdocs/tacati/wp-content/themes/sass/screen.scss */
+/* line 547, C:/xampp/htdocs/tacati/wp-content/themes/sass/screen.scss */
 footer#colophon h1.logo-brand {
   text-indent: -119988px;
   overflow: hidden;
@@ -2220,12 +2329,12 @@ footer#colophon h1.logo-brand {
   width: 100%;
   text-align: center;
 }
-/* line 551, C:/xampp/htdocs/tacati/wp-content/themes/sass/screen.scss */
+/* line 552, C:/xampp/htdocs/tacati/wp-content/themes/sass/screen.scss */
 footer#colophon h3 {
   padding-right: 20px;
   font-size: 28px !important;
 }
-/* line 555, C:/xampp/htdocs/tacati/wp-content/themes/sass/screen.scss */
+/* line 556, C:/xampp/htdocs/tacati/wp-content/themes/sass/screen.scss */
 footer#colophon ul.press {
   list-style: none;
   margin-top: 20px;
@@ -2237,12 +2346,12 @@ footer#colophon ul.press {
   padding-left: 0;
   margin-left: 0;
 }
-/* line 565, C:/xampp/htdocs/tacati/wp-content/themes/sass/screen.scss */
+/* line 566, C:/xampp/htdocs/tacati/wp-content/themes/sass/screen.scss */
 footer#colophon ul.press li {
   padding-left: 0;
   margin-left: 0;
 }
-/* line 571, C:/xampp/htdocs/tacati/wp-content/themes/sass/screen.scss */
+/* line 572, C:/xampp/htdocs/tacati/wp-content/themes/sass/screen.scss */
 footer#colophon ul.footer {
   display: inline;
   float: left;
@@ -2257,7 +2366,7 @@ footer#colophon ul.footer {
   width: 620px;
   margin-bottom: 30px;
 }
-/* line 577, C:/xampp/htdocs/tacati/wp-content/themes/sass/screen.scss */
+/* line 578, C:/xampp/htdocs/tacati/wp-content/themes/sass/screen.scss */
 footer#colophon ul.footer li.footer {
   margin-top: 20px;
   display: inline;
@@ -2269,13 +2378,13 @@ footer#colophon ul.footer li.footer {
   padding-left: 60px;
   border-right: solid 1px #f23c00;
 }
-/* line 586, C:/xampp/htdocs/tacati/wp-content/themes/sass/screen.scss */
+/* line 587, C:/xampp/htdocs/tacati/wp-content/themes/sass/screen.scss */
 footer#colophon ul.footer li.footer h3 {
   font-family: 'mission script';
   color: #5094b8;
   font-size: 35px;
 }
-/* line 591, C:/xampp/htdocs/tacati/wp-content/themes/sass/screen.scss */
+/* line 592, C:/xampp/htdocs/tacati/wp-content/themes/sass/screen.scss */
 footer#colophon ul.footer li.footer p {
   margin-top: 20px;
   font-family: 'edmondsans bold';
@@ -2284,7 +2393,7 @@ footer#colophon ul.footer li.footer p {
   padding-right: 15px;
   line-height: 30px;
 }
-/* line 599, C:/xampp/htdocs/tacati/wp-content/themes/sass/screen.scss */
+/* line 600, C:/xampp/htdocs/tacati/wp-content/themes/sass/screen.scss */
 footer#colophon ul.footer li.footer p a {
   color: #3e3d40;
 }
@@ -2300,7 +2409,7 @@ footer#colophon ul.footer li.footer p a:hover {
 footer#colophon ul.footer li.footer p a:active {
   color: #f23c00;
 }
-/* line 613, C:/xampp/htdocs/tacati/wp-content/themes/sass/screen.scss */
+/* line 614, C:/xampp/htdocs/tacati/wp-content/themes/sass/screen.scss */
 footer#colophon #channels {
   margin: 0;
   padding: 0;
@@ -2308,7 +2417,7 @@ footer#colophon #channels {
   overflow: hidden;
   *zoom: 1;
 }
-/* line 615, C:/xampp/htdocs/tacati/wp-content/themes/sass/screen.scss */
+/* line 616, C:/xampp/htdocs/tacati/wp-content/themes/sass/screen.scss */
 footer#colophon #channels li {
   margin-top: 10px;
   list-style-image: none;
@@ -2334,7 +2443,7 @@ footer#colophon #channels li:last-child {
 footer#colophon #channels li.last {
   padding-right: 0;
 }
-/* line 620, C:/xampp/htdocs/tacati/wp-content/themes/sass/screen.scss */
+/* line 621, C:/xampp/htdocs/tacati/wp-content/themes/sass/screen.scss */
 footer#colophon #channels li.fb_icon {
   text-indent: -119988px;
   overflow: hidden;
@@ -2345,7 +2454,7 @@ footer#colophon #channels li.fb_icon {
   width: 32px;
   height: 32px;
 }
-/* line 623, C:/xampp/htdocs/tacati/wp-content/themes/sass/screen.scss */
+/* line 624, C:/xampp/htdocs/tacati/wp-content/themes/sass/screen.scss */
 footer#colophon #channels li.tw_icon {
   text-indent: -119988px;
   overflow: hidden;
@@ -2356,14 +2465,14 @@ footer#colophon #channels li.tw_icon {
   width: 32px;
   height: 32px;
 }
-/* line 626, C:/xampp/htdocs/tacati/wp-content/themes/sass/screen.scss */
+/* line 627, C:/xampp/htdocs/tacati/wp-content/themes/sass/screen.scss */
 footer#colophon #channels li a {
   width: 32px;
   height: 36px;
   display: block;
   position: relative;
 }
-/* line 635, C:/xampp/htdocs/tacati/wp-content/themes/sass/screen.scss */
+/* line 636, C:/xampp/htdocs/tacati/wp-content/themes/sass/screen.scss */
 footer#colophon ul.formal {
   clear: both;
   margin: 0;
@@ -2375,7 +2484,7 @@ footer#colophon ul.formal {
   margin-bottom: 10px;
   margin-top: 30px;
 }
-/* line 643, C:/xampp/htdocs/tacati/wp-content/themes/sass/screen.scss */
+/* line 644, C:/xampp/htdocs/tacati/wp-content/themes/sass/screen.scss */
 footer#colophon ul.formal li {
   list-style-image: none;
   list-style-type: none;
@@ -2401,7 +2510,7 @@ footer#colophon ul.formal li:last-child {
 footer#colophon ul.formal li.last {
   padding-false: 0;
 }
-/* line 648, C:/xampp/htdocs/tacati/wp-content/themes/sass/screen.scss */
+/* line 649, C:/xampp/htdocs/tacati/wp-content/themes/sass/screen.scss */
 footer#colophon ul.formal li a {
   color: #3e3d40;
 }

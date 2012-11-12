@@ -1,4 +1,31 @@
 label{
+		color:$light-blue;
+		font-family: edmondsans medium;
+}
+.nsu-field{
+		height: 30px !important;
+		margin-bottom: 5px !important;
+		background-color: #F7F6F7 !important; 
+}
+
+.login {
+	border: none !important;
+	padding: 0px !important;
+	p{
+		width:100%;
+		float:left !important;
+		padding:0px;
+	}
+	.input-text{
+		height: 30px !important;
+		margin-bottom: 5px !important;
+		background-color: #F7F6F7 !important; 
+	}
+	
+	a{
+	font-size:15px;
+	}
+	label{
 	color:$light-blue;
 	font-family: edmondsans medium;
 	font-size:20px !important;
@@ -12,24 +39,6 @@ label{
 		font-weight:400 !important
 	}
 }
-.input-text{
-		height: 30px !important;
-		margin-bottom: 5px !important;
-				background-color: #F7F6F7 !important; 
-	}
-
-.login {
-	border: none !important;
-	padding: 0px !important;
-	p{
-		width:100%;
-		float:left !important;
-		padding:0px;
-	}
-	
-	a{
-	font-size:15px;
-	}
 }
 
 .register {
@@ -40,5 +49,74 @@ label{
 		float:left !important;
 		padding:0;
 	}
-	
+		.input-text{
+		height: 30px !important;
+		margin-bottom: 5px !important;
+		background-color: #F7F6F7 !important; 
+}	
+	label{
+		color:$light-blue;
+		font-family: edmondsans medium;
+		font-size:20px !important;
+		padding-bottom: 5px;
+		span{
+			font-size: 55px !important;
+			line-height: 55px;
+			display: inline-block;
+
+			height:25px;
+			font-weight:400 !important
+		}
+	}
+}
+
+.nsu-form{
+	padding-left:30px
+}
+
+.checkout_custom{
+	 p a {
+		color: white !important;
+	}
+	address{
+		p{
+		color:$brown !important;
+		font-family: edmondsans regular;
+		border:none;
+		font-size:17px;
+		}
+	}
+}
+.customer_details{
+		color:$brown;
+		font-family: edmondsans regular;
+		border:none;
+		font-size:17px;	
+}
+.recaptcha_only_if_image.recaptcha_only_if_no_incorrect_sol{
+	font-size: 15px !important;
+	line-height: 15px !important;
+	color:black;
+	padding-bottom:1px;
+}
+.password{
+	.input-text{
+		height: 30px !important;
+		margin-bottom: 5px !important;
+		background-color: #F7F6F7 !important; 
+	}	
+	label{
+		color:$light-blue;
+		font-family: edmondsans medium;
+		font-size:20px !important;
+		padding-bottom: 5px;
+		span{
+			font-size: 55px !important;
+			line-height: 55px;
+			display: inline-block;
+
+			height:25px;
+			font-weight:400 !important
+		}
+	}
 }

@@ -65,8 +65,8 @@ global $woocommerce;
 
 	
 		
-		<a href="<?php echo $woocommerce->cart->get_cart_url(); ?>" class="button"><span><?php _e('View Cart &rarr;', TACATI_TD); ?></span></a>
-		<a href="<?php echo $woocommerce->cart->get_checkout_url(); ?>" class="button checkout"><span><?php _e('Checkout &rarr;', TACATI_TD); ?></span></a>
+		<a href="<?php echo $woocommerce->cart->get_cart_url(); ?>" class="bottone"><span><?php _e('View Cart &rarr;', TACATI_TD); ?></span></a>
+		<a href="<?php echo $woocommerce->cart->get_checkout_url(); ?>" class="bottone checkout"><span><?php _e('Checkout &rarr;', TACATI_TD); ?></span></a>
 	
 
 <?php endif; ?>

@@ -15,6 +15,9 @@
 	}
 	.shop_table{
 		border:none;
+	}
+	.shop_table.my_account_orders{
+		border:none;
 		width:670px;	
 		th{
 			color:$light-blue;

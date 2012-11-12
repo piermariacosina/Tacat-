@@ -38,7 +38,7 @@ $available_methods = $woocommerce->shipping->get_available_shipping_methods();
 				<?php if ( $woocommerce->cart->needs_shipping() && $woocommerce->cart->show_shipping() && ( $available_methods || get_option( 'woocommerce_enable_shipping_calc' ) == 'yes' ) ) { ?>
 
 				<tr class="shipping">
-					<th><?php _e('Shipping', TACATI_TD); ?></th>
+					<th></th>
 					<td>
 					<?php
 						// If at least one shipping method is available

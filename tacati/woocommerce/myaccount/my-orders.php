@@ -61,9 +61,9 @@ if ($customer_orders) :
 							<a href="<?php echo esc_url( $order->get_checkout_payment_url() ); ?>" class="button pay"><?php _e('Pay', TACATI_TD); ?></a>
 						<?php endif; ?>
 
-						<div class="bottone_rosso">
-							 <a href="<?php echo esc_url( add_query_arg('order', $order->id, get_permalink(woocommerce_get_page_id('view_order'))) ); ?>" class="button"><?php _e('View', TACATI_TD); ?></a>
-						</div>
+						
+						<a href="<?php echo esc_url( add_query_arg('order', $order->id, get_permalink(woocommerce_get_page_id('view_order'))) ); ?>" class="button"><?php _e('View', TACATI_TD); ?></a>
+						
 
 					</td>
 				</tr><?php
