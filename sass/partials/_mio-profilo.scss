@@ -1,0 +1,49 @@
+.checkout_custom{
+	p{
+		color:$light-blue;
+		font-family: edmondsans medium;
+		a{
+			color: $red;
+		}
+
+	}
+	h2{
+		font-family:"mission script";
+		color: $red;
+		font-size:30px;
+
+	}
+	.shop_table{
+		border:none;
+		width:670px;	
+		th{
+			color:$light-blue;
+			font-family: edmondsans regular;
+			font-size:23px;
+			width:150px;
+		}
+		td {
+			color:$brown;
+			font-family: edmondsans regular;
+			border:none;
+			font-size:17px;
+						width:150px;			
+		}
+	}
+
+	h3{
+		color:$light-blue !important;
+		font-family: edmondsans medium !important;
+		font-size:23px;		
+	}
+	address{
+		color:$brown;
+		font-family: edmondsans regular;
+		border:none;
+		font-size:17px;
+	}
+	.myaccount_address{
+		color:$red
+	}
+	
+}

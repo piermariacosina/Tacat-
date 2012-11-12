@@ -24,9 +24,10 @@ global $woocommerce;
 	</p>
 	<div class="clear"></div>
 
-	<p><input type="submit" class="button" name="change_password" value="<?php _e('Save', TACATI_TD); ?>" /></p>
-
+	<div class="bottone_rosso">
+		<input type="submit" class="button" name="change_password" value="<?php _e('Save', TACATI_TD); ?>" />
+	</div>
+	
 	<?php $woocommerce->nonce_field('change_password')?>
 	<input type="hidden" name="action" value="change_password" />
-
 </form>
