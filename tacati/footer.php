@@ -26,7 +26,7 @@
 			
 			<a href="<?php bloginfo('url') ?>"><h1 class="logo-brand">tacati</h1></a>
 			<?php if(function_exists('nsu_signup_form')) nsu_signup_form(); ?>
-			
+			<div class="clear"></div>  
 			<ul class="footer">
 				<li class="footer">
 					<h3><?php the_field("press_title","option"); ?></h3>

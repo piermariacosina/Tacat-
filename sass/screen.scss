@@ -568,6 +568,24 @@ footer#colophon{
 				margin-left: 0;
 			}
 		}
+		.nsu-signed-up{
+			font-family: 'edmondsans bold';
+			font-size:24px;
+			color: $blue;
+			line-height: 30px;
+			@include grid-prefix(1);
+		}
+		.nsu-form{
+			@include grid-prefix(1);
+			p{
+				@include float-left;
+			}
+			.nsu-submit{
+				margin: 28px 0 0 10px;
+			}
+			
+		}
+		
 		
 		ul.footer{
 					@include grid(11);            
@@ -651,4 +669,8 @@ footer#colophon{
 				}
 			}
 		}
+   }
+   
+   .clear{
+	   clear: both;
    }
