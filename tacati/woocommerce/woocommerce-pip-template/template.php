@@ -20,10 +20,7 @@
   		      <?php } ?>
   		      <h3><?php _e('Order', TACATI_TD); ?> <?php echo $order->get_order_number(); ?> &mdash; <time datetime="<?php echo date("Y/m/d", strtotime($order->order_date)); ?>"><?php echo date("Y/m/d", strtotime($order->order_date)); ?></time></h3>
   		    </div>
-  		    <div style="float: right; width: 49%; text-align:right;">
-  		      <?php echo woocommerce_pip_print_company_name(); ?>
-  		      <?php echo woocommerce_pip_print_company_extra(); ?>
-  		    </div>
+  		    
   		    <div style="clear:both;"></div>
 
   	</header>

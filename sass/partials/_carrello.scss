@@ -8,6 +8,18 @@
 		}
 	}
 	.cart_totals, .checkout{
+	.cart-subtotal, .total, thead{
+		font-family: edmondsans medium;
+		font-size: 22px;
+		.amount{
+			float:right;
+			font-size:25px;
+		}
+	}
+	.checkout_table_item{
+				font-family: edmondsans regular;
+				font-size:15px;
+	}
 		width:100%;
 		ul{
 			li{
@@ -17,12 +29,13 @@
 				}
 			}
 		}
-		.amount{
+		.shipping{
+			.amount{
 			font-size: 17px !important;
 			line-height: 20px;
 			float:right;
 
-			
+			}
 		}
 	}
 	#order_review{
