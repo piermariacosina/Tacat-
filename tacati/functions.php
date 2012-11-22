@@ -297,10 +297,7 @@ function get_producers_list(){
 								}  ?>
 						</a>
 						<div class="descrizione">   
-							<h4><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h4>
-								<?php if(get_field('type')):?>
-							<h5 class="entry-title"><?php the_field('type'); ?></h5>
-<?php endif; ?>
+							<h4><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a> <span class="entry-title producer-type"><?php the_field('type'); ?></span></h4>
 							<?php the_excerpt()?>
 							<a href="<?php the_permalink(); ?>"><?php __('dettaglio', TACATI_TD); ?></a>
 						</div>
