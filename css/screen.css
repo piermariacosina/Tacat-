@@ -3,7 +3,7 @@
  * Learn more ~ http://960.gs/
  * *
  * Licensed under GPL and MIT. */
-/* line 17, ../../../../../../../Users/eleonoragiammello/.rvm/gems/ruby-1.9.3-p286@rails3test/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 17, ../../../../../../../Users/piermariacosina/.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -25,45 +25,45 @@ time, mark, audio, video {
   vertical-align: baseline;
 }
 
-/* line 22, ../../../../../../../Users/eleonoragiammello/.rvm/gems/ruby-1.9.3-p286@rails3test/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 22, ../../../../../../../Users/piermariacosina/.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 html {
   line-height: 1;
 }
 
-/* line 24, ../../../../../../../Users/eleonoragiammello/.rvm/gems/ruby-1.9.3-p286@rails3test/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 24, ../../../../../../../Users/piermariacosina/.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 ol, ul {
   list-style: none;
 }
 
-/* line 26, ../../../../../../../Users/eleonoragiammello/.rvm/gems/ruby-1.9.3-p286@rails3test/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 26, ../../../../../../../Users/piermariacosina/.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-/* line 28, ../../../../../../../Users/eleonoragiammello/.rvm/gems/ruby-1.9.3-p286@rails3test/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 28, ../../../../../../../Users/piermariacosina/.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 caption, th, td {
   text-align: left;
   font-weight: normal;
   vertical-align: middle;
 }
 
-/* line 30, ../../../../../../../Users/eleonoragiammello/.rvm/gems/ruby-1.9.3-p286@rails3test/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 30, ../../../../../../../Users/piermariacosina/.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 q, blockquote {
   quotes: none;
 }
-/* line 103, ../../../../../../../Users/eleonoragiammello/.rvm/gems/ruby-1.9.3-p286@rails3test/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 103, ../../../../../../../Users/piermariacosina/.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 q:before, q:after, blockquote:before, blockquote:after {
   content: "";
   content: none;
 }
 
-/* line 32, ../../../../../../../Users/eleonoragiammello/.rvm/gems/ruby-1.9.3-p286@rails3test/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 32, ../../../../../../../Users/piermariacosina/.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 a img {
   border: none;
 }
 
-/* line 116, ../../../../../../../Users/eleonoragiammello/.rvm/gems/ruby-1.9.3-p286@rails3test/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 116, ../../../../../../../Users/piermariacosina/.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
   display: block;
 }
@@ -72,17 +72,17 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
  * Learn more ~ http://960.gs/
  * *
  * Licensed under GPL and MIT. */
-/* line 4, ../../../../../../../Users/eleonoragiammello/.rvm/gems/ruby-1.9.3-p286@rails3test/gems/compass-960-plugin-0.10.4/stylesheets/960/_text.sass */
+/* line 4, ../../../../../../../Users/piermariacosina/.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/compass-960-plugin-0.10.4/stylesheets/960/_text.sass */
 body {
   font: 13px/1.5 Helvetica, Arial, 'Liberation Sans', FreeSans, sans-serif;
 }
 
-/* line 6, ../../../../../../../Users/eleonoragiammello/.rvm/gems/ruby-1.9.3-p286@rails3test/gems/compass-960-plugin-0.10.4/stylesheets/960/_text.sass */
+/* line 6, ../../../../../../../Users/piermariacosina/.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/compass-960-plugin-0.10.4/stylesheets/960/_text.sass */
 a:focus {
   outline: 1px dotted invert;
 }
 
-/* line 8, ../../../../../../../Users/eleonoragiammello/.rvm/gems/ruby-1.9.3-p286@rails3test/gems/compass-960-plugin-0.10.4/stylesheets/960/_text.sass */
+/* line 8, ../../../../../../../Users/piermariacosina/.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/compass-960-plugin-0.10.4/stylesheets/960/_text.sass */
 hr {
   border-color: #cccccc;
   border-style: solid;
@@ -91,52 +91,52 @@ hr {
   height: 0;
 }
 
-/* line 14, ../../../../../../../Users/eleonoragiammello/.rvm/gems/ruby-1.9.3-p286@rails3test/gems/compass-960-plugin-0.10.4/stylesheets/960/_text.sass */
+/* line 14, ../../../../../../../Users/piermariacosina/.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/compass-960-plugin-0.10.4/stylesheets/960/_text.sass */
 h1 {
   font-size: 25px;
 }
 
-/* line 16, ../../../../../../../Users/eleonoragiammello/.rvm/gems/ruby-1.9.3-p286@rails3test/gems/compass-960-plugin-0.10.4/stylesheets/960/_text.sass */
+/* line 16, ../../../../../../../Users/piermariacosina/.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/compass-960-plugin-0.10.4/stylesheets/960/_text.sass */
 h2 {
   font-size: 23px;
 }
 
-/* line 18, ../../../../../../../Users/eleonoragiammello/.rvm/gems/ruby-1.9.3-p286@rails3test/gems/compass-960-plugin-0.10.4/stylesheets/960/_text.sass */
+/* line 18, ../../../../../../../Users/piermariacosina/.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/compass-960-plugin-0.10.4/stylesheets/960/_text.sass */
 h3 {
   font-size: 21px;
 }
 
-/* line 20, ../../../../../../../Users/eleonoragiammello/.rvm/gems/ruby-1.9.3-p286@rails3test/gems/compass-960-plugin-0.10.4/stylesheets/960/_text.sass */
+/* line 20, ../../../../../../../Users/piermariacosina/.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/compass-960-plugin-0.10.4/stylesheets/960/_text.sass */
 h4 {
   font-size: 19px;
 }
 
-/* line 22, ../../../../../../../Users/eleonoragiammello/.rvm/gems/ruby-1.9.3-p286@rails3test/gems/compass-960-plugin-0.10.4/stylesheets/960/_text.sass */
+/* line 22, ../../../../../../../Users/piermariacosina/.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/compass-960-plugin-0.10.4/stylesheets/960/_text.sass */
 h5 {
   font-size: 17px;
 }
 
-/* line 24, ../../../../../../../Users/eleonoragiammello/.rvm/gems/ruby-1.9.3-p286@rails3test/gems/compass-960-plugin-0.10.4/stylesheets/960/_text.sass */
+/* line 24, ../../../../../../../Users/piermariacosina/.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/compass-960-plugin-0.10.4/stylesheets/960/_text.sass */
 h6 {
   font-size: 15px;
 }
 
-/* line 26, ../../../../../../../Users/eleonoragiammello/.rvm/gems/ruby-1.9.3-p286@rails3test/gems/compass-960-plugin-0.10.4/stylesheets/960/_text.sass */
+/* line 26, ../../../../../../../Users/piermariacosina/.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/compass-960-plugin-0.10.4/stylesheets/960/_text.sass */
 ol {
   list-style: decimal;
 }
 
-/* line 28, ../../../../../../../Users/eleonoragiammello/.rvm/gems/ruby-1.9.3-p286@rails3test/gems/compass-960-plugin-0.10.4/stylesheets/960/_text.sass */
+/* line 28, ../../../../../../../Users/piermariacosina/.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/compass-960-plugin-0.10.4/stylesheets/960/_text.sass */
 ul {
   list-style: square;
 }
 
-/* line 30, ../../../../../../../Users/eleonoragiammello/.rvm/gems/ruby-1.9.3-p286@rails3test/gems/compass-960-plugin-0.10.4/stylesheets/960/_text.sass */
+/* line 30, ../../../../../../../Users/piermariacosina/.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/compass-960-plugin-0.10.4/stylesheets/960/_text.sass */
 li {
   margin-left: 30px;
 }
 
-/* line 32, ../../../../../../../Users/eleonoragiammello/.rvm/gems/ruby-1.9.3-p286@rails3test/gems/compass-960-plugin-0.10.4/stylesheets/960/_text.sass */
+/* line 32, ../../../../../../../Users/piermariacosina/.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/compass-960-plugin-0.10.4/stylesheets/960/_text.sass */
 p,
 dl,
 hr,
@@ -155,12 +155,12 @@ fieldset {
   margin-bottom: 20px;
 }
 
-/* line 61, ../../../../../../../Users/eleonoragiammello/.rvm/gems/ruby-1.9.3-p286@rails3test/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/_vertical_rhythm.scss */
+/* line 61, ../../../../../../../Users/piermariacosina/.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/_vertical_rhythm.scss */
 * html {
   font-size: 100%;
 }
 
-/* line 64, ../../../../../../../Users/eleonoragiammello/.rvm/gems/ruby-1.9.3-p286@rails3test/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/_vertical_rhythm.scss */
+/* line 64, ../../../../../../../Users/piermariacosina/.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/_vertical_rhythm.scss */
 html {
   font-size: 16px;
   line-height: 1.5em;
@@ -239,21 +239,21 @@ ul.products li.prodotto {
   position: relative;
   display: block;
 }
-/* line 48, ../../../../../../../Users/eleonoragiammello/.rvm/gems/ruby-1.9.3-p286@rails3test/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
+/* line 48, ../../../../../../../Users/piermariacosina/.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
 ul.products li.prodotto:first-child, ul.products li.prodotto.first {
   padding-left: 0;
 }
-/* line 49, ../../../../../../../Users/eleonoragiammello/.rvm/gems/ruby-1.9.3-p286@rails3test/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
+/* line 49, ../../../../../../../Users/piermariacosina/.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
 ul.products li.prodotto:last-child {
   padding-right: 0;
 }
-/* line 50, ../../../../../../../Users/eleonoragiammello/.rvm/gems/ruby-1.9.3-p286@rails3test/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
+/* line 50, ../../../../../../../Users/piermariacosina/.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
 ul.products li.prodotto.last {
   padding-right: 0;
 }
 /* line 24, ../sass/partials/_products-list.scss */
 ul.products li.prodotto .dop {
-  background: url('../images/badge_azzurro_dop.png?1351620088') no-repeat;
+  background: url('../images/badge_azzurro_dop.png?1353572876') no-repeat;
   height: 61px;
   position: relative;
   margin-top: -50px;
@@ -351,18 +351,18 @@ ul.products li.prodotto .info .price a {
   -ms-border-radius: 0;
   -o-border-radius: 0;
   border-radius: 0;
-  padding: 0;
-  margin: 0;
-  background-color: transparent;
-  text-shadow: none;
-  -webkit-box-shadow: none;
-  -moz-box-shadow: none;
-  box-shadow: none;
-  border: none;
+  padding: 0 !important;
+  margin: 0 !important;
+  background-color: transparent !important;
+  text-shadow: none !important;
+  -webkit-box-shadow: none !important;
+  -moz-box-shadow: none !important;
+  box-shadow: none !important;
+  border: none !important;
   width: 30px;
   height: 28px;
-  background: url("../images/carrello.png") no-repeat left top;
-  float: left;
+  background: url("../images/carrello.png") no-repeat left top !important;
+  float: left !important;
   display: inline-block;
   margin: 3px 0 0 0;
   padding: 0;
@@ -373,7 +373,7 @@ ul.products li.prodotto .info .price a.added::before {
 }
 /* line 120, ../sass/partials/_products-list.scss */
 ul.products li.prodotto .info .price a:hover {
-  background: url("../images/carrello_hover.png") no-repeat left top;
+  background: url("../images/carrello_hover.png") no-repeat left top !important;
 }
 /* line 130, ../sass/partials/_products-list.scss */
 ul.products.featured li .image {
@@ -747,15 +747,15 @@ ul.associazioni > li h4, ul.pdr > li h4 {
 ul.associazioni > li h1 a, ul.associazioni > li h2 a, ul.associazioni > li h3 a, ul.associazioni > li h4 a, ul.associazioni > li h5 a, ul.associazioni > li h6 a, ul.pdr > li h1 a, ul.pdr > li h2 a, ul.pdr > li h3 a, ul.pdr > li h4 a, ul.pdr > li h5 a, ul.pdr > li h6 a {
   color: #732c03;
 }
-/* line 18, ../../../../../../../Users/eleonoragiammello/.rvm/gems/ruby-1.9.3-p286@rails3test/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+/* line 18, ../../../../../../../Users/piermariacosina/.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
 ul.associazioni > li h1 a:visited, ul.associazioni > li h2 a:visited, ul.associazioni > li h3 a:visited, ul.associazioni > li h4 a:visited, ul.associazioni > li h5 a:visited, ul.associazioni > li h6 a:visited, ul.pdr > li h1 a:visited, ul.pdr > li h2 a:visited, ul.pdr > li h3 a:visited, ul.pdr > li h4 a:visited, ul.pdr > li h5 a:visited, ul.pdr > li h6 a:visited {
   color: #f23c00;
 }
-/* line 24, ../../../../../../../Users/eleonoragiammello/.rvm/gems/ruby-1.9.3-p286@rails3test/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+/* line 24, ../../../../../../../Users/piermariacosina/.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
 ul.associazioni > li h1 a:hover, ul.associazioni > li h2 a:hover, ul.associazioni > li h3 a:hover, ul.associazioni > li h4 a:hover, ul.associazioni > li h5 a:hover, ul.associazioni > li h6 a:hover, ul.pdr > li h1 a:hover, ul.pdr > li h2 a:hover, ul.pdr > li h3 a:hover, ul.pdr > li h4 a:hover, ul.pdr > li h5 a:hover, ul.pdr > li h6 a:hover {
   color: #f23c00;
 }
-/* line 27, ../../../../../../../Users/eleonoragiammello/.rvm/gems/ruby-1.9.3-p286@rails3test/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+/* line 27, ../../../../../../../Users/piermariacosina/.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
 ul.associazioni > li h1 a:active, ul.associazioni > li h2 a:active, ul.associazioni > li h3 a:active, ul.associazioni > li h4 a:active, ul.associazioni > li h5 a:active, ul.associazioni > li h6 a:active, ul.pdr > li h1 a:active, ul.pdr > li h2 a:active, ul.pdr > li h3 a:active, ul.pdr > li h4 a:active, ul.pdr > li h5 a:active, ul.pdr > li h6 a:active {
   color: #f23c00;
 }
@@ -921,15 +921,15 @@ ul.produttori > li .descrizione h4 {
 ul.produttori > li .descrizione h1 a, ul.produttori > li .descrizione h2 a, ul.produttori > li .descrizione h3 a, ul.produttori > li .descrizione h4 a, ul.produttori > li .descrizione h5 a, ul.produttori > li .descrizione h6 a {
   color: #732c03;
 }
-/* line 18, ../../../../../../../Users/eleonoragiammello/.rvm/gems/ruby-1.9.3-p286@rails3test/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+/* line 18, ../../../../../../../Users/piermariacosina/.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
 ul.produttori > li .descrizione h1 a:visited, ul.produttori > li .descrizione h2 a:visited, ul.produttori > li .descrizione h3 a:visited, ul.produttori > li .descrizione h4 a:visited, ul.produttori > li .descrizione h5 a:visited, ul.produttori > li .descrizione h6 a:visited {
   color: #f23c00;
 }
-/* line 24, ../../../../../../../Users/eleonoragiammello/.rvm/gems/ruby-1.9.3-p286@rails3test/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+/* line 24, ../../../../../../../Users/piermariacosina/.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
 ul.produttori > li .descrizione h1 a:hover, ul.produttori > li .descrizione h2 a:hover, ul.produttori > li .descrizione h3 a:hover, ul.produttori > li .descrizione h4 a:hover, ul.produttori > li .descrizione h5 a:hover, ul.produttori > li .descrizione h6 a:hover {
   color: #f23c00;
 }
-/* line 27, ../../../../../../../Users/eleonoragiammello/.rvm/gems/ruby-1.9.3-p286@rails3test/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+/* line 27, ../../../../../../../Users/piermariacosina/.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
 ul.produttori > li .descrizione h1 a:active, ul.produttori > li .descrizione h2 a:active, ul.produttori > li .descrizione h3 a:active, ul.produttori > li .descrizione h4 a:active, ul.produttori > li .descrizione h5 a:active, ul.produttori > li .descrizione h6 a:active {
   color: #f23c00;
 }
@@ -986,15 +986,15 @@ aside.widget_login h3.widget-title {
 aside.widget_login a {
   color: #f23c00;
 }
-/* line 18, ../../../../../../../Users/eleonoragiammello/.rvm/gems/ruby-1.9.3-p286@rails3test/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+/* line 18, ../../../../../../../Users/piermariacosina/.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
 aside.widget_login a:visited {
   color: #f23c00;
 }
-/* line 24, ../../../../../../../Users/eleonoragiammello/.rvm/gems/ruby-1.9.3-p286@rails3test/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+/* line 24, ../../../../../../../Users/piermariacosina/.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
 aside.widget_login a:hover {
   color: #3e3d40;
 }
-/* line 27, ../../../../../../../Users/eleonoragiammello/.rvm/gems/ruby-1.9.3-p286@rails3test/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+/* line 27, ../../../../../../../Users/piermariacosina/.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
 aside.widget_login a:active {
   color: #3e3d40;
 }
@@ -1021,15 +1021,15 @@ aside.widget_login ul li {
   padding-right: 10px;
   border-right: 1px #f23c00 solid;
 }
-/* line 48, ../../../../../../../Users/eleonoragiammello/.rvm/gems/ruby-1.9.3-p286@rails3test/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
+/* line 48, ../../../../../../../Users/piermariacosina/.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
 aside.widget_login ul li:first-child, aside.widget_login ul li.first {
   padding-left: 0;
 }
-/* line 49, ../../../../../../../Users/eleonoragiammello/.rvm/gems/ruby-1.9.3-p286@rails3test/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
+/* line 49, ../../../../../../../Users/piermariacosina/.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
 aside.widget_login ul li:last-child {
   padding-right: 0;
 }
-/* line 50, ../../../../../../../Users/eleonoragiammello/.rvm/gems/ruby-1.9.3-p286@rails3test/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
+/* line 50, ../../../../../../../Users/piermariacosina/.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
 aside.widget_login ul li.last {
   padding-right: 0;
 }
@@ -1162,15 +1162,15 @@ aside.widget_login form {
   padding-left: 4px;
   padding-right: 4px;
 }
-/* line 48, ../../../../../../../Users/eleonoragiammello/.rvm/gems/ruby-1.9.3-p286@rails3test/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
+/* line 48, ../../../../../../../Users/piermariacosina/.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
 .prodotto div.related-producers ul li:first-child, .prodotto div.related-producers ul li.first {
   padding-left: 0;
 }
-/* line 49, ../../../../../../../Users/eleonoragiammello/.rvm/gems/ruby-1.9.3-p286@rails3test/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
+/* line 49, ../../../../../../../Users/piermariacosina/.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
 .prodotto div.related-producers ul li:last-child {
   padding-right: 0;
 }
-/* line 50, ../../../../../../../Users/eleonoragiammello/.rvm/gems/ruby-1.9.3-p286@rails3test/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
+/* line 50, ../../../../../../../Users/piermariacosina/.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
 .prodotto div.related-producers ul li.last {
   padding-right: 0;
 }
@@ -1181,15 +1181,15 @@ aside.widget_login form {
   font-weight: 400;
   color: #732c03;
 }
-/* line 18, ../../../../../../../Users/eleonoragiammello/.rvm/gems/ruby-1.9.3-p286@rails3test/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+/* line 18, ../../../../../../../Users/piermariacosina/.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
 .prodotto div.related-producers ul h4 a:visited {
   color: #732c03;
 }
-/* line 24, ../../../../../../../Users/eleonoragiammello/.rvm/gems/ruby-1.9.3-p286@rails3test/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+/* line 24, ../../../../../../../Users/piermariacosina/.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
 .prodotto div.related-producers ul h4 a:hover {
   color: #f23c00;
 }
-/* line 27, ../../../../../../../Users/eleonoragiammello/.rvm/gems/ruby-1.9.3-p286@rails3test/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+/* line 27, ../../../../../../../Users/piermariacosina/.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
 .prodotto div.related-producers ul h4 a:active {
   color: #732c03;
 }
@@ -1428,7 +1428,7 @@ aside.widget_login form {
 }
 /* line 11, ../sass/partials/_navigation.scss */
 .navigation .nav-next a {
-  background: url('../images/freccia-d.png?1349089427') no-repeat right top;
+  background: url('../images/freccia-d.png?1353572876') no-repeat right top;
   text-align: left;
   display: inline-block;
   height: 34px;
@@ -1437,7 +1437,7 @@ aside.widget_login form {
 }
 /* line 21, ../sass/partials/_navigation.scss */
 .navigation .nav-previous a {
-  background: url('../images/freccia-sx.png?1349089427') no-repeat left top;
+  background: url('../images/freccia-sx.png?1353572876') no-repeat left top;
   text-align: right;
   display: inline-block;
   height: 34px;
@@ -1478,22 +1478,22 @@ a.button, button.button, input.button, #respond input#submit, #content input.but
   border-radius: 10px;
   left: auto;
   color: #F2EFDC;
-  border: 1px solid #C42000;
-  background: #F23C00;
-  background: -webkit-gradient(linear, left top, left bottom, from(#f23c00), to(#db2e00));
-  background: -webkit-linear-gradient(#f23c00, #db2e00);
-  background: -moz-linear-gradient(center top, #f23c00 0, #db2e00 100%);
-  background: -moz-gradient(center top, #f23c00 0, #db2e00 100%);
-  -webkit-box-shadow: inset 0 1px 0 #ff9685, 0 2px 2px rgba(119, 20, 0, 0.5);
-  -moz-box-shadow: inset 0 1px 0 #ff9685, 0 2px 2px rgba(119, 20, 0, 0.5);
-  box-shadow: inset 0 1px 0 #ff9685, 0 2px 2px rgba(119, 20, 0, 0.5);
+  border: 1px solid #C42000 !important;
+  background: #F23C00 !important;
+  background: -webkit-gradient(linear, left top, left bottom, from(#f23c00), to(#db2e00)) !important;
+  background: -webkit-linear-gradient(#f23c00, #db2e00) !important;
+  background: -moz-linear-gradient(center top, #f23c00 0, #db2e00 100%) !important;
+  background: -moz-gradient(center top, #f23c00 0, #db2e00 100%) !important;
+  -webkit-box-shadow: inset 0 1px 0 #ff9685, 0 2px 2px rgba(119, 20, 0, 0.5) !important;
+  -moz-box-shadow: inset 0 1px 0 #ff9685, 0 2px 2px rgba(119, 20, 0, 0.5) !important;
+  box-shadow: inset 0 1px 0 #ff9685, 0 2px 2px rgba(119, 20, 0, 0.5) !important;
 }
 /* line 31, ../sass/partials/_general.scss */
 a.button:hover, button.button:hover, input.button:hover, #respond input#submit:hover, #content input.button:hover, .nsu-submit:hover, .submitbutton:hover {
-  -webkit-box-shadow: inset 0 1px 0 #ffb1a4, inset 0 50px 0 rgba(255, 208, 202, 0.3), 0 2px 2px rgba(119, 20, 0, 0.5);
+  -webkit-box-shadow: inset 0 1px 0 #ffb1a4, inset 0 50px 0 rgba(255, 208, 202, 0.3), 0 2px 2px rgba(119, 20, 0, 0.5) !important;
   -moz-box-shadow: inset 0 1px 0 #ffb1a4, inset 0 50px 0 rgba(255, 208, 202, 0.3), 0 2px 2px rgba(119, 20, 0, 0.5) !important;
-  box-shadow: inset 0 1px 0 #ffb1a4, inset 0 50px 0 rgba(255, 208, 202, 0.3), 0 2px 2px rgba(119, 20, 0, 0.5);
-  background: #F23C00;
+  box-shadow: inset 0 1px 0 #ffb1a4, inset 0 50px 0 rgba(255, 208, 202, 0.3), 0 2px 2px rgba(119, 20, 0, 0.5) !important;
+  background: #F23C00 !important;
 }
 /* line 37, ../sass/partials/_general.scss */
 a.button:active, button.button:active, input.button:active, #respond input#submit:active, #content input.button:active, .nsu-submit:active, .submitbutton:active {
@@ -1721,11 +1721,7 @@ label {
   padding-left: 30px;
 }
 
-/* line 78, ../sass/partials/_form.scss */
-.checkout_custom p a {
-  color: white !important;
-}
-/* line 82, ../sass/partials/_form.scss */
+/* line 80, ../sass/partials/_form.scss */
 .checkout_custom address p {
   color: #732c03 !important;
   font-family: edmondsans regular;
@@ -1733,7 +1729,7 @@ label {
   font-size: 17px;
 }
 
-/* line 90, ../sass/partials/_form.scss */
+/* line 88, ../sass/partials/_form.scss */
 .customer_details {
   color: #732c03;
   font-family: edmondsans regular;
@@ -1741,7 +1737,7 @@ label {
   font-size: 17px;
 }
 
-/* line 96, ../sass/partials/_form.scss */
+/* line 94, ../sass/partials/_form.scss */
 .recaptcha_only_if_image.recaptcha_only_if_no_incorrect_sol {
   font-size: 15px !important;
   line-height: 15px !important;
@@ -1749,20 +1745,20 @@ label {
   padding-bottom: 1px;
 }
 
-/* line 103, ../sass/partials/_form.scss */
+/* line 101, ../sass/partials/_form.scss */
 .password .input-text {
   height: 30px !important;
   margin-bottom: 5px !important;
   background-color: #F7F6F7 !important;
 }
-/* line 108, ../sass/partials/_form.scss */
+/* line 106, ../sass/partials/_form.scss */
 .password label {
   color: #5094b8;
   font-family: edmondsans medium;
   font-size: 20px !important;
   padding-bottom: 5px;
 }
-/* line 113, ../sass/partials/_form.scss */
+/* line 111, ../sass/partials/_form.scss */
 .password label span {
   font-size: 55px !important;
   line-height: 55px;
@@ -1798,39 +1794,54 @@ header .submitbutton {
 .checkout_custom .cart_totals, .checkout_custom .checkout {
   width: 100%;
 }
+/* line 11, ../sass/partials/_carrello.scss */
+.checkout_custom .cart_totals .cart-subtotal, .checkout_custom .cart_totals .total, .checkout_custom .cart_totals thead, .checkout_custom .checkout .cart-subtotal, .checkout_custom .checkout .total, .checkout_custom .checkout thead {
+  font-family: edmondsans medium;
+  font-size: 22px;
+}
 /* line 14, ../sass/partials/_carrello.scss */
+.checkout_custom .cart_totals .cart-subtotal .amount, .checkout_custom .cart_totals .total .amount, .checkout_custom .cart_totals thead .amount, .checkout_custom .checkout .cart-subtotal .amount, .checkout_custom .checkout .total .amount, .checkout_custom .checkout thead .amount {
+  float: right;
+  font-size: 25px;
+}
+/* line 19, ../sass/partials/_carrello.scss */
+.checkout_custom .cart_totals .checkout_table_item, .checkout_custom .checkout .checkout_table_item {
+  font-family: edmondsans regular;
+  font-size: 15px;
+}
+/* line 26, ../sass/partials/_carrello.scss */
 .checkout_custom .cart_totals ul li label, .checkout_custom .checkout ul li label {
   font-size: 17px !important;
   font-weight: 400 !important;
 }
-/* line 20, ../sass/partials/_carrello.scss */
-.checkout_custom .cart_totals .amount, .checkout_custom .checkout .amount {
+/* line 33, ../sass/partials/_carrello.scss */
+.checkout_custom .cart_totals .shipping .amount, .checkout_custom .checkout .shipping .amount {
   font-size: 17px !important;
   line-height: 20px;
   float: right;
 }
-/* line 28, ../sass/partials/_carrello.scss */
+/* line 41, ../sass/partials/_carrello.scss */
 .checkout_custom #order_review {
   width: 700px;
 }
 
-/* line 100, ../sass/screen.scss */
+/* line 101, ../sass/screen.scss */
 h1, h2, h3, h4, h5, h6 {
   margin-bottom: 0 !important;
   font-weight: 400 !important;
 }
 
-/* line 105, ../sass/screen.scss */
+/* line 106, ../sass/screen.scss */
 a {
   text-decoration: none;
 }
 
-/* line 109, ../sass/screen.scss */
+/* line 110, ../sass/screen.scss */
 body.textured {
-  background: url('../images/texture.png?1346761652') repeat left top;
+  background: url('../images/texture.png?1353572877') repeat left top;
 }
 
-/* line 114, ../sass/screen.scss */
+/* line 115, ../sass/screen.scss */
 #content {
   display: inline;
   float: left;
@@ -1838,50 +1849,50 @@ body.textured {
   margin-right: 10px;
   width: 760px;
 }
-/* line 117, ../sass/screen.scss */
+/* line 118, ../sass/screen.scss */
 #content > small {
   display: none;
 }
 
-/* line 122, ../sass/screen.scss */
+/* line 123, ../sass/screen.scss */
 #main {
   position: relative;
   padding-bottom: 20px;
 }
-/* line 125, ../sass/screen.scss */
+/* line 126, ../sass/screen.scss */
 #main.generic {
   padding-bottom: 0px !important;
 }
 
-/* line 132, ../sass/screen.scss */
+/* line 133, ../sass/screen.scss */
 #payment {
   background-color: white !important;
 }
 
-/* line 136, ../sass/screen.scss */
+/* line 137, ../sass/screen.scss */
 #primary {
   position: relative;
   background-color: #fcfdfd;
   display: inline;
   float: left;
 }
-/* line 140, ../sass/screen.scss */
+/* line 141, ../sass/screen.scss */
 #primary #content {
   margin-top: 20px;
   margin-bottom: 30px;
 }
-/* line 145, ../sass/screen.scss */
+/* line 146, ../sass/screen.scss */
 #primary #content.privacy p, #primary #content.terms p {
   color: #732c03 !important;
   font-weight: 400 !important;
 }
 
-/* line 154, ../sass/screen.scss */
+/* line 155, ../sass/screen.scss */
 div.shadow {
-  background: url('../images/shadow_light.png?1346879461') repeat-x left top;
+  background: url('../images/shadow_light.png?1353572877') repeat-x left top;
   height: 20px;
 }
-/* line 157, ../sass/screen.scss */
+/* line 158, ../sass/screen.scss */
 div.shadow.top {
   display: inline;
   float: left;
@@ -1894,7 +1905,7 @@ div.shadow.top {
   width: 960px;
 }
 
-/* line 167, ../sass/screen.scss */
+/* line 168, ../sass/screen.scss */
 div.addthis_toolbox {
   float: right;
   overflow: hidden;
@@ -1905,44 +1916,44 @@ div.addthis_toolbox {
   right: 0;
 }
 
-/* line 177, ../sass/screen.scss */
+/* line 178, ../sass/screen.scss */
 header#dashboard {
   height: 98px;
-  background: url('../images/header.png?1346776244') repeat-x left top;
+  background: url('../images/header.png?1353572876') repeat-x left top;
   position: fixed;
   width: 100%;
   top: 0;
   z-index: 999;
 }
-/* line 184, ../sass/screen.scss */
+/* line 185, ../sass/screen.scss */
 header#dashboard div.container {
   margin-left: auto;
   margin-right: auto;
   width: 960px;
 }
 
-/* line 190, ../sass/screen.scss */
+/* line 191, ../sass/screen.scss */
 div#page {
   margin-left: auto;
   margin-right: auto;
   width: 960px;
 }
 
-/* line 196, ../sass/screen.scss */
+/* line 197, ../sass/screen.scss */
 header#branding nav#access {
   background-color: #fcfdfd;
   padding-top: 37px;
   margin-top: -20px;
 }
-/* line 200, ../sass/screen.scss */
+/* line 201, ../sass/screen.scss */
 header#branding nav#access .skip-link {
   display: none;
 }
-/* line 203, ../sass/screen.scss */
+/* line 204, ../sass/screen.scss */
 header#branding nav#access .assistive-text {
   display: none;
 }
-/* line 207, ../sass/screen.scss */
+/* line 208, ../sass/screen.scss */
 header#branding nav#access ul {
   margin: 0;
   padding: 0;
@@ -1951,7 +1962,7 @@ header#branding nav#access ul {
   *zoom: 1;
   padding-left: 60px;
 }
-/* line 210, ../sass/screen.scss */
+/* line 211, ../sass/screen.scss */
 header#branding nav#access ul li {
   list-style-image: none;
   list-style-type: none;
@@ -1964,19 +1975,19 @@ header#branding nav#access ul li {
   font-family: "edmondsans bold";
   font-size: 23px;
 }
-/* line 48, ../../../../../../../Users/eleonoragiammello/.rvm/gems/ruby-1.9.3-p286@rails3test/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
+/* line 48, ../../../../../../../Users/piermariacosina/.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
 header#branding nav#access ul li:first-child, header#branding nav#access ul li.first {
   padding-left: 0;
 }
-/* line 49, ../../../../../../../Users/eleonoragiammello/.rvm/gems/ruby-1.9.3-p286@rails3test/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
+/* line 49, ../../../../../../../Users/piermariacosina/.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
 header#branding nav#access ul li:last-child {
   padding-right: 0;
 }
-/* line 50, ../../../../../../../Users/eleonoragiammello/.rvm/gems/ruby-1.9.3-p286@rails3test/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
+/* line 50, ../../../../../../../Users/piermariacosina/.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
 header#branding nav#access ul li.last {
   padding-right: 0;
 }
-/* line 215, ../sass/screen.scss */
+/* line 216, ../sass/screen.scss */
 header#branding nav#access ul li.current-menu-item {
   background-color: #f23c00;
   -webkit-border-radius: 10px;
@@ -1985,25 +1996,25 @@ header#branding nav#access ul li.current-menu-item {
   -o-border-radius: 10px;
   border-radius: 10px;
 }
-/* line 218, ../sass/screen.scss */
+/* line 219, ../sass/screen.scss */
 header#branding nav#access ul li.current-menu-item a {
   color: #fcfdfd !important;
 }
-/* line 222, ../sass/screen.scss */
+/* line 223, ../sass/screen.scss */
 header#branding nav#access ul li a {
   color: #f23c00;
   padding: 10px;
   display: block;
 }
-/* line 24, ../../../../../../../Users/eleonoragiammello/.rvm/gems/ruby-1.9.3-p286@rails3test/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+/* line 24, ../../../../../../../Users/piermariacosina/.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
 header#branding nav#access ul li a:hover {
   color: #fcfdfd;
 }
-/* line 27, ../../../../../../../Users/eleonoragiammello/.rvm/gems/ruby-1.9.3-p286@rails3test/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+/* line 27, ../../../../../../../Users/piermariacosina/.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
 header#branding nav#access ul li a:active {
   color: #fcfdfd;
 }
-/* line 226, ../sass/screen.scss */
+/* line 227, ../sass/screen.scss */
 header#branding nav#access ul li a:hover {
   background-color: #f23c00;
   -webkit-border-radius: 10px;
@@ -2012,7 +2023,7 @@ header#branding nav#access ul li a:hover {
   -o-border-radius: 10px;
   border-radius: 10px;
 }
-/* line 239, ../sass/screen.scss */
+/* line 240, ../sass/screen.scss */
 header#branding .featured img {
   background-color: #fcfdfd;
   margin-top: -23px;
@@ -2020,12 +2031,12 @@ header#branding .featured img {
   display: inline;
   float: left;
 }
-/* line 247, ../sass/screen.scss */
+/* line 248, ../sass/screen.scss */
 header#branding #slider {
   position: relative;
   height: 363px;
 }
-/* line 252, ../sass/screen.scss */
+/* line 253, ../sass/screen.scss */
 header#branding .flexslider {
   margin: -14px 0 0 0;
   border: none;
@@ -2039,16 +2050,16 @@ header#branding .flexslider {
   -o-box-shadow: none;
   zoom: 1;
 }
-/* line 265, ../sass/screen.scss */
+/* line 266, ../sass/screen.scss */
 header#branding .flexslider .flex-viewport {
   float: left;
   margin-top: -9px;
 }
-/* line 270, ../sass/screen.scss */
+/* line 271, ../sass/screen.scss */
 header#branding .flexslider ul li {
   margin: 0;
 }
-/* line 275, ../sass/screen.scss */
+/* line 276, ../sass/screen.scss */
 header#branding .flexslider div.sinistra, header#branding .flexslider div.destra {
   max-width: 300px;
   max-height: 300px;
@@ -2061,9 +2072,9 @@ header#branding .flexslider div.sinistra, header#branding .flexslider div.destra
   margin-right: 10px;
   width: 400px;
 }
-/* line 281, ../sass/screen.scss */
+/* line 282, ../sass/screen.scss */
 header#branding .flexslider div.sinistra div.background, header#branding .flexslider div.destra div.background {
-  background: url('../images/yellow.png?1346781140') repeat left top;
+  background: url('../images/yellow.png?1353572877') repeat left top;
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=90);
   opacity: 0.9;
   position: absolute;
@@ -2078,82 +2089,82 @@ header#branding .flexslider div.sinistra div.background, header#branding .flexsl
   -o-border-radius: 10px;
   border-radius: 10px;
 }
-/* line 289, ../sass/screen.scss */
+/* line 290, ../sass/screen.scss */
 header#branding .flexslider div.sinistra div.content, header#branding .flexslider div.destra div.content {
   position: relative;
   z-index: 2;
 }
-/* line 297, ../sass/screen.scss */
+/* line 298, ../sass/screen.scss */
 header#branding .flexslider div.sinistra h1, header#branding .flexslider div.sinistra h2, header#branding .flexslider div.destra h1, header#branding .flexslider div.destra h2 {
   font-family: "mission script";
 }
-/* line 302, ../sass/screen.scss */
+/* line 303, ../sass/screen.scss */
 header#branding .flexslider div.sinistra h3, header#branding .flexslider div.sinistra h4, header#branding .flexslider div.sinistra h5, header#branding .flexslider div.destra h3, header#branding .flexslider div.destra h4, header#branding .flexslider div.destra h5 {
   font-family: "edmondsans regular";
   padding-bottom: 20px;
 }
-/* line 308, ../sass/screen.scss */
+/* line 309, ../sass/screen.scss */
 header#branding .flexslider div.sinistra h1, header#branding .flexslider div.destra h1 {
   font-size: 45px;
   color: #732c03;
 }
-/* line 313, ../sass/screen.scss */
+/* line 314, ../sass/screen.scss */
 header#branding .flexslider div.sinistra h2, header#branding .flexslider div.destra h2 {
   font-size: 38px;
   color: #732c03;
 }
-/* line 317, ../sass/screen.scss */
+/* line 318, ../sass/screen.scss */
 header#branding .flexslider div.sinistra h3, header#branding .flexslider div.destra h3 {
   font-size: 32px;
   color: #f23c00;
 }
-/* line 322, ../sass/screen.scss */
+/* line 323, ../sass/screen.scss */
 header#branding .flexslider div.sinistra h4, header#branding .flexslider div.destra h4 {
   font-size: 28px;
   color: #f23c00;
 }
-/* line 326, ../sass/screen.scss */
+/* line 327, ../sass/screen.scss */
 header#branding .flexslider div.sinistra h5, header#branding .flexslider div.destra h5 {
   font-size: 22px;
   color: #f23c00;
 }
-/* line 330, ../sass/screen.scss */
+/* line 331, ../sass/screen.scss */
 header#branding .flexslider div.sinistra h6, header#branding .flexslider div.destra h6 {
   font-size: 18px;
   color: #f23c00;
 }
-/* line 337, ../sass/screen.scss */
+/* line 338, ../sass/screen.scss */
 header#branding .flexslider div.sinistra ul li, header#branding .flexslider div.sinistra ol li, header#branding .flexslider div.destra ul li, header#branding .flexslider div.destra ol li {
   font-family: "edmondsans medium";
   color: #5094b8;
 }
-/* line 344, ../sass/screen.scss */
+/* line 345, ../sass/screen.scss */
 header#branding .flexslider div.sinistra p, header#branding .flexslider div.sinistra div, header#branding .flexslider div.destra p, header#branding .flexslider div.destra div {
   font-family: "edmondsans medium";
   font-size: 15px;
   color: #5094b8;
 }
-/* line 351, ../sass/screen.scss */
+/* line 352, ../sass/screen.scss */
 header#branding .flexslider div.sinistra {
   margin-left: 120px;
 }
-/* line 354, ../sass/screen.scss */
+/* line 355, ../sass/screen.scss */
 header#branding .flexslider div.destra {
   margin-left: 540px;
 }
-/* line 360, ../sass/screen.scss */
+/* line 361, ../sass/screen.scss */
 header#branding section {
   margin-top: 110px;
-  background: url('../images/header-center.png?1346866306') repeat-x left top;
+  background: url('../images/header-center.png?1353572876') repeat-x left top;
   height: 136px;
   position: relative;
   z-index: 100;
 }
-/* line 366, ../sass/screen.scss */
+/* line 367, ../sass/screen.scss */
 header#branding section a {
   color: white;
 }
-/* line 370, ../sass/screen.scss */
+/* line 371, ../sass/screen.scss */
 header#branding section h1 {
   font-family: 'mission script';
   font-size: 88px;
@@ -2163,12 +2174,12 @@ header#branding section h1 {
   display: inline;
   float: left;
 }
-/* line 381, ../sass/screen.scss */
+/* line 382, ../sass/screen.scss */
 header#branding section .nav-tabs .open .dropdown-toggle, header#branding section .nav-pills .open .dropdown-toggle, header#branding section .nav > li.dropdown.open.active > a:hover {
   background-color: white;
   color: #f23c00;
 }
-/* line 386, ../sass/screen.scss */
+/* line 387, ../sass/screen.scss */
 header#branding section ul.nav {
   position: absolute;
   bottom: 0px;
@@ -2177,36 +2188,36 @@ header#branding section ul.nav {
   font-size: 18px;
   margin-bottom: 43px;
 }
-/* line 394, ../sass/screen.scss */
+/* line 395, ../sass/screen.scss */
 header#branding section ul.nav li {
   margin-left: 0;
 }
-/* line 396, ../sass/screen.scss */
+/* line 397, ../sass/screen.scss */
 header#branding section ul.nav li b.caret {
   border-top-color: #ffffff;
   border-bottom-color: #ffffff;
 }
-/* line 401, ../sass/screen.scss */
+/* line 402, ../sass/screen.scss */
 header#branding section ul.nav li a:hover {
   background-color: white;
   color: #f23c00;
 }
-/* line 405, ../sass/screen.scss */
+/* line 406, ../sass/screen.scss */
 header#branding section ul.nav li a:hover b.caret {
   border-top-color: #f23c00;
   border-bottom-color: #f23c00;
 }
-/* line 411, ../sass/screen.scss */
+/* line 412, ../sass/screen.scss */
 header#branding section ul.nav li ul {
   background-color: white;
 }
-/* line 416, ../sass/screen.scss */
+/* line 417, ../sass/screen.scss */
 header#branding section ul.nav li ul li a {
   color: #f23c00;
 }
-/* line 429, ../sass/screen.scss */
+/* line 430, ../sass/screen.scss */
 header#branding section div.header-left {
-  background: url('../images/header-left.png?1346866306') no-repeat left top;
+  background: url('../images/header-left.png?1353572876') no-repeat left top;
   height: 158px;
   width: 48px;
   position: absolute;
@@ -2214,9 +2225,9 @@ header#branding section div.header-left {
   display: inline;
   float: left;
 }
-/* line 437, ../sass/screen.scss */
+/* line 438, ../sass/screen.scss */
 header#branding section div.header-right {
-  background: url('../images/header-right.png?1346866306') no-repeat left top;
+  background: url('../images/header-right.png?1353572876') no-repeat left top;
   height: 158px;
   width: 48px;
   position: absolute;
@@ -2224,17 +2235,17 @@ header#branding section div.header-right {
   float: right;
   right: -48px;
 }
-/* line 449, ../sass/screen.scss */
+/* line 450, ../sass/screen.scss */
 header#branding div.categories {
   margin: 0;
   background-color: #fcfdfd;
-  background: url('../images/yellow.png?1346781140') repeat left top;
+  background: url('../images/yellow.png?1353572877') repeat left top;
 }
-/* line 453, ../sass/screen.scss */
+/* line 454, ../sass/screen.scss */
 header#branding div.categories h3 {
   display: none;
 }
-/* line 456, ../sass/screen.scss */
+/* line 457, ../sass/screen.scss */
 header#branding div.categories ul {
   margin: 0;
   padding: 0;
@@ -2245,7 +2256,7 @@ header#branding div.categories ul {
   padding-top: 20px;
   padding-bottom: 20px;
 }
-/* line 461, ../sass/screen.scss */
+/* line 462, ../sass/screen.scss */
 header#branding div.categories ul li {
   list-style-image: none;
   list-style-type: none;
@@ -2266,23 +2277,23 @@ header#branding div.categories ul li {
   text-transform: lowercase;
   height: 30px;
 }
-/* line 48, ../../../../../../../Users/eleonoragiammello/.rvm/gems/ruby-1.9.3-p286@rails3test/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
+/* line 48, ../../../../../../../Users/piermariacosina/.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
 header#branding div.categories ul li:first-child, header#branding div.categories ul li.first {
   padding-left: 0;
 }
-/* line 49, ../../../../../../../Users/eleonoragiammello/.rvm/gems/ruby-1.9.3-p286@rails3test/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
+/* line 49, ../../../../../../../Users/piermariacosina/.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
 header#branding div.categories ul li:last-child {
   padding-right: 0;
 }
-/* line 50, ../../../../../../../Users/eleonoragiammello/.rvm/gems/ruby-1.9.3-p286@rails3test/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
+/* line 50, ../../../../../../../Users/piermariacosina/.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
 header#branding div.categories ul li.last {
   padding-right: 0;
 }
-/* line 470, ../sass/screen.scss */
+/* line 471, ../sass/screen.scss */
 header#branding div.categories ul li:first-child {
   margin-left: 10px;
 }
-/* line 474, ../sass/screen.scss */
+/* line 475, ../sass/screen.scss */
 header#branding div.categories ul li a {
   display: block;
   font-weight: bold;
@@ -2293,29 +2304,29 @@ header#branding div.categories ul li a {
   -o-text-overflow: ellipsis;
   text-overflow: ellipsis;
 }
-/* line 480, ../sass/screen.scss */
+/* line 481, ../sass/screen.scss */
 header#branding div.categories ul li a:hover {
   text-decoration: underline;
   color: #f23c00;
 }
 
-/* line 492, ../sass/screen.scss */
+/* line 493, ../sass/screen.scss */
 div#main {
   background-color: #fcfdfd;
 }
 
-/* line 496, ../sass/screen.scss */
+/* line 497, ../sass/screen.scss */
 .clear {
   clear: both;
 }
 
-/* line 501, ../sass/screen.scss */
+/* line 502, ../sass/screen.scss */
 .border {
   height: 4px;
   clear: both;
   background-color: #fcfdfd;
 }
-/* line 505, ../sass/screen.scss */
+/* line 506, ../sass/screen.scss */
 .border ul {
   margin: 0;
   padding: 0;
@@ -2330,7 +2341,7 @@ div#main {
   padding-left: 60px;
   margin-top: 0px;
 }
-/* line 510, ../sass/screen.scss */
+/* line 511, ../sass/screen.scss */
 .border ul li {
   list-style-image: none;
   list-style-type: none;
@@ -2349,28 +2360,28 @@ div#main {
   background-color: #f23c00;
   height: 4px;
 }
-/* line 48, ../../../../../../../Users/eleonoragiammello/.rvm/gems/ruby-1.9.3-p286@rails3test/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
+/* line 48, ../../../../../../../Users/piermariacosina/.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
 .border ul li:first-child, .border ul li.first {
   padding-left: 0;
 }
-/* line 49, ../../../../../../../Users/eleonoragiammello/.rvm/gems/ruby-1.9.3-p286@rails3test/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
+/* line 49, ../../../../../../../Users/piermariacosina/.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
 .border ul li:last-child {
   padding-right: 0;
 }
-/* line 50, ../../../../../../../Users/eleonoragiammello/.rvm/gems/ruby-1.9.3-p286@rails3test/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
+/* line 50, ../../../../../../../Users/piermariacosina/.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
 .border ul li.last {
   padding-right: 0;
 }
-/* line 518, ../sass/screen.scss */
+/* line 519, ../sass/screen.scss */
 .border ul li:last-child {
   margin-right: 0px;
 }
-/* line 521, ../sass/screen.scss */
+/* line 522, ../sass/screen.scss */
 .border ul li:nth-of-type(even) {
   background-color: #72bac7;
 }
 
-/* line 533, ../sass/screen.scss */
+/* line 534, ../sass/screen.scss */
 footer#colophon {
   position: relative;
   float: left;
@@ -2378,7 +2389,7 @@ footer#colophon {
   *zoom: 1;
   width: 940px;
   margin: 0 auto;
-  background: url('../images/footer.png?1346867368') repeat left top;
+  background: url('../images/footer.png?1353572876') repeat left top;
   border-left: 10px #F8F6E5 solid;
   border-right: 10px #F8F6E5 solid;
   border-bottom: 10px #F8F6E5 solid;
@@ -2386,12 +2397,12 @@ footer#colophon {
   -moz-background-clip: border;
   background-clip: border-box;
 }
-/* line 547, ../sass/screen.scss */
+/* line 548, ../sass/screen.scss */
 footer#colophon h1.logo-brand {
   text-indent: -119988px;
   overflow: hidden;
   text-align: left;
-  background-image: url('../images/footer-logo.png?1346876034');
+  background-image: url('../images/footer-logo.png?1353572876');
   background-repeat: no-repeat;
   background-position: 50% 50%;
   width: 531px;
@@ -2399,12 +2410,12 @@ footer#colophon h1.logo-brand {
   width: 100%;
   text-align: center;
 }
-/* line 552, ../sass/screen.scss */
+/* line 553, ../sass/screen.scss */
 footer#colophon h3 {
   padding-right: 20px;
   font-size: 28px !important;
 }
-/* line 556, ../sass/screen.scss */
+/* line 557, ../sass/screen.scss */
 footer#colophon ul.press {
   list-style: none;
   margin-top: 20px;
@@ -2416,12 +2427,12 @@ footer#colophon ul.press {
   padding-left: 0;
   margin-left: 0;
 }
-/* line 566, ../sass/screen.scss */
+/* line 567, ../sass/screen.scss */
 footer#colophon ul.press li {
   padding-left: 0;
   margin-left: 0;
 }
-/* line 571, ../sass/screen.scss */
+/* line 572, ../sass/screen.scss */
 footer#colophon .nsu-signed-up {
   font-family: 'edmondsans bold';
   font-size: 24px;
@@ -2429,20 +2440,20 @@ footer#colophon .nsu-signed-up {
   line-height: 30px;
   padding-left: 60px;
 }
-/* line 578, ../sass/screen.scss */
+/* line 579, ../sass/screen.scss */
 footer#colophon .nsu-form {
   padding-left: 60px;
 }
-/* line 580, ../sass/screen.scss */
+/* line 581, ../sass/screen.scss */
 footer#colophon .nsu-form p {
   display: inline;
   float: left;
 }
-/* line 583, ../sass/screen.scss */
+/* line 584, ../sass/screen.scss */
 footer#colophon .nsu-form .nsu-submit {
   margin: 28px 0 0 10px;
 }
-/* line 590, ../sass/screen.scss */
+/* line 591, ../sass/screen.scss */
 footer#colophon ul.footer {
   display: inline;
   float: left;
@@ -2457,7 +2468,7 @@ footer#colophon ul.footer {
   width: 620px;
   margin-bottom: 30px;
 }
-/* line 596, ../sass/screen.scss */
+/* line 597, ../sass/screen.scss */
 footer#colophon ul.footer li.footer {
   margin-top: 20px;
   display: inline;
@@ -2469,13 +2480,13 @@ footer#colophon ul.footer li.footer {
   padding-left: 60px;
   border-right: solid 1px #f23c00;
 }
-/* line 605, ../sass/screen.scss */
+/* line 606, ../sass/screen.scss */
 footer#colophon ul.footer li.footer h3 {
   font-family: 'mission script';
   color: #5094b8;
   font-size: 35px;
 }
-/* line 610, ../sass/screen.scss */
+/* line 611, ../sass/screen.scss */
 footer#colophon ul.footer li.footer p {
   margin-top: 20px;
   font-family: 'edmondsans bold';
@@ -2484,23 +2495,23 @@ footer#colophon ul.footer li.footer p {
   padding-right: 15px;
   line-height: 30px;
 }
-/* line 618, ../sass/screen.scss */
+/* line 619, ../sass/screen.scss */
 footer#colophon ul.footer li.footer p a {
   color: #3e3d40;
 }
-/* line 18, ../../../../../../../Users/eleonoragiammello/.rvm/gems/ruby-1.9.3-p286@rails3test/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+/* line 18, ../../../../../../../Users/piermariacosina/.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
 footer#colophon ul.footer li.footer p a:visited {
   color: #f23c00;
 }
-/* line 24, ../../../../../../../Users/eleonoragiammello/.rvm/gems/ruby-1.9.3-p286@rails3test/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+/* line 24, ../../../../../../../Users/piermariacosina/.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
 footer#colophon ul.footer li.footer p a:hover {
   color: #f23c00;
 }
-/* line 27, ../../../../../../../Users/eleonoragiammello/.rvm/gems/ruby-1.9.3-p286@rails3test/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+/* line 27, ../../../../../../../Users/piermariacosina/.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
 footer#colophon ul.footer li.footer p a:active {
   color: #f23c00;
 }
-/* line 632, ../sass/screen.scss */
+/* line 633, ../sass/screen.scss */
 footer#colophon #channels {
   margin: 0;
   padding: 0;
@@ -2508,7 +2519,7 @@ footer#colophon #channels {
   overflow: hidden;
   *zoom: 1;
 }
-/* line 634, ../sass/screen.scss */
+/* line 635, ../sass/screen.scss */
 footer#colophon #channels li {
   margin-top: 10px;
   list-style-image: none;
@@ -2522,48 +2533,48 @@ footer#colophon #channels li {
   width: auto;
   border: none;
 }
-/* line 48, ../../../../../../../Users/eleonoragiammello/.rvm/gems/ruby-1.9.3-p286@rails3test/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
+/* line 48, ../../../../../../../Users/piermariacosina/.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
 footer#colophon #channels li:first-child, footer#colophon #channels li.first {
   padding-left: 0;
 }
-/* line 49, ../../../../../../../Users/eleonoragiammello/.rvm/gems/ruby-1.9.3-p286@rails3test/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
+/* line 49, ../../../../../../../Users/piermariacosina/.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
 footer#colophon #channels li:last-child {
   padding-right: 0;
 }
-/* line 50, ../../../../../../../Users/eleonoragiammello/.rvm/gems/ruby-1.9.3-p286@rails3test/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
+/* line 50, ../../../../../../../Users/piermariacosina/.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
 footer#colophon #channels li.last {
   padding-right: 0;
 }
-/* line 639, ../sass/screen.scss */
+/* line 640, ../sass/screen.scss */
 footer#colophon #channels li.fb_icon {
   text-indent: -119988px;
   overflow: hidden;
   text-align: left;
-  background-image: url('../images/fb.png?1347357771');
+  background-image: url('../images/fb.png?1353572876');
   background-repeat: no-repeat;
   background-position: 50% 50%;
   width: 32px;
   height: 32px;
 }
-/* line 642, ../sass/screen.scss */
+/* line 643, ../sass/screen.scss */
 footer#colophon #channels li.tw_icon {
   text-indent: -119988px;
   overflow: hidden;
   text-align: left;
-  background-image: url('../images/tw.png?1347357770');
+  background-image: url('../images/tw.png?1353572877');
   background-repeat: no-repeat;
   background-position: 50% 50%;
   width: 32px;
   height: 32px;
 }
-/* line 645, ../sass/screen.scss */
+/* line 646, ../sass/screen.scss */
 footer#colophon #channels li a {
   width: 32px;
   height: 36px;
   display: block;
   position: relative;
 }
-/* line 654, ../sass/screen.scss */
+/* line 655, ../sass/screen.scss */
 footer#colophon ul.formal {
   clear: both;
   margin: 0;
@@ -2575,7 +2586,7 @@ footer#colophon ul.formal {
   margin-bottom: 10px;
   margin-top: 30px;
 }
-/* line 662, ../sass/screen.scss */
+/* line 663, ../sass/screen.scss */
 footer#colophon ul.formal li {
   list-style-image: none;
   list-style-type: none;
@@ -2589,36 +2600,36 @@ footer#colophon ul.formal li {
   font-size: 11px;
   text-align: center;
 }
-/* line 48, ../../../../../../../Users/eleonoragiammello/.rvm/gems/ruby-1.9.3-p286@rails3test/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
+/* line 48, ../../../../../../../Users/piermariacosina/.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
 footer#colophon ul.formal li:first-child, footer#colophon ul.formal li.first {
   padding-false: 0;
 }
-/* line 49, ../../../../../../../Users/eleonoragiammello/.rvm/gems/ruby-1.9.3-p286@rails3test/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
+/* line 49, ../../../../../../../Users/piermariacosina/.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
 footer#colophon ul.formal li:last-child {
   padding-false: 0;
 }
-/* line 50, ../../../../../../../Users/eleonoragiammello/.rvm/gems/ruby-1.9.3-p286@rails3test/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
+/* line 50, ../../../../../../../Users/piermariacosina/.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
 footer#colophon ul.formal li.last {
   padding-false: 0;
 }
-/* line 667, ../sass/screen.scss */
+/* line 668, ../sass/screen.scss */
 footer#colophon ul.formal li a {
   color: #3e3d40;
 }
-/* line 18, ../../../../../../../Users/eleonoragiammello/.rvm/gems/ruby-1.9.3-p286@rails3test/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+/* line 18, ../../../../../../../Users/piermariacosina/.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
 footer#colophon ul.formal li a:visited {
   color: #f23c00;
 }
-/* line 24, ../../../../../../../Users/eleonoragiammello/.rvm/gems/ruby-1.9.3-p286@rails3test/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+/* line 24, ../../../../../../../Users/piermariacosina/.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
 footer#colophon ul.formal li a:hover {
   color: #f23c00;
 }
-/* line 27, ../../../../../../../Users/eleonoragiammello/.rvm/gems/ruby-1.9.3-p286@rails3test/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+/* line 27, ../../../../../../../Users/piermariacosina/.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
 footer#colophon ul.formal li a:active {
   color: #f23c00;
 }
 
-/* line 674, ../sass/screen.scss */
+/* line 675, ../sass/screen.scss */
 .clear {
   clear: both;
 }

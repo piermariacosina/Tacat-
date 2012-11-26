@@ -27,21 +27,11 @@
 			<a href="<?php bloginfo('url') ?>"><h1 class="logo-brand">tacati</h1></a>
 			<ul class="footer">
 				<li class="footer">
-					<h3><?php __('Tacati', TACATI_TD); ?></h3>
-					<?php if(get_field('press', 'option'))
-					{
-						echo '<ul>';
-					
-						while(has_sub_field('press','option'))
-						{
-							echo '<li><a href="'.get_sub_field('title').'>'.get_sub_field('url').'</a></li>';
-						}
-					
-						echo '</ul>';
-					} ?>
+					<h3><?php the_field("press_title","option"); ?></h3>
+					<?php get_press() ?>
 				</li>
 				<li class="footer">
-					<h3><?php __('Contattaci', TACATI_TD); ?></h3>
+					<h3><?php the_field("where_title","option"); ?></h3>
 					<p><?php the_field("where","option");?></p>
 					<ul id="channels">
 						<li class="fb_icon"><a href="http://www.facebook.com/tacati">Facebook</a></li>
