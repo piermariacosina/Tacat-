@@ -1200,3 +1200,13 @@ function get_press(){
 	} 
 
 }
+
+/**
+ * This code should be added to functions.php of your theme
+ **/
+add_filter('woocommerce_default_catalog_orderby', 'custom_default_catalog_orderby');
+
+function custom_default_catalog_orderby() {
+	 return 'menu_order'; // Can also use title and price
+}
+

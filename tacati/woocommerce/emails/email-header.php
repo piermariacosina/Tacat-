@@ -171,7 +171,7 @@
 						
 																<tr>
 																	<div class="header">						
-																		 <img src="<?php echo get_theme_root_uri(); ?>/images/header_mail.png" alt="Tacatì Torino e Asti" /><?php echo $email_heading ?>
+																		 <img src="<?php echo get_theme_root_uri(); ?>/images/header2.png" alt="Tacatì Torino e Asti" /><?php echo $email_heading ?>
 																		 </div>
 						
 						

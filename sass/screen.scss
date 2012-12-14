@@ -184,6 +184,10 @@ $blue: #5094B8;
 			z-index: 999;
 			div.container{
 				@include grid-container;
+				
+				input{
+					width: 150px !important;
+				}
 			}
 		
 		}

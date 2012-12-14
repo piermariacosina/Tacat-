@@ -621,3 +621,68 @@ function get_press(){
 	} 
 
 }
+
+//SHops
+//SHOPS
+if ( !function_exists( 'shops_register' ) ) :
+function shops_register() {
+
+	$labels = array(
+		'name' => _x('Shops', 'post type general name',TACATI_TD),
+		'singular_name' => _x('Shop', 'post type singular name',TACATI_TD),
+		'add_new' => _x('Add New Shop', 'Gallery item',TACATI_TD),
+		'add_new_item' => __('Add New Shop Item',TACATI_TD),
+		'edit_item' => __('Edit Shop Item',TACATI_TD),
+		'new_item' => __('New Shop Item',TACATI_TD),
+		'view_item' => __('View Shop Item',TACATI_TD),
+		'search_items' => __('Search Shops',TACATI_TD),
+		'not_found' =>  __('Nothing found',TACATI_TD),
+		'not_found_in_trash' => __('Nothing found in Trash',TACATI_TD),
+		'parent_item_colon' => ''
+	);
+
+	$args = array(
+		'labels' => $labels,
+		'public' => true,
+		'publicly_queryable' => true,
+		'show_ui' => true,
+		'query_var' => true,
+		'rewrite' => true,
+		'capability_type' => 'post',
+		'hierarchical' => false,
+		'menu_position' => 100,
+		'menu_icon' => get_stylesheet_directory_uri() . '/images/PDR_icon.png',
+		'supports' => array('title', 'editor','thumbnail')
+		); 
+
+	register_post_type( 'shop' , $args );
+	}
+
+add_action('init', 'shops_register');
+endif;
+
+
+if ( !function_exists( 'get_shops' ) ) :
+function get_shops(){
+
+	$args = array( 
+		'posts_per_page' => -1,
+		'post_type'=>'shop' ,
+		'post_status'=>'publish',
+		'order'=>'ASC',
+		'orderby'=>'title'
+		);
+
+	query_posts( $args );
+
+	// The Loop
+	while (have_posts() ) : the_post();?>
+
+
+
+	<?php endwhile;	
+
+	// Reset Query
+	wp_reset_query();
+}
+endif;

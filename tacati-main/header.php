@@ -135,7 +135,7 @@
 				</div>
 					
 	<?php elseif(get_post_type()=='product'): ?>
-			
+		
 	<?php else: ?>
 			
 			<?php do_action('print_slideshow','slideshow',false) ?>
