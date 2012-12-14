@@ -163,7 +163,10 @@
 					<?php dynamic_sidebar( 'sidebar-6' ); ?>
 				</div><!-- #first .widget-area -->
 			<?php endif; ?>
-		
+	<h3> Asti </h3>
+	<?php get_shops(Asti); ?>
+	<h3> Torino	 </h3>
+	<?php get_shops(Torino); ?>
 	</header><!-- #branding -->
 	
 	

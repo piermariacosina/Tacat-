@@ -155,7 +155,7 @@ function get_producers_list(){
 						<h5 class="entry-title"><?php the_field('type'); ?></h5>
 					<?php endif; ?>
 					<?php if ( has_post_thumbnail() ) { // check if the post has a Post Thumbnail assigned to it.
-					  			the_post_thumbnail('thumbnail');
+									the_post_thumbnail('thumbnail');
 							}  ?>
 					<?php the_excerpt()?>
 					
@@ -205,9 +205,9 @@ function get_slideshow($slideshow, $carousel){
 	<?php endif; 
 	else:
 		if ( has_post_thumbnail() ) { // check if the post has a Post Thumbnail assigned to it.
-		  echo '<div class="featured">';
-		  the_post_thumbnail("slideshow");
-		  echo '</div>';
+			echo '<div class="featured">';
+			the_post_thumbnail("slideshow");
+			echo '</div>';
 		}
 	endif; 
 	
@@ -260,7 +260,7 @@ function get_customslideshow($carousel){
 
 	else:
 		if ( has_post_thumbnail() ) { // check if the post has a Post Thumbnail assigned to it.
-		  the_post_thumbnail();
+			the_post_thumbnail();
 		}
 	endif; 
 
@@ -407,13 +407,13 @@ function woocommerce_custom_order_columns2( $column ) {
 
 				$user .= '</a>';
 
-		   	else :
-		   		$user = __('Guest', TACATI_TD);
-		   	endif;
+				else :
+					$user = __('Guest', TACATI_TD);
+				endif;
 
-		   	echo '<a href="'.admin_url('post.php?post='.$post->ID.'&action=edit').'"><strong>'.sprintf( __('Order %s', TACATI_TD), $order->get_order_number() ).'</strong></a> ' . __('made by', TACATI_TD) . ' ' . $user;
+				echo '<a href="'.admin_url('post.php?post='.$post->ID.'&action=edit').'"><strong>'.sprintf( __('Order %s', TACATI_TD), $order->get_order_number() ).'</strong></a> ' . __('made by', TACATI_TD) . ' ' . $user;
 
-		   	if ($order->billing_email) :
+				if ($order->billing_email) :
 				echo '<small class="meta">'.__('Email:', TACATI_TD) . ' ' . '<a href="' . esc_url( 'mailto:'.$order->billing_email ).'">'.esc_html( $order->billing_email ).'</a></small>';
 			endif;
 			if ($order->billing_phone) :
@@ -663,7 +663,7 @@ endif;
 
 
 if ( !function_exists( 'get_shops' ) ) :
-function get_shops(){
+function get_shops( $citta ){
 
 	$args = array( 
 		'posts_per_page' => -1,
@@ -676,11 +676,23 @@ function get_shops(){
 	query_posts( $args );
 
 	// The Loop
-	while (have_posts() ) : the_post();?>
+		while (have_posts() ) : the_post();?>
+			<?php if ( get_field("citta") == $citta ): ?>
+				<ul>
+					<li class="negozi">
+						 <?php the_post_thumbnail( ); ?>
+						<a href="<?php the_field("link"); ?> "> <?php the_title(); ?> </a>
+						<p> <?php the_field("offerta"); ?> </p>
+						<p> <?php the_field("specialita"); ?> </p>
+						<p> <?php the_field("location"); ?> </p>
+						<p> <?php the_content(); ?> </p>						
+					</li>
+				</ul>
+			<?php endif;
+					
 
 
-
-	<?php endwhile;	
+		endwhile;	
 
 	// Reset Query
 	wp_reset_query();
