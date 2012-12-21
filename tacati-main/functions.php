@@ -681,7 +681,7 @@ function get_shops( $citta ){
 				<ul>
 					<li class="negozi">
 						 <?php the_post_thumbnail( ); ?>
-						<a href="<?php the_field("link"); ?> "> <?php the_title(); ?> </a>
+						<a class="title" href="<?php the_field("link"); ?> "> <?php the_title(); ?> </a>
 						<p> <?php the_field("offerta"); ?> </p>
 						<p> <?php the_field("specialita"); ?> </p>
 						<p> <?php the_field("location"); ?> </p>

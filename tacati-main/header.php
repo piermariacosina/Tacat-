@@ -76,8 +76,8 @@
 <body <?php body_class('textured'); ?>>
 <div id="fb-root"></div>
 <header id="dashboard">
-	<div class="container">
-		<?php get_sidebar( 'header' ); ?>
+		<div class="container">
+
 		<div class="header-right"></div>
 		<!-- AddThis Button BEGIN -->
 		<div class="addthis_toolbox addthis_default_style addthis_32x32_style">
@@ -86,44 +86,141 @@
 			<a class="addthis_button_google_plusone_badge"></a>
 			<a class="addthis_counter addthis_bubble_style"></a>
 		</div>
-		<script type="text/javascript">var addthis_config = {"data_track_addressbar":true};</script>
-		<script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#pubid=ra-504e04fd25d63caa"></script>
+
 		<!-- AddThis Button END -->
 	</div>
 </header>
 <div id="page" class="hfeed">
 	<header id="branding" role="banner">
-		
+
 			<section>
 				<div class="header-left"></div>
-				<h1 id="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
-				
+				<h1 id="site-title"><a href="http://tacati.it/" title="Tacatì" rel="home">Tacatì</a></h1>
+
 				<ul class="nav nav-pills">
-				  <li >
-					 <a href="/torino">Fai la spesa!</a>
+					<li >
+					 <a href="/ilbuonsenso"><!--Fai la spesa!-->Asti</a>
 					<!-- <a class="dropdown-toggle"
-					   data-toggle="dropdown"
-					   href="#">
+						 data-toggle="dropdown"
+						 href="#">
 						non è la tua città?
 						<b class="caret"></b>
-					  </a>
+						</a>
 					<ul class="dropdown-menu">
-						<?php do_action('list_sites'); ?>
-					</ul> -->
-				  </li>
+						<li><a href="/macelleria-pavese/">Tacatì-Macelleria Pavese</a></li><li><a href="/ilbuonsenso/">Tacatì- Il Buonsenso</a></li><li><a href="/">Tacatì</a></li>					</ul> -->
+					</li>
 				</ul> 
 				<div class="header-right"></div>
 			</section>
 			
+					
+
 <!-- <ul>
-	<?php wp_nav_menu( array( 'menu' => 'header', 'container' => '', 'items_wrap' => '%3$s' ) ); ?>
-	
+	<div class="menu"><ul><li class="current_page_item"><a href="http://tacati.it/" title="Home">Home</a></li><li class="page_item page-item-470"><a href="http://tacati.it/privacy-policy/">Privacy policy</a></li><li class="page_item page-item-472"><a href="http://tacati.it/termini-condizioni/">Termini e condizioni</a></li></ul></div>
+
 
 </ul> -->
-	<?php if(is_front_page()): ?>
+
+				<div id="slider" class="flexslider">
+						<ul class="slides">
+							<li>
+							<img src="http://tacati.it/wp-content/uploads/2012/09/foto_frutta_verdura_7042-1-959x372.jpg" alt=""/>
+								<div class="sinistra">
+<!--									<div class="background"></div>-->
+									<div class="content">
+										<h1>Il supermercato diffuso</h1>
+										<h5>Come funziona?</h5>
+										<p>Clicca <a title="Fai la spesa" href="http://tacati.it/torino" >qui</a> per accedere al negozio online e acquistare prodotti di aziende agricole, laboratori artigianali e piccoli commerci di Asti, Torino e dintorni.</p>
+	<p>Altrimenti, scorri le diapositive per saperne di più.</p>
+	
+	<div id="navigation">
+	  <div class="button_slider"></div>
+	  <div class="button_slider2"></div>
+	  <div class="button_slider3"></div>
+	 
+</div>
+
+
+									</div>
+									
+	<div id="content2">
+	<h1>Asti</h1>
+		
+	<div class="stripes"></div>
+	
+	<div id="box1">
+	<div class="stripes"></div>
+	
+	 
+	  <div class="foto"></div>
+			<h2>Titolo1</h2>
+			<p>Piccola descrizione sul punto vendita Tacatì con prodotti di alta qualità, tutti italiani e a km 0.</p>
+			<h4>Formaggio di capra D.O.C</h4>
+			<h3>20 % di sconto sulla prima spesa
+			Centro, Via XX settembrte</h3>
+		
+	  </div>
+	  
 			
-				<?php do_action('print_customslideshow',false) ?>
-				<div class="border">
+		  <div id="box2">
+		  <div class="stripes"></div>
+		   
+			<div class="foto"></div>
+				<h2>Titolo1</h2>
+				<p>Piccola descrizione sul punto vendita Tacatì con prodotti di alta qualità, tutti italiani e a km 0.</p>
+				<h4>Formaggio di capra D.O.C</h4>
+				<h3>20 % di sconto sulla prima spesa
+				Centro, Via XX settembrte</h3>
+			
+			</div>
+		
+				</div>
+				
+				
+				<div id="content3">
+				<h1>Torino</h1>
+					
+				<div class="stripes"></div>
+				
+				<div id="box1">
+				<div class="stripes"></div>
+				
+				 
+				  <div class="foto"></div>
+						<a class="title">Titolo1</a>
+						<p>Piccola descrizione sul punto vendita Tacatì con prodotti di alta qualità, tutti italiani e a km 0.</p>
+						<h4>Formaggio di capra D.O.C</h4>
+						<h3>20 % di sconto sulla prima spesa
+						Centro, Via XX settembrte</h3>
+					
+				  </div>
+				  
+						
+					  <div id="box2">
+					  <div class="stripes"></div>
+					   
+						<div class="foto"></div>
+							<h2>Titolo1</h2>
+							<p>Piccola descrizione sul punto vendita Tacatì con prodotti di alta qualità, tutti italiani e a km 0.</p>
+							<h4>Formaggio di capra D.O.C</h4>
+							<h3>20 % di sconto sulla prima spesa
+							Centro, Via XX settembrte</h3>
+						
+						</div>
+					
+							</div>
+							
+				
+			
+									
+									
+								</div>
+							</li>
+						</ul>
+					</div>
+					
+										
+						<div class="border">
 					 <ul>
 						<li></li>
 						<li></li>
@@ -133,40 +230,12 @@
 						<li></li>
 					</ul>
 				</div>
+	
 					
-	<?php elseif(get_post_type()=='product'): ?>
-		
-	<?php else: ?>
-			
-			<?php do_action('print_slideshow','slideshow',false) ?>
-			<div class="border">
-				 <ul>
-					<li></li>
-					<li></li>
-					<li></li>
-					<li></li>
-					<li></li>
-					<li></li>
-				</ul>
-			</div>
-	<?php endif;?>
-				
-			<nav id="access" role="navigation" class="main-access">
-				<div class="bottone_rosso">
-					<a href="/torino">Fai la spesa!</a>
-				</div>
-			</nav>
-			
-			<?php
-			 if ( (is_active_sidebar( 'sidebar-6' ) && (280 == $post->ID)) ||  (is_active_sidebar( 'sidebar-6' ) &&  is_page('home')) ||  (is_active_sidebar( 'sidebar-6' ) &&  (513 == $post->ID)) || (is_active_sidebar( 'sidebar-6' ) &&  ( get_post_type() == "product"))):?>
-				<div class="categories">
-					<?php dynamic_sidebar( 'sidebar-6' ); ?>
-				</div><!-- #first .widget-area -->
-			<?php endif; ?>
-	<h3> Asti </h3>
+	<!--<h3> Asti </h3>
 	<?php get_shops(Asti); ?>
 	<h3> Torino	 </h3>
-	<?php get_shops(Torino); ?>
+	<?php get_shops(Torino); ?> -->
 	</header><!-- #branding -->
 	
 	
