@@ -61,9 +61,9 @@
 	/* We add some JavaScript to pages with the comment form
 	 * to support sites with threaded comments (when in use).
 	 */
-	if ( is_singular() && get_option( 'thread_comments' ) )
+	if ( is_singular() && get_option( 'thread_comments' ) ){
 		wp_enqueue_script( 'comment-reply' );
-
+	}
 	/* Always have wp_head() just before the closing </head>
 	 * tag of your theme, or you will break many plugins, which
 	 * generally use this hook to add elements to <head> such
@@ -95,7 +95,13 @@
 		<section>
 			<div class="header-left"></div>
 			<h1 id="site-title"><a href="http://tacati.it/" title="Tacatì" rel="home">Tacatì</a></h1>
-
+			<?php if(!is_page( 512 )):?>
+			<ul class="nav nav-pills">
+				<li >
+				 <a href="/ilbuonsenso">Fai la spesa!</a>
+				</li>
+			</ul>
+			<?php else: ?>
 			<ul class="nav nav-pills">
 					<li >
 						<a class="dropdown-toggle"
@@ -109,6 +115,7 @@
 						</ul>
 				</li>
 			</ul> 
+			<?php endif;?>
 			<div class="header-right"></div>
 		</section>
 
@@ -127,7 +134,13 @@
 		<li></li>
 	</ul>
 </div>
-	
+	<?php if(!is_page( 512 )):?>
+	<nav id="access" role="navigation" class="main-access">
+		<div class="bottone_rosso">
+			<a href="/ilbuonsenso">Fai la spesa!</a>
+		</div>
+	</nav>
+<?php else: ?>
 	<nav id="access" role="navigation">
 		<h3 class="assistive-text"><?php _e( 'Main menu', TACATI_TD ); ?></h3>
 		<?php /* Allow screen readers / text browsers to skip the navigation menu and get right to the good stuff. */ ?>
@@ -136,11 +149,7 @@
 		<?php /* Our navigation menu. If one isn't filled out, wp_nav_menu falls back to wp_page_menu. The menu assigned to the primary location is the one used. If one isn't assigned, the menu with the lowest ID is used. */ ?>
 		<?php wp_nav_menu( array( 'theme_location' => 'primary' ) ); ?>
 	</nav><!-- #access -->
-					
-	<!--<h3> Asti </h3>
-	<?php get_shops(Asti); ?>
-	<h3> Torino	 </h3>
-	<?php get_shops(Torino); ?> -->
+<?php endif; ?>
 	</header><!-- #branding -->
 	
 	

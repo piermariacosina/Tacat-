@@ -231,7 +231,9 @@ function get_customslideshow($carousel){
 					<li>
 						<img src="<?php echo $image['immagine']['sizes']['slides']; ?>" alt="<?php echo $image['immagine']['alt'];?>"/>
 						<div class="<?php echo $image['position']; ?>">
-							
+							<?php if(!is_page( 512 )){
+								echo '<div class="background"></div>';
+							}?>
 							<div class="content">
 								<h1><?php echo $image['titolo']; ?></h1>
 								<h5><?php echo $image['sottotitolo']; ?></h5>
