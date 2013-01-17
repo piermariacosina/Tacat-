@@ -95,7 +95,7 @@
 		<section>
 			<div class="header-left"></div>
 			<h1 id="site-title"><a href="http://tacati.it/" title="Tacatì" rel="home">Tacatì</a></h1>
-			<?php if(!is_page( 512 )):?>
+			<?php if(!is_page( 532 )):?>
 			<ul class="nav nav-pills">
 				<li >
 				 <a href="/ilbuonsenso">Fai la spesa!</a>
@@ -134,7 +134,7 @@
 		<li></li>
 	</ul>
 </div>
-	<?php if(!is_page( 512 )):?>
+	<?php if(!is_page( 532 )):?>
 	<nav id="access" role="navigation" class="main-access">
 		<div class="bottone_rosso">
 			<a href="/ilbuonsenso">Fai la spesa!</a>
