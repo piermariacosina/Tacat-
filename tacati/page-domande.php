@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name: Home
+Template Name: Domande
 */
 get_header(); ?>
 
@@ -14,7 +14,7 @@ get_header(); ?>
 
 				<?php endwhile; // end of the loop. ?>
 				<?php echo do_shortcode('[odd_faq]');?>
-				<?php echo do_shortcode('[gravityform id="1" name="Contattaci"]');?>
+				<?php //echo do_shortcode('[gravityform id="1" name="Contattaci"]');?>
 				
 			</div><!-- #content -->
 			<div class="clear"></div>

@@ -27,9 +27,11 @@ if ( !function_exists( 'bp_dtheme_enqueue_styles' ) ) :
 		$version = '0.1';
 		
 		wp_register_style( 'screen',  get_theme_root_uri() . '/css/screen.css', array(), $version, 'screen, projection' );
+		
 		wp_register_style( 'print',  get_theme_root_uri() . '/css/print.css', array(), $version, 'print' );
 		wp_register_style( 'flexslidercss',  get_theme_root_uri() . '/css/flexslider.css', array(), $version, 'screen, projection' );
 		wp_register_style( 'bootstrapcss',  get_theme_root_uri() . '/css/bootstrap.css', array(), $version, 'screen, projection' );
+		wp_register_style( 'screen',  get_theme_root_uri() . '/css/home.css', array(), $version, 'screen, projection' );
 		
 		wp_register_script( 'bootstrap',  get_theme_root_uri() . '/js/bootstrap.min.js', array(), $version, true );
 		wp_register_script( 'flexsliderlib',  get_theme_root_uri() . '/js/jquery.flexslider-min.js', array(), $version, true );
@@ -44,6 +46,7 @@ if ( !function_exists( 'bp_dtheme_enqueue_styles' ) ) :
 		wp_enqueue_style( 'print' );
 		wp_enqueue_style( 'bootstrapcss' );
 		wp_enqueue_style( 'flexslidercss' );
+		wp_enqueue_style( 'home' );
 		
 		wp_enqueue_script('jquery',false, array(), $version, true);
 		wp_enqueue_script('modernizr',false, array(), $version, false);
@@ -228,7 +231,7 @@ function get_customslideshow($carousel){
 					<li>
 						<img src="<?php echo $image['immagine']['sizes']['slides']; ?>" alt="<?php echo $image['immagine']['alt'];?>"/>
 						<div class="<?php echo $image['position']; ?>">
-							<div class="background"></div>
+							
 							<div class="content">
 								<h1><?php echo $image['titolo']; ?></h1>
 								<h5><?php echo $image['sottotitolo']; ?></h5>
@@ -238,6 +241,11 @@ function get_customslideshow($carousel){
 					</li>
 				<?php endforeach; ?>
 			</ul>
+			<?php if(is_page( 512 )){
+				 get_shops("Asti","left");
+				 get_shops("Torino","right"); 
+			}?>
+			
 		</div>
 		<?php
 	
@@ -663,7 +671,7 @@ endif;
 
 
 if ( !function_exists( 'get_shops' ) ) :
-function get_shops( $citta ){
+function get_shops( $citta, $position ){
 
 	$args = array( 
 		'posts_per_page' => -1,
@@ -674,26 +682,36 @@ function get_shops( $citta ){
 		);
 
 	query_posts( $args );
-
+		echo '<div id="'.$position.'">';
+		
 	// The Loop
 		while (have_posts() ) : the_post();?>
+		
 			<?php if ( get_field("citta") == $citta ): ?>
-				<ul>
-					<li class="negozi">
-						 <?php the_post_thumbnail( ); ?>
-						<a class="title" href="<?php the_field("link"); ?> "> <?php the_title(); ?> </a>
-						<p> <?php the_field("offerta"); ?> </p>
-						<p> <?php the_field("specialita"); ?> </p>
-						<p> <?php the_field("location"); ?> </p>
-						<p> <?php the_content(); ?> </p>						
-					</li>
-				</ul>
-			<?php endif;
+				<h1><?php the_field("citta"); ?></h1>
+			
+				<div class="stripes"></div>
+			
+				<div class="box">
 					
-
-
+					<div class="foto"><?php the_post_thumbnail(array(66,66) ); ?></div>
+					<h2><?php the_title(); ?> </h2>
+					<p><?php the_content(); ?></p>
+					<h4><?php the_field("specialita"); ?></h4>
+					
+					
+					<h3><?php the_field("offerta"); ?></h3>
+					<nav id="access" role="navigation" class="main-access">
+						<div class="bottone_rosso">
+							<a href="<?php the_field("link");?>">Fai la spesa!</a>
+						</div>
+					</nav>
+					<h5><?php the_field("location"); ?></h5>
+					<div class="stripes"></div>
+				</div>
+			<?php endif;
 		endwhile;	
-
+		echo "</div>";
 	// Reset Query
 	wp_reset_query();
 }

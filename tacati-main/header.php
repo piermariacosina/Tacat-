@@ -92,145 +92,50 @@
 </header>
 <div id="page" class="hfeed">
 	<header id="branding" role="banner">
+		<section>
+			<div class="header-left"></div>
+			<h1 id="site-title"><a href="http://tacati.it/" title="Tacatì" rel="home">Tacatì</a></h1>
 
-			<section>
-				<div class="header-left"></div>
-				<h1 id="site-title"><a href="http://tacati.it/" title="Tacatì" rel="home">Tacatì</a></h1>
-
-				<ul class="nav nav-pills">
+			<ul class="nav nav-pills">
 					<li >
-					 <a href="/ilbuonsenso"><!--Fai la spesa!-->Asti</a>
-					<!-- <a class="dropdown-toggle"
-						 data-toggle="dropdown"
-						 href="#">
-						non è la tua città?
-						<b class="caret"></b>
-						</a>
-					<ul class="dropdown-menu">
-						<li><a href="/macelleria-pavese/">Tacatì-Macelleria Pavese</a></li><li><a href="/ilbuonsenso/">Tacatì- Il Buonsenso</a></li><li><a href="/">Tacatì</a></li>					</ul> -->
-					</li>
-				</ul> 
-				<div class="header-right"></div>
-			</section>
-			
-					
-
-<!-- <ul>
-	<div class="menu"><ul><li class="current_page_item"><a href="http://tacati.it/" title="Home">Home</a></li><li class="page_item page-item-470"><a href="http://tacati.it/privacy-policy/">Privacy policy</a></li><li class="page_item page-item-472"><a href="http://tacati.it/termini-condizioni/">Termini e condizioni</a></li></ul></div>
-
-
-</ul> -->
-
-				<div id="slider" class="flexslider">
-						<ul class="slides">
-							<li>
-							<img src="http://tacati.it/wp-content/uploads/2012/09/foto_frutta_verdura_7042-1-959x372.jpg" alt=""/>
-								<div class="sinistra">
-<!--									<div class="background"></div>-->
-									<div class="content">
-										<h1>Il supermercato diffuso</h1>
-										<h5>Come funziona?</h5>
-										<p>Clicca <a title="Fai la spesa" href="http://tacati.it/torino" >qui</a> per accedere al negozio online e acquistare prodotti di aziende agricole, laboratori artigianali e piccoli commerci di Asti, Torino e dintorni.</p>
-	<p>Altrimenti, scorri le diapositive per saperne di più.</p>
-	
-	<div id="navigation">
-	  <div class="button_slider"></div>
-	  <div class="button_slider2"></div>
-	  <div class="button_slider3"></div>
-	 
-</div>
-
-
-									</div>
-									
-	<div id="content2">
-	<h1>Asti</h1>
-		
-	<div class="stripes"></div>
-	
-	<div id="box1">
-	<div class="stripes"></div>
-	
-	 
-	  <div class="foto"></div>
-			<h2>Titolo1</h2>
-			<p>Piccola descrizione sul punto vendita Tacatì con prodotti di alta qualità, tutti italiani e a km 0.</p>
-			<h4>Formaggio di capra D.O.C</h4>
-			<h3>20 % di sconto sulla prima spesa
-			Centro, Via XX settembrte</h3>
-		
-	  </div>
-	  
-			
-		  <div id="box2">
-		  <div class="stripes"></div>
-		   
-			<div class="foto"></div>
-				<h2>Titolo1</h2>
-				<p>Piccola descrizione sul punto vendita Tacatì con prodotti di alta qualità, tutti italiani e a km 0.</p>
-				<h4>Formaggio di capra D.O.C</h4>
-				<h3>20 % di sconto sulla prima spesa
-				Centro, Via XX settembrte</h3>
-			
-			</div>
-		
-				</div>
-				
-				
-				<div id="content3">
-				<h1>Torino</h1>
-					
-				<div class="stripes"></div>
-				
-				<div id="box1">
-				<div class="stripes"></div>
-				
-				 
-				  <div class="foto"></div>
-						<a class="title">Titolo1</a>
-						<p>Piccola descrizione sul punto vendita Tacatì con prodotti di alta qualità, tutti italiani e a km 0.</p>
-						<h4>Formaggio di capra D.O.C</h4>
-						<h3>20 % di sconto sulla prima spesa
-						Centro, Via XX settembrte</h3>
-					
-				  </div>
-				  
-						
-					  <div id="box2">
-					  <div class="stripes"></div>
-					   
-						<div class="foto"></div>
-							<h2>Titolo1</h2>
-							<p>Piccola descrizione sul punto vendita Tacatì con prodotti di alta qualità, tutti italiani e a km 0.</p>
-							<h4>Formaggio di capra D.O.C</h4>
-							<h3>20 % di sconto sulla prima spesa
-							Centro, Via XX settembrte</h3>
-						
-						</div>
-					
-							</div>
-							
-				
-			
-									
-									
-								</div>
-							</li>
+						<a class="dropdown-toggle"
+							 data-toggle="dropdown"
+							 href="#">
+							<?php __('Scegli la bottega',TACATI_TD); ?>
+							<b class="caret"></b>
+							</a>
+						<ul class="dropdown-menu">
+							<?php do_action('list_sites'); ?>
 						</ul>
-					</div>
+				</li>
+			</ul> 
+			<div class="header-right"></div>
+		</section>
+
+		<?php do_action('print_customslideshow',false) ?>
+
+									
+
 					
-										
-						<div class="border">
-					 <ul>
-						<li></li>
-						<li></li>
-						<li></li>
-						<li></li>
-						<li></li>
-						<li></li>
-					</ul>
-				</div>
+<div class="border">
+	<ul>
+		<li></li>
+		<li></li>
+		<li></li>
+		<li></li>
+		<li></li>
+		<li></li>
+	</ul>
+</div>
 	
+	<nav id="access" role="navigation">
+		<h3 class="assistive-text"><?php _e( 'Main menu', TACATI_TD ); ?></h3>
+		<?php /* Allow screen readers / text browsers to skip the navigation menu and get right to the good stuff. */ ?>
+		<div class="skip-link"><a class="assistive-text" href="#content" title="<?php esc_attr_e( 'Skip to primary content', TACATI_TD ); ?>"><?php _e( 'Skip to primary content', TACATI_TD ); ?></a></div>
+		<div class="skip-link"><a class="assistive-text" href="#secondary" title="<?php esc_attr_e( 'Skip to secondary content', TACATI_TD ); ?>"><?php _e( 'Skip to secondary content', TACATI_TD ); ?></a></div>
+		<?php /* Our navigation menu. If one isn't filled out, wp_nav_menu falls back to wp_page_menu. The menu assigned to the primary location is the one used. If one isn't assigned, the menu with the lowest ID is used. */ ?>
+		<?php wp_nav_menu( array( 'theme_location' => 'primary' ) ); ?>
+	</nav><!-- #access -->
 					
 	<!--<h3> Asti </h3>
 	<?php get_shops(Asti); ?>

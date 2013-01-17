@@ -1,0 +1,221 @@
+@import "partials/grid";
+@import "partials/text";
+@import "compass/typography";
+@import "compass/typography/lists/horizontal-list";
+@import "compass/css3/font-face";
+@import "compass/css3/opacity";
+@import "compass/typography/lists/horizontal-list";
+@import "compass/typography/links/link-colors";
+@import "compass/css3/border-radius";
+@import "compass/css3/background-clip";
+@import "compass/typography/text/replacement";
+@import "compass/layout/stretching";
+
+
+
+$dark-grey: #3E3D40;
+$white: #FCFDFD;
+$light-blue: #5094B8;
+$brown: #732C03;
+$background-light-blue: #dbeaea;
+$white-background: #fcfdfd;
+$red: #f23c00;
+$red-border: #e7511e;
+$red-header: #e0673d;
+$brown: #732c03;
+$light-blue: #5094B8;
+$light-blue-border: #72bac7;
+$black-footer: #3e3d40;
+$border-footer: #f8f5e6;
+$white-title: #F6F6F6;
+$light-blue-login: #5094B8;
+$black-link: #512814;
+$light-blue-2: #5094B8;
+$light-blue-carrello: #5094B8;
+$blue: #5094B8;
+
+header#branding #slider{
+	height: 800px !important;
+}
+
+.flexslider .slides img{
+	height: 100% !important;
+}
+
+#slider{
+	.flex-direction-nav a{
+		top: 16%;
+	}
+	div.content{
+	background: image-url("yellow.png") repeat left top;
+	border: 1px solid #E0DDD3;
+	@include opacity(.9);
+	@include stretch;
+	z-index: 1;
+	@include border-radius(10px);
+	width: 700px;
+	height: 179px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	 
+		h1{
+			font-size: 30px !important;
+			color: $brown !important;
+			margin-left: 60px;
+		}
+			
+		h5{
+			font-size: 16px!important;
+			color: $red;
+			margin-left: 60px;
+			line-height: 6px !important;
+		}
+			
+		p,div{
+			font-family:"edmondsans medium";
+			font-size: 13px!important;
+			color: $light-blue;
+			margin-left: 60px;
+		}
+	}
+}
+#right{
+	right: 135px;
+}
+#left{
+	left: 170px;
+}	
+		
+#left,#right{
+	position: absolute;
+	z-index: 100;
+	bottom: 20px;
+	width: 280px;
+	height: 500px;
+	background: image-url("yellow.png") repeat left top;
+	border: 1px solid #E0DDD3;
+	@include opacity(.9);
+	@include border-radius(10px);
+	padding: 15px ;
+	
+	nav{
+		padding: 0 !important;
+		margin-top: 10px !important;
+		height: 40px !important;
+	}
+	 
+	.foto{
+		background: image-url("foto_prodotto.png") repeat left top;
+		border: 3px solid $light-blue-border;
+		width: 66px;
+		height: 66px;
+		@include float-left;
+		margin-top: 5px;
+	}
+
+	h1{
+		font-family:"mission script"!important;
+		font-size: 33px!important;
+		color: $red!important;
+		margin: 0;
+	}
+	
+	
+	h2{
+		font-family:"mission script"!important;
+		font-size: 22px!important;
+		@include float-left;
+		margin-left: 10px;
+		margin-top: 0;
+	}
+	
+	p{
+		font-family:"edmondsans medium"!important;
+		font-size: 12px!important;
+		color: $red!important;
+		width: 180px;
+		@include float-left;
+		margin-left: 10px;
+		line-height: 13px!important;
+	}
+
+	h4{
+		clear: both;
+		font-family:"edmondsans bold"!important;
+		font-size: 12px!important;
+		color: $red!important;
+		margin-left: 82px;
+	}
+	
+	h5{
+		clear: both;
+		font-family:"edmondsans bold"!important;
+		font-size: 12px!important;
+		color: $blue!important;
+		text-align: center;
+		margin-top: 0;
+		margin-bottom: 3px;
+	}
+	
+	
+	h3{
+		font-family:"edmondsans medium"!important;
+		line-height: 14px!important;
+		font-size: 14px!important;
+		color: $brown!important;
+		text-align: center;
+	}
+}
+.box{
+	margin: 10px 0;
+}	 
+.stripes{
+	background: image-url("stripes_prodotto.png") repeat left top;
+	width: 100%;
+	height: 3px;
+	clear: both;
+} 
+
+
+	
+
+#navigation {
+	
+	margin: 0 4px 0 0;
+	font-size: 14px;
+	
+	.button_slider{
+		background: image-url("button_slide.png") repeat left top;
+		width: 20px;
+		height: 20px;
+		@include float-left;
+		position: absolute;
+		margin-left: 0!important;
+		
+	}
+	.button_slider2{
+		background: image-url("button_slide.png") repeat left top;
+		width: 20px;
+		height: 20px;
+		@include float-left;
+		position: absolute;
+		margin-left: 30px!important;
+		
+		
+	}
+		
+ .button_slider3{
+	background: image-url("button_slide.png") repeat left top;
+	width: 20px;
+	height: 20px;
+	@include float-left;
+	position: absolute;
+	margin-left: 60px!important;
+	
+	
+ }
+	
+		
+	
+	
+}

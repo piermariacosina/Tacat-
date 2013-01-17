@@ -762,7 +762,7 @@ function woocommerce_custom_order_columns2( $column ) {
 			woocommerce_custom_days($order);
 		break;
 		case "noprofit" :
-			woocommerce_custom_noprofit($order);
+			//woocommerce_custom_noprofit($order);
 		break;
 	}
 }
@@ -775,7 +775,7 @@ remove_action( 'manage_shop_order_posts_custom_column','woocommerce_custom_order
 /**
  * Add the field to the checkout
  **/
-add_action('woocommerce_after_order_notes', 'noprofit_field');
+//add_action('woocommerce_after_order_notes', 'noprofit_field');
 
 function woocommerce_custom_hours($order){	
 	echo get_woocommerce_custom_hours($order);
@@ -874,9 +874,9 @@ function my_custom_checkout_field_process() {
 	global $woocommerce;
 
 	// Check if set, if its not set add an error.
-	if (!$_POST['noprofit']){
-		 $woocommerce->add_error( __('Please enter something into the noprofit shiny field.', TACATI_TD) );
-	 }
+	// if (!$_POST['noprofit']){
+	// 	 $woocommerce->add_error( __('Please enter something into the noprofit shiny field.', TACATI_TD) );
+	//  }
 	if (!$_POST['orari']){
 		 $woocommerce->add_error( __('Please enter something into the delivery hours shiny field.', TACATI_TD) );
 	 }
