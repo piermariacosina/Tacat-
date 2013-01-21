@@ -1,0 +1,390 @@
+
+// pagina articolo singolo
+
+#nav-single{
+	h3.assistive-text{
+		display: none;
+	}
+}
+.entry-header{
+	margin-left: -85px;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+	background: url("../images/wood.png") repeat left top;
+	padding: 15px 0;
+	border-bottom: 1px solid #ffffff;
+	border-top: 1px solid #ffffff;
+	-webkit-box-shadow: 3px 3px 8px rgba(170, 167, 150, 1), 0 2px 2px rgba(170, 167, 150, 0.3);
+	   -moz-box-shadow: 3px 3px 8px rgba(170, 167, 150, 1), 0 2px 2px rgba(170, 167, 150, 0.3);
+			box-shadow: 3px 3px 8px rgba(170, 167, 150, 1), 0 2px 2px rgba(170, 167, 150, 0.3);
+	h1.entry-title{
+		color: #CE4611 !important;
+		font-family: edmondsans regular !important;
+		text-transform: uppercase;
+		font-size: 28px !important;
+		padding: 0 20px 0 0 !important;
+		margin: 0 0 0 85px !important;
+		text-shadow: 0 1px #ffffff;
+		a{
+			color: #CE4611 !important;
+		}
+		a:hover{
+			color: #FF7150 !important;
+		}
+	}
+	
+	.entry-meta{
+		margin: -5px 0 0 85px;
+		padding: 0 20px 0 0; 
+		color: #72BAC7;
+		font-family: mission script;
+		font-size: 29px;
+		text-shadow: 0 1px #ffffff;
+		a{
+			color: #1F7B91;
+			text-decoration: underline;
+		}
+		a:hover{
+			color: #01293F;
+		}
+		a:active{
+			color: #1F7B91;
+		}
+		a:visited{
+			color: #72BAC7;
+			&:hover{
+				color: #1F7B91;
+			}
+		}
+	}
+	.comments-link{
+		margin-left: 85px;
+		a{
+			color: #1F7B91;
+			font-family: edmondsans medium;
+			font-size: 12px;
+			text-shadow: 0 1px #ffffff;
+		}
+		a:hover{
+			color: #01293F;
+		}
+		a:active{
+			color: #1F7B91;
+		}
+		a:visited{
+			color: #72BAC7;
+			&:hover{
+				color: #1F7B91;
+			}
+		}
+	}
+}
+.entry-content{
+	p{
+		color: #637D7F !important;
+		font-family: edmondsans medium;
+		font-size: 14px;
+		line-height: 23px;
+		text-indent: 10px;
+		margin: 0 0 10px 0;
+		padding: 0;
+		img{
+			max-width: 580px;
+			height: auto;
+			margin: 10px 0;
+			padding: 0;
+		}
+	}
+	p:first-child{
+		margin-top: 35px;
+	}
+	p:last-child{
+		margin-bottom: 20px;
+	}
+}
+footer.entry-meta{
+	color: #72BAC7;
+	font-family: edmondsans regular;
+	font-size: 11px;
+	line-height: 13px;
+	margin: 0 0 45px 0;
+	a{
+		color: #1F7B91;
+		text-decoration: underline;
+		font-family: edmondsans medium;
+	}
+	a:hover{
+		color: #01293F;
+	}
+	a:active{
+		color: #1F7B91;
+	}
+	a:visited{
+		color: #72BAC7;
+		&:hover{
+			color: #1F7B91;
+		}
+	}
+}
+#comments{
+	clear: both;
+	position: relative;
+	left: 60px;
+	margin: 0 10px;
+	width: 580px;
+	h2#comments-title{
+		margin: 0 0 5px 0 !important;
+		color: #72BAC7;
+		font-family: mission script;
+		font-size: 29px;
+	}
+	ol.commentlist{
+		list-style-type: none;
+		@include clearfix;
+		margin: 0 0 30px 0;
+		padding: 0;
+		li{
+			@include clearfix;
+			margin: 0;
+			.comment{
+				position: relative;
+				left: 0;
+				margin: 0;
+				.comment-content{
+					color: #637D7F !important;
+					font-family: edmondsans medium;
+					font-size: 14px;
+					line-height: 23px;
+					margin: 10px 0;
+				}
+				.comment-meta{
+					color: #72BAC7;
+					font-family: edmondsans regular;
+					font-size: 11px;
+					line-height: 13px;
+					margin: 0;
+					img{
+						clear: right;
+						margin-right: 10px;
+					}
+					a{
+						color: #1F7B91;
+						text-decoration: underline;
+						font-family: edmondsans medium;
+					}
+					a:hover{
+						color: #01293F;
+					}
+					a:active{
+						color: #1F7B91;
+					}
+					a:visited{
+						color: #72BAC7;
+						&:hover{
+							color: #1F7B91;
+						}
+					}
+				}
+			}
+		}
+	}
+	#respond{
+		h3#reply-title{
+			margin: 0;
+			color: #72BAC7;
+			font-family: mission script;
+			font-size: 29px;
+		}
+		#commentform{
+			p.comment-notes, p.logged-in-as{
+				font-family: edmondsans medium;
+				color: #637D7F !important;
+				font-size: 12px;
+				line-height: 15px;
+				margin: 0 0 10px 0;
+				a{
+					color: #1F7B91;
+					text-decoration: underline;
+					font-family: edmondsans medium;
+				}
+				a:hover{
+					color: #01293F;
+				}
+				a:active{
+					color: #1F7B91;
+				}
+				a:visited{
+					color: #72BAC7;
+					&:hover{
+						color: #1F7B91;
+					}
+				}
+			}
+			.comment-form-comment{
+				label{
+					display: none;
+				}
+				textarea{
+					min-width: 566px;
+					max-width: 786px;
+				}
+			}
+			.form-allowed-tags{
+				margin: 0 0 20px 0;
+				color: #72BAC7;
+				font-family: edmondsans regular;
+				font-size: 12px;
+				line-height: 22px;
+			}
+		}
+	}
+}
+
+
+
+// pagina intro articoli
+
+.page-header{
+	border: none !important;
+	margin: 0 0 30px 0 !important;
+	padding: 0 !important;
+	h1.page-title{
+		font-size: 34px;
+		line-height: 37px;
+		margin-left: 65px;
+		padding: 0;
+		width: 580px;
+	}
+}
+
+
+#secondary{
+	position: absolute;
+	right: 0;
+	#archives, #meta{
+		width: 185px;
+		position: fixed;
+		background: url("../images/wood.png") repeat left top;
+		padding: 0;
+		border-bottom: 1px solid #ffffff;
+		border-top: 1px solid #ffffff;
+		-webkit-box-shadow: -3px 3px 8px rgba(170, 167, 150, 1), 0 2px 2px rgba(170, 167, 150, 0.3);
+		   -moz-box-shadow: -3px 3px 8px rgba(170, 167, 150, 1), 0 2px 2px rgba(170, 167, 150, 0.3);
+				box-shadow: -3px 3px 8px rgba(170, 167, 150, 1), 0 2px 2px rgba(170, 167, 150, 0.3);
+	}
+	#archives{
+		top: 430px;
+		z-index: 10;
+		border-bottom-left-radius: 10px;
+	}
+	#meta{
+		top: 337px;
+		border-top-left-radius: 10px;
+	}
+	#meta, #archives{
+		h3.widget-title{
+			margin: 10px 20px;
+			color: #732C03;
+			font-family: mission script;
+			font-size: 29px;
+			text-shadow: 0 1px #ffffff;
+		}
+		ul{
+			margin: 0 20px 10px 20px;
+			padding: 0;
+			li{
+				margin: 0 !important;
+				padding: 0 !important;
+				font-family: edmondsans medium;
+				font-size: 12px;
+				line-height: 15px;
+				margin: 0 0 10px 0;
+				text-shadow: 0 1px #ffffff;
+				a{
+					margin: 0;
+					padding: 0;
+					color: #1F7B91;
+				}
+				a:hover{
+					color: #72BAC7;
+				}
+				a:visited{
+					color: #CE4611;
+					&:hover{
+						color: #FF7150;
+					}
+				}
+			}
+		}
+	}
+}
+
+.entry-content{
+	.widget{
+		h2.widgettitle{
+			font-family: mission script;
+			color: #732C03;
+		}
+		ul{
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+			li{
+				color: #1F7B91;
+				margin: 0 0 5px 0;
+				padding: 0;
+				font-family: edmondsans regular;
+				font-size: 12px !important;
+				a{
+					color: #1F7B91;
+					text-decoration: underline;
+					font-family: edmondsans medium;
+				}
+				a:hover{
+					color: #01293F;
+				}
+				a:active{
+					color: #1F7B91;
+				}
+				a:visited{
+					color: #72BAC7;
+					&:hover{
+						color: #1F7B91;
+					}
+				}
+			}
+		}
+	}
+}
+
+
+
+.vcard{
+	a{
+		color: #1F7B91;
+		text-decoration: underline;
+	}
+	a:hover{
+		color: #01293F;
+	}
+	a:active{
+		color: #1F7B91;
+	}
+	a:visited{
+		color: #72BAC7;
+		&:hover{
+			color: #1F7B91;
+		}
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
