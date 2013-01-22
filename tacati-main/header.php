@@ -95,27 +95,21 @@
 		<section>
 			<div class="header-left"></div>
 			<h1 id="site-title"><a href="http://tacati.it/" title="Tacatì" rel="home">Tacatì</a></h1>
-			<?php if(!is_page( 532 )):?>
-			<ul class="nav nav-pills">
-				<li >
-				 <a href="/ilbuonsenso">Fai la spesa!</a>
-				</li>
-			</ul>
-			<?php else: ?>
+			
 			<ul class="nav nav-pills">
 					<li >
 						<a class="dropdown-toggle"
 							 data-toggle="dropdown"
 							 href="#">
-							<?php __('Scegli la bottega',TACATI_TD); ?>
+							<?php the_field("menu_title","option"); ?>
 							<b class="caret"></b>
 							</a>
 						<ul class="dropdown-menu">
-							<?php do_action('list_sites'); ?>
+							<?php do_action('menu_list'); ?>
 						</ul>
 				</li>
 			</ul> 
-			<?php endif;?>
+			
 			<div class="header-right"></div>
 		</section>
 
@@ -134,13 +128,7 @@
 		<li></li>
 	</ul>
 </div>
-	<?php if(!is_page( 532 )):?>
-	<nav id="access" role="navigation" class="main-access">
-		<div class="bottone_rosso">
-			<a href="/ilbuonsenso">Fai la spesa!</a>
-		</div>
-	</nav>
-<?php else: ?>
+
 	<nav id="access" role="navigation">
 		<h3 class="assistive-text"><?php _e( 'Main menu', TACATI_TD ); ?></h3>
 		<?php /* Allow screen readers / text browsers to skip the navigation menu and get right to the good stuff. */ ?>
@@ -149,7 +137,7 @@
 		<?php /* Our navigation menu. If one isn't filled out, wp_nav_menu falls back to wp_page_menu. The menu assigned to the primary location is the one used. If one isn't assigned, the menu with the lowest ID is used. */ ?>
 		<?php wp_nav_menu( array( 'theme_location' => 'primary' ) ); ?>
 	</nav><!-- #access -->
-<?php endif; ?>
+
 	</header><!-- #branding -->
 	
 	

@@ -46,9 +46,9 @@ if ( !function_exists( 'bp_dtheme_enqueue_styles' ) ) :
 		wp_enqueue_style( 'print' );
 		wp_enqueue_style( 'bootstrapcss' );
 		wp_enqueue_style( 'flexslidercss' );
-		if(is_page( 532 )):
+		// if(is_page( 532 )):
 			wp_enqueue_style( 'home' );
-		endif;
+		// endif;
 		wp_enqueue_script('jquery',false, array(), $version, true);
 		wp_enqueue_script('modernizr',false, array(), $version, false);
 		wp_enqueue_script('bootstrap',false, array(), $version, true);
@@ -232,9 +232,7 @@ function get_customslideshow($carousel){
 					<li>
 						<img src="<?php echo $image['immagine']['sizes']['slides']; ?>" alt="<?php echo $image['immagine']['alt'];?>"/>
 						<div class="<?php echo $image['position']; ?>">
-							<?php if(!is_page( 532 )){
-								echo '<div class="background"></div>';
-							}?>
+														
 							<div class="content">
 								<h1><?php echo $image['titolo']; ?></h1>
 								<h5><?php echo $image['sottotitolo']; ?></h5>
@@ -244,10 +242,10 @@ function get_customslideshow($carousel){
 					</li>
 				<?php endforeach; ?>
 			</ul>
-			<?php if(is_page( 532 )){
+			<?php //if(is_page( 532 )){
 				 get_shops("Asti","left");
 				 get_shops("Torino","right"); 
-			}?>
+			//}?>
 			
 		</div>
 		<?php
@@ -672,10 +670,20 @@ function shops_register() {
 add_action('init', 'shops_register');
 endif;
 
+if ( !function_exists( 'get_menu_list' ) ) :
+function get_menu_list() {
+	if(get_field('menu_list','option')):
+		while(the_repeater_field('menu_list','option')):
+			echo '<li><a href="'.get_sub_field('link','option').'">'.get_sub_field('title','option').'</a></li>';
+		endwhile;
+	endif;
+}
+add_action('menu_list', 'get_menu_list');
+endif;
 
 if ( !function_exists( 'get_shops' ) ) :
 function get_shops( $citta, $position ){
-
+	$counter=0;
 	$args = array( 
 		'posts_per_page' => -1,
 		'post_type'=>'shop' ,
@@ -683,24 +691,25 @@ function get_shops( $citta, $position ){
 		'order'=>'ASC',
 		'orderby'=>'title'
 		);
-
-	query_posts( $args );
+		query_posts( $args );
 		echo '<div id="'.$position.'">';
 		
 	// The Loop
 		while (have_posts() ) : the_post();?>
-		
+			
 			<?php if ( get_field("citta") == $citta ): ?>
-				<h1><?php the_field("citta"); ?></h1>
-			
-				<div class="stripes"></div>
-			
+				<?php if ($counter==0 || $counter==1) : ?>
+					<h1><?php the_field("citta"); ?></h1>
+				
+					<div class="stripes"></div>
+				<?php endif; ?>
 				<div class="box">
 					
+
 					<div class="foto"><?php the_post_thumbnail(array(66,66) ); ?></div>
 					<h2><?php the_title(); ?> </h2>
-					<p><?php the_content(); ?></p>
-					<h4><?php the_field("specialita"); ?></h4>
+					<?php the_content(); ?>
+					<h4><?php the_field("caratteristica"); ?></h4>
 					
 					
 					<h3><?php the_field("offerta"); ?></h3>
@@ -713,9 +722,12 @@ function get_shops( $citta, $position ){
 					<div class="stripes"></div>
 				</div>
 			<?php endif;
+				$counter++;
 		endwhile;	
 		echo "</div>";
 	// Reset Query
 	wp_reset_query();
+	
+
 }
 endif;

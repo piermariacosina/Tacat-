@@ -65,7 +65,7 @@ header#branding #slider{
 		}
 			
 		h5{
-			font-size: 16px!important;
+			font-size: 18px!important;
 			color: $red;
 			margin-left: 60px;
 			line-height: 6px !important;
@@ -73,9 +73,10 @@ header#branding #slider{
 			
 		p,div{
 			font-family:"edmondsans medium";
-			font-size: 13px!important;
+			font-size: 15px!important;
 			color: $light-blue;
 			margin-left: 60px;
+			margin-right: 10px;
 		}
 	}
 }

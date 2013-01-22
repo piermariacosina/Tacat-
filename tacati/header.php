@@ -121,7 +121,7 @@
 </ul> -->
 	<?php if(is_front_page()): ?>
 			
-				<?php if ( !is_user_logged_in() ) {  do_action('print_customslideshow',false); } ?>
+				<?php /*if ( !is_user_logged_in() ) {*/  do_action('print_customslideshow',false); /*}*/ ?>
 				<div class="border">
 					 <ul>
 						<li></li>

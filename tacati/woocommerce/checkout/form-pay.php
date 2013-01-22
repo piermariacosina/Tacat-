@@ -49,7 +49,7 @@ global $woocommerce;
 	<div id="payment">
 		<?php if ($order->order_total > 0) : ?>
 			<!-- PayPal Logo --><table border="0" cellpadding="10" cellspacing="0" align="center"><tr><td align="center"></td></tr><tr><td align="center"><a href="#" onclick="javascript:window.open('https://www.paypal.com/it/cgi-bin/webscr?cmd=xpt/Marketing/popup/OLCWhatIsPayPal-outside','olcwhatispaypal','toolbar=no, location=no, directories=no, status=no, menubar=no, scrollbars=yes, resizable=yes, width=400, height=350');"><img  src="https://www.paypalobjects.com/it_IT/IT/Marketing/i/bnr/bnr_horizontal_solutiongraphic_335x80.gif" border="0" alt="Che cos'&egrave; PayPal"></a></td></tr></table><!-- PayPal Logo -->
-		<ul class="payment_methods methods"  style="display: none;">
+		<ul class="payment_methods methods">
 			<?php
 				$available_gateways = $woocommerce->payment_gateways->get_available_payment_gateways();
 				if ($available_gateways) :
