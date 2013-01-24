@@ -101,6 +101,9 @@
 	p:last-child{
 		margin-bottom: 20px;
 	}
+	img{
+		margin-top: 20px;
+	}
 }
 footer.entry-meta{
 	color: #72BAC7;
@@ -261,9 +264,12 @@ footer.entry-meta{
 #secondary{
 	position: absolute;
 	right: 0;
-	#archives, #meta{
+	background: none;
+	box-shadow: none;
+	overflow: visible;
+	top: 20px;
+	#archives, #meta, #su_siloed_terms-9, #su_siloed_terms-10{
 		width: 185px;
-		position: fixed;
 		background: url("../images/wood.png") repeat left top;
 		padding: 0;
 		border-bottom: 1px solid #ffffff;
@@ -272,16 +278,16 @@ footer.entry-meta{
 		   -moz-box-shadow: -3px 3px 8px rgba(170, 167, 150, 1), 0 2px 2px rgba(170, 167, 150, 0.3);
 				box-shadow: -3px 3px 8px rgba(170, 167, 150, 1), 0 2px 2px rgba(170, 167, 150, 0.3);
 	}
-	#archives{
-		top: 430px;
+	#archives, #su_siloed_terms-10{
+		
 		z-index: 10;
 		border-bottom-left-radius: 10px;
 	}
-	#meta{
-		top: 337px;
+	#meta, #su_siloed_terms-9{
+		
 		border-top-left-radius: 10px;
 	}
-	#meta, #archives{
+	#meta, #archives, #su_siloed_terms-9, #su_siloed_terms-10{
 		h3.widget-title{
 			margin: 10px 20px;
 			color: #732C03;

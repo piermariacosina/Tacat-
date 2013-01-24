@@ -2,7 +2,7 @@
  * Learn more ~ http://960.gs/
  * *
  * Licensed under GPL and MIT. */
-/* line 17, ../../../../../../compass.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 17, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -24,45 +24,45 @@ time, mark, audio, video {
   vertical-align: baseline;
 }
 
-/* line 22, ../../../../../../compass.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 22, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 html {
   line-height: 1;
 }
 
-/* line 24, ../../../../../../compass.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 24, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 ol, ul {
   list-style: none;
 }
 
-/* line 26, ../../../../../../compass.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 26, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-/* line 28, ../../../../../../compass.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 28, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 caption, th, td {
   text-align: left;
   font-weight: normal;
   vertical-align: middle;
 }
 
-/* line 30, ../../../../../../compass.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 30, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 q, blockquote {
   quotes: none;
 }
-/* line 103, ../../../../../../compass.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 103, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 q:before, q:after, blockquote:before, blockquote:after {
   content: "";
   content: none;
 }
 
-/* line 32, ../../../../../../compass.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 32, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 a img {
   border: none;
 }
 
-/* line 116, ../../../../../../compass.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 116, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
   display: block;
 }
@@ -71,17 +71,17 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
  * Learn more ~ http://960.gs/
  * *
  * Licensed under GPL and MIT. */
-/* line 4, ../../../../../../compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-960-plugin-f4bfe8555a7d2cae09bc/stylesheets/960/_text.sass */
+/* line 4, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/compass-960-plugin-0.10.4/stylesheets/960/_text.sass */
 body {
   font: 13px/1.5 Helvetica, Arial, 'Liberation Sans', FreeSans, sans-serif;
 }
 
-/* line 6, ../../../../../../compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-960-plugin-f4bfe8555a7d2cae09bc/stylesheets/960/_text.sass */
+/* line 6, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/compass-960-plugin-0.10.4/stylesheets/960/_text.sass */
 a:focus {
   outline: 1px dotted invert;
 }
 
-/* line 8, ../../../../../../compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-960-plugin-f4bfe8555a7d2cae09bc/stylesheets/960/_text.sass */
+/* line 8, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/compass-960-plugin-0.10.4/stylesheets/960/_text.sass */
 hr {
   border-color: #cccccc;
   border-style: solid;
@@ -90,52 +90,52 @@ hr {
   height: 0;
 }
 
-/* line 14, ../../../../../../compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-960-plugin-f4bfe8555a7d2cae09bc/stylesheets/960/_text.sass */
+/* line 14, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/compass-960-plugin-0.10.4/stylesheets/960/_text.sass */
 h1 {
   font-size: 25px;
 }
 
-/* line 16, ../../../../../../compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-960-plugin-f4bfe8555a7d2cae09bc/stylesheets/960/_text.sass */
+/* line 16, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/compass-960-plugin-0.10.4/stylesheets/960/_text.sass */
 h2 {
   font-size: 23px;
 }
 
-/* line 18, ../../../../../../compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-960-plugin-f4bfe8555a7d2cae09bc/stylesheets/960/_text.sass */
+/* line 18, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/compass-960-plugin-0.10.4/stylesheets/960/_text.sass */
 h3 {
   font-size: 21px;
 }
 
-/* line 20, ../../../../../../compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-960-plugin-f4bfe8555a7d2cae09bc/stylesheets/960/_text.sass */
+/* line 20, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/compass-960-plugin-0.10.4/stylesheets/960/_text.sass */
 h4 {
   font-size: 19px;
 }
 
-/* line 22, ../../../../../../compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-960-plugin-f4bfe8555a7d2cae09bc/stylesheets/960/_text.sass */
+/* line 22, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/compass-960-plugin-0.10.4/stylesheets/960/_text.sass */
 h5 {
   font-size: 17px;
 }
 
-/* line 24, ../../../../../../compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-960-plugin-f4bfe8555a7d2cae09bc/stylesheets/960/_text.sass */
+/* line 24, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/compass-960-plugin-0.10.4/stylesheets/960/_text.sass */
 h6 {
   font-size: 15px;
 }
 
-/* line 26, ../../../../../../compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-960-plugin-f4bfe8555a7d2cae09bc/stylesheets/960/_text.sass */
+/* line 26, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/compass-960-plugin-0.10.4/stylesheets/960/_text.sass */
 ol {
   list-style: decimal;
 }
 
-/* line 28, ../../../../../../compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-960-plugin-f4bfe8555a7d2cae09bc/stylesheets/960/_text.sass */
+/* line 28, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/compass-960-plugin-0.10.4/stylesheets/960/_text.sass */
 ul {
   list-style: square;
 }
 
-/* line 30, ../../../../../../compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-960-plugin-f4bfe8555a7d2cae09bc/stylesheets/960/_text.sass */
+/* line 30, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/compass-960-plugin-0.10.4/stylesheets/960/_text.sass */
 li {
   margin-left: 30px;
 }
 
-/* line 32, ../../../../../../compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-960-plugin-f4bfe8555a7d2cae09bc/stylesheets/960/_text.sass */
+/* line 32, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/compass-960-plugin-0.10.4/stylesheets/960/_text.sass */
 p,
 dl,
 hr,
@@ -154,24 +154,24 @@ fieldset {
   margin-bottom: 20px;
 }
 
-/* line 37, ../sass/home.scss */
+/* line 37, C:/xampp/htdocs/tacati/wp-content/themes/sass/home.scss */
 header#branding #slider {
   height: 800px !important;
 }
 
-/* line 41, ../sass/home.scss */
+/* line 41, C:/xampp/htdocs/tacati/wp-content/themes/sass/home.scss */
 .flexslider .slides img {
   height: 100% !important;
 }
 
-/* line 46, ../sass/home.scss */
+/* line 46, C:/xampp/htdocs/tacati/wp-content/themes/sass/home.scss */
 #slider .flex-direction-nav a {
   top: 16%;
 }
-/* line 49, ../sass/home.scss */
+/* line 49, C:/xampp/htdocs/tacati/wp-content/themes/sass/home.scss */
 #slider div.content {
-  background: url('../images/yellow.png?1353572877') repeat left top;
-  border: 1px solid #E0DDD3;
+  background: url('../images/yellow.png?1346784740') repeat left top;
+  border: 1px solid #e0ddd3;
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=90);
   opacity: 0.9;
   position: absolute;
@@ -190,20 +190,20 @@ header#branding #slider {
   padding-top: 10px;
   padding-bottom: 10px;
 }
-/* line 61, ../sass/home.scss */
+/* line 61, C:/xampp/htdocs/tacati/wp-content/themes/sass/home.scss */
 #slider div.content h1 {
   font-size: 30px !important;
   color: #732c03 !important;
   margin-left: 60px;
 }
-/* line 67, ../sass/home.scss */
+/* line 67, C:/xampp/htdocs/tacati/wp-content/themes/sass/home.scss */
 #slider div.content h5 {
   font-size: 18px!important;
   color: #f23c00;
   margin-left: 60px;
   line-height: 6px !important;
 }
-/* line 74, ../sass/home.scss */
+/* line 74, C:/xampp/htdocs/tacati/wp-content/themes/sass/home.scss */
 #slider div.content p, #slider div.content div {
   font-family: "edmondsans medium";
   font-size: 15px!important;
@@ -212,25 +212,25 @@ header#branding #slider {
   margin-right: 10px;
 }
 
-/* line 83, ../sass/home.scss */
+/* line 83, C:/xampp/htdocs/tacati/wp-content/themes/sass/home.scss */
 #right {
   right: 135px;
 }
 
-/* line 86, ../sass/home.scss */
+/* line 86, C:/xampp/htdocs/tacati/wp-content/themes/sass/home.scss */
 #left {
   left: 170px;
 }
 
-/* line 90, ../sass/home.scss */
+/* line 90, C:/xampp/htdocs/tacati/wp-content/themes/sass/home.scss */
 #left, #right {
   position: absolute;
   z-index: 100;
   bottom: 20px;
   width: 280px;
   height: 500px;
-  background: url('../images/yellow.png?1353572877') repeat left top;
-  border: 1px solid #E0DDD3;
+  background: url('../images/yellow.png?1346784740') repeat left top;
+  border: 1px solid #e0ddd3;
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=90);
   opacity: 0.9;
   -webkit-border-radius: 10px;
@@ -240,13 +240,13 @@ header#branding #slider {
   border-radius: 10px;
   padding: 15px;
 }
-/* line 102, ../sass/home.scss */
+/* line 102, C:/xampp/htdocs/tacati/wp-content/themes/sass/home.scss */
 #left nav, #right nav {
   padding: 0 !important;
   margin-top: 10px !important;
   height: 40px !important;
 }
-/* line 108, ../sass/home.scss */
+/* line 108, C:/xampp/htdocs/tacati/wp-content/themes/sass/home.scss */
 #left .foto, #right .foto {
   background: url('../images/foto_prodotto.png') repeat left top;
   border: 3px solid #72bac7;
@@ -256,14 +256,14 @@ header#branding #slider {
   float: left;
   margin-top: 5px;
 }
-/* line 117, ../sass/home.scss */
+/* line 117, C:/xampp/htdocs/tacati/wp-content/themes/sass/home.scss */
 #left h1, #right h1 {
   font-family: "mission script"!important;
   font-size: 33px!important;
   color: #f23c00 !important;
   margin: 0;
 }
-/* line 125, ../sass/home.scss */
+/* line 125, C:/xampp/htdocs/tacati/wp-content/themes/sass/home.scss */
 #left h2, #right h2 {
   font-family: "mission script"!important;
   font-size: 22px!important;
@@ -272,7 +272,7 @@ header#branding #slider {
   margin-left: 10px;
   margin-top: 0;
 }
-/* line 133, ../sass/home.scss */
+/* line 133, C:/xampp/htdocs/tacati/wp-content/themes/sass/home.scss */
 #left p, #right p {
   font-family: "edmondsans medium"!important;
   font-size: 12px!important;
@@ -283,7 +283,7 @@ header#branding #slider {
   margin-left: 10px;
   line-height: 13px!important;
 }
-/* line 143, ../sass/home.scss */
+/* line 143, C:/xampp/htdocs/tacati/wp-content/themes/sass/home.scss */
 #left h4, #right h4 {
   clear: both;
   font-family: "edmondsans bold"!important;
@@ -291,7 +291,7 @@ header#branding #slider {
   color: #f23c00 !important;
   margin-left: 82px;
 }
-/* line 151, ../sass/home.scss */
+/* line 151, C:/xampp/htdocs/tacati/wp-content/themes/sass/home.scss */
 #left h5, #right h5 {
   clear: both;
   font-family: "edmondsans bold"!important;
@@ -301,7 +301,7 @@ header#branding #slider {
   margin-top: 0;
   margin-bottom: 3px;
 }
-/* line 162, ../sass/home.scss */
+/* line 162, C:/xampp/htdocs/tacati/wp-content/themes/sass/home.scss */
 #left h3, #right h3 {
   font-family: "edmondsans medium"!important;
   line-height: 14px!important;
@@ -310,25 +310,25 @@ header#branding #slider {
   text-align: center;
 }
 
-/* line 170, ../sass/home.scss */
+/* line 170, C:/xampp/htdocs/tacati/wp-content/themes/sass/home.scss */
 .box {
   margin: 10px 0;
 }
 
-/* line 173, ../sass/home.scss */
+/* line 173, C:/xampp/htdocs/tacati/wp-content/themes/sass/home.scss */
 .stripes {
-  background: url('../images/stripes_prodotto.png?1358415065') repeat left top;
+  background: url('../images/stripes_prodotto.png?1356014390') repeat left top;
   width: 100%;
   height: 3px;
   clear: both;
 }
 
-/* line 183, ../sass/home.scss */
+/* line 183, C:/xampp/htdocs/tacati/wp-content/themes/sass/home.scss */
 #navigation {
   margin: 0 4px 0 0;
   font-size: 14px;
 }
-/* line 188, ../sass/home.scss */
+/* line 188, C:/xampp/htdocs/tacati/wp-content/themes/sass/home.scss */
 #navigation .button_slider {
   background: url('../images/button_slide.png') repeat left top;
   width: 20px;
@@ -338,7 +338,7 @@ header#branding #slider {
   position: absolute;
   margin-left: 0!important;
 }
-/* line 197, ../sass/home.scss */
+/* line 197, C:/xampp/htdocs/tacati/wp-content/themes/sass/home.scss */
 #navigation .button_slider2 {
   background: url('../images/button_slide.png') repeat left top;
   width: 20px;
@@ -348,7 +348,7 @@ header#branding #slider {
   position: absolute;
   margin-left: 30px!important;
 }
-/* line 208, ../sass/home.scss */
+/* line 208, C:/xampp/htdocs/tacati/wp-content/themes/sass/home.scss */
 #navigation .button_slider3 {
   background: url('../images/button_slide.png') repeat left top;
   width: 20px;
