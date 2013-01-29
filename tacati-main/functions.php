@@ -24,7 +24,7 @@ add_action( 'after_setup_theme', 'tacati_child_load_languages' );
 
 if ( !function_exists( 'bp_dtheme_enqueue_styles' ) ) :
 	function wp_enqueue_styles(){
-		$version = '0.1';
+		$version = '0.2';
 		
 		wp_register_style( 'screen',  get_theme_root_uri() . '/css/screen.css', array(), $version, 'screen, projection' );
 		
