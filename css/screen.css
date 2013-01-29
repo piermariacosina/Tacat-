@@ -390,11 +390,11 @@ ul.products.featured li .image {
   float: right;
   z-index: 10;
   margin-right: -29px;
-  margin-top: -240px;
+  margin-top: -221px;
 }
 
 /* line 12, ../sass/partials/_carrello_sidebar.scss */
-#secondary {
+.home #secondary, .single #secondary {
   width: 210px;
   overflow: hidden;
   *zoom: 1;
@@ -409,7 +409,7 @@ ul.products.featured li .image {
   box-shadow: 0 1px 8px #9cb6ba, 0 2px 2px rgba(156, 182, 186, 0);
 }
 /* line 23, ../sass/partials/_carrello_sidebar.scss */
-#secondary h1 {
+.home #secondary h1, .single #secondary h1 {
   margin: 10px 0 0 10px;
   font-family: edmondsans regular;
   color: #e7511e;
@@ -422,7 +422,7 @@ ul.products.featured li .image {
   width: 88px;
 }
 /* line 34, ../sass/partials/_carrello_sidebar.scss */
-#secondary .icon {
+.home #secondary .icon, .single #secondary .icon {
   width: 42px;
   height: 28px;
   display: inline;
@@ -431,15 +431,15 @@ ul.products.featured li .image {
   margin: 10px 0 0 15px;
 }
 /* line 41, ../sass/partials/_carrello_sidebar.scss */
-#secondary .carrello {
+.home #secondary .carrello, .single #secondary .carrello {
   background: url("../images/carrello_icon_brown.png") no-repeat left top;
 }
 /* line 44, ../sass/partials/_carrello_sidebar.scss */
-#secondary .visti_di_recente {
+.home #secondary .visti_di_recente, .single #secondary .visti_di_recente {
   background: url("../images/visti_icon.png") no-repeat left top;
 }
 /* line 47, ../sass/partials/_carrello_sidebar.scss */
-#secondary ul {
+.home #secondary ul, .single #secondary ul {
   list-style: none;
   margin-left: 10px;
   overflow: hidden;
@@ -447,11 +447,11 @@ ul.products.featured li .image {
   clear: both;
 }
 /* line 52, ../sass/partials/_carrello_sidebar.scss */
-#secondary ul li {
+.home #secondary ul li, .single #secondary ul li {
   padding: 5px 0;
 }
 /* line 54, ../sass/partials/_carrello_sidebar.scss */
-#secondary ul li.empty {
+.home #secondary ul li.empty, .single #secondary ul li.empty {
   color: #732c03;
   font-family: edmondsans regular;
   font-size: 15px;
@@ -460,11 +460,11 @@ ul.products.featured li .image {
   padding: 10px 0;
 }
 /* line 65, ../sass/partials/_carrello_sidebar.scss */
-#secondary ul li h5 {
+.home #secondary ul li h5, .single #secondary ul li h5 {
   margin: 0;
 }
 /* line 67, ../sass/partials/_carrello_sidebar.scss */
-#secondary ul li h5 a {
+.home #secondary ul li h5 a, .single #secondary ul li h5 a {
   margin: 0;
   font-family: edmondsans regular;
   color: #732C03;
@@ -474,7 +474,7 @@ ul.products.featured li .image {
   width: 160px;
 }
 /* line 77, ../sass/partials/_carrello_sidebar.scss */
-#secondary ul li h6 {
+.home #secondary ul li h6, .single #secondary ul li h6 {
   margin: 0;
   color: #e7511e;
   font-family: edmondsans regular;
@@ -484,7 +484,7 @@ ul.products.featured li .image {
   width: 160px;
 }
 /* line 88, ../sass/partials/_carrello_sidebar.scss */
-#secondary ul li hr {
+.home #secondary ul li hr, .single #secondary ul li hr {
   margin: 5px 0;
   width: 160px;
   height: 1px;
@@ -492,17 +492,17 @@ ul.products.featured li .image {
   border: none;
 }
 /* line 100, ../sass/partials/_carrello_sidebar.scss */
-#secondary ul li:last-child hr {
+.home #secondary ul li:last-child hr, .single #secondary ul li:last-child hr {
   display: none;
 }
 /* line 105, ../sass/partials/_carrello_sidebar.scss */
-#secondary a {
+.home #secondary a, .single #secondary a {
   text-decoration: none;
   display: block;
   margin: 5px 0;
 }
 /* line 109, ../sass/partials/_carrello_sidebar.scss */
-#secondary a.bottone {
+.home #secondary a.bottone, .single #secondary a.bottone {
   width: 160px;
   background: #F2EFDC;
   border-radius: 13px;
@@ -513,7 +513,7 @@ ul.products.featured li .image {
   box-shadow: 0 1px 6px rgba(183, 169, 165, 0.75), 0 2px 2px rgba(183, 169, 165, 0);
 }
 /* line 118, ../sass/partials/_carrello_sidebar.scss */
-#secondary a.bottone span {
+.home #secondary a.bottone span, .single #secondary a.bottone span {
   font-family: mission script;
   color: #e7511e;
   font-size: 21px;
@@ -523,31 +523,31 @@ ul.products.featured li .image {
   display: block;
 }
 /* line 130, ../sass/partials/_carrello_sidebar.scss */
-#secondary a:hover .button {
+.home #secondary a:hover .button, .single #secondary a:hover .button {
   background: #FFF6CA;
 }
 /* line 132, ../sass/partials/_carrello_sidebar.scss */
-#secondary a:hover .button h3 {
+.home #secondary a:hover .button h3, .single #secondary a:hover .button h3 {
   color: #72BAC7;
 }
 /* line 138, ../sass/partials/_carrello_sidebar.scss */
-#secondary .price {
+.home #secondary .price, .single #secondary .price {
   overflow: hidden;
   *zoom: 1;
   width: 118px;
 }
 /* line 140, ../sass/partials/_carrello_sidebar.scss */
-#secondary .price.padded {
+.home #secondary .price.padded, .single #secondary .price.padded {
   padding: 5px 10px;
   width: 200px;
   border-top: 2px #BFB28A solid;
 }
 /* line 144, ../sass/partials/_carrello_sidebar.scss */
-#secondary .price.padded .total {
+.home #secondary .price.padded .total, .single #secondary .price.padded .total {
   border-top: none;
 }
 /* line 151, ../sass/partials/_carrello_sidebar.scss */
-#secondary .price p {
+.home #secondary .price p, .single #secondary .price p {
   display: inline;
   float: left;
   margin: 0;
@@ -558,13 +558,13 @@ ul.products.featured li .image {
   font-weight: normal;
 }
 /* line 160, ../sass/partials/_carrello_sidebar.scss */
-#secondary .price p span {
+.home #secondary .price p span, .single #secondary .price p span {
   margin-left: 10px;
   margin-right: 10px;
   color: #5094b8;
 }
 /* line 167, ../sass/partials/_carrello_sidebar.scss */
-#secondary .price a .carrello {
+.home #secondary .price a .carrello, .single #secondary .price a .carrello {
   width: 30px;
   height: 28px;
   background: url("../images/carrello.png") no-repeat left top;
@@ -574,7 +574,7 @@ ul.products.featured li .image {
   padding: 0;
 }
 /* line 177, ../sass/partials/_carrello_sidebar.scss */
-#secondary .price a:hover .carrello {
+.home #secondary .price a:hover .carrello, .single #secondary .price a:hover .carrello {
   background: url("../images/carrello_hover.png") no-repeat left top;
 }
 
@@ -2138,7 +2138,7 @@ footer.entry-meta a:visited:hover {
   top: 20px;
 }
 /* line 271, ../sass/partials/_blog.scss */
-#secondary #archives, #secondary #meta, #secondary #su_siloed_terms-9, #secondary #su_siloed_terms-10 {
+#secondary #archives, #secondary #meta, #secondary .widget.widget_su_siloed_terms {
   width: 185px;
   background: url("../images/wood.png") repeat left top;
   padding: 0;
@@ -2148,30 +2148,28 @@ footer.entry-meta a:visited:hover {
   -moz-box-shadow: -3px 3px 8px #aaa796, 0 2px 2px rgba(170, 167, 150, 0.3);
   box-shadow: -3px 3px 8px #aaa796, 0 2px 2px rgba(170, 167, 150, 0.3);
 }
-/* line 281, ../sass/partials/_blog.scss */
-#secondary #archives, #secondary #su_siloed_terms-10 {
-  z-index: 10;
-  border-bottom-left-radius: 10px;
-}
-/* line 286, ../sass/partials/_blog.scss */
-#secondary #meta, #secondary #su_siloed_terms-9 {
-  border-top-left-radius: 10px;
-}
-/* line 291, ../sass/partials/_blog.scss */
-#secondary #meta h3.widget-title, #secondary #archives h3.widget-title, #secondary #su_siloed_terms-9 h3.widget-title, #secondary #su_siloed_terms-10 h3.widget-title {
+/* line 280, ../sass/partials/_blog.scss */
+#secondary #archives h3.widget-title, #secondary #meta h3.widget-title, #secondary .widget.widget_su_siloed_terms h3.widget-title {
   margin: 10px 20px;
   color: #732C03;
   font-family: mission script;
   font-size: 29px;
   text-shadow: 0 1px #ffffff;
 }
-/* line 298, ../sass/partials/_blog.scss */
-#secondary #meta ul, #secondary #archives ul, #secondary #su_siloed_terms-9 ul, #secondary #su_siloed_terms-10 ul {
+/* line 288, ../sass/partials/_blog.scss */
+#secondary #archives ul, #secondary #meta ul, #secondary .widget.widget_su_siloed_terms ul {
   margin: 0 20px 10px 20px;
   padding: 0;
+  list-style: none;
 }
-/* line 301, ../sass/partials/_blog.scss */
-#secondary #meta ul li, #secondary #archives ul li, #secondary #su_siloed_terms-9 ul li, #secondary #su_siloed_terms-10 ul li {
+/* line 11, ../../../../../../compass.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_bullets.scss */
+#secondary #archives ul li, #secondary #meta ul li, #secondary .widget.widget_su_siloed_terms ul li {
+  list-style-image: none;
+  list-style-type: none;
+  margin-left: 0;
+}
+/* line 292, ../sass/partials/_blog.scss */
+#secondary #archives ul li, #secondary #meta ul li, #secondary .widget.widget_su_siloed_terms ul li {
   margin: 0 !important;
   padding: 0 !important;
   font-family: edmondsans medium;
@@ -2180,37 +2178,46 @@ footer.entry-meta a:visited:hover {
   margin: 0 0 10px 0;
   text-shadow: 0 1px #ffffff;
 }
-/* line 309, ../sass/partials/_blog.scss */
-#secondary #meta ul li a, #secondary #archives ul li a, #secondary #su_siloed_terms-9 ul li a, #secondary #su_siloed_terms-10 ul li a {
+/* line 300, ../sass/partials/_blog.scss */
+#secondary #archives ul li a, #secondary #meta ul li a, #secondary .widget.widget_su_siloed_terms ul li a {
   margin: 0;
   padding: 0;
   color: #1F7B91;
 }
-/* line 314, ../sass/partials/_blog.scss */
-#secondary #meta ul li a:hover, #secondary #archives ul li a:hover, #secondary #su_siloed_terms-9 ul li a:hover, #secondary #su_siloed_terms-10 ul li a:hover {
+/* line 305, ../sass/partials/_blog.scss */
+#secondary #archives ul li a:hover, #secondary #meta ul li a:hover, #secondary .widget.widget_su_siloed_terms ul li a:hover {
   color: #72BAC7;
 }
-/* line 317, ../sass/partials/_blog.scss */
-#secondary #meta ul li a:visited, #secondary #archives ul li a:visited, #secondary #su_siloed_terms-9 ul li a:visited, #secondary #su_siloed_terms-10 ul li a:visited {
+/* line 308, ../sass/partials/_blog.scss */
+#secondary #archives ul li a:visited, #secondary #meta ul li a:visited, #secondary .widget.widget_su_siloed_terms ul li a:visited {
   color: #CE4611;
 }
-/* line 319, ../sass/partials/_blog.scss */
-#secondary #meta ul li a:visited:hover, #secondary #archives ul li a:visited:hover, #secondary #su_siloed_terms-9 ul li a:visited:hover, #secondary #su_siloed_terms-10 ul li a:visited:hover {
+/* line 310, ../sass/partials/_blog.scss */
+#secondary #archives ul li a:visited:hover, #secondary #meta ul li a:visited:hover, #secondary .widget.widget_su_siloed_terms ul li a:visited:hover {
   color: #FF7150;
 }
+/* line 317, ../sass/partials/_blog.scss */
+#secondary .widget.widget_su_siloed_terms:first-child {
+  border-top-left-radius: 10px;
+}
+/* line 320, ../sass/partials/_blog.scss */
+#secondary .widget.widget_su_siloed_terms:last-child {
+  z-index: 10;
+  border-bottom-left-radius: 10px;
+}
 
-/* line 330, ../sass/partials/_blog.scss */
+/* line 329, ../sass/partials/_blog.scss */
 .entry-content .widget h2.widgettitle {
   font-family: mission script;
   color: #732C03;
 }
-/* line 334, ../sass/partials/_blog.scss */
+/* line 333, ../sass/partials/_blog.scss */
 .entry-content .widget ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
 }
-/* line 338, ../sass/partials/_blog.scss */
+/* line 337, ../sass/partials/_blog.scss */
 .entry-content .widget ul li {
   color: #1F7B91;
   margin: 0 0 5px 0;
@@ -2218,47 +2225,47 @@ footer.entry-meta a:visited:hover {
   font-family: edmondsans regular;
   font-size: 12px !important;
 }
-/* line 344, ../sass/partials/_blog.scss */
+/* line 343, ../sass/partials/_blog.scss */
 .entry-content .widget ul li a {
   color: #1F7B91;
   text-decoration: underline;
   font-family: edmondsans medium;
 }
-/* line 349, ../sass/partials/_blog.scss */
+/* line 348, ../sass/partials/_blog.scss */
 .entry-content .widget ul li a:hover {
   color: #01293F;
 }
-/* line 352, ../sass/partials/_blog.scss */
+/* line 351, ../sass/partials/_blog.scss */
 .entry-content .widget ul li a:active {
   color: #1F7B91;
 }
-/* line 355, ../sass/partials/_blog.scss */
+/* line 354, ../sass/partials/_blog.scss */
 .entry-content .widget ul li a:visited {
   color: #72BAC7;
 }
-/* line 357, ../sass/partials/_blog.scss */
+/* line 356, ../sass/partials/_blog.scss */
 .entry-content .widget ul li a:visited:hover {
   color: #1F7B91;
 }
 
-/* line 369, ../sass/partials/_blog.scss */
+/* line 368, ../sass/partials/_blog.scss */
 .vcard a {
   color: #1F7B91;
   text-decoration: underline;
 }
-/* line 373, ../sass/partials/_blog.scss */
+/* line 372, ../sass/partials/_blog.scss */
 .vcard a:hover {
   color: #01293F;
 }
-/* line 376, ../sass/partials/_blog.scss */
+/* line 375, ../sass/partials/_blog.scss */
 .vcard a:active {
   color: #1F7B91;
 }
-/* line 379, ../sass/partials/_blog.scss */
+/* line 378, ../sass/partials/_blog.scss */
 .vcard a:visited {
   color: #72BAC7;
 }
-/* line 381, ../sass/partials/_blog.scss */
+/* line 380, ../sass/partials/_blog.scss */
 .vcard a:visited:hover {
   color: #1F7B91;
 }

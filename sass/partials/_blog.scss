@@ -288,6 +288,7 @@ footer.entry-meta{
 		ul{
 			margin: 0 20px 10px 20px;
 			padding: 0;
+			@include no-bullets;
 			li{
 				margin: 0 !important;
 				padding: 0 !important;

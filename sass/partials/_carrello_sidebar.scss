@@ -7,9 +7,9 @@
 	
 	z-index: 10;
 	margin-right: -29px;
-	margin-top: -240px;
+	margin-top: -221px;
 }
-#secondary{
+.home #secondary, .single #secondary{
 	width: 210px;
 	@include clearfix;
 	z-index: 100;
