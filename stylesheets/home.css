@@ -1,0 +1,360 @@
+/* 960 Grid System ~ Core CSS.
+ * Learn more ~ http://960.gs/
+ * *
+ * Licensed under GPL and MIT. */
+/* line 17, ../../../../../../compass.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../../../compass.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../../../compass.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../../../compass.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../../../compass.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../../../compass.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../../../compass.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../../../compass.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../../../compass.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+  display: block;
+}
+
+/* 960 Grid System ~ Text CSS.
+ * Learn more ~ http://960.gs/
+ * *
+ * Licensed under GPL and MIT. */
+/* line 4, ../../../../../../compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-960-plugin-f4bfe8555a7d2cae09bc/stylesheets/960/_text.sass */
+body {
+  font: 13px/1.5 Helvetica, Arial, 'Liberation Sans', FreeSans, sans-serif;
+}
+
+/* line 6, ../../../../../../compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-960-plugin-f4bfe8555a7d2cae09bc/stylesheets/960/_text.sass */
+a:focus {
+  outline: 1px dotted invert;
+}
+
+/* line 8, ../../../../../../compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-960-plugin-f4bfe8555a7d2cae09bc/stylesheets/960/_text.sass */
+hr {
+  border-color: #cccccc;
+  border-style: solid;
+  border-width: 1px 0 0;
+  clear: both;
+  height: 0;
+}
+
+/* line 14, ../../../../../../compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-960-plugin-f4bfe8555a7d2cae09bc/stylesheets/960/_text.sass */
+h1 {
+  font-size: 25px;
+}
+
+/* line 16, ../../../../../../compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-960-plugin-f4bfe8555a7d2cae09bc/stylesheets/960/_text.sass */
+h2 {
+  font-size: 23px;
+}
+
+/* line 18, ../../../../../../compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-960-plugin-f4bfe8555a7d2cae09bc/stylesheets/960/_text.sass */
+h3 {
+  font-size: 21px;
+}
+
+/* line 20, ../../../../../../compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-960-plugin-f4bfe8555a7d2cae09bc/stylesheets/960/_text.sass */
+h4 {
+  font-size: 19px;
+}
+
+/* line 22, ../../../../../../compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-960-plugin-f4bfe8555a7d2cae09bc/stylesheets/960/_text.sass */
+h5 {
+  font-size: 17px;
+}
+
+/* line 24, ../../../../../../compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-960-plugin-f4bfe8555a7d2cae09bc/stylesheets/960/_text.sass */
+h6 {
+  font-size: 15px;
+}
+
+/* line 26, ../../../../../../compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-960-plugin-f4bfe8555a7d2cae09bc/stylesheets/960/_text.sass */
+ol {
+  list-style: decimal;
+}
+
+/* line 28, ../../../../../../compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-960-plugin-f4bfe8555a7d2cae09bc/stylesheets/960/_text.sass */
+ul {
+  list-style: square;
+}
+
+/* line 30, ../../../../../../compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-960-plugin-f4bfe8555a7d2cae09bc/stylesheets/960/_text.sass */
+li {
+  margin-left: 30px;
+}
+
+/* line 32, ../../../../../../compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-960-plugin-f4bfe8555a7d2cae09bc/stylesheets/960/_text.sass */
+p,
+dl,
+hr,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ol,
+ul,
+pre,
+table,
+address,
+fieldset {
+  margin-bottom: 20px;
+}
+
+/* line 37, ../sass/home.scss */
+header#branding #slider {
+  height: 800px !important;
+}
+
+/* line 41, ../sass/home.scss */
+.flexslider .slides img {
+  height: 100% !important;
+}
+
+/* line 46, ../sass/home.scss */
+#slider .flex-direction-nav a {
+  top: 16%;
+}
+/* line 49, ../sass/home.scss */
+#slider div.content {
+  background: url('/images/yellow.png?1359567725') repeat left top;
+  border: 1px solid #E0DDD3;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=90);
+  opacity: 0.9;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  border-radius: 10px;
+  width: 700px;
+  height: 179px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+/* line 61, ../sass/home.scss */
+#slider div.content h1 {
+  font-size: 30px !important;
+  color: #732c03 !important;
+  margin-left: 60px;
+}
+/* line 67, ../sass/home.scss */
+#slider div.content h5 {
+  font-size: 18px!important;
+  color: #f23c00;
+  margin-left: 60px;
+  line-height: 6px !important;
+}
+/* line 74, ../sass/home.scss */
+#slider div.content p, #slider div.content div {
+  font-family: "edmondsans medium";
+  font-size: 15px!important;
+  color: #5094b8;
+  margin-left: 60px;
+  margin-right: 10px;
+}
+
+/* line 83, ../sass/home.scss */
+#right {
+  right: 147px;
+}
+
+/* line 86, ../sass/home.scss */
+#left {
+  left: 180px;
+}
+
+/* line 90, ../sass/home.scss */
+#left, #right {
+  position: absolute;
+  z-index: 100;
+  bottom: 20px;
+  width: 280px;
+  height: 500px;
+  background: url('/images/yellow.png?1359567725') repeat left top;
+  border: 1px solid #E0DDD3;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=90);
+  opacity: 0.9;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  border-radius: 10px;
+  padding: 15px;
+}
+/* line 102, ../sass/home.scss */
+#left nav, #right nav {
+  padding: 0 !important;
+  margin-top: 10px !important;
+  height: 40px !important;
+}
+/* line 108, ../sass/home.scss */
+#left .foto, #right .foto {
+  background: url('/images/foto_prodotto.png') repeat left top;
+  border: 3px solid #72bac7;
+  width: 66px;
+  height: 66px;
+  display: inline;
+  float: left;
+  margin-top: 5px;
+}
+/* line 117, ../sass/home.scss */
+#left h1, #right h1 {
+  font-family: "mission script"!important;
+  font-size: 33px!important;
+  color: #f23c00 !important;
+  margin: 0;
+}
+/* line 125, ../sass/home.scss */
+#left h2, #right h2 {
+  font-family: "mission script"!important;
+  font-size: 22px!important;
+  display: inline;
+  float: left;
+  margin-left: 10px;
+  margin-top: 0;
+}
+/* line 133, ../sass/home.scss */
+#left p, #right p {
+  font-family: "edmondsans medium"!important;
+  font-size: 12px!important;
+  color: #f23c00 !important;
+  width: 180px;
+  display: inline;
+  float: left;
+  margin-left: 10px;
+  line-height: 13px!important;
+}
+/* line 143, ../sass/home.scss */
+#left h4, #right h4 {
+  clear: both;
+  font-family: "edmondsans bold"!important;
+  font-size: 12px!important;
+  color: #f23c00 !important;
+  margin-left: 82px;
+}
+/* line 151, ../sass/home.scss */
+#left h5, #right h5 {
+  clear: both;
+  font-family: "edmondsans bold"!important;
+  font-size: 12px!important;
+  color: #5094b8 !important;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 3px;
+}
+/* line 162, ../sass/home.scss */
+#left h3, #right h3 {
+  font-family: "edmondsans medium"!important;
+  line-height: 14px!important;
+  font-size: 14px!important;
+  color: #732c03 !important;
+  text-align: center;
+}
+
+/* line 170, ../sass/home.scss */
+.box {
+  margin: 10px 0;
+}
+
+/* line 173, ../sass/home.scss */
+.stripes {
+  background: url('/images/stripes_prodotto.png?1359567725') repeat left top;
+  width: 100%;
+  height: 3px;
+  clear: both;
+}
+
+/* line 183, ../sass/home.scss */
+#navigation {
+  margin: 0 4px 0 0;
+  font-size: 14px;
+}
+/* line 188, ../sass/home.scss */
+#navigation .button_slider {
+  background: url('/images/button_slide.png') repeat left top;
+  width: 20px;
+  height: 20px;
+  display: inline;
+  float: left;
+  position: absolute;
+  margin-left: 0!important;
+}
+/* line 197, ../sass/home.scss */
+#navigation .button_slider2 {
+  background: url('/images/button_slide.png') repeat left top;
+  width: 20px;
+  height: 20px;
+  display: inline;
+  float: left;
+  position: absolute;
+  margin-left: 30px!important;
+}
+/* line 208, ../sass/home.scss */
+#navigation .button_slider3 {
+  background: url('/images/button_slide.png') repeat left top;
+  width: 20px;
+  height: 20px;
+  display: inline;
+  float: left;
+  position: absolute;
+  margin-left: 60px!important;
+}
