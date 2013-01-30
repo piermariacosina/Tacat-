@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: tacati-main (Twenty Eleven Child) v0.1.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2012-11-11 17:00:03+0000\n"
+"PO-Revision-Date: 2013-01-18 11:19:41+0000\n"
 "Last-Translator: piermaria-cosina <piermaria.cosina@gmail.com>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -20,297 +20,287 @@ msgstr ""
 "X-Textdomain-Support: yes"
 
 #: header.php:45
-#: /Applications/MAMP/htdocs/tacati/wp-content/themes/twentyeleven/header.php:45
+#: /mnt/stor9-wc1-dfw1/627363/www.tacati.it/web/content/wp-content/themes/twentyeleven/header.php:45
 #, php-format
 #@ tacati_textdomain
 #@ twentyeleven
 msgid "Page %s"
 msgstr ""
 
-#: header.php:155
-#: /Applications/MAMP/htdocs/tacati/wp-content/themes/twentyeleven/header.php:129
+#: header.php:133
+#: /mnt/stor9-wc1-dfw1/627363/www.tacati.it/web/content/wp-content/themes/twentyeleven/header.php:129
 #@ tacati_textdomain
 #@ twentyeleven
 msgid "Main menu"
 msgstr ""
 
-#: header.php:157
-#: /Applications/MAMP/htdocs/tacati/wp-content/themes/twentyeleven/header.php:131
+#: header.php:135
+#: /mnt/stor9-wc1-dfw1/627363/www.tacati.it/web/content/wp-content/themes/twentyeleven/header.php:131
 #@ tacati_textdomain
 #@ twentyeleven
 msgid "Skip to primary content"
 msgstr ""
 
-#: header.php:158
-#: /Applications/MAMP/htdocs/tacati/wp-content/themes/twentyeleven/header.php:132
+#: header.php:136
+#: /mnt/stor9-wc1-dfw1/627363/www.tacati.it/web/content/wp-content/themes/twentyeleven/header.php:132
 #@ tacati_textdomain
 #@ twentyeleven
 msgid "Skip to secondary content"
 msgstr ""
 
 #: content-page.php:18
-#: /Applications/MAMP/htdocs/tacati/wp-content/themes/twentyeleven/content-aside.php:34
-#: /Applications/MAMP/htdocs/tacati/wp-content/themes/twentyeleven/content-featured.php:23
-#: /Applications/MAMP/htdocs/tacati/wp-content/themes/twentyeleven/content-gallery.php:54
-#: /Applications/MAMP/htdocs/tacati/wp-content/themes/twentyeleven/content-image.php:28
-#: /Applications/MAMP/htdocs/tacati/wp-content/themes/twentyeleven/content-intro.php:18
-#: /Applications/MAMP/htdocs/tacati/wp-content/themes/twentyeleven/content-link.php:34
-#: /Applications/MAMP/htdocs/tacati/wp-content/themes/twentyeleven/content-page.php:18
-#: /Applications/MAMP/htdocs/tacati/wp-content/themes/twentyeleven/content-quote.php:36
-#: /Applications/MAMP/htdocs/tacati/wp-content/themes/twentyeleven/content-single.php:24
-#: /Applications/MAMP/htdocs/tacati/wp-content/themes/twentyeleven/content-status.php:35
-#: /Applications/MAMP/htdocs/tacati/wp-content/themes/twentyeleven/content.php:42
-#: /Applications/MAMP/htdocs/tacati/wp-content/themes/twentyeleven/image.php:90
+#: /mnt/stor9-wc1-dfw1/627363/www.tacati.it/web/content/wp-content/themes/twentyeleven/content-aside.php:34
+#: /mnt/stor9-wc1-dfw1/627363/www.tacati.it/web/content/wp-content/themes/twentyeleven/content-featured.php:23
+#: /mnt/stor9-wc1-dfw1/627363/www.tacati.it/web/content/wp-content/themes/twentyeleven/content-gallery.php:54
+#: /mnt/stor9-wc1-dfw1/627363/www.tacati.it/web/content/wp-content/themes/twentyeleven/content-image.php:28
+#: /mnt/stor9-wc1-dfw1/627363/www.tacati.it/web/content/wp-content/themes/twentyeleven/content-intro.php:18
+#: /mnt/stor9-wc1-dfw1/627363/www.tacati.it/web/content/wp-content/themes/twentyeleven/content-link.php:34
+#: /mnt/stor9-wc1-dfw1/627363/www.tacati.it/web/content/wp-content/themes/twentyeleven/content-page.php:18
+#: /mnt/stor9-wc1-dfw1/627363/www.tacati.it/web/content/wp-content/themes/twentyeleven/content-quote.php:36
+#: /mnt/stor9-wc1-dfw1/627363/www.tacati.it/web/content/wp-content/themes/twentyeleven/content-single.php:24
+#: /mnt/stor9-wc1-dfw1/627363/www.tacati.it/web/content/wp-content/themes/twentyeleven/content-status.php:35
+#: /mnt/stor9-wc1-dfw1/627363/www.tacati.it/web/content/wp-content/themes/twentyeleven/content.php:42
+#: /mnt/stor9-wc1-dfw1/627363/www.tacati.it/web/content/wp-content/themes/twentyeleven/image.php:90
 #@ tacati_textdomain
 #@ twentyeleven
 msgid "Pages:"
 msgstr ""
 
 #: content-page.php:21
-#: /Applications/MAMP/htdocs/tacati/wp-content/themes/twentyeleven/content-aside.php:44
-#: /Applications/MAMP/htdocs/tacati/wp-content/themes/twentyeleven/content-featured.php:45
-#: /Applications/MAMP/htdocs/tacati/wp-content/themes/twentyeleven/content-gallery.php:90
-#: /Applications/MAMP/htdocs/tacati/wp-content/themes/twentyeleven/content-image.php:68
-#: /Applications/MAMP/htdocs/tacati/wp-content/themes/twentyeleven/content-intro.php:19
-#: /Applications/MAMP/htdocs/tacati/wp-content/themes/twentyeleven/content-link.php:44
-#: /Applications/MAMP/htdocs/tacati/wp-content/themes/twentyeleven/content-page.php:21
-#: /Applications/MAMP/htdocs/tacati/wp-content/themes/twentyeleven/content-quote.php:72
-#: /Applications/MAMP/htdocs/tacati/wp-content/themes/twentyeleven/content-single.php:52
-#: /Applications/MAMP/htdocs/tacati/wp-content/themes/twentyeleven/content-status.php:45
-#: /Applications/MAMP/htdocs/tacati/wp-content/themes/twentyeleven/content.php:80
-#: /Applications/MAMP/htdocs/tacati/wp-content/themes/twentyeleven/functions.php:522
-#: /Applications/MAMP/htdocs/tacati/wp-content/themes/twentyeleven/functions.php:550
-#: /Applications/MAMP/htdocs/tacati/wp-content/themes/twentyeleven/image.php:41
+#: /mnt/stor9-wc1-dfw1/627363/www.tacati.it/web/content/wp-content/themes/twentyeleven/content-aside.php:44
+#: /mnt/stor9-wc1-dfw1/627363/www.tacati.it/web/content/wp-content/themes/twentyeleven/content-featured.php:45
+#: /mnt/stor9-wc1-dfw1/627363/www.tacati.it/web/content/wp-content/themes/twentyeleven/content-gallery.php:90
+#: /mnt/stor9-wc1-dfw1/627363/www.tacati.it/web/content/wp-content/themes/twentyeleven/content-image.php:68
+#: /mnt/stor9-wc1-dfw1/627363/www.tacati.it/web/content/wp-content/themes/twentyeleven/content-intro.php:19
+#: /mnt/stor9-wc1-dfw1/627363/www.tacati.it/web/content/wp-content/themes/twentyeleven/content-link.php:44
+#: /mnt/stor9-wc1-dfw1/627363/www.tacati.it/web/content/wp-content/themes/twentyeleven/content-page.php:21
+#: /mnt/stor9-wc1-dfw1/627363/www.tacati.it/web/content/wp-content/themes/twentyeleven/content-quote.php:72
+#: /mnt/stor9-wc1-dfw1/627363/www.tacati.it/web/content/wp-content/themes/twentyeleven/content-single.php:52
+#: /mnt/stor9-wc1-dfw1/627363/www.tacati.it/web/content/wp-content/themes/twentyeleven/content-status.php:45
+#: /mnt/stor9-wc1-dfw1/627363/www.tacati.it/web/content/wp-content/themes/twentyeleven/content.php:82
+#: /mnt/stor9-wc1-dfw1/627363/www.tacati.it/web/content/wp-content/themes/twentyeleven/functions.php:525
+#: /mnt/stor9-wc1-dfw1/627363/www.tacati.it/web/content/wp-content/themes/twentyeleven/functions.php:553
+#: /mnt/stor9-wc1-dfw1/627363/www.tacati.it/web/content/wp-content/themes/twentyeleven/image.php:41
 #@ tacati_textdomain
 #@ twentyeleven
 msgid "Edit"
 msgstr ""
 
-#: footer.php:30
-#@ tacati_textdomain
-msgid "Tacati"
-msgstr ""
-
-#: footer.php:34
-#@ tacati_textdomain
-msgid "Contattaci"
-msgstr ""
-
-#: functions.php:357
+#: functions.php:366
 #@ tacati_textdomain
 msgid "Header Area"
 msgstr ""
 
-#: functions.php:359
-#: functions.php:369
+#: functions.php:368
+#: functions.php:378
 #@ tacati_textdomain
 msgid "An optional widget area for your site header"
 msgstr ""
 
-#: functions.php:367
+#: functions.php:376
 #@ tacati_textdomain
 msgid "Header top"
 msgstr ""
 
-#: functions.php:411
+#: functions.php:420
 #@ tacati_textdomain
 msgid "Guest"
 msgstr ""
 
-#: functions.php:414
+#: functions.php:423
 #, php-format
 #@ tacati_textdomain
 msgid "Order %s"
 msgstr ""
 
-#: functions.php:414
+#: functions.php:423
 #@ tacati_textdomain
 msgid "made by"
 msgstr ""
 
-#: functions.php:417
+#: functions.php:426
 #@ tacati_textdomain
 msgid "Email:"
 msgstr ""
 
-#: functions.php:420
+#: functions.php:429
 #@ tacati_textdomain
 msgid "Tel:"
 msgstr ""
 
-#: functions.php:433
-#: functions.php:451
+#: functions.php:442
+#: functions.php:460
 #@ tacati_textdomain
 msgid "Via"
 msgstr ""
 
-#: functions.php:465
+#: functions.php:474
 #@ tacati_textdomain
 msgid "Unpublished"
 msgstr ""
 
-#: functions.php:467
+#: functions.php:476
 #@ tacati_textdomain
 msgid "Y/m/d g:i:s A"
 msgstr ""
 
-#: functions.php:473
+#: functions.php:482
 #, php-format
 #@ tacati_textdomain
 msgid "%s ago"
 msgstr ""
 
-#: functions.php:475
+#: functions.php:484
 #@ tacati_textdomain
 msgid "Y/m/d"
 msgstr ""
 
-#: functions.php:492
+#: functions.php:501
 #@ tacati_textdomain
 msgid "Processing"
 msgstr ""
 
-#: functions.php:499
+#: functions.php:508
 #@ tacati_textdomain
 msgid "Complete"
 msgstr ""
 
-#: functions.php:505
+#: functions.php:514
 #@ tacati_textdomain
 msgid "View"
 msgstr ""
 
-#: functions.php:522
+#: functions.php:531
 #@ tacati_textdomain
 msgid "Yes"
 msgstr ""
 
-#: functions.php:524
+#: functions.php:533
 #@ tacati_textdomain
 msgid "No"
 msgstr ""
 
-#: functions.php:548
+#: functions.php:557
 #@ tacati_textdomain
 msgid "noprofit"
 msgstr ""
 
-#: functions.php:570
+#: functions.php:579
 #@ tacati_textdomain
 msgid "Choose a NoProfit"
 msgstr ""
 
-#: functions.php:571
+#: functions.php:580
 #@ tacati_textdomain
 msgid "Enter something"
 msgstr ""
 
-#: functions.php:587
+#: functions.php:596
 #@ tacati_textdomain
 msgid "Please enter something into this new shiny field."
 msgstr ""
 
-#: /Applications/MAMP/htdocs/tacati/wp-content/themes/twentyeleven/404.php:17
+#: /mnt/stor9-wc1-dfw1/627363/www.tacati.it/web/content/wp-content/themes/twentyeleven/404.php:17
 #@ twentyeleven
 msgid "This is somewhat embarrassing, isn&rsquo;t it?"
 msgstr ""
 
-#: /Applications/MAMP/htdocs/tacati/wp-content/themes/twentyeleven/404.php:21
+#: /mnt/stor9-wc1-dfw1/627363/www.tacati.it/web/content/wp-content/themes/twentyeleven/404.php:21
 #@ twentyeleven
 msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching, or one of the links below, can help."
 msgstr ""
 
-#: /Applications/MAMP/htdocs/tacati/wp-content/themes/twentyeleven/404.php:28
+#: /mnt/stor9-wc1-dfw1/627363/www.tacati.it/web/content/wp-content/themes/twentyeleven/404.php:28
 #@ twentyeleven
 msgid "Most Used Categories"
 msgstr ""
 
 #. translators: %1$s: smilie
-#: /Applications/MAMP/htdocs/tacati/wp-content/themes/twentyeleven/404.php:36
+#: /mnt/stor9-wc1-dfw1/627363/www.tacati.it/web/content/wp-content/themes/twentyeleven/404.php:36
 #, php-format
 #@ twentyeleven
 msgid "Try looking in the monthly archives. %1$s"
 msgstr ""
 
-#: /Applications/MAMP/htdocs/tacati/wp-content/themes/twentyeleven/archive.php:25
+#: /mnt/stor9-wc1-dfw1/627363/www.tacati.it/web/content/wp-content/themes/twentyeleven/archive.php:25
 #, php-format
 #@ twentyeleven
 msgid "Daily Archives: %s"
 msgstr ""
 
-#: /Applications/MAMP/htdocs/tacati/wp-content/themes/twentyeleven/archive.php:27
+#: /mnt/stor9-wc1-dfw1/627363/www.tacati.it/web/content/wp-content/themes/twentyeleven/archive.php:27
 #, php-format
 #@ twentyeleven
 msgid "Monthly Archives: %s"
 msgstr ""
 
-#: /Applications/MAMP/htdocs/tacati/wp-content/themes/twentyeleven/archive.php:27
+#: /mnt/stor9-wc1-dfw1/627363/www.tacati.it/web/content/wp-content/themes/twentyeleven/archive.php:27
 #@ twentyeleven
 msgctxt "monthly archives date format"
 msgid "F Y"
 msgstr ""
 
-#: /Applications/MAMP/htdocs/tacati/wp-content/themes/twentyeleven/archive.php:29
+#: /mnt/stor9-wc1-dfw1/627363/www.tacati.it/web/content/wp-content/themes/twentyeleven/archive.php:29
 #, php-format
 #@ twentyeleven
 msgid "Yearly Archives: %s"
 msgstr ""
 
-#: /Applications/MAMP/htdocs/tacati/wp-content/themes/twentyeleven/archive.php:29
+#: /mnt/stor9-wc1-dfw1/627363/www.tacati.it/web/content/wp-content/themes/twentyeleven/archive.php:29
 #@ twentyeleven
 msgctxt "yearly archives date format"
 msgid "Y"
 msgstr ""
 
-#: /Applications/MAMP/htdocs/tacati/wp-content/themes/twentyeleven/archive.php:31
+#: /mnt/stor9-wc1-dfw1/627363/www.tacati.it/web/content/wp-content/themes/twentyeleven/archive.php:31
 #@ twentyeleven
 msgid "Blog Archives"
 msgstr ""
 
-#: /Applications/MAMP/htdocs/tacati/wp-content/themes/twentyeleven/archive.php:57
-#: /Applications/MAMP/htdocs/tacati/wp-content/themes/twentyeleven/author.php:74
-#: /Applications/MAMP/htdocs/tacati/wp-content/themes/twentyeleven/category.php:50
-#: /Applications/MAMP/htdocs/tacati/wp-content/themes/twentyeleven/index.php:37
-#: /Applications/MAMP/htdocs/tacati/wp-content/themes/twentyeleven/search.php:42
-#: /Applications/MAMP/htdocs/tacati/wp-content/themes/twentyeleven/tag.php:50
+#: /mnt/stor9-wc1-dfw1/627363/www.tacati.it/web/content/wp-content/themes/twentyeleven/archive.php:57
+#: /mnt/stor9-wc1-dfw1/627363/www.tacati.it/web/content/wp-content/themes/twentyeleven/author.php:74
+#: /mnt/stor9-wc1-dfw1/627363/www.tacati.it/web/content/wp-content/themes/twentyeleven/category.php:50
+#: /mnt/stor9-wc1-dfw1/627363/www.tacati.it/web/content/wp-content/themes/twentyeleven/index.php:37
+#: /mnt/stor9-wc1-dfw1/627363/www.tacati.it/web/content/wp-content/themes/twentyeleven/search.php:42
+#: /mnt/stor9-wc1-dfw1/627363/www.tacati.it/web/content/wp-content/themes/twentyeleven/tag.php:50
 #@ twentyeleven
 msgid "Nothing Found"
 msgstr ""
 
-#: /Applications/MAMP/htdocs/tacati/wp-content/themes/twentyeleven/archive.php:61
-#: /Applications/MAMP/htdocs/tacati/wp-content/themes/twentyeleven/author.php:78
-#: /Applications/MAMP/htdocs/tacati/wp-content/themes/twentyeleven/category.php:54
-#: /Applications/MAMP/htdocs/tacati/wp-content/themes/twentyeleven/index.php:41
-#: /Applications/MAMP/htdocs/tacati/wp-content/themes/twentyeleven/tag.php:54
+#: /mnt/stor9-wc1-dfw1/627363/www.tacati.it/web/content/wp-content/themes/twentyeleven/archive.php:61
+#: /mnt/stor9-wc1-dfw1/627363/www.tacati.it/web/content/wp-content/themes/twentyeleven/author.php:78
+#: /mnt/stor9-wc1-dfw1/627363/www.tacati.it/web/content/wp-content/themes/twentyeleven/category.php:54
+#: /mnt/stor9-wc1-dfw1/627363/www.tacati.it/web/content/wp-content/themes/twentyeleven/index.php:41
+#: /mnt/stor9-wc1-dfw1/627363/www.tacati.it/web/content/wp-content/themes/twentyeleven/tag.php:54
 #@ twentyeleven
 msgid "Apologies, but no results were found for the requested archive. Perhaps searching will help find a related post."
 msgstr ""
 
-#: /Applications/MAMP/htdocs/tacati/wp-content/themes/twentyeleven/author.php:28
+#: /mnt/stor9-wc1-dfw1/627363/www.tacati.it/web/content/wp-content/themes/twentyeleven/author.php:28
 #, php-format
 #@ twentyeleven
 msgid "Author Archives: %s"
 msgstr ""
 
-#: /Applications/MAMP/htdocs/tacati/wp-content/themes/twentyeleven/author.php:49
-#: /Applications/MAMP/htdocs/tacati/wp-content/themes/twentyeleven/content-single.php:60
+#: /mnt/stor9-wc1-dfw1/627363/www.tacati.it/web/content/wp-content/themes/twentyeleven/author.php:49
+#: /mnt/stor9-wc1-dfw1/627363/www.tacati.it/web/content/wp-content/themes/twentyeleven/content-single.php:60
 #, php-format
 #@ twentyeleven
 msgid "About %s"
 msgstr ""
 
-#: /Applications/MAMP/htdocs/tacati/wp-content/themes/twentyeleven/category.php:19
+#: /mnt/stor9-wc1-dfw1/627363/www.tacati.it/web/content/wp-content/themes/twentyeleven/category.php:19
 #, php-format
 #@ twentyeleven
 msgid "Category Archives: %s"
 msgstr ""
 
-#: /Applications/MAMP/htdocs/tacati/wp-content/themes/twentyeleven/comments.php:17
+#: /mnt/stor9-wc1-dfw1/627363/www.tacati.it/web/content/wp-content/themes/twentyeleven/comments.php:17
 #@ twentyeleven
 msgid "This post is password protected. Enter the password to view any comments."
 msgstr ""
 
-#: /Applications/MAMP/htdocs/tacati/wp-content/themes/twentyeleven/comments.php:33
+#: /mnt/stor9-wc1-dfw1/627363/www.tacati.it/web/content/wp-content/themes/twentyeleven/comments.php:33
 #, php-format
 #@ twentyeleven
 msgid "One thought on &ldquo;%2$s&rdquo;"
@@ -318,168 +308,168 @@ msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
 msgstr[0] ""
 msgstr[1] ""
 
-#: /Applications/MAMP/htdocs/tacati/wp-content/themes/twentyeleven/comments.php:40
-#: /Applications/MAMP/htdocs/tacati/wp-content/themes/twentyeleven/comments.php:60
+#: /mnt/stor9-wc1-dfw1/627363/www.tacati.it/web/content/wp-content/themes/twentyeleven/comments.php:40
+#: /mnt/stor9-wc1-dfw1/627363/www.tacati.it/web/content/wp-content/themes/twentyeleven/comments.php:60
 #@ twentyeleven
 msgid "Comment navigation"
 msgstr ""
 
-#: /Applications/MAMP/htdocs/tacati/wp-content/themes/twentyeleven/comments.php:41
-#: /Applications/MAMP/htdocs/tacati/wp-content/themes/twentyeleven/comments.php:61
+#: /mnt/stor9-wc1-dfw1/627363/www.tacati.it/web/content/wp-content/themes/twentyeleven/comments.php:41
+#: /mnt/stor9-wc1-dfw1/627363/www.tacati.it/web/content/wp-content/themes/twentyeleven/comments.php:61
 #@ twentyeleven
 msgid "&larr; Older Comments"
 msgstr ""
 
-#: /Applications/MAMP/htdocs/tacati/wp-content/themes/twentyeleven/comments.php:42
-#: /Applications/MAMP/htdocs/tacati/wp-content/themes/twentyeleven/comments.php:62
+#: /mnt/stor9-wc1-dfw1/627363/www.tacati.it/web/content/wp-content/themes/twentyeleven/comments.php:42
+#: /mnt/stor9-wc1-dfw1/627363/www.tacati.it/web/content/wp-content/themes/twentyeleven/comments.php:62
 #@ twentyeleven
 msgid "Newer Comments &rarr;"
 msgstr ""
 
-#: /Applications/MAMP/htdocs/tacati/wp-content/themes/twentyeleven/comments.php:72
+#: /mnt/stor9-wc1-dfw1/627363/www.tacati.it/web/content/wp-content/themes/twentyeleven/comments.php:71
 #@ twentyeleven
 msgid "Comments are closed."
 msgstr ""
 
-#: /Applications/MAMP/htdocs/tacati/wp-content/themes/twentyeleven/content-aside.php:16
-#: /Applications/MAMP/htdocs/tacati/wp-content/themes/twentyeleven/content-featured.php:14
-#: /Applications/MAMP/htdocs/tacati/wp-content/themes/twentyeleven/content-gallery.php:16
-#: /Applications/MAMP/htdocs/tacati/wp-content/themes/twentyeleven/content-gallery.php:48
-#: /Applications/MAMP/htdocs/tacati/wp-content/themes/twentyeleven/content-image.php:15
-#: /Applications/MAMP/htdocs/tacati/wp-content/themes/twentyeleven/content-link.php:16
-#: /Applications/MAMP/htdocs/tacati/wp-content/themes/twentyeleven/content-quote.php:14
-#: /Applications/MAMP/htdocs/tacati/wp-content/themes/twentyeleven/content-status.php:15
-#: /Applications/MAMP/htdocs/tacati/wp-content/themes/twentyeleven/content.php:15
-#: /Applications/MAMP/htdocs/tacati/wp-content/themes/twentyeleven/content.php:19
-#: /Applications/MAMP/htdocs/tacati/wp-content/themes/twentyeleven/inc/widgets.php:89
-#: /Applications/MAMP/htdocs/tacati/wp-content/themes/twentyeleven/showcase.php:120
-#: /Applications/MAMP/htdocs/tacati/wp-content/themes/twentyeleven/showcase.php:199
+#: /mnt/stor9-wc1-dfw1/627363/www.tacati.it/web/content/wp-content/themes/twentyeleven/content-aside.php:16
+#: /mnt/stor9-wc1-dfw1/627363/www.tacati.it/web/content/wp-content/themes/twentyeleven/content-featured.php:14
+#: /mnt/stor9-wc1-dfw1/627363/www.tacati.it/web/content/wp-content/themes/twentyeleven/content-gallery.php:16
+#: /mnt/stor9-wc1-dfw1/627363/www.tacati.it/web/content/wp-content/themes/twentyeleven/content-gallery.php:48
+#: /mnt/stor9-wc1-dfw1/627363/www.tacati.it/web/content/wp-content/themes/twentyeleven/content-image.php:15
+#: /mnt/stor9-wc1-dfw1/627363/www.tacati.it/web/content/wp-content/themes/twentyeleven/content-link.php:16
+#: /mnt/stor9-wc1-dfw1/627363/www.tacati.it/web/content/wp-content/themes/twentyeleven/content-quote.php:14
+#: /mnt/stor9-wc1-dfw1/627363/www.tacati.it/web/content/wp-content/themes/twentyeleven/content-status.php:15
+#: /mnt/stor9-wc1-dfw1/627363/www.tacati.it/web/content/wp-content/themes/twentyeleven/content.php:15
+#: /mnt/stor9-wc1-dfw1/627363/www.tacati.it/web/content/wp-content/themes/twentyeleven/content.php:19
+#: /mnt/stor9-wc1-dfw1/627363/www.tacati.it/web/content/wp-content/themes/twentyeleven/inc/widgets.php:89
+#: /mnt/stor9-wc1-dfw1/627363/www.tacati.it/web/content/wp-content/themes/twentyeleven/showcase.php:120
+#: /mnt/stor9-wc1-dfw1/627363/www.tacati.it/web/content/wp-content/themes/twentyeleven/showcase.php:199
 #, php-format
 #@ twentyeleven
 msgid "Permalink to %s"
 msgstr ""
 
-#: /Applications/MAMP/htdocs/tacati/wp-content/themes/twentyeleven/content-aside.php:17
+#: /mnt/stor9-wc1-dfw1/627363/www.tacati.it/web/content/wp-content/themes/twentyeleven/content-aside.php:17
 #@ twentyeleven
 msgid "Aside"
 msgstr ""
 
-#: /Applications/MAMP/htdocs/tacati/wp-content/themes/twentyeleven/content-aside.php:22
-#: /Applications/MAMP/htdocs/tacati/wp-content/themes/twentyeleven/content-image.php:21
-#: /Applications/MAMP/htdocs/tacati/wp-content/themes/twentyeleven/content-link.php:22
-#: /Applications/MAMP/htdocs/tacati/wp-content/themes/twentyeleven/content-quote.php:24
-#: /Applications/MAMP/htdocs/tacati/wp-content/themes/twentyeleven/content-status.php:21
-#: /Applications/MAMP/htdocs/tacati/wp-content/themes/twentyeleven/content.php:30
+#: /mnt/stor9-wc1-dfw1/627363/www.tacati.it/web/content/wp-content/themes/twentyeleven/content-aside.php:22
+#: /mnt/stor9-wc1-dfw1/627363/www.tacati.it/web/content/wp-content/themes/twentyeleven/content-image.php:21
+#: /mnt/stor9-wc1-dfw1/627363/www.tacati.it/web/content/wp-content/themes/twentyeleven/content-link.php:22
+#: /mnt/stor9-wc1-dfw1/627363/www.tacati.it/web/content/wp-content/themes/twentyeleven/content-quote.php:24
+#: /mnt/stor9-wc1-dfw1/627363/www.tacati.it/web/content/wp-content/themes/twentyeleven/content-status.php:21
+#: /mnt/stor9-wc1-dfw1/627363/www.tacati.it/web/content/wp-content/themes/twentyeleven/content.php:30
 #@ twentyeleven
 msgid "Reply"
 msgstr ""
 
-#: /Applications/MAMP/htdocs/tacati/wp-content/themes/twentyeleven/content-aside.php:22
-#: /Applications/MAMP/htdocs/tacati/wp-content/themes/twentyeleven/content-image.php:21
-#: /Applications/MAMP/htdocs/tacati/wp-content/themes/twentyeleven/content-link.php:22
-#: /Applications/MAMP/htdocs/tacati/wp-content/themes/twentyeleven/content-quote.php:24
-#: /Applications/MAMP/htdocs/tacati/wp-content/themes/twentyeleven/content-status.php:21
-#: /Applications/MAMP/htdocs/tacati/wp-content/themes/twentyeleven/content.php:30
+#: /mnt/stor9-wc1-dfw1/627363/www.tacati.it/web/content/wp-content/themes/twentyeleven/content-aside.php:22
+#: /mnt/stor9-wc1-dfw1/627363/www.tacati.it/web/content/wp-content/themes/twentyeleven/content-image.php:21
+#: /mnt/stor9-wc1-dfw1/627363/www.tacati.it/web/content/wp-content/themes/twentyeleven/content-link.php:22
+#: /mnt/stor9-wc1-dfw1/627363/www.tacati.it/web/content/wp-content/themes/twentyeleven/content-quote.php:24
+#: /mnt/stor9-wc1-dfw1/627363/www.tacati.it/web/content/wp-content/themes/twentyeleven/content-status.php:21
+#: /mnt/stor9-wc1-dfw1/627363/www.tacati.it/web/content/wp-content/themes/twentyeleven/content.php:30
 #@ twentyeleven
 msgctxt "comments number"
 msgid "1"
 msgstr ""
 
-#: /Applications/MAMP/htdocs/tacati/wp-content/themes/twentyeleven/content-aside.php:22
-#: /Applications/MAMP/htdocs/tacati/wp-content/themes/twentyeleven/content-image.php:21
-#: /Applications/MAMP/htdocs/tacati/wp-content/themes/twentyeleven/content-link.php:22
-#: /Applications/MAMP/htdocs/tacati/wp-content/themes/twentyeleven/content-quote.php:24
-#: /Applications/MAMP/htdocs/tacati/wp-content/themes/twentyeleven/content-status.php:21
-#: /Applications/MAMP/htdocs/tacati/wp-content/themes/twentyeleven/content.php:30
+#: /mnt/stor9-wc1-dfw1/627363/www.tacati.it/web/content/wp-content/themes/twentyeleven/content-aside.php:22
+#: /mnt/stor9-wc1-dfw1/627363/www.tacati.it/web/content/wp-content/themes/twentyeleven/content-image.php:21
+#: /mnt/stor9-wc1-dfw1/627363/www.tacati.it/web/content/wp-content/themes/twentyeleven/content-link.php:22
+#: /mnt/stor9-wc1-dfw1/627363/www.tacati.it/web/content/wp-content/themes/twentyeleven/content-quote.php:24
+#: /mnt/stor9-wc1-dfw1/627363/www.tacati.it/web/content/wp-content/themes/twentyeleven/content-status.php:21
+#: /mnt/stor9-wc1-dfw1/627363/www.tacati.it/web/content/wp-content/themes/twentyeleven/content.php:30
 #@ twentyeleven
 msgctxt "comments number"
 msgid "%"
 msgstr ""
 
-#: /Applications/MAMP/htdocs/tacati/wp-content/themes/twentyeleven/content-aside.php:33
-#: /Applications/MAMP/htdocs/tacati/wp-content/themes/twentyeleven/content-gallery.php:32
-#: /Applications/MAMP/htdocs/tacati/wp-content/themes/twentyeleven/content-image.php:27
-#: /Applications/MAMP/htdocs/tacati/wp-content/themes/twentyeleven/content-link.php:33
-#: /Applications/MAMP/htdocs/tacati/wp-content/themes/twentyeleven/content-quote.php:35
-#: /Applications/MAMP/htdocs/tacati/wp-content/themes/twentyeleven/content-status.php:34
-#: /Applications/MAMP/htdocs/tacati/wp-content/themes/twentyeleven/content.php:41
-#: /Applications/MAMP/htdocs/tacati/wp-content/themes/twentyeleven/functions.php:344
+#: /mnt/stor9-wc1-dfw1/627363/www.tacati.it/web/content/wp-content/themes/twentyeleven/content-aside.php:33
+#: /mnt/stor9-wc1-dfw1/627363/www.tacati.it/web/content/wp-content/themes/twentyeleven/content-gallery.php:32
+#: /mnt/stor9-wc1-dfw1/627363/www.tacati.it/web/content/wp-content/themes/twentyeleven/content-image.php:27
+#: /mnt/stor9-wc1-dfw1/627363/www.tacati.it/web/content/wp-content/themes/twentyeleven/content-link.php:33
+#: /mnt/stor9-wc1-dfw1/627363/www.tacati.it/web/content/wp-content/themes/twentyeleven/content-quote.php:35
+#: /mnt/stor9-wc1-dfw1/627363/www.tacati.it/web/content/wp-content/themes/twentyeleven/content-status.php:34
+#: /mnt/stor9-wc1-dfw1/627363/www.tacati.it/web/content/wp-content/themes/twentyeleven/content.php:41
+#: /mnt/stor9-wc1-dfw1/627363/www.tacati.it/web/content/wp-content/themes/twentyeleven/functions.php:345
 #@ twentyeleven
 msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
 msgstr ""
 
-#: /Applications/MAMP/htdocs/tacati/wp-content/themes/twentyeleven/content-aside.php:42
-#: /Applications/MAMP/htdocs/tacati/wp-content/themes/twentyeleven/content-gallery.php:87
-#: /Applications/MAMP/htdocs/tacati/wp-content/themes/twentyeleven/content-image.php:64
-#: /Applications/MAMP/htdocs/tacati/wp-content/themes/twentyeleven/content-link.php:42
-#: /Applications/MAMP/htdocs/tacati/wp-content/themes/twentyeleven/content-quote.php:69
-#: /Applications/MAMP/htdocs/tacati/wp-content/themes/twentyeleven/content-status.php:43
-#: /Applications/MAMP/htdocs/tacati/wp-content/themes/twentyeleven/content.php:77
-#: /Applications/MAMP/htdocs/tacati/wp-content/themes/twentyeleven/showcase.php:201
+#: /mnt/stor9-wc1-dfw1/627363/www.tacati.it/web/content/wp-content/themes/twentyeleven/content-aside.php:42
+#: /mnt/stor9-wc1-dfw1/627363/www.tacati.it/web/content/wp-content/themes/twentyeleven/content-gallery.php:87
+#: /mnt/stor9-wc1-dfw1/627363/www.tacati.it/web/content/wp-content/themes/twentyeleven/content-image.php:64
+#: /mnt/stor9-wc1-dfw1/627363/www.tacati.it/web/content/wp-content/themes/twentyeleven/content-link.php:42
+#: /mnt/stor9-wc1-dfw1/627363/www.tacati.it/web/content/wp-content/themes/twentyeleven/content-quote.php:69
+#: /mnt/stor9-wc1-dfw1/627363/www.tacati.it/web/content/wp-content/themes/twentyeleven/content-status.php:43
+#: /mnt/stor9-wc1-dfw1/627363/www.tacati.it/web/content/wp-content/themes/twentyeleven/content.php:79
+#: /mnt/stor9-wc1-dfw1/627363/www.tacati.it/web/content/wp-content/themes/twentyeleven/showcase.php:201
 #@ twentyeleven
 msgid "Leave a reply"
 msgstr ""
 
-#: /Applications/MAMP/htdocs/tacati/wp-content/themes/twentyeleven/content-aside.php:42
-#: /Applications/MAMP/htdocs/tacati/wp-content/themes/twentyeleven/content-gallery.php:87
-#: /Applications/MAMP/htdocs/tacati/wp-content/themes/twentyeleven/content-image.php:64
-#: /Applications/MAMP/htdocs/tacati/wp-content/themes/twentyeleven/content-link.php:42
-#: /Applications/MAMP/htdocs/tacati/wp-content/themes/twentyeleven/content-quote.php:69
-#: /Applications/MAMP/htdocs/tacati/wp-content/themes/twentyeleven/content-status.php:43
-#: /Applications/MAMP/htdocs/tacati/wp-content/themes/twentyeleven/content.php:77
-#: /Applications/MAMP/htdocs/tacati/wp-content/themes/twentyeleven/showcase.php:201
+#: /mnt/stor9-wc1-dfw1/627363/www.tacati.it/web/content/wp-content/themes/twentyeleven/content-aside.php:42
+#: /mnt/stor9-wc1-dfw1/627363/www.tacati.it/web/content/wp-content/themes/twentyeleven/content-gallery.php:87
+#: /mnt/stor9-wc1-dfw1/627363/www.tacati.it/web/content/wp-content/themes/twentyeleven/content-image.php:64
+#: /mnt/stor9-wc1-dfw1/627363/www.tacati.it/web/content/wp-content/themes/twentyeleven/content-link.php:42
+#: /mnt/stor9-wc1-dfw1/627363/www.tacati.it/web/content/wp-content/themes/twentyeleven/content-quote.php:69
+#: /mnt/stor9-wc1-dfw1/627363/www.tacati.it/web/content/wp-content/themes/twentyeleven/content-status.php:43
+#: /mnt/stor9-wc1-dfw1/627363/www.tacati.it/web/content/wp-content/themes/twentyeleven/content.php:79
+#: /mnt/stor9-wc1-dfw1/627363/www.tacati.it/web/content/wp-content/themes/twentyeleven/showcase.php:201
 #@ twentyeleven
 msgid "<b>1</b> Reply"
 msgstr ""
 
-#: /Applications/MAMP/htdocs/tacati/wp-content/themes/twentyeleven/content-aside.php:42
-#: /Applications/MAMP/htdocs/tacati/wp-content/themes/twentyeleven/content-gallery.php:87
-#: /Applications/MAMP/htdocs/tacati/wp-content/themes/twentyeleven/content-image.php:64
-#: /Applications/MAMP/htdocs/tacati/wp-content/themes/twentyeleven/content-link.php:42
-#: /Applications/MAMP/htdocs/tacati/wp-content/themes/twentyeleven/content-quote.php:69
-#: /Applications/MAMP/htdocs/tacati/wp-content/themes/twentyeleven/content-status.php:43
-#: /Applications/MAMP/htdocs/tacati/wp-content/themes/twentyeleven/content.php:77
-#: /Applications/MAMP/htdocs/tacati/wp-content/themes/twentyeleven/showcase.php:201
+#: /mnt/stor9-wc1-dfw1/627363/www.tacati.it/web/content/wp-content/themes/twentyeleven/content-aside.php:42
+#: /mnt/stor9-wc1-dfw1/627363/www.tacati.it/web/content/wp-content/themes/twentyeleven/content-gallery.php:87
+#: /mnt/stor9-wc1-dfw1/627363/www.tacati.it/web/content/wp-content/themes/twentyeleven/content-image.php:64
+#: /mnt/stor9-wc1-dfw1/627363/www.tacati.it/web/content/wp-content/themes/twentyeleven/content-link.php:42
+#: /mnt/stor9-wc1-dfw1/627363/www.tacati.it/web/content/wp-content/themes/twentyeleven/content-quote.php:69
+#: /mnt/stor9-wc1-dfw1/627363/www.tacati.it/web/content/wp-content/themes/twentyeleven/content-status.php:43
+#: /mnt/stor9-wc1-dfw1/627363/www.tacati.it/web/content/wp-content/themes/twentyeleven/content.php:79
+#: /mnt/stor9-wc1-dfw1/627363/www.tacati.it/web/content/wp-content/themes/twentyeleven/showcase.php:201
 #@ twentyeleven
 msgid "<b>%</b> Replies"
 msgstr ""
 
 #. translators: used between list items, there is a space after the comma
-#. translators: used between list items, there is a space after the comma 
-#: /Applications/MAMP/htdocs/tacati/wp-content/themes/twentyeleven/content-featured.php:29
-#: /Applications/MAMP/htdocs/tacati/wp-content/themes/twentyeleven/content-featured.php:38
-#: /Applications/MAMP/htdocs/tacati/wp-content/themes/twentyeleven/content-gallery.php:62
-#: /Applications/MAMP/htdocs/tacati/wp-content/themes/twentyeleven/content-gallery.php:72
-#: /Applications/MAMP/htdocs/tacati/wp-content/themes/twentyeleven/content-image.php:47
-#: /Applications/MAMP/htdocs/tacati/wp-content/themes/twentyeleven/content-image.php:56
-#: /Applications/MAMP/htdocs/tacati/wp-content/themes/twentyeleven/content-quote.php:44
-#: /Applications/MAMP/htdocs/tacati/wp-content/themes/twentyeleven/content-quote.php:54
-#: /Applications/MAMP/htdocs/tacati/wp-content/themes/twentyeleven/content-single.php:30
-#: /Applications/MAMP/htdocs/tacati/wp-content/themes/twentyeleven/content-single.php:33
-#: /Applications/MAMP/htdocs/tacati/wp-content/themes/twentyeleven/content.php:51
-#: /Applications/MAMP/htdocs/tacati/wp-content/themes/twentyeleven/content.php:61
+#. translators: used between list items, there is a space after the comma
+#: /mnt/stor9-wc1-dfw1/627363/www.tacati.it/web/content/wp-content/themes/twentyeleven/content-featured.php:29
+#: /mnt/stor9-wc1-dfw1/627363/www.tacati.it/web/content/wp-content/themes/twentyeleven/content-featured.php:38
+#: /mnt/stor9-wc1-dfw1/627363/www.tacati.it/web/content/wp-content/themes/twentyeleven/content-gallery.php:62
+#: /mnt/stor9-wc1-dfw1/627363/www.tacati.it/web/content/wp-content/themes/twentyeleven/content-gallery.php:72
+#: /mnt/stor9-wc1-dfw1/627363/www.tacati.it/web/content/wp-content/themes/twentyeleven/content-image.php:47
+#: /mnt/stor9-wc1-dfw1/627363/www.tacati.it/web/content/wp-content/themes/twentyeleven/content-image.php:56
+#: /mnt/stor9-wc1-dfw1/627363/www.tacati.it/web/content/wp-content/themes/twentyeleven/content-quote.php:44
+#: /mnt/stor9-wc1-dfw1/627363/www.tacati.it/web/content/wp-content/themes/twentyeleven/content-quote.php:54
+#: /mnt/stor9-wc1-dfw1/627363/www.tacati.it/web/content/wp-content/themes/twentyeleven/content-single.php:30
+#: /mnt/stor9-wc1-dfw1/627363/www.tacati.it/web/content/wp-content/themes/twentyeleven/content-single.php:33
+#: /mnt/stor9-wc1-dfw1/627363/www.tacati.it/web/content/wp-content/themes/twentyeleven/content.php:51
+#: /mnt/stor9-wc1-dfw1/627363/www.tacati.it/web/content/wp-content/themes/twentyeleven/content.php:63
 #@ twentyeleven
 msgid ", "
 msgstr ""
 
-#: /Applications/MAMP/htdocs/tacati/wp-content/themes/twentyeleven/content-featured.php:31
+#: /mnt/stor9-wc1-dfw1/627363/www.tacati.it/web/content/wp-content/themes/twentyeleven/content-featured.php:31
 #, php-format
 #@ twentyeleven
 msgid "This entry was posted in %1$s and tagged %2$s. Bookmark the <a href=\"%3$s\" title=\"Permalink to %4$s\" rel=\"bookmark\">permalink</a>."
 msgstr ""
 
-#: /Applications/MAMP/htdocs/tacati/wp-content/themes/twentyeleven/content-featured.php:33
+#: /mnt/stor9-wc1-dfw1/627363/www.tacati.it/web/content/wp-content/themes/twentyeleven/content-featured.php:33
 #, php-format
 #@ twentyeleven
 msgid "This entry was posted in %1$s. Bookmark the <a href=\"%3$s\" title=\"Permalink to %4$s\" rel=\"bookmark\">permalink</a>."
 msgstr ""
 
-#: /Applications/MAMP/htdocs/tacati/wp-content/themes/twentyeleven/content-gallery.php:17
+#: /mnt/stor9-wc1-dfw1/627363/www.tacati.it/web/content/wp-content/themes/twentyeleven/content-gallery.php:17
 #@ twentyeleven
 msgid "Gallery"
 msgstr ""
 
-#: /Applications/MAMP/htdocs/tacati/wp-content/themes/twentyeleven/content-gallery.php:47
+#: /mnt/stor9-wc1-dfw1/627363/www.tacati.it/web/content/wp-content/themes/twentyeleven/content-gallery.php:47
 #, php-format
 #@ twentyeleven
 msgid "This gallery contains <a %1$s>%2$s photo</a>."
@@ -487,485 +477,543 @@ msgid_plural "This gallery contains <a %1$s>%2$s photos</a>."
 msgstr[0] ""
 msgstr[1] ""
 
-#: /Applications/MAMP/htdocs/tacati/wp-content/themes/twentyeleven/content-gallery.php:66
-#: /Applications/MAMP/htdocs/tacati/wp-content/themes/twentyeleven/content-image.php:51
-#: /Applications/MAMP/htdocs/tacati/wp-content/themes/twentyeleven/content-quote.php:48
-#: /Applications/MAMP/htdocs/tacati/wp-content/themes/twentyeleven/content.php:55
+#: /mnt/stor9-wc1-dfw1/627363/www.tacati.it/web/content/wp-content/themes/twentyeleven/content-gallery.php:66
+#: /mnt/stor9-wc1-dfw1/627363/www.tacati.it/web/content/wp-content/themes/twentyeleven/content-image.php:51
+#: /mnt/stor9-wc1-dfw1/627363/www.tacati.it/web/content/wp-content/themes/twentyeleven/content-quote.php:48
+#: /mnt/stor9-wc1-dfw1/627363/www.tacati.it/web/content/wp-content/themes/twentyeleven/content.php:55
 #, php-format
 #@ twentyeleven
 msgid "<span class=\"%1$s\">Posted in</span> %2$s"
 msgstr ""
 
-#: /Applications/MAMP/htdocs/tacati/wp-content/themes/twentyeleven/content-gallery.php:78
-#: /Applications/MAMP/htdocs/tacati/wp-content/themes/twentyeleven/content-image.php:59
-#: /Applications/MAMP/htdocs/tacati/wp-content/themes/twentyeleven/content-quote.php:60
-#: /Applications/MAMP/htdocs/tacati/wp-content/themes/twentyeleven/content.php:67
+#: /mnt/stor9-wc1-dfw1/627363/www.tacati.it/web/content/wp-content/themes/twentyeleven/content-gallery.php:78
+#: /mnt/stor9-wc1-dfw1/627363/www.tacati.it/web/content/wp-content/themes/twentyeleven/content-image.php:59
+#: /mnt/stor9-wc1-dfw1/627363/www.tacati.it/web/content/wp-content/themes/twentyeleven/content-quote.php:60
+#: /mnt/stor9-wc1-dfw1/627363/www.tacati.it/web/content/wp-content/themes/twentyeleven/content.php:69
 #, php-format
 #@ twentyeleven
 msgid "<span class=\"%1$s\">Tagged</span> %2$s"
 msgstr ""
 
-#: /Applications/MAMP/htdocs/tacati/wp-content/themes/twentyeleven/content-image.php:16
+#: /mnt/stor9-wc1-dfw1/627363/www.tacati.it/web/content/wp-content/themes/twentyeleven/content-image.php:16
 #@ twentyeleven
 msgid "Image"
 msgstr ""
 
-#: /Applications/MAMP/htdocs/tacati/wp-content/themes/twentyeleven/content-image.php:34
-#, php-format
-#@ twentyeleven
-msgid "<a href=\"%1$s\" rel=\"bookmark\"><time class=\"entry-date\" datetime=\"%2$s\" pubdate>%3$s</time></a><span class=\"by-author\"> <span class=\"sep\"> by </span> <span class=\"author vcard\"><a class=\"url fn n\" href=\"%4$s\" title=\"%5$s\" rel=\"author\">%6$s</a></span></span>"
-msgstr ""
-
-#: /Applications/MAMP/htdocs/tacati/wp-content/themes/twentyeleven/content-image.php:39
-#: /Applications/MAMP/htdocs/tacati/wp-content/themes/twentyeleven/functions.php:587
+#: /mnt/stor9-wc1-dfw1/627363/www.tacati.it/web/content/wp-content/themes/twentyeleven/content-image.php:39
+#: /mnt/stor9-wc1-dfw1/627363/www.tacati.it/web/content/wp-content/themes/twentyeleven/functions.php:590
 #, php-format
 #@ twentyeleven
 msgid "View all posts by %s"
 msgstr ""
 
-#: /Applications/MAMP/htdocs/tacati/wp-content/themes/twentyeleven/content-link.php:17
+#: /mnt/stor9-wc1-dfw1/627363/www.tacati.it/web/content/wp-content/themes/twentyeleven/content-link.php:17
 #@ twentyeleven
 msgid "Link"
 msgstr ""
 
-#: /Applications/MAMP/htdocs/tacati/wp-content/themes/twentyeleven/content-quote.php:15
+#: /mnt/stor9-wc1-dfw1/627363/www.tacati.it/web/content/wp-content/themes/twentyeleven/content-quote.php:15
 #@ twentyeleven
 msgid "Quote"
 msgstr ""
 
-#: /Applications/MAMP/htdocs/tacati/wp-content/themes/twentyeleven/content-single.php:35
+#: /mnt/stor9-wc1-dfw1/627363/www.tacati.it/web/content/wp-content/themes/twentyeleven/content-single.php:35
 #, php-format
 #@ twentyeleven
 msgid "This entry was posted in %1$s and tagged %2$s by <a href=\"%6$s\">%5$s</a>. Bookmark the <a href=\"%3$s\" title=\"Permalink to %4$s\" rel=\"bookmark\">permalink</a>."
 msgstr ""
 
-#: /Applications/MAMP/htdocs/tacati/wp-content/themes/twentyeleven/content-single.php:37
+#: /mnt/stor9-wc1-dfw1/627363/www.tacati.it/web/content/wp-content/themes/twentyeleven/content-single.php:37
 #, php-format
 #@ twentyeleven
 msgid "This entry was posted in %1$s by <a href=\"%6$s\">%5$s</a>. Bookmark the <a href=\"%3$s\" title=\"Permalink to %4$s\" rel=\"bookmark\">permalink</a>."
 msgstr ""
 
-#: /Applications/MAMP/htdocs/tacati/wp-content/themes/twentyeleven/content-single.php:39
+#: /mnt/stor9-wc1-dfw1/627363/www.tacati.it/web/content/wp-content/themes/twentyeleven/content-single.php:39
 #, php-format
 #@ twentyeleven
 msgid "This entry was posted by <a href=\"%6$s\">%5$s</a>. Bookmark the <a href=\"%3$s\" title=\"Permalink to %4$s\" rel=\"bookmark\">permalink</a>."
 msgstr ""
 
-#: /Applications/MAMP/htdocs/tacati/wp-content/themes/twentyeleven/content-single.php:64
+#: /mnt/stor9-wc1-dfw1/627363/www.tacati.it/web/content/wp-content/themes/twentyeleven/content-single.php:64
 #, php-format
 #@ twentyeleven
 msgid "View all posts by %s <span class=\"meta-nav\">&rarr;</span>"
 msgstr ""
 
-#: /Applications/MAMP/htdocs/tacati/wp-content/themes/twentyeleven/content-status.php:16
+#: /mnt/stor9-wc1-dfw1/627363/www.tacati.it/web/content/wp-content/themes/twentyeleven/content-status.php:16
 #@ twentyeleven
 msgid "Status"
 msgstr ""
 
-#: /Applications/MAMP/htdocs/tacati/wp-content/themes/twentyeleven/content.php:16
+#: /mnt/stor9-wc1-dfw1/627363/www.tacati.it/web/content/wp-content/themes/twentyeleven/content.php:16
 #@ twentyeleven
 msgid "Featured"
 msgstr ""
 
-#: /Applications/MAMP/htdocs/tacati/wp-content/themes/twentyeleven/footer.php:27
+#: /mnt/stor9-wc1-dfw1/627363/www.tacati.it/web/content/wp-content/themes/twentyeleven/footer.php:27
 #@ twentyeleven
 msgid "http://wordpress.org/"
 msgstr ""
 
-#: /Applications/MAMP/htdocs/tacati/wp-content/themes/twentyeleven/footer.php:27
+#: /mnt/stor9-wc1-dfw1/627363/www.tacati.it/web/content/wp-content/themes/twentyeleven/footer.php:27
 #@ twentyeleven
 msgid "Semantic Personal Publishing Platform"
 msgstr ""
 
-#: /Applications/MAMP/htdocs/tacati/wp-content/themes/twentyeleven/footer.php:27
+#: /mnt/stor9-wc1-dfw1/627363/www.tacati.it/web/content/wp-content/themes/twentyeleven/footer.php:27
 #, php-format
 #@ twentyeleven
 msgid "Proudly powered by %s"
 msgstr ""
 
-#: /Applications/MAMP/htdocs/tacati/wp-content/themes/twentyeleven/functions.php:95
+#: /mnt/stor9-wc1-dfw1/627363/www.tacati.it/web/content/wp-content/themes/twentyeleven/functions.php:95
 #@ twentyeleven
 msgid "Primary Menu"
 msgstr ""
 
-#. translators: header image description 
-#: /Applications/MAMP/htdocs/tacati/wp-content/themes/twentyeleven/functions.php:164
+#. translators: header image description
+#: /mnt/stor9-wc1-dfw1/627363/www.tacati.it/web/content/wp-content/themes/twentyeleven/functions.php:164
 #@ twentyeleven
 msgid "Wheel"
 msgstr ""
 
-#. translators: header image description 
-#: /Applications/MAMP/htdocs/tacati/wp-content/themes/twentyeleven/functions.php:170
+#. translators: header image description
+#: /mnt/stor9-wc1-dfw1/627363/www.tacati.it/web/content/wp-content/themes/twentyeleven/functions.php:170
 #@ twentyeleven
 msgid "Shore"
 msgstr ""
 
-#. translators: header image description 
-#: /Applications/MAMP/htdocs/tacati/wp-content/themes/twentyeleven/functions.php:176
+#. translators: header image description
+#: /mnt/stor9-wc1-dfw1/627363/www.tacati.it/web/content/wp-content/themes/twentyeleven/functions.php:176
 #@ twentyeleven
 msgid "Trolley"
 msgstr ""
 
-#. translators: header image description 
-#: /Applications/MAMP/htdocs/tacati/wp-content/themes/twentyeleven/functions.php:182
+#. translators: header image description
+#: /mnt/stor9-wc1-dfw1/627363/www.tacati.it/web/content/wp-content/themes/twentyeleven/functions.php:182
 #@ twentyeleven
 msgid "Pine Cone"
 msgstr ""
 
-#. translators: header image description 
-#: /Applications/MAMP/htdocs/tacati/wp-content/themes/twentyeleven/functions.php:188
+#. translators: header image description
+#: /mnt/stor9-wc1-dfw1/627363/www.tacati.it/web/content/wp-content/themes/twentyeleven/functions.php:188
 #@ twentyeleven
 msgid "Chessboard"
 msgstr ""
 
-#. translators: header image description 
-#: /Applications/MAMP/htdocs/tacati/wp-content/themes/twentyeleven/functions.php:194
+#. translators: header image description
+#: /mnt/stor9-wc1-dfw1/627363/www.tacati.it/web/content/wp-content/themes/twentyeleven/functions.php:194
 #@ twentyeleven
 msgid "Lanterns"
 msgstr ""
 
-#. translators: header image description 
-#: /Applications/MAMP/htdocs/tacati/wp-content/themes/twentyeleven/functions.php:200
+#. translators: header image description
+#: /mnt/stor9-wc1-dfw1/627363/www.tacati.it/web/content/wp-content/themes/twentyeleven/functions.php:200
 #@ twentyeleven
 msgid "Willow"
 msgstr ""
 
-#. translators: header image description 
-#: /Applications/MAMP/htdocs/tacati/wp-content/themes/twentyeleven/functions.php:206
+#. translators: header image description
+#: /mnt/stor9-wc1-dfw1/627363/www.tacati.it/web/content/wp-content/themes/twentyeleven/functions.php:206
 #@ twentyeleven
 msgid "Hanoi Plant"
 msgstr ""
 
-#: /Applications/MAMP/htdocs/tacati/wp-content/themes/twentyeleven/functions.php:391
+#: /mnt/stor9-wc1-dfw1/627363/www.tacati.it/web/content/wp-content/themes/twentyeleven/functions.php:394
 #@ twentyeleven
 msgid "Main Sidebar"
 msgstr ""
 
-#: /Applications/MAMP/htdocs/tacati/wp-content/themes/twentyeleven/functions.php:400
+#: /mnt/stor9-wc1-dfw1/627363/www.tacati.it/web/content/wp-content/themes/twentyeleven/functions.php:403
 #@ twentyeleven
 msgid "Showcase Sidebar"
 msgstr ""
 
-#: /Applications/MAMP/htdocs/tacati/wp-content/themes/twentyeleven/functions.php:402
+#: /mnt/stor9-wc1-dfw1/627363/www.tacati.it/web/content/wp-content/themes/twentyeleven/functions.php:405
 #@ twentyeleven
 msgid "The sidebar for the optional Showcase Template"
 msgstr ""
 
-#: /Applications/MAMP/htdocs/tacati/wp-content/themes/twentyeleven/functions.php:410
+#: /mnt/stor9-wc1-dfw1/627363/www.tacati.it/web/content/wp-content/themes/twentyeleven/functions.php:413
 #@ twentyeleven
 msgid "Footer Area One"
 msgstr ""
 
-#: /Applications/MAMP/htdocs/tacati/wp-content/themes/twentyeleven/functions.php:412
-#: /Applications/MAMP/htdocs/tacati/wp-content/themes/twentyeleven/functions.php:422
-#: /Applications/MAMP/htdocs/tacati/wp-content/themes/twentyeleven/functions.php:432
+#: /mnt/stor9-wc1-dfw1/627363/www.tacati.it/web/content/wp-content/themes/twentyeleven/functions.php:415
+#: /mnt/stor9-wc1-dfw1/627363/www.tacati.it/web/content/wp-content/themes/twentyeleven/functions.php:425
+#: /mnt/stor9-wc1-dfw1/627363/www.tacati.it/web/content/wp-content/themes/twentyeleven/functions.php:435
 #@ twentyeleven
 msgid "An optional widget area for your site footer"
 msgstr ""
 
-#: /Applications/MAMP/htdocs/tacati/wp-content/themes/twentyeleven/functions.php:420
+#: /mnt/stor9-wc1-dfw1/627363/www.tacati.it/web/content/wp-content/themes/twentyeleven/functions.php:423
 #@ twentyeleven
 msgid "Footer Area Two"
 msgstr ""
 
-#: /Applications/MAMP/htdocs/tacati/wp-content/themes/twentyeleven/functions.php:430
+#: /mnt/stor9-wc1-dfw1/627363/www.tacati.it/web/content/wp-content/themes/twentyeleven/functions.php:433
 #@ twentyeleven
 msgid "Footer Area Three"
 msgstr ""
 
-#: /Applications/MAMP/htdocs/tacati/wp-content/themes/twentyeleven/functions.php:450
-#: /Applications/MAMP/htdocs/tacati/wp-content/themes/twentyeleven/single.php:18
+#: /mnt/stor9-wc1-dfw1/627363/www.tacati.it/web/content/wp-content/themes/twentyeleven/functions.php:453
+#: /mnt/stor9-wc1-dfw1/627363/www.tacati.it/web/content/wp-content/themes/twentyeleven/single.php:18
 #@ twentyeleven
 msgid "Post navigation"
 msgstr ""
 
-#: /Applications/MAMP/htdocs/tacati/wp-content/themes/twentyeleven/functions.php:451
+#: /mnt/stor9-wc1-dfw1/627363/www.tacati.it/web/content/wp-content/themes/twentyeleven/functions.php:454
 #@ twentyeleven
 msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
 msgstr ""
 
-#: /Applications/MAMP/htdocs/tacati/wp-content/themes/twentyeleven/functions.php:452
+#: /mnt/stor9-wc1-dfw1/627363/www.tacati.it/web/content/wp-content/themes/twentyeleven/functions.php:455
 #@ twentyeleven
 msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
 msgstr ""
 
-#: /Applications/MAMP/htdocs/tacati/wp-content/themes/twentyeleven/functions.php:522
+#: /mnt/stor9-wc1-dfw1/627363/www.tacati.it/web/content/wp-content/themes/twentyeleven/functions.php:525
 #@ twentyeleven
 msgid "Pingback:"
 msgstr ""
 
-#. translators: 1: comment author, 2: date and time 
-#: /Applications/MAMP/htdocs/tacati/wp-content/themes/twentyeleven/functions.php:539
+#. translators: 1: comment author, 2: date and time
+#: /mnt/stor9-wc1-dfw1/627363/www.tacati.it/web/content/wp-content/themes/twentyeleven/functions.php:542
 #, php-format
 #@ twentyeleven
 msgid "%1$s on %2$s <span class=\"says\">said:</span>"
 msgstr ""
 
-#. translators: 1: date, 2: time 
-#: /Applications/MAMP/htdocs/tacati/wp-content/themes/twentyeleven/functions.php:545
+#. translators: 1: date, 2: time
+#: /mnt/stor9-wc1-dfw1/627363/www.tacati.it/web/content/wp-content/themes/twentyeleven/functions.php:548
 #, php-format
 #@ twentyeleven
 msgid "%1$s at %2$s"
 msgstr ""
 
-#: /Applications/MAMP/htdocs/tacati/wp-content/themes/twentyeleven/functions.php:554
+#: /mnt/stor9-wc1-dfw1/627363/www.tacati.it/web/content/wp-content/themes/twentyeleven/functions.php:557
 #@ twentyeleven
 msgid "Your comment is awaiting moderation."
 msgstr ""
 
-#: /Applications/MAMP/htdocs/tacati/wp-content/themes/twentyeleven/functions.php:563
+#: /mnt/stor9-wc1-dfw1/627363/www.tacati.it/web/content/wp-content/themes/twentyeleven/functions.php:566
 #@ twentyeleven
 msgid "Reply <span>&darr;</span>"
 msgstr ""
 
-#: /Applications/MAMP/htdocs/tacati/wp-content/themes/twentyeleven/functions.php:581
-#, php-format
-#@ twentyeleven
-msgid "<span class=\"sep\">Posted on </span><a href=\"%1$s\" title=\"%2$s\" rel=\"bookmark\"><time class=\"entry-date\" datetime=\"%3$s\" pubdate>%4$s</time></a><span class=\"by-author\"> <span class=\"sep\"> by </span> <span class=\"author vcard\"><a class=\"url fn n\" href=\"%5$s\" title=\"%6$s\" rel=\"author\">%7$s</a></span></span>"
-msgstr ""
-
-#: /Applications/MAMP/htdocs/tacati/wp-content/themes/twentyeleven/image.php:18
+#: /mnt/stor9-wc1-dfw1/627363/www.tacati.it/web/content/wp-content/themes/twentyeleven/image.php:18
 #@ twentyeleven
 msgid "Image navigation"
 msgstr ""
 
-#: /Applications/MAMP/htdocs/tacati/wp-content/themes/twentyeleven/image.php:19
+#: /mnt/stor9-wc1-dfw1/627363/www.tacati.it/web/content/wp-content/themes/twentyeleven/image.php:19
 #@ twentyeleven
 msgid "&larr; Previous"
 msgstr ""
 
-#: /Applications/MAMP/htdocs/tacati/wp-content/themes/twentyeleven/image.php:20
+#: /mnt/stor9-wc1-dfw1/627363/www.tacati.it/web/content/wp-content/themes/twentyeleven/image.php:20
 #@ twentyeleven
 msgid "Next &rarr;"
 msgstr ""
 
-#: /Applications/MAMP/htdocs/tacati/wp-content/themes/twentyeleven/image.php:30
+#: /mnt/stor9-wc1-dfw1/627363/www.tacati.it/web/content/wp-content/themes/twentyeleven/image.php:30
 #, php-format
 #@ twentyeleven
 msgid "<span class=\"meta-prep meta-prep-entry-date\">Published </span> <span class=\"entry-date\"><abbr class=\"published\" title=\"%1$s\">%2$s</abbr></span> at <a href=\"%3$s\" title=\"Link to full-size image\">%4$s &times; %5$s</a> in <a href=\"%6$s\" title=\"Return to %7$s\" rel=\"gallery\">%8$s</a>"
 msgstr ""
 
-#: /Applications/MAMP/htdocs/tacati/wp-content/themes/twentyeleven/inc/theme-options.php:55
-#: /Applications/MAMP/htdocs/tacati/wp-content/themes/twentyeleven/inc/theme-options.php:474
+#: /mnt/stor9-wc1-dfw1/627363/www.tacati.it/web/content/wp-content/themes/twentyeleven/inc/theme-options.php:55
+#: /mnt/stor9-wc1-dfw1/627363/www.tacati.it/web/content/wp-content/themes/twentyeleven/inc/theme-options.php:474
 #@ twentyeleven
 msgid "Color Scheme"
 msgstr ""
 
-#: /Applications/MAMP/htdocs/tacati/wp-content/themes/twentyeleven/inc/theme-options.php:61
-#: /Applications/MAMP/htdocs/tacati/wp-content/themes/twentyeleven/inc/theme-options.php:491
+#: /mnt/stor9-wc1-dfw1/627363/www.tacati.it/web/content/wp-content/themes/twentyeleven/inc/theme-options.php:61
+#: /mnt/stor9-wc1-dfw1/627363/www.tacati.it/web/content/wp-content/themes/twentyeleven/inc/theme-options.php:491
 #@ twentyeleven
 msgid "Link Color"
 msgstr ""
 
-#: /Applications/MAMP/htdocs/tacati/wp-content/themes/twentyeleven/inc/theme-options.php:62
+#: /mnt/stor9-wc1-dfw1/627363/www.tacati.it/web/content/wp-content/themes/twentyeleven/inc/theme-options.php:62
 #@ twentyeleven
 msgid "Default Layout"
 msgstr ""
 
-#: /Applications/MAMP/htdocs/tacati/wp-content/themes/twentyeleven/inc/theme-options.php:94
-#: /Applications/MAMP/htdocs/tacati/wp-content/themes/twentyeleven/inc/theme-options.php:95
+#: /mnt/stor9-wc1-dfw1/627363/www.tacati.it/web/content/wp-content/themes/twentyeleven/inc/theme-options.php:94
+#: /mnt/stor9-wc1-dfw1/627363/www.tacati.it/web/content/wp-content/themes/twentyeleven/inc/theme-options.php:95
 #@ twentyeleven
 msgid "Theme Options"
 msgstr ""
 
-#: /Applications/MAMP/htdocs/tacati/wp-content/themes/twentyeleven/inc/theme-options.php:110
+#: /mnt/stor9-wc1-dfw1/627363/www.tacati.it/web/content/wp-content/themes/twentyeleven/inc/theme-options.php:110
 #@ twentyeleven
 msgid "Some themes provide customization options that are grouped together on a Theme Options screen. If you change themes, options may change or disappear, as they are theme-specific. Your current theme, Twenty Eleven, provides the following Theme Options:"
 msgstr ""
 
-#: /Applications/MAMP/htdocs/tacati/wp-content/themes/twentyeleven/inc/theme-options.php:112
+#: /mnt/stor9-wc1-dfw1/627363/www.tacati.it/web/content/wp-content/themes/twentyeleven/inc/theme-options.php:112
 #@ twentyeleven
 msgid "<strong>Color Scheme</strong>: You can choose a color palette of \"Light\" (light background with dark text) or \"Dark\" (dark background with light text) for your site."
 msgstr ""
 
-#: /Applications/MAMP/htdocs/tacati/wp-content/themes/twentyeleven/inc/theme-options.php:113
+#: /mnt/stor9-wc1-dfw1/627363/www.tacati.it/web/content/wp-content/themes/twentyeleven/inc/theme-options.php:113
 #@ twentyeleven
 msgid "<strong>Link Color</strong>: You can choose the color used for text links on your site. You can enter the HTML color or hex code, or you can choose visually by clicking the \"Select a Color\" button to pick from a color wheel."
 msgstr ""
 
-#: /Applications/MAMP/htdocs/tacati/wp-content/themes/twentyeleven/inc/theme-options.php:114
+#: /mnt/stor9-wc1-dfw1/627363/www.tacati.it/web/content/wp-content/themes/twentyeleven/inc/theme-options.php:114
 #@ twentyeleven
 msgid "<strong>Default Layout</strong>: You can choose if you want your site&#8217;s default layout to have a sidebar on the left, the right, or not at all."
 msgstr ""
 
-#: /Applications/MAMP/htdocs/tacati/wp-content/themes/twentyeleven/inc/theme-options.php:116
+#: /mnt/stor9-wc1-dfw1/627363/www.tacati.it/web/content/wp-content/themes/twentyeleven/inc/theme-options.php:116
 #@ twentyeleven
 msgid "Remember to click \"Save Changes\" to save any changes you have made to the theme options."
 msgstr ""
 
-#: /Applications/MAMP/htdocs/tacati/wp-content/themes/twentyeleven/inc/theme-options.php:118
+#: /mnt/stor9-wc1-dfw1/627363/www.tacati.it/web/content/wp-content/themes/twentyeleven/inc/theme-options.php:118
 #@ twentyeleven
 msgid "For more information:"
 msgstr ""
 
-#: /Applications/MAMP/htdocs/tacati/wp-content/themes/twentyeleven/inc/theme-options.php:119
+#: /mnt/stor9-wc1-dfw1/627363/www.tacati.it/web/content/wp-content/themes/twentyeleven/inc/theme-options.php:119
 #@ twentyeleven
 msgid "<a href=\"http://codex.wordpress.org/Appearance_Theme_Options_Screen\" target=\"_blank\">Documentation on Theme Options</a>"
 msgstr ""
 
-#: /Applications/MAMP/htdocs/tacati/wp-content/themes/twentyeleven/inc/theme-options.php:120
+#: /mnt/stor9-wc1-dfw1/627363/www.tacati.it/web/content/wp-content/themes/twentyeleven/inc/theme-options.php:120
 #@ twentyeleven
 msgid "<a href=\"http://wordpress.org/support/\" target=\"_blank\">Support Forums</a>"
 msgstr ""
 
-#: /Applications/MAMP/htdocs/tacati/wp-content/themes/twentyeleven/inc/theme-options.php:127
+#: /mnt/stor9-wc1-dfw1/627363/www.tacati.it/web/content/wp-content/themes/twentyeleven/inc/theme-options.php:127
 #@ twentyeleven
 msgid "Overview"
 msgstr ""
 
-#: /Applications/MAMP/htdocs/tacati/wp-content/themes/twentyeleven/inc/theme-options.php:149
+#: /mnt/stor9-wc1-dfw1/627363/www.tacati.it/web/content/wp-content/themes/twentyeleven/inc/theme-options.php:149
 #@ twentyeleven
 msgid "Light"
 msgstr ""
 
-#: /Applications/MAMP/htdocs/tacati/wp-content/themes/twentyeleven/inc/theme-options.php:155
+#: /mnt/stor9-wc1-dfw1/627363/www.tacati.it/web/content/wp-content/themes/twentyeleven/inc/theme-options.php:155
 #@ twentyeleven
 msgid "Dark"
 msgstr ""
 
-#: /Applications/MAMP/htdocs/tacati/wp-content/themes/twentyeleven/inc/theme-options.php:173
+#: /mnt/stor9-wc1-dfw1/627363/www.tacati.it/web/content/wp-content/themes/twentyeleven/inc/theme-options.php:173
 #@ twentyeleven
 msgid "Content on left"
 msgstr ""
 
-#: /Applications/MAMP/htdocs/tacati/wp-content/themes/twentyeleven/inc/theme-options.php:178
+#: /mnt/stor9-wc1-dfw1/627363/www.tacati.it/web/content/wp-content/themes/twentyeleven/inc/theme-options.php:178
 #@ twentyeleven
 msgid "Content on right"
 msgstr ""
 
-#: /Applications/MAMP/htdocs/tacati/wp-content/themes/twentyeleven/inc/theme-options.php:183
+#: /mnt/stor9-wc1-dfw1/627363/www.tacati.it/web/content/wp-content/themes/twentyeleven/inc/theme-options.php:183
 #@ twentyeleven
 msgid "One-column, no sidebar"
 msgstr ""
 
-#: /Applications/MAMP/htdocs/tacati/wp-content/themes/twentyeleven/inc/theme-options.php:273
+#: /mnt/stor9-wc1-dfw1/627363/www.tacati.it/web/content/wp-content/themes/twentyeleven/inc/theme-options.php:273
 #@ twentyeleven
 msgid "Select a Color"
 msgstr ""
 
-#: /Applications/MAMP/htdocs/tacati/wp-content/themes/twentyeleven/inc/theme-options.php:276
+#: /mnt/stor9-wc1-dfw1/627363/www.tacati.it/web/content/wp-content/themes/twentyeleven/inc/theme-options.php:276
 #, php-format
 #@ twentyeleven
 msgid "Default color: %s"
 msgstr ""
 
-#: /Applications/MAMP/htdocs/tacati/wp-content/themes/twentyeleven/inc/theme-options.php:312
+#: /mnt/stor9-wc1-dfw1/627363/www.tacati.it/web/content/wp-content/themes/twentyeleven/inc/theme-options.php:312
 #, php-format
 #@ twentyeleven
 msgid "%s Theme Options"
 msgstr ""
 
-#: /Applications/MAMP/htdocs/tacati/wp-content/themes/twentyeleven/inc/theme-options.php:498
+#: /mnt/stor9-wc1-dfw1/627363/www.tacati.it/web/content/wp-content/themes/twentyeleven/inc/theme-options.php:498
 #@ twentyeleven
 msgid "Layout"
 msgstr ""
 
-#: /Applications/MAMP/htdocs/tacati/wp-content/themes/twentyeleven/inc/widgets.php:19
+#: /mnt/stor9-wc1-dfw1/627363/www.tacati.it/web/content/wp-content/themes/twentyeleven/inc/widgets.php:19
 #@ twentyeleven
 msgid "Use this widget to list your recent Aside, Status, Quote, and Link posts"
 msgstr ""
 
-#: /Applications/MAMP/htdocs/tacati/wp-content/themes/twentyeleven/inc/widgets.php:20
+#: /mnt/stor9-wc1-dfw1/627363/www.tacati.it/web/content/wp-content/themes/twentyeleven/inc/widgets.php:20
 #@ twentyeleven
 msgid "Twenty Eleven Ephemera"
 msgstr ""
 
-#: /Applications/MAMP/htdocs/tacati/wp-content/themes/twentyeleven/inc/widgets.php:52
+#: /mnt/stor9-wc1-dfw1/627363/www.tacati.it/web/content/wp-content/themes/twentyeleven/inc/widgets.php:52
 #@ twentyeleven
 msgid "Ephemera"
 msgstr ""
 
-#: /Applications/MAMP/htdocs/tacati/wp-content/themes/twentyeleven/inc/widgets.php:91
-#: /Applications/MAMP/htdocs/tacati/wp-content/themes/twentyeleven/inc/widgets.php:107
+#: /mnt/stor9-wc1-dfw1/627363/www.tacati.it/web/content/wp-content/themes/twentyeleven/inc/widgets.php:91
+#: /mnt/stor9-wc1-dfw1/627363/www.tacati.it/web/content/wp-content/themes/twentyeleven/inc/widgets.php:107
 #@ twentyeleven
 msgid "0 <span class=\"reply\">comments &rarr;</span>"
 msgstr ""
 
-#: /Applications/MAMP/htdocs/tacati/wp-content/themes/twentyeleven/inc/widgets.php:91
-#: /Applications/MAMP/htdocs/tacati/wp-content/themes/twentyeleven/inc/widgets.php:107
+#: /mnt/stor9-wc1-dfw1/627363/www.tacati.it/web/content/wp-content/themes/twentyeleven/inc/widgets.php:91
+#: /mnt/stor9-wc1-dfw1/627363/www.tacati.it/web/content/wp-content/themes/twentyeleven/inc/widgets.php:107
 #@ twentyeleven
 msgid "1 <span class=\"reply\">comment &rarr;</span>"
 msgstr ""
 
-#: /Applications/MAMP/htdocs/tacati/wp-content/themes/twentyeleven/inc/widgets.php:91
-#: /Applications/MAMP/htdocs/tacati/wp-content/themes/twentyeleven/inc/widgets.php:107
+#: /mnt/stor9-wc1-dfw1/627363/www.tacati.it/web/content/wp-content/themes/twentyeleven/inc/widgets.php:91
+#: /mnt/stor9-wc1-dfw1/627363/www.tacati.it/web/content/wp-content/themes/twentyeleven/inc/widgets.php:107
 #@ twentyeleven
 msgid "% <span class=\"reply\">comments &rarr;</span>"
 msgstr ""
 
-#: /Applications/MAMP/htdocs/tacati/wp-content/themes/twentyeleven/inc/widgets.php:105
+#: /mnt/stor9-wc1-dfw1/627363/www.tacati.it/web/content/wp-content/themes/twentyeleven/inc/widgets.php:105
 #, php-format
 #@ twentyeleven
 msgid "Link to %s"
 msgstr ""
 
-#: /Applications/MAMP/htdocs/tacati/wp-content/themes/twentyeleven/inc/widgets.php:157
+#: /mnt/stor9-wc1-dfw1/627363/www.tacati.it/web/content/wp-content/themes/twentyeleven/inc/widgets.php:157
 #@ twentyeleven
 msgid "Title:"
 msgstr ""
 
-#: /Applications/MAMP/htdocs/tacati/wp-content/themes/twentyeleven/inc/widgets.php:160
+#: /mnt/stor9-wc1-dfw1/627363/www.tacati.it/web/content/wp-content/themes/twentyeleven/inc/widgets.php:160
 #@ twentyeleven
 msgid "Number of posts to show:"
 msgstr ""
 
-#: /Applications/MAMP/htdocs/tacati/wp-content/themes/twentyeleven/search.php:18
+#: /mnt/stor9-wc1-dfw1/627363/www.tacati.it/web/content/wp-content/themes/twentyeleven/search.php:18
 #, php-format
 #@ twentyeleven
 msgid "Search Results for: %s"
 msgstr ""
 
-#: /Applications/MAMP/htdocs/tacati/wp-content/themes/twentyeleven/search.php:46
+#: /mnt/stor9-wc1-dfw1/627363/www.tacati.it/web/content/wp-content/themes/twentyeleven/search.php:46
 #@ twentyeleven
 msgid "Sorry, but nothing matched your search criteria. Please try again with some different keywords."
 msgstr ""
 
-#: /Applications/MAMP/htdocs/tacati/wp-content/themes/twentyeleven/searchform.php:11
-#: /Applications/MAMP/htdocs/tacati/wp-content/themes/twentyeleven/searchform.php:12
-#: /Applications/MAMP/htdocs/tacati/wp-content/themes/twentyeleven/searchform.php:13
+#: /mnt/stor9-wc1-dfw1/627363/www.tacati.it/web/content/wp-content/themes/twentyeleven/searchform.php:11
+#: /mnt/stor9-wc1-dfw1/627363/www.tacati.it/web/content/wp-content/themes/twentyeleven/searchform.php:12
+#: /mnt/stor9-wc1-dfw1/627363/www.tacati.it/web/content/wp-content/themes/twentyeleven/searchform.php:13
 #@ twentyeleven
 msgid "Search"
 msgstr ""
 
-#: /Applications/MAMP/htdocs/tacati/wp-content/themes/twentyeleven/showcase.php:77
+#: /mnt/stor9-wc1-dfw1/627363/www.tacati.it/web/content/wp-content/themes/twentyeleven/showcase.php:77
 #@ twentyeleven
 msgid "Featured Post"
 msgstr ""
 
-#: /Applications/MAMP/htdocs/tacati/wp-content/themes/twentyeleven/showcase.php:150
+#: /mnt/stor9-wc1-dfw1/627363/www.tacati.it/web/content/wp-content/themes/twentyeleven/showcase.php:150
 #, php-format
 #@ twentyeleven
 msgid "Featuring: %s"
 msgstr ""
 
-#: /Applications/MAMP/htdocs/tacati/wp-content/themes/twentyeleven/showcase.php:160
+#: /mnt/stor9-wc1-dfw1/627363/www.tacati.it/web/content/wp-content/themes/twentyeleven/showcase.php:160
 #@ twentyeleven
 msgid "Recent Posts"
 msgstr ""
 
-#: /Applications/MAMP/htdocs/tacati/wp-content/themes/twentyeleven/sidebar.php:19
+#: /mnt/stor9-wc1-dfw1/627363/www.tacati.it/web/content/wp-content/themes/twentyeleven/sidebar.php:19
 #@ twentyeleven
 msgid "Archives"
 msgstr ""
 
-#: /Applications/MAMP/htdocs/tacati/wp-content/themes/twentyeleven/sidebar.php:26
+#: /mnt/stor9-wc1-dfw1/627363/www.tacati.it/web/content/wp-content/themes/twentyeleven/sidebar.php:26
 #@ twentyeleven
 msgid "Meta"
 msgstr ""
 
-#: /Applications/MAMP/htdocs/tacati/wp-content/themes/twentyeleven/single.php:19
+#: /mnt/stor9-wc1-dfw1/627363/www.tacati.it/web/content/wp-content/themes/twentyeleven/single.php:19
 #@ twentyeleven
 msgid "<span class=\"meta-nav\">&larr;</span> Previous"
 msgstr ""
 
-#: /Applications/MAMP/htdocs/tacati/wp-content/themes/twentyeleven/single.php:20
+#: /mnt/stor9-wc1-dfw1/627363/www.tacati.it/web/content/wp-content/themes/twentyeleven/single.php:20
 #@ twentyeleven
 msgid "Next <span class=\"meta-nav\">&rarr;</span>"
 msgstr ""
 
-#: /Applications/MAMP/htdocs/tacati/wp-content/themes/twentyeleven/tag.php:19
+#: /mnt/stor9-wc1-dfw1/627363/www.tacati.it/web/content/wp-content/themes/twentyeleven/tag.php:19
 #, php-format
 #@ twentyeleven
 msgid "Tag Archives: %s"
+msgstr ""
+
+#: functions.php:640
+#@ tacati_textdomain
+msgctxt "post type general name"
+msgid "Shops"
+msgstr ""
+
+#: functions.php:641
+#@ tacati_textdomain
+msgctxt "post type singular name"
+msgid "Shop"
+msgstr ""
+
+#: functions.php:642
+#@ tacati_textdomain
+msgctxt "Gallery item"
+msgid "Add New Shop"
+msgstr ""
+
+#: functions.php:643
+#@ tacati_textdomain
+msgid "Add New Shop Item"
+msgstr ""
+
+#: functions.php:644
+#@ tacati_textdomain
+msgid "Edit Shop Item"
+msgstr ""
+
+#: functions.php:645
+#@ tacati_textdomain
+msgid "New Shop Item"
+msgstr ""
+
+#: functions.php:646
+#@ tacati_textdomain
+msgid "View Shop Item"
+msgstr ""
+
+#: functions.php:647
+#@ tacati_textdomain
+msgid "Search Shops"
+msgstr ""
+
+#: functions.php:648
+#@ tacati_textdomain
+msgid "Nothing found"
+msgstr ""
+
+#: functions.php:649
+#@ tacati_textdomain
+msgid "Nothing found in Trash"
+msgstr ""
+
+#: header.php:104
+#@ tacati_textdomain
+msgid "Scegli la bottega"
+msgstr "Scegli la bottega"
+
+#: /mnt/stor9-wc1-dfw1/627363/www.tacati.it/web/content/wp-content/themes/twentyeleven/content-image.php:34
+#, php-format
+#@ twentyeleven
+msgid "<a href=\"%1$s\" rel=\"bookmark\"><time class=\"entry-date\" datetime=\"%2$s\">%3$s</time></a><span class=\"by-author\"> <span class=\"sep\"> by </span> <span class=\"author vcard\"><a class=\"url fn n\" href=\"%4$s\" title=\"%5$s\" rel=\"author\">%6$s</a></span></span>"
+msgstr ""
+
+#: /mnt/stor9-wc1-dfw1/627363/www.tacati.it/web/content/wp-content/themes/twentyeleven/functions.php:584
+#, php-format
+#@ twentyeleven
+msgid "<span class=\"sep\">Posted on </span><a href=\"%1$s\" title=\"%2$s\" rel=\"bookmark\"><time class=\"entry-date\" datetime=\"%3$s\">%4$s</time></a><span class=\"by-author\"> <span class=\"sep\"> by </span> <span class=\"author vcard\"><a class=\"url fn n\" href=\"%5$s\" title=\"%6$s\" rel=\"author\">%7$s</a></span></span>"
 msgstr ""
 

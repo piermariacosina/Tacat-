@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Tacatì (Twenty Eleven Child) v0.1.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2012-11-11 16:37:52+0000\n"
+"PO-Revision-Date: 2012-11-25 16:08:38+0000\n"
 "Last-Translator: piermaria-cosina <piermaria.cosina@gmail.com>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -282,31 +282,31 @@ msgstr ""
 #: woocommerce/woocommerce-pip-template/template.php:21
 #@ tacati_textdomain
 msgid "Order"
-msgstr ""
+msgstr "Ordine"
 
 #: functions.php:592
 #@ tacati_textdomain
 msgid "Billing"
-msgstr ""
+msgstr "Fatturazione"
 
 #: functions.php:593
 #: woocommerce/cart/totals.php:41
 #: woocommerce/checkout/review-order.php:45
 #@ tacati_textdomain
 msgid "Shipping"
-msgstr ""
+msgstr "Scegli il metodo di spedizione "
 
 #: functions.php:594
 #: woocommerce/cart/totals.php:202
 #: woocommerce/checkout/review-order.php:208
 #@ tacati_textdomain
 msgid "Order Total"
-msgstr ""
+msgstr "Totale ordine"
 
 #: functions.php:595
 #@ tacati_textdomain
 msgid "Days of delivery"
-msgstr ""
+msgstr "Giorni di consegna"
 
 #: functions.php:596
 #@ tacati_textdomain
@@ -455,17 +455,17 @@ msgstr ""
 #: functions.php:881
 #@ tacati_textdomain
 msgid "Please enter something into the noprofit shiny field."
-msgstr ""
+msgstr "Devi selezionare la No-Profit"
 
 #: functions.php:884
 #@ tacati_textdomain
 msgid "Please enter something into the delivery hours shiny field."
-msgstr ""
+msgstr "Devi selezionare l'orario di consegna"
 
 #: functions.php:887
 #@ tacati_textdomain
 msgid "Please enter something into the days of delivery shiny field."
-msgstr ""
+msgstr "Devi selezionare il giorno di consegna."
 
 #: functions.php:1014
 #@ tacati_textdomain
@@ -477,7 +477,7 @@ msgstr ""
 #, php-format
 #@ tacati_textdomain
 msgid "Search Results: &ldquo;%s&rdquo;"
-msgstr ""
+msgstr "Risultato di ricerca: &ldquo;%s&rdquo;"
 
 #: functions.php:1018
 #: woocommerce/archive-product.php:33
@@ -489,39 +489,39 @@ msgstr ""
 #: functions.php:1089
 #@ tacati_textdomain
 msgid "Cart Subtotal:"
-msgstr ""
+msgstr "Subtotale"
 
 #: functions.php:1095
 #: woocommerce/woocommerce-pip-template/email-template.php:159
 #: woocommerce/woocommerce-pip-template/template.php:115
 #@ tacati_textdomain
 msgid "Cart Discount:"
-msgstr ""
+msgstr "Sconto:"
 
 #: functions.php:1101
 #: woocommerce/woocommerce-pip-template/email-template.php:154
 #: woocommerce/woocommerce-pip-template/template.php:110
 #@ tacati_textdomain
 msgid "Shipping:"
-msgstr ""
+msgstr "Metodo di consegna:"
 
 #: functions.php:1109
 #: woocommerce/woocommerce-pip-template/email-template.php:164
 #: woocommerce/woocommerce-pip-template/template.php:120
 #@ tacati_textdomain
 msgid "Order Discount:"
-msgstr ""
+msgstr "Sconto:"
 
 #: functions.php:1114
 #@ tacati_textdomain
 msgid "Order Total:"
-msgstr ""
+msgstr "Totale:"
 
 #: woocommerce/archive-product.php:77
 #: woocommerce/loop-shop.php:38
 #@ tacati_textdomain
 msgid "No products found which match your selection."
-msgstr ""
+msgstr "Non sono stati trovati i prodotti richiesti"
 
 #: woocommerce/cart/cart.php:22
 #: woocommerce/checkout/form-pay.php:17
@@ -537,7 +537,7 @@ msgstr ""
 #: woocommerce/woocommerce-pip-template/template.php:140
 #@ tacati_textdomain
 msgid "Product"
-msgstr ""
+msgstr "Prodotto"
 
 #: woocommerce/cart/cart.php:23
 #: woocommerce/emails/admin-new-order.php:25
@@ -549,7 +549,7 @@ msgstr ""
 #: woocommerce/woocommerce-pip-template/template.php:99
 #@ tacati_textdomain
 msgid "Price"
-msgstr ""
+msgstr "Prezzo"
 
 #: woocommerce/cart/cart.php:24
 #: woocommerce/emails/admin-new-order.php:24
@@ -562,143 +562,143 @@ msgstr ""
 #: woocommerce/woocommerce-pip-template/template.php:141
 #@ tacati_textdomain
 msgid "Quantity"
-msgstr ""
+msgstr "Quantità"
 
 #: woocommerce/cart/cart.php:25
 #: woocommerce/myaccount/my-orders.php:33
 #@ tacati_textdomain
 msgid "Total"
-msgstr ""
+msgstr "Totale"
 
 #: woocommerce/cart/cart.php:41
 #@ tacati_textdomain
 msgid "Remove this item"
-msgstr ""
+msgstr "Rimuovi questo articolo"
 
 #: woocommerce/cart/cart.php:66
 #@ tacati_textdomain
 msgid "Available on backorder"
-msgstr ""
+msgstr "E' possibile prenotarlo"
 
 #: woocommerce/cart/cart.php:116
 #@ tacati_textdomain
 msgid "Coupon"
-msgstr ""
+msgstr "Coupon sconto"
 
 #: woocommerce/cart/cart.php:116
 #: woocommerce/checkout/form-coupon.php:24
 #@ tacati_textdomain
 msgid "Apply Coupon"
-msgstr ""
+msgstr "Inserisci il codice sconto"
 
 #: woocommerce/cart/cart.php:123
 #@ tacati_textdomain
 msgid "Update Cart"
-msgstr ""
+msgstr "Aggiorna il carrello"
 
 #: woocommerce/cart/cart.php:123
 #@ tacati_textdomain
 msgid "Proceed to Checkout &rarr;"
-msgstr ""
+msgstr "Procedi all'acquisto"
 
 #: woocommerce/cart/cross-sells.php:33
 #@ tacati_textdomain
 msgid "You may be interested in&hellip;"
-msgstr ""
+msgstr "Ti potrebbero interessare&hellip;"
 
 #: woocommerce/cart/empty.php:11
 #@ tacati_textdomain
 msgid "Your cart is currently empty."
-msgstr ""
+msgstr "Il tuo carrello al momento è vuoto"
 
 #: woocommerce/cart/empty.php:15
 #@ tacati_textdomain
 msgid "&larr; Return To Shop"
-msgstr ""
+msgstr "&larr; Ritorna al negozio"
 
 #: woocommerce/cart/mini-cart.php:54
 #@ tacati_textdomain
 msgid "No products in the cart."
-msgstr ""
+msgstr "Non ci sono prodotti nel carrello"
 
 #: woocommerce/cart/mini-cart.php:62
 #: woocommerce/cart/totals.php:146
 #@ tacati_textdomain
 msgid "Subtotal"
-msgstr ""
+msgstr "Subtotale"
 
 #: woocommerce/cart/mini-cart.php:68
 #@ tacati_textdomain
 msgid "View Cart &rarr;"
-msgstr ""
+msgstr "Vai al carrello &rarr;"
 
 #: woocommerce/cart/mini-cart.php:69
 #@ tacati_textdomain
 msgid "Checkout &rarr;"
-msgstr ""
+msgstr "Acquista &rarr;"
 
 #: woocommerce/cart/shipping-calculator.php:18
 #@ tacati_textdomain
 msgid "Calculate Shipping"
-msgstr ""
+msgstr "Calcola il costo di spedizione"
 
 #: woocommerce/cart/shipping-calculator.php:22
 #@ tacati_textdomain
 msgid "Select a country&hellip;"
-msgstr ""
+msgstr "Seleziona una Nazione&hellip;"
 
 #: woocommerce/cart/shipping-calculator.php:48
 #@ tacati_textdomain
 msgid "Select a state&hellip;"
-msgstr ""
+msgstr "Selezione uno Stato&hellip;"
 
 #: woocommerce/cart/shipping-calculator.php:59
 #@ tacati_textdomain
 msgid "State"
-msgstr ""
+msgstr "Stato"
 
 #: woocommerce/cart/shipping-calculator.php:67
 #@ tacati_textdomain
 msgid "Postcode/Zip"
-msgstr ""
+msgstr "C.A.P."
 
 #: woocommerce/cart/shipping-calculator.php:67
 #@ tacati_textdomain
 msgid "Postcode"
-msgstr ""
+msgstr "CAP"
 
 #: woocommerce/cart/shipping-calculator.php:70
 #@ tacati_textdomain
 msgid "Update Totals"
-msgstr ""
+msgstr "Aggiorna i Totali"
 
 #: woocommerce/cart/totals.php:20
 #@ tacati_textdomain
 msgid "Cart Totals"
-msgstr ""
+msgstr "Totale Carrello"
 
 #: woocommerce/cart/totals.php:25
 #: woocommerce/checkout/review-order.php:27
 #@ tacati_textdomain
 msgid "Cart Subtotal"
-msgstr ""
+msgstr "Scegli il metodo di spedizione che preferisci"
 
 #: woocommerce/cart/totals.php:32
 #: woocommerce/checkout/review-order.php:34
 #@ tacati_textdomain
 msgid "Cart Discount"
-msgstr ""
+msgstr "Sconto "
 
 #: woocommerce/cart/totals.php:32
 #: woocommerce/cart/totals.php:195
 #@ tacati_textdomain
 msgid "[Remove]"
-msgstr ""
+msgstr "[Rimuovi]"
 
 #: woocommerce/cart/totals.php:104
 #@ tacati_textdomain
 msgid "Please fill in your details to see available shipping methods."
-msgstr ""
+msgstr "Compila i tuoi dati per vedere i metodi di spedizioni disponibili"
 
 #: woocommerce/cart/totals.php:106
 #: woocommerce/checkout/review-order.php:113
@@ -728,7 +728,7 @@ msgstr ""
 #: woocommerce/checkout/review-order.php:198
 #@ tacati_textdomain
 msgid "Order Discount"
-msgstr ""
+msgstr "Sconto totale ordine"
 
 #: woocommerce/cart/totals.php:220
 #, php-format
@@ -779,12 +779,12 @@ msgstr ""
 #: woocommerce/order/order-details.php:104
 #@ tacati_textdomain
 msgid "Billing Address"
-msgstr ""
+msgstr "Indirizzo di fatturazione"
 
 #: woocommerce/checkout/form-billing.php:38
 #@ tacati_textdomain
 msgid "Create an account?"
-msgstr ""
+msgstr "Vuoi creare un account?"
 
 #: woocommerce/checkout/form-billing.php:47
 #@ tacati_textdomain
@@ -799,32 +799,32 @@ msgstr ""
 #: woocommerce/checkout/form-checkout.php:30
 #@ tacati_textdomain
 msgid "Your order"
-msgstr ""
+msgstr "Il tuo ordine"
 
 #: woocommerce/checkout/form-coupon.php:12
 #@ tacati_textdomain
 msgid "Have a coupon?"
-msgstr ""
+msgstr "Hai un coupon?"
 
 #: woocommerce/checkout/form-coupon.php:15
 #@ tacati_textdomain
 msgid "Click here to enter your code"
-msgstr ""
+msgstr "Click qui per inserire il tuo codice"
 
 #: woocommerce/checkout/form-coupon.php:20
 #@ tacati_textdomain
 msgid "Coupon code"
-msgstr ""
+msgstr "Codice sconto"
 
 #: woocommerce/checkout/form-login.php:13
 #@ tacati_textdomain
 msgid "Already registered?"
-msgstr ""
+msgstr "Sei già registrato?"
 
 #: woocommerce/checkout/form-login.php:16
 #@ tacati_textdomain
 msgid "Click here to login"
-msgstr ""
+msgstr "Clicca qui per fare il login"
 
 #: woocommerce/checkout/form-login.php:18
 #@ tacati_textdomain
@@ -836,19 +836,19 @@ msgstr ""
 #: woocommerce/order/order-details.php:18
 #@ tacati_textdomain
 msgid "Qty"
-msgstr ""
+msgstr "Quantità"
 
 #: woocommerce/checkout/form-pay.php:19
 #: woocommerce/checkout/review-order.php:21
 #: woocommerce/order/order-details.php:19
 #@ tacati_textdomain
 msgid "Totals"
-msgstr ""
+msgstr "Totale"
 
 #: woocommerce/checkout/form-pay.php:75
 #@ tacati_textdomain
 msgid "Sorry, it seems that there are no available payment methods for your location. Please contact us if you require assistance or wish to make alternate arrangements."
-msgstr ""
+msgstr "Sembra che non ci siano metodi di pagamento disponibili. Non esitare a contattarci nel caso ti servisse assistenza"
 
 #: woocommerce/checkout/form-pay.php:84
 #@ tacati_textdomain
@@ -858,7 +858,7 @@ msgstr ""
 #: woocommerce/checkout/form-shipping.php:30
 #@ tacati_textdomain
 msgid "Ship to billing address?"
-msgstr ""
+msgstr "Vuoi che ti portiamo la spesa all'indirizzo di fatturazione?"
 
 #: woocommerce/checkout/form-shipping.php:35
 #: woocommerce/myaccount/form-edit-address.php:25
@@ -866,14 +866,14 @@ msgstr ""
 #: woocommerce/order/order-details.php:120
 #@ tacati_textdomain
 msgid "Shipping Address"
-msgstr ""
+msgstr "Indirizzo di spedizione"
 
 #: woocommerce/checkout/form-shipping.php:56
 #: woocommerce/single-product/tabs/attributes.php:18
 #: woocommerce/single-product/tabs/tab-attributes.php:16
 #@ tacati_textdomain
 msgid "Additional Information"
-msgstr ""
+msgstr "Informazioni aggiuntive"
 
 #: woocommerce/checkout/review-order.php:111
 #@ tacati_textdomain
@@ -898,54 +898,54 @@ msgstr ""
 #: woocommerce/checkout/review-order.php:286
 #@ tacati_textdomain
 msgid "Update totals"
-msgstr ""
+msgstr "Aggiorna il totale"
 
 #: woocommerce/checkout/review-order.php:292
 #@ tacati_textdomain
 msgid "Place order"
-msgstr ""
+msgstr "Esegui un ordine"
 
 #: woocommerce/checkout/review-order.php:296
 #@ tacati_textdomain
 msgid "I accept the"
-msgstr ""
+msgstr "Acceto i "
 
 #: woocommerce/checkout/review-order.php:296
 #@ tacati_textdomain
 msgid "terms &amp; conditions"
-msgstr ""
+msgstr "termini &amp; condizioni"
 
 #: woocommerce/checkout/thankyou.php:18
 #@ tacati_textdomain
 msgid "Unfortunately your order cannot be processed as the originating bank/merchant has declined your transaction."
-msgstr ""
+msgstr "Sfortunatamente il tuo ordine non può essere eseguito in quanto la banca ha rifiutato la transazione"
 
 #: woocommerce/checkout/thankyou.php:22
 #@ tacati_textdomain
 msgid "Please attempt your purchase again or go to your account page."
-msgstr ""
+msgstr "Ti preghimo di riprovare con l'acquisto o di andare sulla tua pagina"
 
 #: woocommerce/checkout/thankyou.php:24
 #@ tacati_textdomain
 msgid "Please attempt your purchase again."
-msgstr ""
+msgstr "Perfavore riprova l'acquisto"
 
 #: woocommerce/checkout/thankyou.php:29
 #: woocommerce/myaccount/my-orders.php:61
 #@ tacati_textdomain
 msgid "Pay"
-msgstr ""
+msgstr "Paga "
 
 #: woocommerce/checkout/thankyou.php:31
 #@ tacati_textdomain
 msgid "My Account"
-msgstr ""
+msgstr "Il mio account"
 
 #: woocommerce/checkout/thankyou.php:37
 #: woocommerce/checkout/thankyou.php:70
 #@ tacati_textdomain
 msgid "Thank you. Your order has been received."
-msgstr ""
+msgstr "Grazie. Il tuo ordine è stato ricevuto"
 
 #: woocommerce/checkout/thankyou.php:41
 #: woocommerce/emails/admin-new-order.php:18
@@ -955,29 +955,29 @@ msgstr ""
 #: woocommerce/emails/customer-processing-order.php:18
 #@ tacati_textdomain
 msgid "Order:"
-msgstr ""
+msgstr "Dettaglio ordine:"
 
 #: woocommerce/checkout/thankyou.php:45
 #@ tacati_textdomain
 msgid "Date:"
-msgstr ""
+msgstr "Data:"
 
 #: woocommerce/checkout/thankyou.php:49
 #: woocommerce/woocommerce-pip-template/email-template.php:174
 #: woocommerce/woocommerce-pip-template/template.php:126
 #@ tacati_textdomain
 msgid "Total:"
-msgstr ""
+msgstr "Totale:"
 
 #: woocommerce/checkout/thankyou.php:54
 #@ tacati_textdomain
 msgid "Payment method:"
-msgstr ""
+msgstr "Metodo di pagamento:"
 
 #: woocommerce/custom_widgets/widget-cart.php:30
 #@ tacati_textdomain
 msgid "Display the user's Cart in the sidebar."
-msgstr ""
+msgstr "Mostra il carrello dell'utente all'interno della sidebar"
 
 #: woocommerce/custom_widgets/widget-cart.php:32
 #@ tacati_textdomain
@@ -987,7 +987,7 @@ msgstr ""
 #: woocommerce/custom_widgets/widget-cart.php:58
 #@ tacati_textdomain
 msgid "Cart"
-msgstr ""
+msgstr "Carrello"
 
 #: woocommerce/custom_widgets/widget-cart.php:111
 #: woocommerce/custom_widgets/widget-recently_viewed.php:167
@@ -995,17 +995,17 @@ msgstr ""
 #@ tacati_textdomain
 #@ twentyeleven
 msgid "Title:"
-msgstr ""
+msgstr "Titolo:"
 
 #: woocommerce/custom_widgets/widget-cart.php:115
 #@ tacati_textdomain
 msgid "Hide if cart is empty"
-msgstr ""
+msgstr "Nascondi il carrello se è vuoto"
 
 #: woocommerce/custom_widgets/widget-login.php:28
 #@ tacati_textdomain
 msgid "Display a login area and \"My Account\" links in the sidebar."
-msgstr ""
+msgstr "Mostra un area di login e \"My Account\" links nella sidebar."
 
 #: woocommerce/custom_widgets/widget-login.php:30
 #@ tacati_textdomain
@@ -1015,17 +1015,17 @@ msgstr ""
 #: woocommerce/custom_widgets/widget-login.php:70
 #@ tacati_textdomain
 msgid "My account"
-msgstr ""
+msgstr "Il mio Profilo"
 
 #: woocommerce/custom_widgets/widget-login.php:71
 #@ tacati_textdomain
 msgid "Change my password"
-msgstr ""
+msgstr "Cambia la password"
 
 #: woocommerce/custom_widgets/widget-login.php:72
 #@ tacati_textdomain
 msgid "Logout"
-msgstr ""
+msgstr "Esci"
 
 #: woocommerce/custom_widgets/widget-login.php:107
 #: woocommerce/myaccount/form-login.php:27
@@ -1050,49 +1050,49 @@ msgstr ""
 #: woocommerce/custom_widgets/widget-login.php:111
 #@ tacati_textdomain
 msgid "Lost password?"
-msgstr ""
+msgstr "Hai perso la password?"
 
 #: woocommerce/custom_widgets/widget-login.php:213
 #@ tacati_textdomain
 msgid "Logged out title:"
-msgstr ""
+msgstr "Titolo del log out:"
 
 #: woocommerce/custom_widgets/widget-login.php:214
 #@ tacati_textdomain
 msgid "Customer Login"
-msgstr ""
+msgstr "Login cliente"
 
 #: woocommerce/custom_widgets/widget-login.php:216
 #@ tacati_textdomain
 msgid "Logged in title:"
-msgstr ""
+msgstr "Titolo del login:"
 
 #: woocommerce/custom_widgets/widget-login.php:217
 #, php-format
 #@ tacati_textdomain
 msgid "Welcome %s"
-msgstr ""
+msgstr "Benvenuto %s"
 
 #: woocommerce/custom_widgets/widget-login.php:267
 #: woocommerce/custom_widgets/widget-login.php:270
 #@ tacati_textdomain
 msgid "ERROR"
-msgstr ""
+msgstr "ERRORE"
 
 #: woocommerce/custom_widgets/widget-login.php:267
 #@ tacati_textdomain
 msgid "Please enter a username."
-msgstr ""
+msgstr "Perfavore inserisce l'username"
 
 #: woocommerce/custom_widgets/widget-login.php:270
 #@ tacati_textdomain
 msgid "Please enter your password."
-msgstr ""
+msgstr "Perfavore inserisci la tua password."
 
 #: woocommerce/custom_widgets/widget-recently_viewed.php:28
 #@ tacati_textdomain
 msgid "Display a list of recently viewed products."
-msgstr ""
+msgstr "Mostra l'elenco dei prodotti visti di recente."
 
 #: woocommerce/custom_widgets/widget-recently_viewed.php:30
 #@ tacati_textdomain
@@ -1102,22 +1102,22 @@ msgstr ""
 #: woocommerce/custom_widgets/widget-recently_viewed.php:69
 #@ tacati_textdomain
 msgid "Recently viewed"
-msgstr ""
+msgstr "Visti di recente"
 
 #: woocommerce/custom_widgets/widget-recently_viewed.php:170
 #@ tacati_textdomain
 msgid "Number of products to show:"
-msgstr ""
+msgstr "Numero di prodotti da mostrare:"
 
 #: woocommerce/emails/admin-new-order.php:14
 #@ tacati_textdomain
 msgid "You have received an order from"
-msgstr ""
+msgstr "Hai ricevuto un ordine da:"
 
 #: woocommerce/emails/admin-new-order.php:14
 #@ tacati_textdomain
 msgid ". Their order is as follows:"
-msgstr ""
+msgstr ". Il loro ordine è:"
 
 #: woocommerce/emails/admin-new-order.php:18
 #: woocommerce/emails/customer-invoice.php:22
@@ -1132,80 +1132,80 @@ msgstr ""
 #: woocommerce/order/order-details.php:86
 #@ tacati_textdomain
 msgid "Customer details"
-msgstr ""
+msgstr "Dettagli cliente"
 
 #: woocommerce/emails/customer-completed-order.php:14
 #@ tacati_textdomain
 msgid "Your order is complete. Your order's details are below:"
-msgstr ""
+msgstr "Il tuo ordine è stato completato! Il dettaglio è qui sotto: "
 
 #: woocommerce/emails/customer-invoice.php:16
 #, php-format
 #@ tacati_textdomain
 msgid "An order has been created for you on &ldquo;%s&rdquo;. To pay for this order please use the following link: <a href=\"%s\">Pay</a>"
-msgstr ""
+msgstr "E' stato creato un ordine per te su &ldquo;%s&rdquo;. Per pagare clicca su questo link: <a href=\"%s\">Pay</a>"
 
 #: woocommerce/emails/customer-new-account.php:14
 #, php-format
 #@ tacati_textdomain
 msgid "Thanks for creating an account on %s. Your username is <strong>%s</strong>."
-msgstr ""
+msgstr "Grazie per aver creato un account su %s. Il tuo username è <strong>%s</strong>."
 
 #: woocommerce/emails/customer-new-account.php:16
 #, php-format
 #@ tacati_textdomain
 msgid "You can access your account area here: %s."
-msgstr ""
+msgstr "Puoi accedere al tuo account qui: %s."
 
 #: woocommerce/emails/customer-note.php:14
 #@ tacati_textdomain
 msgid "Hello, a note has just been added to your order:"
-msgstr ""
+msgstr "Ciao, è stata appena aggiunta una nota al tuo ordine:"
 
 #: woocommerce/emails/customer-note.php:18
 #@ tacati_textdomain
 msgid "For your reference, your order details are shown below."
-msgstr ""
+msgstr "Il dettaglio del tuo ordine è mostrato qui sotto:"
 
 #: woocommerce/emails/customer-processing-order.php:14
 #@ tacati_textdomain
 msgid "Thank you, we are now processing your order. Your order's details are below."
-msgstr ""
+msgstr "Grazie! Stiamo processando il tuo ordine. I dettagli sono elencati qui sotto."
 
 #: woocommerce/emails/email-addresses.php:16
 #: woocommerce/woocommerce-pip-template/email-template.php:90
 #: woocommerce/woocommerce-pip-template/template.php:36
 #@ tacati_textdomain
 msgid "Billing address"
-msgstr ""
+msgstr "Indirizzo di fatturazione"
 
 #: woocommerce/emails/email-addresses.php:26
 #: woocommerce/woocommerce-pip-template/email-template.php:106
 #: woocommerce/woocommerce-pip-template/template.php:55
 #@ tacati_textdomain
 msgid "Shipping address"
-msgstr ""
+msgstr "Indirizzo di spedizione"
 
 #: woocommerce/emails/email-order-items.php:35
 #@ tacati_textdomain
 msgid "Download:"
-msgstr ""
+msgstr "Scarica:"
 
 #: woocommerce/loop/add-to-cart.php:17
 #: woocommerce/loop/add-to-cart.php:34
 #@ tacati_textdomain
 msgid "Read More"
-msgstr ""
+msgstr "Leggi"
 
 #: woocommerce/loop/add-to-cart.php:26
 #@ tacati_textdomain
 msgid "Select options"
-msgstr ""
+msgstr "Seleziona un'opzione"
 
 #: woocommerce/loop/add-to-cart.php:30
 #@ tacati_textdomain
 msgid "View options"
-msgstr ""
+msgstr "Visualizza opzioni"
 
 #: woocommerce/loop/add-to-cart.php:38
 #: woocommerce/shortcodes/shortcode-init.php:425
@@ -1215,7 +1215,7 @@ msgstr ""
 #: woocommerce/single-product/add-to-cart/variable.php:65
 #@ tacati_textdomain
 msgid "Add to cart"
-msgstr ""
+msgstr "Aggiungi al carrello"
 
 #: woocommerce/loop/pagination.php:16
 #@ tacati_textdomain
@@ -1231,66 +1231,66 @@ msgstr "precedente"
 #: woocommerce/single-product/sale-flash.php:14
 #@ tacati_textdomain
 msgid "Sale!"
-msgstr ""
+msgstr "In offerta!"
 
 #: woocommerce/loop/sorting.php:15
 #@ tacati_textdomain
 msgid "Default sorting"
-msgstr ""
+msgstr "Ordinamento di default"
 
 #: woocommerce/loop/sorting.php:16
 #@ tacati_textdomain
 msgid "Sort alphabetically"
-msgstr ""
+msgstr "Metti in ordine alfabetico"
 
 #: woocommerce/loop/sorting.php:17
 #@ tacati_textdomain
 msgid "Sort by most recent"
-msgstr ""
+msgstr "Ordina dal più recente"
 
 #: woocommerce/loop/sorting.php:18
 #@ tacati_textdomain
 msgid "Sort by price"
-msgstr ""
+msgstr "Ordina per prezzo"
 
 #: woocommerce/myaccount/form-change-password.php:18
 #@ tacati_textdomain
 msgid "New password"
-msgstr ""
+msgstr "Nuova password"
 
 #: woocommerce/myaccount/form-change-password.php:22
 #@ tacati_textdomain
 msgid "Re-enter new password"
-msgstr ""
+msgstr "Re-inserisci la password"
 
 #: woocommerce/myaccount/form-change-password.php:27
 #@ tacati_textdomain
 msgid "Save"
-msgstr ""
+msgstr "Salva"
 
 #: woocommerce/myaccount/form-edit-address.php:40
 #@ tacati_textdomain
 msgid "Save Address"
-msgstr ""
+msgstr "Salva l'indirizzo"
 
 #: woocommerce/myaccount/form-login.php:24
 #: woocommerce/myaccount/form-login.php:38
 #: woocommerce/shop/form-login.php:29
 #@ tacati_textdomain
 msgid "Login"
-msgstr ""
+msgstr "Login"
 
 #: woocommerce/myaccount/form-login.php:39
 #: woocommerce/shop/form-login.php:31
 #@ tacati_textdomain
 msgid "Lost Password?"
-msgstr ""
+msgstr "Hai dimenticato la password"
 
 #: woocommerce/myaccount/form-login.php:49
 #: woocommerce/myaccount/form-login.php:90
 #@ tacati_textdomain
 msgid "Register"
-msgstr ""
+msgstr "Registrati"
 
 #: woocommerce/myaccount/form-login.php:55
 #@ tacati_textdomain
@@ -1306,18 +1306,18 @@ msgstr ""
 #: woocommerce/myaccount/form-login.php:78
 #@ tacati_textdomain
 msgid "Re-enter password"
-msgstr ""
+msgstr "Re-inserisci la password"
 
 #: woocommerce/myaccount/my-account.php:15
 #, php-format
 #@ tacati_textdomain
 msgid "Hello, <strong>%s</strong>. From your account dashboard you can view your recent orders, manage your shipping and billing addresses and <a href=\"%s\">change your password</a>."
-msgstr ""
+msgstr "Ciao, <strong>%s</strong>. Dal tuo account puoi vedere i tuoi ordini recenti, gestire i tuoi indirizzi di spedizione e di fatturazione e <a href=\"%s\">cambiare la password</a>."
 
 #: woocommerce/myaccount/my-account.php:20
 #@ tacati_textdomain
 msgid "Available downloads"
-msgstr ""
+msgstr "Download disponibili"
 
 #: woocommerce/myaccount/my-account.php:23
 #@ tacati_textdomain
@@ -1329,72 +1329,72 @@ msgstr[1] ""
 #: woocommerce/myaccount/my-account.php:28
 #@ tacati_textdomain
 msgid "Recent Orders"
-msgstr ""
+msgstr "Ordini recenti"
 
 #: woocommerce/myaccount/my-account.php:31
 #@ tacati_textdomain
 msgid "My Address"
-msgstr ""
+msgstr "Il mio indirizzo"
 
 #: woocommerce/myaccount/my-account.php:32
 #@ tacati_textdomain
 msgid "The following addresses will be used on the checkout page by default."
-msgstr ""
+msgstr "I seguenti indirizzi verranno utilizzati sulla pagina di checkout di default."
 
 #: woocommerce/myaccount/my-address.php:43
 #@ tacati_textdomain
 msgid "You have not set up a billing address yet."
-msgstr ""
+msgstr "Non hai ancora selezionato un indirizzo di fatturazione."
 
 #: woocommerce/myaccount/my-address.php:74
 #@ tacati_textdomain
 msgid "You have not set up a shipping address yet."
-msgstr ""
+msgstr "Non hai ancora selezionato un indirizzo di spedizione."
 
 #: woocommerce/myaccount/my-orders.php:32
 #@ tacati_textdomain
 msgid "Ship to"
-msgstr ""
+msgstr "Spedisci a "
 
 #: woocommerce/myaccount/my-orders.php:55
 #@ tacati_textdomain
 msgid "Click to cancel this order"
-msgstr ""
+msgstr "Clicca qui per cancellare l'ordine"
 
 #: woocommerce/myaccount/my-orders.php:55
 #@ tacati_textdomain
 msgid "Cancel"
-msgstr ""
+msgstr "Cancella"
 
 #: woocommerce/myaccount/my-orders.php:76
 #@ tacati_textdomain
 msgid "You have no recent orders."
-msgstr ""
+msgstr "Non hai ordini recenti."
 
 #: woocommerce/order/form-tracking.php:15
 #@ tacati_textdomain
 msgid "To track your order please enter your Order ID in the box below and press return. This was given to you on your receipt and in the confirmation email you should have received."
-msgstr ""
+msgstr "Se vuoi controllare il tuo ordine inserisci il tuo codice ordine qui sotto e premi invio. Questo codice si trova nella ricevuta e nell'email di conferma che dovresti aver ricevuto."
 
 #: woocommerce/order/form-tracking.php:17
 #@ tacati_textdomain
 msgid "Order ID"
-msgstr ""
+msgstr "Codice ordine"
 
 #: woocommerce/order/form-tracking.php:17
 #@ tacati_textdomain
 msgid "Found in your order confirmation email."
-msgstr ""
+msgstr "trovato nella tua mail di conferma ordine."
 
 #: woocommerce/order/form-tracking.php:18
 #@ tacati_textdomain
 msgid "Billing Email"
-msgstr ""
+msgstr "Email di fatturazione"
 
 #: woocommerce/order/form-tracking.php:18
 #@ tacati_textdomain
 msgid "Email you used during checkout."
-msgstr ""
+msgstr "Email che hai usato al momento del checkout."
 
 #: woocommerce/order/form-tracking.php:21
 #@ tacati_textdomain
@@ -1404,22 +1404,22 @@ msgstr ""
 #: woocommerce/order/order-details.php:13
 #@ tacati_textdomain
 msgid "Order Details"
-msgstr ""
+msgstr "Dettagli dell'ordine"
 
 #: woocommerce/order/order-details.php:57
 #@ tacati_textdomain
 msgid "Download file &rarr;"
-msgstr ""
+msgstr "Scarica il file &rarr;"
 
 #: woocommerce/order/order-details.php:79
 #@ tacati_textdomain
 msgid "Order Again"
-msgstr ""
+msgstr "Ordina di nuovo"
 
 #: woocommerce/order/order-details.php:91
 #@ tacati_textdomain
 msgid "Telephone:"
-msgstr ""
+msgstr "Numero di telefono:"
 
 #: woocommerce/order/order-details.php:109
 #@ tacati_textdomain
@@ -1430,120 +1430,120 @@ msgstr ""
 #, php-format
 #@ tacati_textdomain
 msgid "Order %s which was made %s has the status &ldquo;%s&rdquo;"
-msgstr ""
+msgstr "L'ordine %s che è stato fatto %s ha lo status &ldquo;%s&rdquo;"
 
 #: woocommerce/order/tracking.php:16
 #@ tacati_textdomain
 msgid "ago"
-msgstr ""
+msgstr "fa"
 
 #: woocommerce/order/tracking.php:18
 #@ tacati_textdomain
 msgid "and was completed"
-msgstr ""
+msgstr "ed è stato completato"
 
 #: woocommerce/order/tracking.php:18
 #@ tacati_textdomain
 msgid " ago"
-msgstr ""
+msgstr "fa"
 
 #: woocommerce/order/tracking.php:29
 #@ tacati_textdomain
 msgid "Order Updates"
-msgstr ""
+msgstr "Aggiornamento ordine"
 
 #: woocommerce/shop/breadcrumb.php:13
 #@ tacati_textdomain
 msgctxt "breadcrumb"
 msgid "Home"
-msgstr ""
+msgstr "Home"
 
 #: woocommerce/shop/breadcrumb.php:65
 #@ tacati_textdomain
 msgid "Products tagged &ldquo;"
-msgstr ""
+msgstr "Prodotti taggati &ldquo;"
 
 #: woocommerce/shop/breadcrumb.php:88
 #: woocommerce/shop/breadcrumb.php:190
 #@ tacati_textdomain
 msgid "Search results for &ldquo;"
-msgstr ""
+msgstr "Cerca i risultati per &ldquo;"
 
 #: woocommerce/shop/breadcrumb.php:148
 #@ tacati_textdomain
 msgid "Error 404"
-msgstr ""
+msgstr "ERRORE"
 
 #: woocommerce/shop/breadcrumb.php:194
 #@ tacati_textdomain
 msgid "Posts tagged &ldquo;"
-msgstr ""
+msgstr "Posts taggato &ldquo;"
 
 #: woocommerce/shop/breadcrumb.php:199
 #@ tacati_textdomain
 msgid "Author:"
-msgstr ""
+msgstr "Autore:"
 
 #: woocommerce/shop/breadcrumb.php:204
 #@ tacati_textdomain
 msgid "Page"
-msgstr ""
+msgstr "Pagina"
 
 #: woocommerce/single-product/add-to-cart/variable.php:25
 #@ tacati_textdomain
 msgid "Choose an option"
-msgstr ""
+msgstr "Scegli un'opzione"
 
 #: woocommerce/single-product/add-to-cart/variable.php:51
 #@ tacati_textdomain
 msgid "Clear selection"
-msgstr ""
+msgstr "Selezione chiara"
 
 #: woocommerce/single-product/meta.php:15
 #@ tacati_textdomain
 msgid "SKU:"
-msgstr ""
+msgstr "Codice prodotto:"
 
 #: woocommerce/single-product/meta.php:18
 #@ tacati_textdomain
 msgid "Category:"
-msgstr ""
+msgstr "Categoria:"
 
 #: woocommerce/single-product/meta.php:20
 #@ tacati_textdomain
 msgid "Tags:"
-msgstr ""
+msgstr "Tags:"
 
 #: woocommerce/single-product/product-attributes.php:26
 #@ tacati_textdomain
 msgid "Weight"
-msgstr ""
+msgstr "Peso"
 
 #: woocommerce/single-product/product-attributes.php:35
 #@ tacati_textdomain
 msgid "Dimensions"
-msgstr ""
+msgstr "Dimensioni"
 
 #: woocommerce/single-product/related.php:33
 #@ tacati_textdomain
 msgid "Related Products"
-msgstr ""
+msgstr "Prodotti collegati"
 
 #: woocommerce/single-product/review.php:22
 #: woocommerce/single-product-reviews.php:38
 #@ tacati_textdomain
 msgid "out of 5"
-msgstr ""
+msgstr "su 5"
 
 #: woocommerce/single-product/review.php:26
 #@ tacati_textdomain
 msgid "Your comment is awaiting approval"
-msgstr ""
+msgstr "Il tuo commento è in attesa di approvazione"
 
 #: woocommerce/single-product/review.php:33
 #@ tacati_textdomain
 msgid "verified owner"
-msgstr ""
+msgstr "Proprietario verificato"
 
 #: woocommerce/single-product/review.php:35
 #@ tacati_textdomain
@@ -1553,12 +1553,12 @@ msgstr ""
 #: woocommerce/single-product/tabs/description.php:15
 #@ tacati_textdomain
 msgid "Product Description"
-msgstr ""
+msgstr "Descrizione Prodotto "
 
 #: woocommerce/single-product/tabs/tab-description.php:13
 #@ tacati_textdomain
 msgid "Description"
-msgstr ""
+msgstr "Descrizione"
 
 #: woocommerce/single-product/tabs/tab-reviews.php:11
 #: woocommerce/single-product-reviews.php:46
@@ -1569,13 +1569,13 @@ msgstr ""
 #: woocommerce/single-product/up-sells.php:31
 #@ tacati_textdomain
 msgid "You may also like&hellip;"
-msgstr ""
+msgstr "Ti portebbe anche piacere &hellip;"
 
 #: woocommerce/single-product-reviews.php:38
 #, php-format
 #@ tacati_textdomain
 msgid "Rated %s out of 5"
-msgstr ""
+msgstr "Consigliato come %s su 5"
 
 #: woocommerce/single-product-reviews.php:40
 #, php-format
@@ -1590,44 +1590,44 @@ msgstr[1] ""
 #@ tacati_textdomain
 #@ twentyeleven
 msgid "<span class=\"meta-nav\">&larr;</span> Previous"
-msgstr ""
+msgstr "<span class=\"meta-nav\">&larr;</span> Precedente"
 
 #: woocommerce/single-product-reviews.php:63
 #: /Applications/MAMP/htdocs/tacati/wp-content/themes/twentyeleven/single.php:20
 #@ tacati_textdomain
 #@ twentyeleven
 msgid "Next <span class=\"meta-nav\">&rarr;</span>"
-msgstr ""
+msgstr "Successivo <span class=\"meta-nav\">&rarr;</span>"
 
 #: woocommerce/single-product-reviews.php:67
 #@ tacati_textdomain
 msgid "Add Review"
-msgstr ""
+msgstr "Aggiungi commento"
 
 #: woocommerce/single-product-reviews.php:69
 #@ tacati_textdomain
 msgid "Add a review"
-msgstr ""
+msgstr "Aggiungi un commento"
 
 #: woocommerce/single-product-reviews.php:73
 #@ tacati_textdomain
 msgid "Be the first to review"
-msgstr ""
+msgstr "Puoi essere il primo a fare un commento"
 
 #: woocommerce/single-product-reviews.php:75
 #@ tacati_textdomain
 msgid "There are no reviews yet, would you like to <a href=\"#review_form\" class=\"inline show_review_form\">submit yours</a>?"
-msgstr ""
+msgstr "Non ci sono ancora commenti, vuoi essere <a href=\"#review_form\" class=\"inline show_review_form\">a scrivere il tuo</a>?"
 
 #: woocommerce/single-product-reviews.php:88
 #@ tacati_textdomain
 msgid "Name"
-msgstr ""
+msgstr "Nome"
 
 #: woocommerce/single-product-reviews.php:93
 #@ tacati_textdomain
 msgid "Submit Review"
-msgstr ""
+msgstr "Scrivi un commento"
 
 #: woocommerce/single-product-reviews.php:100
 #@ tacati_textdomain
@@ -1642,84 +1642,84 @@ msgstr ""
 #: woocommerce/single-product-reviews.php:102
 #@ tacati_textdomain
 msgid "Perfect"
-msgstr ""
+msgstr "Perfetto"
 
 #: woocommerce/single-product-reviews.php:103
 #@ tacati_textdomain
 msgid "Good"
-msgstr ""
+msgstr "Buono"
 
 #: woocommerce/single-product-reviews.php:104
 #@ tacati_textdomain
 msgid "Average"
-msgstr ""
+msgstr "Nella media"
 
 #: woocommerce/single-product-reviews.php:105
 #@ tacati_textdomain
 msgid "Not that bad"
-msgstr ""
+msgstr "Non così male"
 
 #: woocommerce/single-product-reviews.php:106
 #@ tacati_textdomain
 msgid "Very Poor"
-msgstr ""
+msgstr "Molto scarso"
 
 #: woocommerce/single-product-reviews.php:111
 #@ tacati_textdomain
 msgid "Your Review"
-msgstr ""
+msgstr "Il tuo commento"
 
 #: woocommerce/woocommerce-pip-template/email-template.php:70
 #: woocommerce/woocommerce-pip-template/email-template.php:78
 #: woocommerce/woocommerce-pip-template/template.php:17
 #@ tacati_textdomain
 msgid "Invoice"
-msgstr ""
+msgstr "Documenti di trasporto"
 
 #: woocommerce/woocommerce-pip-template/email-template.php:96
 #: woocommerce/woocommerce-pip-template/template.php:42
 #@ tacati_textdomain
 msgid "VAT:"
-msgstr ""
+msgstr "IVA:"
 
 #: woocommerce/woocommerce-pip-template/email-template.php:130
 #: woocommerce/woocommerce-pip-template/template.php:85
 #@ tacati_textdomain
 msgid "Order notes"
-msgstr ""
+msgstr "Note dell'ordine"
 
 #: woocommerce/woocommerce-pip-template/email-template.php:140
 #: woocommerce/woocommerce-pip-template/template.php:96
 #: woocommerce/woocommerce-pip-template/template.php:139
 #@ tacati_textdomain
 msgid "SKU"
-msgstr ""
+msgstr "Codice prodotto"
 
 #: woocommerce/woocommerce-pip-template/email-template.php:149
 #: woocommerce/woocommerce-pip-template/template.php:105
 #@ tacati_textdomain
 msgid "Subtotal:"
-msgstr ""
+msgstr "Subtotale:"
 
 #: woocommerce/woocommerce-pip-template/email-template.php:169
 #@ tacati_textdomain
 msgid "Tax:"
-msgstr ""
+msgstr "Totale IVA:"
 
 #: woocommerce/woocommerce-pip-template/template.php:5
 #@ tacati_textdomain
 msgid "Print order details"
-msgstr ""
+msgstr "Stampa il dettaglio dell'ordine"
 
 #: woocommerce/woocommerce-pip-template/template.php:13
 #@ tacati_textdomain
 msgid "Print"
-msgstr ""
+msgstr "Stampa"
 
 #: woocommerce/woocommerce-pip-template/template.php:19
 #@ tacati_textdomain
 msgid "Packing list"
-msgstr ""
+msgstr "Lista prodotti"
 
 #: woocommerce/woocommerce-pip-template/template.php:73
 #@ tacati_textdomain
@@ -1729,7 +1729,7 @@ msgstr ""
 #: woocommerce/woocommerce-pip-template/template.php:76
 #@ tacati_textdomain
 msgid "Tracking number:"
-msgstr ""
+msgstr "Numero di registro"
 
 #: woocommerce/woocommerce-pip-template/template.php:127
 #@ tacati_textdomain
@@ -1971,7 +1971,7 @@ msgid "<b>%</b> Replies"
 msgstr ""
 
 #. translators: used between list items, there is a space after the comma
-#. translators: used between list items, there is a space after the comma 
+#. translators: used between list items, there is a space after the comma
 #: /Applications/MAMP/htdocs/tacati/wp-content/themes/twentyeleven/content-featured.php:29
 #: /Applications/MAMP/htdocs/tacati/wp-content/themes/twentyeleven/content-featured.php:38
 #: /Applications/MAMP/htdocs/tacati/wp-content/themes/twentyeleven/content-gallery.php:62
@@ -2109,49 +2109,49 @@ msgstr ""
 msgid "Primary Menu"
 msgstr ""
 
-#. translators: header image description 
+#. translators: header image description
 #: /Applications/MAMP/htdocs/tacati/wp-content/themes/twentyeleven/functions.php:164
 #@ twentyeleven
 msgid "Wheel"
 msgstr ""
 
-#. translators: header image description 
+#. translators: header image description
 #: /Applications/MAMP/htdocs/tacati/wp-content/themes/twentyeleven/functions.php:170
 #@ twentyeleven
 msgid "Shore"
 msgstr ""
 
-#. translators: header image description 
+#. translators: header image description
 #: /Applications/MAMP/htdocs/tacati/wp-content/themes/twentyeleven/functions.php:176
 #@ twentyeleven
 msgid "Trolley"
 msgstr ""
 
-#. translators: header image description 
+#. translators: header image description
 #: /Applications/MAMP/htdocs/tacati/wp-content/themes/twentyeleven/functions.php:182
 #@ twentyeleven
 msgid "Pine Cone"
 msgstr ""
 
-#. translators: header image description 
+#. translators: header image description
 #: /Applications/MAMP/htdocs/tacati/wp-content/themes/twentyeleven/functions.php:188
 #@ twentyeleven
 msgid "Chessboard"
 msgstr ""
 
-#. translators: header image description 
+#. translators: header image description
 #: /Applications/MAMP/htdocs/tacati/wp-content/themes/twentyeleven/functions.php:194
 #@ twentyeleven
 msgid "Lanterns"
 msgstr ""
 
-#. translators: header image description 
+#. translators: header image description
 #: /Applications/MAMP/htdocs/tacati/wp-content/themes/twentyeleven/functions.php:200
 #@ twentyeleven
 msgid "Willow"
 msgstr ""
 
-#. translators: header image description 
+#. translators: header image description
 #: /Applications/MAMP/htdocs/tacati/wp-content/themes/twentyeleven/functions.php:206
 #@ twentyeleven
 msgid "Hanoi Plant"
@@ -2215,14 +2215,14 @@ msgstr ""
 msgid "Pingback:"
 msgstr ""
 
-#. translators: 1: comment author, 2: date and time 
+#. translators: 1: comment author, 2: date and time
 #: /Applications/MAMP/htdocs/tacati/wp-content/themes/twentyeleven/functions.php:539
 #, php-format
 #@ twentyeleven
 msgid "%1$s on %2$s <span class=\"says\">said:</span>"
 msgstr ""
 
-#. translators: 1: date, 2: time 
+#. translators: 1: date, 2: time
 #: /Applications/MAMP/htdocs/tacati/wp-content/themes/twentyeleven/functions.php:545
 #, php-format
 #@ twentyeleven
