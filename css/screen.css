@@ -253,7 +253,7 @@ ul.products li.prodotto.last {
 }
 /* line 24, ../sass/partials/_products-list.scss */
 ul.products li.prodotto .dop {
-  background: url('../images/badge_azzurro_dop.png?1353572876') no-repeat;
+  background: url('../images/badge_azzurro_dop.png?1359567724') no-repeat;
   height: 61px;
   position: relative;
   margin-top: -50px;
@@ -1428,7 +1428,7 @@ aside.widget_login form {
 }
 /* line 11, ../sass/partials/_navigation.scss */
 .navigation .nav-next a {
-  background: url('../images/freccia-d.png?1353572876') no-repeat right top;
+  background: url('../images/freccia-d.png?1359567724') no-repeat right top;
   text-align: left;
   display: inline-block;
   height: 34px;
@@ -1437,7 +1437,7 @@ aside.widget_login form {
 }
 /* line 21, ../sass/partials/_navigation.scss */
 .navigation .nav-previous a {
-  background: url('../images/freccia-sx.png?1353572876') no-repeat left top;
+  background: url('../images/freccia-sx.png?1359567724') no-repeat left top;
   text-align: right;
   display: inline-block;
   height: 34px;
@@ -2283,7 +2283,7 @@ a {
 
 /* line 111, ../sass/screen.scss */
 body.textured {
-  background: url('../images/texture.png?1353572877') repeat left top;
+  background: url('../images/texture.png?1359567725') repeat left top;
 }
 
 /* line 116, ../sass/screen.scss */
@@ -2334,7 +2334,7 @@ body.textured {
 
 /* line 156, ../sass/screen.scss */
 div.shadow {
-  background: url('../images/shadow_light.png?1353572877') repeat-x left top;
+  background: url('../images/shadow_light.png?1359567725') repeat-x left top;
   height: 20px;
 }
 /* line 159, ../sass/screen.scss */
@@ -2364,7 +2364,7 @@ div.addthis_toolbox {
 /* line 179, ../sass/screen.scss */
 header#dashboard {
   height: 98px;
-  background: url('../images/header.png?1353572876') repeat-x left top;
+  background: url('../images/header.png?1359567724') repeat-x left top;
   position: fixed;
   width: 100%;
   top: 0;
@@ -2523,7 +2523,7 @@ header#branding .flexslider div.sinistra, header#branding .flexslider div.destra
 }
 /* line 287, ../sass/screen.scss */
 header#branding .flexslider div.sinistra div.background, header#branding .flexslider div.destra div.background {
-  background: url('../images/yellow.png?1353572877') repeat left top;
+  background: url('../images/yellow.png?1359567725') repeat left top;
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=90);
   opacity: 0.9;
   position: absolute;
@@ -2604,7 +2604,7 @@ header#branding .flexslider div.destra {
 /* line 366, ../sass/screen.scss */
 header#branding section {
   margin-top: 110px;
-  background: url('../images/header-center.png?1353572876') repeat-x left top;
+  background: url('../images/header-center.png?1359567724') repeat-x left top;
   height: 136px;
   position: relative;
   z-index: 100;
@@ -2666,7 +2666,7 @@ header#branding section ul.nav li ul li a {
 }
 /* line 435, ../sass/screen.scss */
 header#branding section div.header-left {
-  background: url('../images/header-left.png?1353572876') no-repeat left top;
+  background: url('../images/header-left.png?1359567724') no-repeat left top;
   height: 158px;
   width: 48px;
   position: absolute;
@@ -2676,7 +2676,7 @@ header#branding section div.header-left {
 }
 /* line 443, ../sass/screen.scss */
 header#branding section div.header-right {
-  background: url('../images/header-right.png?1353572876') no-repeat left top;
+  background: url('../images/header-right.png?1359567724') no-repeat left top;
   height: 158px;
   width: 48px;
   position: absolute;
@@ -2688,7 +2688,7 @@ header#branding section div.header-right {
 header#branding div.categories {
   margin: 0;
   background-color: #fcfdfd;
-  background: url('../images/yellow.png?1353572877') repeat left top;
+  background: url('../images/yellow.png?1359567725') repeat left top;
 }
 /* line 459, ../sass/screen.scss */
 header#branding div.categories h3 {
@@ -2838,7 +2838,7 @@ footer#colophon {
   *zoom: 1;
   width: 940px;
   margin: 0 auto;
-  background: url('../images/footer.png?1353572876') repeat left top;
+  background: url('../images/footer.png?1359567724') repeat left top;
   border-left: 10px #F8F6E5 solid;
   border-right: 10px #F8F6E5 solid;
   border-bottom: 10px #F8F6E5 solid;
@@ -2851,7 +2851,7 @@ footer#colophon h1.logo-brand {
   text-indent: -119988px;
   overflow: hidden;
   text-align: left;
-  background-image: url('../images/footer-logo.png?1353572876');
+  background-image: url('../images/footer-logo.png?1359567724');
   background-repeat: no-repeat;
   background-position: 50% 50%;
   width: 531px;
@@ -2999,7 +2999,7 @@ footer#colophon #channels li.fb_icon {
   text-indent: -119988px;
   overflow: hidden;
   text-align: left;
-  background-image: url('../images/fb.png?1353572876');
+  background-image: url('../images/fb.png?1359567724');
   background-repeat: no-repeat;
   background-position: 50% 50%;
   width: 32px;
@@ -3010,7 +3010,7 @@ footer#colophon #channels li.tw_icon {
   text-indent: -119988px;
   overflow: hidden;
   text-align: left;
-  background-image: url('../images/tw.png?1353572877');
+  background-image: url('../images/tw.png?1359567725');
   background-repeat: no-repeat;
   background-position: 50% 50%;
   width: 32px;

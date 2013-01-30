@@ -170,7 +170,7 @@ header#branding #slider {
 }
 /* line 49, ../sass/home.scss */
 #slider div.content {
-  background: url('../images/yellow.png?1353572877') repeat left top;
+  background: url('../images/yellow.png?1359567725') repeat left top;
   border: 1px solid #E0DDD3;
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=90);
   opacity: 0.9;
@@ -189,21 +189,22 @@ header#branding #slider {
   height: 179px;
   padding-top: 10px;
   padding-bottom: 10px;
+  margin-left: -21px;
 }
-/* line 61, ../sass/home.scss */
+/* line 62, ../sass/home.scss */
 #slider div.content h1 {
   font-size: 30px !important;
   color: #732c03 !important;
   margin-left: 60px;
 }
-/* line 67, ../sass/home.scss */
+/* line 68, ../sass/home.scss */
 #slider div.content h5 {
   font-size: 18px!important;
   color: #f23c00;
   margin-left: 60px;
   line-height: 6px !important;
 }
-/* line 74, ../sass/home.scss */
+/* line 75, ../sass/home.scss */
 #slider div.content p, #slider div.content div {
   font-family: "edmondsans medium";
   font-size: 15px!important;
@@ -212,24 +213,24 @@ header#branding #slider {
   margin-right: 10px;
 }
 
-/* line 83, ../sass/home.scss */
+/* line 84, ../sass/home.scss */
 #right {
-  right: 135px;
+  right: 155px;
 }
 
-/* line 86, ../sass/home.scss */
+/* line 87, ../sass/home.scss */
 #left {
-  left: 170px;
+  left: 155px;
 }
 
-/* line 90, ../sass/home.scss */
+/* line 91, ../sass/home.scss */
 #left, #right {
   position: absolute;
   z-index: 100;
   bottom: 20px;
   width: 280px;
   height: 500px;
-  background: url('../images/yellow.png?1353572877') repeat left top;
+  background: url('../images/yellow.png?1359567725') repeat left top;
   border: 1px solid #E0DDD3;
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=90);
   opacity: 0.9;
@@ -240,13 +241,13 @@ header#branding #slider {
   border-radius: 10px;
   padding: 15px;
 }
-/* line 102, ../sass/home.scss */
+/* line 103, ../sass/home.scss */
 #left nav, #right nav {
   padding: 0 !important;
   margin-top: 10px !important;
   height: 40px !important;
 }
-/* line 108, ../sass/home.scss */
+/* line 109, ../sass/home.scss */
 #left .foto, #right .foto {
   background: url('../images/foto_prodotto.png') repeat left top;
   border: 3px solid #72bac7;
@@ -256,14 +257,14 @@ header#branding #slider {
   float: left;
   margin-top: 5px;
 }
-/* line 117, ../sass/home.scss */
+/* line 118, ../sass/home.scss */
 #left h1, #right h1 {
   font-family: "mission script"!important;
   font-size: 33px!important;
   color: #f23c00 !important;
   margin: 0;
 }
-/* line 125, ../sass/home.scss */
+/* line 126, ../sass/home.scss */
 #left h2, #right h2 {
   font-family: "mission script"!important;
   font-size: 22px!important;
@@ -272,7 +273,7 @@ header#branding #slider {
   margin-left: 10px;
   margin-top: 0;
 }
-/* line 133, ../sass/home.scss */
+/* line 134, ../sass/home.scss */
 #left p, #right p {
   font-family: "edmondsans medium"!important;
   font-size: 12px!important;
@@ -283,7 +284,7 @@ header#branding #slider {
   margin-left: 10px;
   line-height: 13px!important;
 }
-/* line 143, ../sass/home.scss */
+/* line 144, ../sass/home.scss */
 #left h4, #right h4 {
   clear: both;
   font-family: "edmondsans bold"!important;
@@ -291,7 +292,7 @@ header#branding #slider {
   color: #f23c00 !important;
   margin-left: 82px;
 }
-/* line 151, ../sass/home.scss */
+/* line 152, ../sass/home.scss */
 #left h5, #right h5 {
   clear: both;
   font-family: "edmondsans bold"!important;
@@ -301,7 +302,7 @@ header#branding #slider {
   margin-top: 0;
   margin-bottom: 3px;
 }
-/* line 162, ../sass/home.scss */
+/* line 163, ../sass/home.scss */
 #left h3, #right h3 {
   font-family: "edmondsans medium"!important;
   line-height: 14px!important;
@@ -310,25 +311,25 @@ header#branding #slider {
   text-align: center;
 }
 
-/* line 170, ../sass/home.scss */
+/* line 171, ../sass/home.scss */
 .box {
   margin: 10px 0;
 }
 
-/* line 173, ../sass/home.scss */
+/* line 174, ../sass/home.scss */
 .stripes {
-  background: url('../images/stripes_prodotto.png?1358415065') repeat left top;
+  background: url('../images/stripes_prodotto.png?1359567725') repeat left top;
   width: 100%;
   height: 3px;
   clear: both;
 }
 
-/* line 183, ../sass/home.scss */
+/* line 184, ../sass/home.scss */
 #navigation {
   margin: 0 4px 0 0;
   font-size: 14px;
 }
-/* line 188, ../sass/home.scss */
+/* line 189, ../sass/home.scss */
 #navigation .button_slider {
   background: url('../images/button_slide.png') repeat left top;
   width: 20px;
@@ -338,7 +339,7 @@ header#branding #slider {
   position: absolute;
   margin-left: 0!important;
 }
-/* line 197, ../sass/home.scss */
+/* line 198, ../sass/home.scss */
 #navigation .button_slider2 {
   background: url('../images/button_slide.png') repeat left top;
   width: 20px;
@@ -348,7 +349,7 @@ header#branding #slider {
   position: absolute;
   margin-left: 30px!important;
 }
-/* line 208, ../sass/home.scss */
+/* line 209, ../sass/home.scss */
 #navigation .button_slider3 {
   background: url('../images/button_slide.png') repeat left top;
   width: 20px;
