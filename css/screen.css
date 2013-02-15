@@ -253,7 +253,7 @@ ul.products li.prodotto.last {
 }
 /* line 24, ../sass/partials/_products-list.scss */
 ul.products li.prodotto .dop {
-  background: url('../images/badge_azzurro_dop.png?1359567724') no-repeat;
+  background: url('../images/badge_azzurro_dop.png?1359442452') no-repeat;
   height: 61px;
   position: relative;
   margin-top: -50px;
@@ -394,7 +394,7 @@ ul.products.featured li .image {
 }
 
 /* line 12, ../sass/partials/_carrello_sidebar.scss */
-.home #secondary, .single #secondary {
+.archive #secondary, .home #secondary, .single #secondary {
   width: 210px;
   overflow: hidden;
   *zoom: 1;
@@ -409,7 +409,7 @@ ul.products.featured li .image {
   box-shadow: 0 1px 8px #9cb6ba, 0 2px 2px rgba(156, 182, 186, 0);
 }
 /* line 23, ../sass/partials/_carrello_sidebar.scss */
-.home #secondary h1, .single #secondary h1 {
+.archive #secondary h1, .home #secondary h1, .single #secondary h1 {
   margin: 10px 0 0 10px;
   font-family: edmondsans regular;
   color: #e7511e;
@@ -422,7 +422,7 @@ ul.products.featured li .image {
   width: 88px;
 }
 /* line 34, ../sass/partials/_carrello_sidebar.scss */
-.home #secondary .icon, .single #secondary .icon {
+.archive #secondary .icon, .home #secondary .icon, .single #secondary .icon {
   width: 42px;
   height: 28px;
   display: inline;
@@ -431,15 +431,15 @@ ul.products.featured li .image {
   margin: 10px 0 0 15px;
 }
 /* line 41, ../sass/partials/_carrello_sidebar.scss */
-.home #secondary .carrello, .single #secondary .carrello {
+.archive #secondary .carrello, .home #secondary .carrello, .single #secondary .carrello {
   background: url("../images/carrello_icon_brown.png") no-repeat left top;
 }
 /* line 44, ../sass/partials/_carrello_sidebar.scss */
-.home #secondary .visti_di_recente, .single #secondary .visti_di_recente {
+.archive #secondary .visti_di_recente, .home #secondary .visti_di_recente, .single #secondary .visti_di_recente {
   background: url("../images/visti_icon.png") no-repeat left top;
 }
 /* line 47, ../sass/partials/_carrello_sidebar.scss */
-.home #secondary ul, .single #secondary ul {
+.archive #secondary ul, .home #secondary ul, .single #secondary ul {
   list-style: none;
   margin-left: 10px;
   overflow: hidden;
@@ -447,11 +447,11 @@ ul.products.featured li .image {
   clear: both;
 }
 /* line 52, ../sass/partials/_carrello_sidebar.scss */
-.home #secondary ul li, .single #secondary ul li {
+.archive #secondary ul li, .home #secondary ul li, .single #secondary ul li {
   padding: 5px 0;
 }
 /* line 54, ../sass/partials/_carrello_sidebar.scss */
-.home #secondary ul li.empty, .single #secondary ul li.empty {
+.archive #secondary ul li.empty, .home #secondary ul li.empty, .single #secondary ul li.empty {
   color: #732c03;
   font-family: edmondsans regular;
   font-size: 15px;
@@ -460,11 +460,11 @@ ul.products.featured li .image {
   padding: 10px 0;
 }
 /* line 65, ../sass/partials/_carrello_sidebar.scss */
-.home #secondary ul li h5, .single #secondary ul li h5 {
+.archive #secondary ul li h5, .home #secondary ul li h5, .single #secondary ul li h5 {
   margin: 0;
 }
 /* line 67, ../sass/partials/_carrello_sidebar.scss */
-.home #secondary ul li h5 a, .single #secondary ul li h5 a {
+.archive #secondary ul li h5 a, .home #secondary ul li h5 a, .single #secondary ul li h5 a {
   margin: 0;
   font-family: edmondsans regular;
   color: #732C03;
@@ -474,7 +474,7 @@ ul.products.featured li .image {
   width: 160px;
 }
 /* line 77, ../sass/partials/_carrello_sidebar.scss */
-.home #secondary ul li h6, .single #secondary ul li h6 {
+.archive #secondary ul li h6, .home #secondary ul li h6, .single #secondary ul li h6 {
   margin: 0;
   color: #e7511e;
   font-family: edmondsans regular;
@@ -484,7 +484,7 @@ ul.products.featured li .image {
   width: 160px;
 }
 /* line 88, ../sass/partials/_carrello_sidebar.scss */
-.home #secondary ul li hr, .single #secondary ul li hr {
+.archive #secondary ul li hr, .home #secondary ul li hr, .single #secondary ul li hr {
   margin: 5px 0;
   width: 160px;
   height: 1px;
@@ -492,17 +492,17 @@ ul.products.featured li .image {
   border: none;
 }
 /* line 100, ../sass/partials/_carrello_sidebar.scss */
-.home #secondary ul li:last-child hr, .single #secondary ul li:last-child hr {
+.archive #secondary ul li:last-child hr, .home #secondary ul li:last-child hr, .single #secondary ul li:last-child hr {
   display: none;
 }
 /* line 105, ../sass/partials/_carrello_sidebar.scss */
-.home #secondary a, .single #secondary a {
+.archive #secondary a, .home #secondary a, .single #secondary a {
   text-decoration: none;
   display: block;
   margin: 5px 0;
 }
 /* line 109, ../sass/partials/_carrello_sidebar.scss */
-.home #secondary a.bottone, .single #secondary a.bottone {
+.archive #secondary a.bottone, .home #secondary a.bottone, .single #secondary a.bottone {
   width: 160px;
   background: #F2EFDC;
   border-radius: 13px;
@@ -513,7 +513,7 @@ ul.products.featured li .image {
   box-shadow: 0 1px 6px rgba(183, 169, 165, 0.75), 0 2px 2px rgba(183, 169, 165, 0);
 }
 /* line 118, ../sass/partials/_carrello_sidebar.scss */
-.home #secondary a.bottone span, .single #secondary a.bottone span {
+.archive #secondary a.bottone span, .home #secondary a.bottone span, .single #secondary a.bottone span {
   font-family: mission script;
   color: #e7511e;
   font-size: 21px;
@@ -523,31 +523,31 @@ ul.products.featured li .image {
   display: block;
 }
 /* line 130, ../sass/partials/_carrello_sidebar.scss */
-.home #secondary a:hover .button, .single #secondary a:hover .button {
+.archive #secondary a:hover .button, .home #secondary a:hover .button, .single #secondary a:hover .button {
   background: #FFF6CA;
 }
 /* line 132, ../sass/partials/_carrello_sidebar.scss */
-.home #secondary a:hover .button h3, .single #secondary a:hover .button h3 {
+.archive #secondary a:hover .button h3, .home #secondary a:hover .button h3, .single #secondary a:hover .button h3 {
   color: #72BAC7;
 }
 /* line 138, ../sass/partials/_carrello_sidebar.scss */
-.home #secondary .price, .single #secondary .price {
+.archive #secondary .price, .home #secondary .price, .single #secondary .price {
   overflow: hidden;
   *zoom: 1;
   width: 118px;
 }
 /* line 140, ../sass/partials/_carrello_sidebar.scss */
-.home #secondary .price.padded, .single #secondary .price.padded {
+.archive #secondary .price.padded, .home #secondary .price.padded, .single #secondary .price.padded {
   padding: 5px 10px;
   width: 200px;
   border-top: 2px #BFB28A solid;
 }
 /* line 144, ../sass/partials/_carrello_sidebar.scss */
-.home #secondary .price.padded .total, .single #secondary .price.padded .total {
+.archive #secondary .price.padded .total, .home #secondary .price.padded .total, .single #secondary .price.padded .total {
   border-top: none;
 }
 /* line 151, ../sass/partials/_carrello_sidebar.scss */
-.home #secondary .price p, .single #secondary .price p {
+.archive #secondary .price p, .home #secondary .price p, .single #secondary .price p {
   display: inline;
   float: left;
   margin: 0;
@@ -558,13 +558,13 @@ ul.products.featured li .image {
   font-weight: normal;
 }
 /* line 160, ../sass/partials/_carrello_sidebar.scss */
-.home #secondary .price p span, .single #secondary .price p span {
+.archive #secondary .price p span, .home #secondary .price p span, .single #secondary .price p span {
   margin-left: 10px;
   margin-right: 10px;
   color: #5094b8;
 }
 /* line 167, ../sass/partials/_carrello_sidebar.scss */
-.home #secondary .price a .carrello, .single #secondary .price a .carrello {
+.archive #secondary .price a .carrello, .home #secondary .price a .carrello, .single #secondary .price a .carrello {
   width: 30px;
   height: 28px;
   background: url("../images/carrello.png") no-repeat left top;
@@ -574,7 +574,7 @@ ul.products.featured li .image {
   padding: 0;
 }
 /* line 177, ../sass/partials/_carrello_sidebar.scss */
-.home #secondary .price a:hover .carrello, .single #secondary .price a:hover .carrello {
+.archive #secondary .price a:hover .carrello, .home #secondary .price a:hover .carrello, .single #secondary .price a:hover .carrello {
   background: url("../images/carrello_hover.png") no-repeat left top;
 }
 
@@ -1428,7 +1428,7 @@ aside.widget_login form {
 }
 /* line 11, ../sass/partials/_navigation.scss */
 .navigation .nav-next a {
-  background: url('../images/freccia-d.png?1359567724') no-repeat right top;
+  background: url('../images/freccia-d.png?1359442477') no-repeat right top;
   text-align: left;
   display: inline-block;
   height: 34px;
@@ -1437,7 +1437,7 @@ aside.widget_login form {
 }
 /* line 21, ../sass/partials/_navigation.scss */
 .navigation .nav-previous a {
-  background: url('../images/freccia-sx.png?1359567724') no-repeat left top;
+  background: url('../images/freccia-sx.png?1359442478') no-repeat left top;
   text-align: right;
   display: inline-block;
   height: 34px;
@@ -2283,7 +2283,7 @@ a {
 
 /* line 111, ../sass/screen.scss */
 body.textured {
-  background: url('../images/texture.png?1359567725') repeat left top;
+  background: url('../images/texture.png?1359442522') repeat left top;
 }
 
 /* line 116, ../sass/screen.scss */
@@ -2334,7 +2334,7 @@ body.textured {
 
 /* line 156, ../sass/screen.scss */
 div.shadow {
-  background: url('../images/shadow_light.png?1359567725') repeat-x left top;
+  background: url('../images/shadow_light.png?1359442517') repeat-x left top;
   height: 20px;
 }
 /* line 159, ../sass/screen.scss */
@@ -2364,7 +2364,7 @@ div.addthis_toolbox {
 /* line 179, ../sass/screen.scss */
 header#dashboard {
   height: 98px;
-  background: url('../images/header.png?1359567724') repeat-x left top;
+  background: url('../images/header.png?1359442485') repeat-x left top;
   position: fixed;
   width: 100%;
   top: 0;
@@ -2523,7 +2523,7 @@ header#branding .flexslider div.sinistra, header#branding .flexslider div.destra
 }
 /* line 287, ../sass/screen.scss */
 header#branding .flexslider div.sinistra div.background, header#branding .flexslider div.destra div.background {
-  background: url('../images/yellow.png?1359567725') repeat left top;
+  background: url('../images/yellow.png?1359442526') repeat left top;
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=90);
   opacity: 0.9;
   position: absolute;
@@ -2604,7 +2604,7 @@ header#branding .flexslider div.destra {
 /* line 366, ../sass/screen.scss */
 header#branding section {
   margin-top: 110px;
-  background: url('../images/header-center.png?1359567724') repeat-x left top;
+  background: url('../images/header-center.png?1359442482') repeat-x left top;
   height: 136px;
   position: relative;
   z-index: 100;
@@ -2666,7 +2666,7 @@ header#branding section ul.nav li ul li a {
 }
 /* line 435, ../sass/screen.scss */
 header#branding section div.header-left {
-  background: url('../images/header-left.png?1359567724') no-repeat left top;
+  background: url('../images/header-left.png?1359442483') no-repeat left top;
   height: 158px;
   width: 48px;
   position: absolute;
@@ -2676,7 +2676,7 @@ header#branding section div.header-left {
 }
 /* line 443, ../sass/screen.scss */
 header#branding section div.header-right {
-  background: url('../images/header-right.png?1359567724') no-repeat left top;
+  background: url('../images/header-right.png?1359442484') no-repeat left top;
   height: 158px;
   width: 48px;
   position: absolute;
@@ -2688,7 +2688,7 @@ header#branding section div.header-right {
 header#branding div.categories {
   margin: 0;
   background-color: #fcfdfd;
-  background: url('../images/yellow.png?1359567725') repeat left top;
+  background: url('../images/yellow.png?1359442526') repeat left top;
 }
 /* line 459, ../sass/screen.scss */
 header#branding div.categories h3 {
@@ -2838,7 +2838,7 @@ footer#colophon {
   *zoom: 1;
   width: 940px;
   margin: 0 auto;
-  background: url('../images/footer.png?1359567724') repeat left top;
+  background: url('../images/footer.png?1359442476') repeat left top;
   border-left: 10px #F8F6E5 solid;
   border-right: 10px #F8F6E5 solid;
   border-bottom: 10px #F8F6E5 solid;
@@ -2851,7 +2851,7 @@ footer#colophon h1.logo-brand {
   text-indent: -119988px;
   overflow: hidden;
   text-align: left;
-  background-image: url('../images/footer-logo.png?1359567724');
+  background-image: url('../images/footer-logo.png?1359442475');
   background-repeat: no-repeat;
   background-position: 50% 50%;
   width: 531px;
@@ -2999,7 +2999,7 @@ footer#colophon #channels li.fb_icon {
   text-indent: -119988px;
   overflow: hidden;
   text-align: left;
-  background-image: url('../images/fb.png?1359567724');
+  background-image: url('../images/fb.png?1359442474');
   background-repeat: no-repeat;
   background-position: 50% 50%;
   width: 32px;
@@ -3010,7 +3010,7 @@ footer#colophon #channels li.tw_icon {
   text-indent: -119988px;
   overflow: hidden;
   text-align: left;
-  background-image: url('../images/tw.png?1359567725');
+  background-image: url('../images/tw.png?1359442523');
   background-repeat: no-repeat;
   background-position: 50% 50%;
   width: 32px;

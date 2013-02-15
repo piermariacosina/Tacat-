@@ -170,7 +170,7 @@ header#branding #slider {
 }
 /* line 49, ../sass/home.scss */
 #slider div.content {
-  background: url('../images/yellow.png?1359567725') repeat left top;
+  background: url('../images/yellow.png?1359442526') repeat left top;
   border: 1px solid #E0DDD3;
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=90);
   opacity: 0.9;
@@ -230,7 +230,7 @@ header#branding #slider {
   bottom: 20px;
   width: 280px;
   height: 500px;
-  background: url('../images/yellow.png?1359567725') repeat left top;
+  background: url('../images/yellow.png?1359442526') repeat left top;
   border: 1px solid #E0DDD3;
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=90);
   opacity: 0.9;
@@ -318,7 +318,7 @@ header#branding #slider {
 
 /* line 174, ../sass/home.scss */
 .stripes {
-  background: url('../images/stripes_prodotto.png?1359567725') repeat left top;
+  background: url('../images/stripes_prodotto.png?1359442518') repeat left top;
   width: 100%;
   height: 3px;
   clear: both;
