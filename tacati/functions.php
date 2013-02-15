@@ -942,7 +942,7 @@ add_action('widgets_init', 'woocommerce_register_widgets_CUSTOM');
  * @param array $atts
  * @return string
  */
-function custom_woocommerce_featured_products( $per_page, $order_by, $order, $columns, $category ) {
+function custom_woocommerce_featured_products( $per_page, $order_by, $order, $columns, $category=null ) {
 	global $woocommerce_loop;
 	
 	if ( is_search() ) :

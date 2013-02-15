@@ -87,7 +87,7 @@
 			<a class="addthis_counter addthis_bubble_style"></a>
 		</div>
 		<script type="text/javascript">var addthis_config = {"data_track_addressbar":true};</script>
-		<script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#pubid=ra-504e04fd25d63caa"></script>
+		<script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#pubid=ra-511a1fa650aab7a5"></script>
 		<!-- AddThis Button END -->
 	</div>
 </header>
@@ -98,30 +98,13 @@
 				<div class="header-left"></div>
 				<h1 id="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
 				
-				<!-- <ul class="nav nav-pills">
-				  <li class="dropdown">
-					<a class="dropdown-toggle"
-					   data-toggle="dropdown"
-					   href="#">
-						non è la tua città?
-						<b class="caret"></b>
-					  </a>
-					<ul class="dropdown-menu">
-						<?php do_action('list_sites'); ?>
-					</ul>
-				  </li>
-				</ul> -->
+			
 				<div class="header-right"></div>
 			</section>
-			
-<!-- <ul>
-	<?php wp_nav_menu( array( 'menu' => 'header', 'container' => '', 'items_wrap' => '%3$s' ) ); ?>
-	
 
-</ul> -->
 	<?php if(is_front_page()): ?>
 			
-				<?php /*if ( !is_user_logged_in() ) {*/  do_action('print_customslideshow',false); /*}*/ ?>
+				
 				<div class="border">
 					 <ul>
 						<li></li>
@@ -152,7 +135,7 @@
 				
 			<nav id="access" role="navigation">
 				<h3 class="assistive-text"><?php _e( 'Main menu', TACATI_TD ); ?></h3>
-				<?php /* Allow screen readers / text browsers to skip the navigation menu and get right to the good stuff. */ ?>
+			
 				<div class="skip-link"><a class="assistive-text" href="#content" title="<?php esc_attr_e( 'Skip to primary content', TACATI_TD ); ?>"><?php _e( 'Skip to primary content', TACATI_TD ); ?></a></div>
 				<div class="skip-link"><a class="assistive-text" href="#secondary" title="<?php esc_attr_e( 'Skip to secondary content', TACATI_TD ); ?>"><?php _e( 'Skip to secondary content', TACATI_TD ); ?></a></div>
 				<?php /* Our navigation menu. If one isn't filled out, wp_nav_menu falls back to wp_page_menu. The menu assigned to the primary location is the one used. If one isn't assigned, the menu with the lowest ID is used. */ ?>
